@@ -80,8 +80,9 @@ The user's canonical 4-phase routine. Follow every phase, in order. Recommended 
 
 ### Phase 4 — Redeploy
 
+- If `css/style.css` or `js/app.js` changed, bump the `?v=` cache-busting query on both tags in `index.html` (format `YYYYMMDD` + letter). Data JSON needs no bump (fetched with `cache: "no-cache"`).
 - Commit and push (English commit message, see conventions below). Push = deploy on GitHub Pages.
-- Confirm the live site loads and shows the new `updated` date.
+- Confirm the live site loads and shows the new `updated` date. GitHub Pages caches assets for 10 minutes; index.html itself may take up to ~10 minutes to refresh for visitors.
 
 ## Content fields beyond the basics
 

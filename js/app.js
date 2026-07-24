@@ -975,7 +975,8 @@
   /* ---------- Init ---------- */
 
   async function init() {
-    const res = await fetch("data/activities.json");
+    // no-cache: revalidate via ETag so a data update shows up immediately
+    const res = await fetch("data/activities.json", { cache: "no-cache" });
     DATA = await res.json();
 
     // NEW detection: activities added since the user's last visit (per-browser)
