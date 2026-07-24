@@ -19,7 +19,7 @@ Each activity:
 
 - `id`: kebab-case English slug (stable, never renamed)
 - `name`: Korean display name
-- `category`: one of "SW·웹 개발", "AI/ML 글로벌", "AI/ML 국내", "학술 챌린지", "의료·과학 AI", "알고리즘", "부트캠프", "동아리·커뮤니티", "컨퍼런스·박람회", "해커톤"
+- `category`: one of "SW·웹 개발", "AI/ML 글로벌", "AI/ML 국내", "학술 챌린지", "의료·과학 AI", "알고리즘", "부트캠프", "동아리·커뮤니티", "컨퍼런스·박람회", "해커톤", "보안" (adding a category requires a CATEGORY_EN entry in js/app.js)
 - `status` and `events[].type` follow the user's canonical classification below.
 - `tags`: Korean keywords for filtering/search
 - `url`, `prize`, `description`, `tip`: display fields (Korean)

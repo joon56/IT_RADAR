@@ -1,7 +1,58 @@
 {
-  "updated": "2026-07-24",
-  "note": "Converted from master md (2026-07-13 baseline). Statuses recalculated as of 2026-07-24. Full refresh + new items pending.",
-  "changelog": [],
+  "updated": "2026-07-25",
+  "note": "First full refresh 2026-07-25: all time-sensitive items web-verified; 24 new activities added.",
+  "changelog": [
+    {
+      "date": "2026-07-25",
+      "changes": [
+        {
+          "id": "",
+          "note": "신규 활동 24건 추가 (해커톤·보안 대회·컨퍼런스·박람회·IT 동아리 12곳 등)",
+          "note_en": "Added 24 new activities (hackathons, security contests, conferences, expos, 12 IT clubs)"
+        },
+        {
+          "id": "boostcamp-11",
+          "note": "네이버 부스트캠프 2026년 미운영 공식 공지 — 종료 처리",
+          "note_en": "NAVER Boostcamp officially not running in 2026; marked ended"
+        },
+        {
+          "id": "42seoul",
+          "note": "42서울 2026.9.30 운영 종료 (3.4 공지) — 종료 처리",
+          "note_en": "42Seoul closing Sep 30, 2026 (announced Mar 4); marked ended"
+        },
+        {
+          "id": "lg-aimers-9",
+          "note": "LG Aimers 9기 모집은 5~6월에 이미 마감 — 진행중(참가 불가)로 정정, 10기 항목 신설",
+          "note_en": "LG Aimers 9th recruiting actually closed in May-Jun; corrected to ongoing (closed), added 10th entry"
+        },
+        {
+          "id": "arc-prize-2026",
+          "note": "ARC Prize 최종 마감 11.02로 정정 (기존 11.09), Paper Track 11.08 추가",
+          "note_en": "ARC Prize final deadline corrected to Nov 2 (was Nov 9); Paper Track Nov 8 added"
+        },
+        {
+          "id": "gdsc",
+          "note": "GDSC → GDG on Campus 개명 반영, Lead 모집 시기 정정 (3~6월)",
+          "note_en": "Renamed GDSC to GDG on Campus; organizer window corrected to Mar-Jun"
+        },
+        {
+          "id": "meta-hacker-cup-2026",
+          "note": "Meta Hacker Cup 예선 시기 10~11월로 정정 (최근 패턴)",
+          "note_en": "Meta Hacker Cup qualifiers corrected to Oct-Nov per recent pattern"
+        },
+        {
+          "id": "feconf-2026",
+          "note": "FEConf 예년 8월 개최로 정정 (기존 10~11월 표기)",
+          "note_en": "FEConf corrected to its usual August timing (was listed Oct-Nov)"
+        },
+        {
+          "id": "ai-champion-2026",
+          "note": "전국민 AI 경진대회 공식 도메인 교체 + 사례 공모전(참가 가능) 정보 추가",
+          "note_en": "AI Champion: official domain replaced; open side-track (use-case contest) noted"
+        }
+      ]
+    }
+  ],
   "eventTypes": {
     "apply_start": {
       "label": "신청 시작",
@@ -123,7 +174,7 @@
           "url": "https://www.oss.kr"
         }
       ],
-      "checked": "2026-07-13"
+      "checked": "2026-07-25"
     },
     {
       "id": "google-solution-challenge",
@@ -265,13 +316,13 @@
       "prize_en": "Speaker career boost · networking",
       "description": "국내 최대 프론트엔드 전문 컨퍼런스. 발표자 선정 시 커리어 직결. 청강만으로도 최신 트렌드 파악.",
       "description_en": "Korea's largest frontend conference. Speaking directly boosts your career; attending keeps you on top of trends.",
-      "tip": "CFP 경쟁률 높음. 티켓 공개 즉시 매진 — 공지 알림 설정 권장.",
-      "tip_en": "CFP is competitive. Tickets sell out instantly; set up notifications.",
-      "schedule_note": "CFP 2026 여름 공지 예정 · 컨퍼런스 10~11월 예상",
-      "schedule_note_en": "CFP announced summer 2026 · conference expected Oct-Nov",
+      "tip": "티켓 오픈 즉시 매진 (2025: 스탠다드 5만원). feconf.kr·SNS 알림 설정.",
+      "tip_en": "Tickets sell out instantly (2025: 50K KRW standard). Set alerts on feconf.kr and SNS.",
+      "schedule_note": "2026 일정 미공지 · 예년 8월 개최 (2025: 8.23 세종대) · 공지가 예년보다 늦는 중",
+      "schedule_note_en": "2026 not announced; usually held in August (2025: Aug 23). Announcement is later than usual",
       "events": [],
       "added": "2026-07-13",
-      "checked": "2026-07-13"
+      "checked": "2026-07-25"
     },
     {
       "id": "kaggle-platform",
@@ -353,9 +404,21 @@
         },
         {
           "type": "apply_end",
-          "date": "2026-11-09",
+          "date": "2026-11-02",
           "label": "최종 제출 마감",
           "label_en": "Final submission deadline"
+        },
+        {
+          "type": "partial_deadline",
+          "date": "2026-11-08",
+          "label": "Paper Track 마감",
+          "label_en": "Paper Track deadline"
+        },
+        {
+          "type": "announce",
+          "date": "2026-12-04",
+          "label": "결과 발표",
+          "label_en": "Results announced"
         }
       ],
       "added": "2026-07-13",
@@ -377,7 +440,7 @@
           "item_en": "Submit for Milestone #2 (by Sep 30)"
         }
       ],
-      "checked": "2026-07-13"
+      "checked": "2026-07-25"
     },
     {
       "id": "drivendata",
@@ -502,18 +565,18 @@
       "description_en": "By Samsung Research. R&D topics like molecular structure, vision AI, document understanding. Top ranks link to Samsung hiring.",
       "tip": "7~8월 데이콘 공지 예상 — 지금이 공지 시점. 데이콘 알림 설정 필수.",
       "tip_en": "Announcement expected on DACON in Jul-Aug, i.e. right now. Set DACON notifications.",
-      "schedule_note": "2026년 7~8월 오픈 예상 · dacon.io 공지 확인",
-      "schedule_note_en": "Expected to open Jul-Aug 2026 · watch dacon.io",
+      "schedule_note": "2026년판 미공고 (2025년은 8월 오픈) · dacon.io 공지 주시",
+      "schedule_note_en": "2026 edition not yet announced (2025 opened in August); watch dacon.io",
       "events": [],
       "added": "2026-07-13",
-      "checked": "2026-07-13"
+      "checked": "2026-07-25"
     },
     {
       "id": "lg-aimers-9",
       "name": "LG Aimers Hackathon 9기",
       "name_en": "LG Aimers Hackathon (9th)",
       "category": "AI/ML 국내",
-      "status": "upcoming",
+      "status": "ongoing_closed",
       "tags": [
         "LG",
         "채용연계",
@@ -526,18 +589,37 @@
         "LLM",
         "hackathon"
       ],
-      "url": "https://dacon.io",
+      "url": "https://www.lgaimers.ai",
       "prize": "약 1,000만 원 + LG 그룹사 채용 특전",
       "prize_en": "~10M KRW + LG Group hiring benefits",
       "description": "LG AI연구원 주관. LLM·경량화(LoRA) 실무 주제. 온라인 예선 → 상위 100명 오프라인 본선. LG 채용 최단 경로.",
       "description_en": "By LG AI Research. Practical topics: LLM, lightweighting (LoRA). Online prelims, top 100 to offline finals. Shortest path to LG hiring.",
-      "tip": "dacon.io에서 \"LG Aimers\" 검색으로 공지 즉시 파악. LLM 파인튜닝 사전 숙지.",
-      "tip_en": "Search \"LG Aimers\" on dacon.io to catch the announcement. Learn LLM fine-tuning in advance.",
-      "schedule_note": "2026년 8~10월 모집 예상",
-      "schedule_note_en": "Recruiting expected Aug-Oct 2026",
-      "events": [],
+      "tip": "9기 모집 이미 마감. 10기는 연말(11~12월) 모집 예상 — lgaimers.ai 관심 등록.",
+      "tip_en": "9th round closed. 10th expected to recruit Nov-Dec; register interest at lgaimers.ai.",
+      "schedule_note": "9기 모집 종료 (5.22~6.15) · 현재 교육 진행 중",
+      "schedule_note_en": "9th intake recruiting closed (May 22-Jun 15); training in progress",
+      "events": [
+        {
+          "type": "activity_start",
+          "date": "2026-08-05",
+          "label": "온라인 해커톤 시작 (Phase 2)",
+          "label_en": "Online hackathon starts (Phase 2)"
+        },
+        {
+          "type": "activity_end",
+          "date": "2026-09-02",
+          "label": "온라인 해커톤 종료",
+          "label_en": "Online hackathon ends"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-09-19",
+          "label": "오프라인 해커톤 (Phase 3)",
+          "label_en": "Offline hackathon (Phase 3)"
+        }
+      ],
       "added": "2026-07-13",
-      "checked": "2026-07-13"
+      "checked": "2026-07-25"
     },
     {
       "id": "jump-ai-4",
@@ -609,7 +691,7 @@
           "item_en": "Submit prelim entry (by Aug 7)"
         }
       ],
-      "checked": "2026-07-13"
+      "checked": "2026-07-25"
     },
     {
       "id": "ai-champion-2026",
@@ -627,18 +709,18 @@
         "minister-award",
         "2.6B-prize"
       ],
-      "url": "https://ai-champion.or.kr",
+      "url": "https://aichallenge4all.or.kr",
       "prize": "총 상금 26억 원 · 대상 장관상",
       "prize_en": "Total 2.6B KRW · grand prize Minister's Award",
       "description": "과기정통부 주관, 26억 원 규모 국내 최대급 AI 대회. 학생부·일반부 분리.",
       "description_en": "By MSIT, one of Korea's largest AI competitions at 2.6B KRW. Separate student and general divisions.",
-      "tip": "이번 회차 접수 마감. 2027년 3~4월 모집 즉시 지원 대비.",
-      "tip_en": "This round is closed. Be ready to apply the moment Mar-Apr 2027 recruiting opens.",
-      "schedule_note": "본선 2026년 8월 · 결선 11월 (세부 일자 미공개)",
-      "schedule_note_en": "Finals Aug 2026 · grand finals Nov (exact dates TBA)",
+      "tip": "본 대회 접수는 마감. 단, 사례 공모전 등 병행 트랙은 지금 참가 가능 — aichallenge4all.or.kr 확인.",
+      "tip_en": "Main track closed, but side tracks (use-case contest) are open now; check aichallenge4all.or.kr.",
+      "schedule_note": "본선 2026년 8월 · 결선 11월 (세부 일자 미공개) · 병행 트랙 'AI 활용 사례 공모전' 시즌2 접수 7~8월 (참가 가능)",
+      "schedule_note_en": "Finals Aug, grand finals Nov (exact dates TBA). Side track 'AI use-case contest' season 2 accepting entries Jul-Aug",
       "events": [],
       "added": "2026-07-13",
-      "checked": "2026-07-13"
+      "checked": "2026-07-25"
     },
     {
       "id": "neurips-2026-competitions",
@@ -910,8 +992,8 @@
       "prize_en": "Academic credit · Kaggle medals",
       "description": "AMIA(미국 의료정보학회) 주관 Kaggle 챌린지. 의료 NLP·임상 정보 추출.",
       "description_en": "Kaggle challenge by AMIA (American Medical Informatics Association). Medical NLP and clinical information extraction.",
-      "tip": "마감 07.26 — 이틀 남음! 즉시 제출.",
-      "tip_en": "Deadline Jul 26, two days away. Submit now.",
+      "tip": "마감 07.26 — 내일! 즉시 제출.",
+      "tip_en": "Deadline Jul 26 — tomorrow. Submit now.",
       "events": [
         {
           "type": "apply_end",
@@ -921,7 +1003,7 @@
         }
       ],
       "added": "2026-07-13",
-      "checked": "2026-07-13"
+      "checked": "2026-07-25"
     },
     {
       "id": "codeforces-atcoder",
@@ -1026,7 +1108,9 @@
           "item_en": "Register team (Aug-Sep)"
         }
       ],
-      "checked": "2026-07-13"
+      "checked": "2026-07-25",
+      "schedule_note": "팀 등록 기간 미공개(TBA) · 예년 패턴 8~9월",
+      "schedule_note_en": "Team registration window TBA; past pattern Aug-Sep"
     },
     {
       "id": "scpc-2026",
@@ -1092,7 +1176,7 @@
           "item_en": "Set alert for Jun 2027 registration"
         }
       ],
-      "checked": "2026-07-13"
+      "checked": "2026-07-25"
     },
     {
       "id": "meta-hacker-cup-2026",
@@ -1115,13 +1199,13 @@
       "prize_en": "1st place $20,000 · finals at Meta HQ",
       "description": "Meta 주관, ICPC와 함께 알고리즘 대회 최고 권위. 연 1회.",
       "description_en": "By Meta. With ICPC, one of the most prestigious algorithm contests. Once a year.",
-      "tip": "8월 공지 즉시 등록. Meta 취업 직결.",
-      "tip_en": "Register the moment the August announcement drops. Direct line to Meta hiring.",
-      "schedule_note": "예선 2026년 8~9월 예정",
-      "schedule_note_en": "Qualifiers expected Aug-Sep 2026",
+      "tip": "가을(10월경) 공지 예상 — 공지 즉시 등록. Meta 취업 직결.",
+      "tip_en": "Announcement expected around October; register immediately. Direct line to Meta hiring.",
+      "schedule_note": "2026 일정 미발표 · 최근 패턴 기준 10~11월 예상 (2025: 예선 10월)",
+      "schedule_note_en": "2026 schedule TBA; recent pattern suggests Oct-Nov (2025 qualifiers were in October)",
       "events": [],
       "added": "2026-07-13",
-      "checked": "2026-07-13"
+      "checked": "2026-07-25"
     },
     {
       "id": "kt-aivle-10",
@@ -1197,7 +1281,7 @@
           "item_en": "Prepare coding test (Python basics)"
         }
       ],
-      "checked": "2026-07-13"
+      "checked": "2026-07-25"
     },
     {
       "id": "ssafy-17",
@@ -1226,8 +1310,8 @@
       "description_en": "Run by Samsung Electronics. 12 months (6 basic + 6 advanced), 5 campuses nationwide. Strengthened AI curriculum (SSAFY 2.0).",
       "tip": "10~11월 모집 예상. PS(코딩테스트) + 자소서 지금부터 준비. 비전공자 Java반 별도.",
       "tip_en": "Recruiting expected Oct-Nov. Prepare coding tests and essays now. Separate Java track for non-majors.",
-      "schedule_note": "17기 모집 2026년 10~11월 예상 → 2027.01 입과",
-      "schedule_note_en": "17th intake recruiting Oct-Nov 2026, starts Jan 2027",
+      "schedule_note": "공식 사이트에 '17기 모집안내' 메뉴 확인 · 세부 일정 미공개, 예년 패턴 10~11월 모집 → 2027.01 입과",
+      "schedule_note_en": "Official site shows a '17th intake' menu; details TBA. Past pattern: recruiting Oct-Nov, starts Jan 2027",
       "events": [],
       "added": "2026-07-13",
       "checklist": [
@@ -1248,7 +1332,7 @@
           "item_en": "Prepare interview (personality + PT)"
         }
       ],
-      "checked": "2026-07-13"
+      "checked": "2026-07-25"
     },
     {
       "id": "softeer-9",
@@ -1268,15 +1352,15 @@
         "Hyundai",
         "8-weeks"
       ],
-      "url": "https://softeerbootcamp.hyundaimotorgroup.com",
+      "url": "https://softeerbootcamp.com",
       "prize": "무료 · 수료 후 현대차·기아 최종 면접",
       "prize_en": "Free · final interview at Hyundai/Kia after completion",
       "description": "현대차·기아 공동 운영, 8주(이론 4+프로젝트 4). 2026년 AI 퍼스트로 개편. 수료 후 최종 면접 → 입사.",
       "description_en": "Run by Hyundai and Kia. 8 weeks (4 theory + 4 project). Reorganized AI-first in 2026. Completion leads to a final interview and hiring.",
       "tip": "React·Spring Boot 사전 학습 필수. 모빌리티 SW 관심자 최고 경로.",
       "tip_en": "Learn React and Spring Boot beforehand. Best path for mobility software.",
-      "schedule_note": "9기 모집 2026년 10~11월 예상",
-      "schedule_note_en": "9th intake recruiting expected Oct-Nov 2026",
+      "schedule_note": "8기 교육 진행 중 (7.1~8.31) · 9기 모집 미공고, 예년 패턴 10~11월 예상",
+      "schedule_note_en": "8th cohort in training (Jul 1-Aug 31); 9th not announced, expected Oct-Nov per past pattern",
       "events": [],
       "added": "2026-07-13",
       "checklist": [
@@ -1297,14 +1381,14 @@
           "item_en": "Polish portfolio"
         }
       ],
-      "checked": "2026-07-13"
+      "checked": "2026-07-25"
     },
     {
       "id": "boostcamp-11",
-      "name": "네이버 부스트캠프 11기",
-      "name_en": "NAVER Boostcamp (11th)",
+      "name": "네이버 부스트캠프 (2026 미운영)",
+      "name_en": "NAVER Boostcamp (not running in 2026)",
       "category": "부트캠프",
-      "status": "upcoming",
+      "status": "ended",
       "tags": [
         "무료",
         "네이버",
@@ -1322,10 +1406,10 @@
       "prize_en": "Free · NAVER affiliate hiring preference",
       "description": "네이버 커넥트재단. Web/iOS/Android. 베이직(4주)→챌린지(4주)→멤버십(16주). 코어타임 필수, 고강도.",
       "description_en": "By NAVER Connect Foundation. Web/iOS/Android. Basic (4w) → Challenge (4w) → Membership (16w). Mandatory core time, very intense.",
-      "tip": "베이직은 선발 없음(누구나). 11기는 2027년 봄 — 지금부터 기초 다지기.",
-      "tip_en": "Basic has no selection (open to all). 11th intake is spring 2027; build fundamentals now.",
-      "schedule_note": "11기 모집 2027년 4~6월 예상",
-      "schedule_note_en": "11th intake recruiting expected Apr-Jun 2027",
+      "tip": "2026년 운영 없음 (공식). 재개 공지가 뜨면 이 목록에 반영됨. 대안: SSAFY·우테코·소프티어.",
+      "tip_en": "Not running in 2026 (official). Alternatives: SSAFY, Woowacourse, Softeer.",
+      "schedule_note": "공식 공지: 2026년 웹·모바일 및 AI Tech 과정 미운영 · 재개 여부 미정",
+      "schedule_note_en": "Official notice: Web/Mobile and AI Tech tracks will not run in 2026; future undecided",
       "events": [],
       "added": "2026-07-13",
       "checklist": [
@@ -1346,7 +1430,7 @@
           "item_en": "Confirm core-time availability (weekdays 10-19)"
         }
       ],
-      "checked": "2026-07-13"
+      "checked": "2026-07-25"
     },
     {
       "id": "krafton-jungle-14",
@@ -1373,8 +1457,8 @@
       "description_en": "Run by Krafton, based on the KAIST Jungle model. 5-month residential program in Yongin. 700+ alumni.",
       "tip": "14기 2027년 봄 예상. C언어·자료구조·OS 기초 지금부터.",
       "tip_en": "14th intake expected spring 2027. Start C, data structures, OS basics now.",
-      "schedule_note": "14기 모집 2027년 봄 예상",
-      "schedule_note_en": "14th intake recruiting expected spring 2027",
+      "schedule_note": "13기(2026 하반기)는 6.8~7.5 모집 완료 · 다음 기수 모집 2026년 말~2027년 초 예상",
+      "schedule_note_en": "13th (H2 2026) recruited Jun 8-Jul 5; next intake expected late 2026 to early 2027",
       "events": [],
       "added": "2026-07-13",
       "checklist": [
@@ -1395,7 +1479,7 @@
           "item_en": "Confirm 5-month residential availability (Yongin)"
         }
       ],
-      "checked": "2026-07-13"
+      "checked": "2026-07-25"
     },
     {
       "id": "woowacourse-9",
@@ -1422,8 +1506,8 @@
       "description_en": "Run by Woowa Brothers. Backend/frontend/Android, 10 months. Centered on pair programming and code review.",
       "tip": "프리코스(5주) 통과 후 선발. 9~10월 모집 예상 — Java/JS 기본기 지금 다질 것.",
       "tip_en": "Selection after a 5-week precourse. Recruiting expected Sep-Oct; solidify Java/JS basics now.",
-      "schedule_note": "9기 모집 2026년 9~10월 예상 → 2027.02 입과",
-      "schedule_note_en": "9th intake recruiting Sep-Oct 2026, starts Feb 2027",
+      "schedule_note": "9기 미공고 · 예년 패턴 9월 말 서류 접수 → 10월 프리코스 (8기: 9.29 서류 시작)",
+      "schedule_note_en": "9th not announced; past pattern: applications late Sep, precourse in Oct (8th began Sep 29)",
       "events": [],
       "added": "2026-07-13",
       "checklist": [
@@ -1444,14 +1528,14 @@
           "item_en": "Prepare for the final coding test"
         }
       ],
-      "checked": "2026-07-13"
+      "checked": "2026-07-25"
     },
     {
       "id": "42seoul",
-      "name": "42Seoul (이노베이션아카데미)",
-      "name_en": "42Seoul (Innovation Academy)",
+      "name": "42Seoul (2026.09 운영 종료)",
+      "name_en": "42Seoul (closing Sep 2026)",
       "category": "부트캠프",
-      "status": "upcoming",
+      "status": "ended",
       "tags": [
         "무료",
         "피어러닝",
@@ -1469,10 +1553,10 @@
       "prize_en": "Free · overseas jobs via the 42 global network",
       "description": "과기정통부 운영, 프랑스 42 모델. 강사·교재 없는 동료 피어러닝. 라피신(4주) 통과 후 본과정.",
       "description_en": "Run by MSIT on the French 42 model. Peer learning with no instructors or textbooks. Pass the 4-week Piscine to enter the main program.",
-      "tip": "취업보다 근본 역량 목표. 하반기 라피신 공고 주시.",
-      "tip_en": "Aims at fundamentals over quick employment. Watch for the H2 Piscine notice.",
-      "schedule_note": "라피신 2026년 하반기 모집 예상",
-      "schedule_note_en": "Piscine recruiting expected H2 2026",
+      "tip": "예산 문제로 종료. 대안: 크래프톤 정글, SW마에스트로.",
+      "tip_en": "Closed due to budget cuts. Alternatives: Krafton Jungle, SW Maestro.",
+      "schedule_note": "2026-03-04 캠퍼스 폐쇄 공지 · 2026-09-30 운영 종료 (마지막 10기) · 신규 라피신 없음",
+      "schedule_note_en": "Closure announced Mar 4, 2026; operations end Sep 30, 2026 (final 10th cohort). No more Piscine",
       "events": [],
       "added": "2026-07-13",
       "checklist": [
@@ -1489,14 +1573,14 @@
           "item_en": "Practice logic and problem-solving"
         }
       ],
-      "checked": "2026-07-13"
+      "checked": "2026-07-25"
     },
     {
       "id": "gdsc",
-      "name": "GDSC (Google Developer Student Clubs)",
-      "name_en": "GDSC (Google Developer Student Clubs)",
+      "name": "GDG on Campus (구 GDSC)",
+      "name_en": "GDG on Campus (formerly GDSC)",
       "category": "동아리·커뮤니티",
-      "status": "applying",
+      "status": "ongoing_open",
       "tags": [
         "구글",
         "대학생",
@@ -1512,15 +1596,15 @@
       "url": "https://gdsc.community.dev",
       "prize": "구글 멘토·리소스 · Solution Challenge 참가 기반",
       "prize_en": "Google mentors and resources · base for Solution Challenge",
-      "description": "Google 공식 개발자 학생 클럽, 전국 100+ 캠퍼스. GDSC Lead = 구글 공식 인정 커뮤니티 리더.",
-      "description_en": "Google's official student developer clubs, 100+ campuses in Korea. GDSC Lead is a Google-recognized community leader.",
-      "tip": "Core Team(리드) 모집이 지금(7~8월)! 멤버 모집은 9~10월.",
-      "tip_en": "Core team (Lead) recruiting is happening now (Jul-Aug). Member recruiting is Sep-Oct.",
-      "schedule_note": "Lead 모집 7~8월 · 멤버 모집 9~10월",
-      "schedule_note_en": "Lead recruiting Jul-Aug · member recruiting Sep-Oct",
+      "description": "Google 공식 학생 개발자 커뮤니티 (2024년 GDSC에서 개명). 전국 100+ 캠퍼스. Organizer(리드) = 구글 공식 인정 커뮤니티 리더.",
+      "description_en": "Google's official student developer community (renamed from GDSC in 2024). 100+ campuses in Korea. Organizer (lead) is a Google-recognized community leader.",
+      "tip": "2학기 시작(9월) 캠퍼스별 멤버 모집 주시. 커뮤니티 허브: campus.gdg.kr",
+      "tip_en": "Watch per-campus member recruiting in September. Community hub: campus.gdg.kr",
+      "schedule_note": "멤버 모집 9~10월 (캠퍼스별) · Organizer 지원은 매년 3~6월 (글로벌)",
+      "schedule_note_en": "Member recruiting Sep-Oct per campus; organizer applications Mar-Jun globally",
       "events": [],
       "added": "2026-07-13",
-      "checked": "2026-07-13"
+      "checked": "2026-07-25"
     },
     {
       "id": "likelion",
@@ -1545,13 +1629,13 @@
       "prize_en": "Joint hackathon access · job connections",
       "description": "전국 200+ 대학 최대 IT 동아리. HTML·CSS·JS·Django 입문. 비전공자 최적.",
       "description_en": "Korea's largest university IT club across 200+ campuses. Intro to HTML, CSS, JS, Django. Great for non-majors.",
-      "tip": "2학기 모집 8~9월 — 곧 시작. 각 대학 SNS 공지 확인.",
-      "tip_en": "Fall recruiting is Aug-Sep, starting soon. Check your campus club's SNS.",
-      "schedule_note": "각 대학 2학기 모집 8~9월",
-      "schedule_note_en": "Fall recruiting Aug-Sep per campus",
+      "tip": "소속 대학 멋사 SNS 확인. 놓쳤으면 내년 2~3월 15기 모집 대비.",
+      "tip_en": "Check your campus LIKELION SNS. If missed, prepare for the 15th round next Feb-Mar.",
+      "schedule_note": "모집은 대학별 상이 · 주력 모집 연초(2~3월, 14기 기준), 일부 학교만 2학기 모집",
+      "schedule_note_en": "Recruiting varies by campus; main round early in the year (Feb-Mar), only some campuses recruit in fall",
       "events": [],
       "added": "2026-07-13",
-      "checked": "2026-07-13"
+      "checked": "2026-07-25"
     },
     {
       "id": "gdg-korea",
@@ -1612,6 +1696,1117 @@
       "events": [],
       "added": "2026-07-13",
       "checked": "2026-07-13"
+    },
+    {
+      "id": "kb-future-finance-ai-8",
+      "name": "제8회 KB Future Finance A.I. Challenge",
+      "name_en": "8th KB Future Finance AI Challenge",
+      "category": "AI/ML 국내",
+      "status": "applying",
+      "tags": [
+        "금융AI",
+        "대학생",
+        "채용우대",
+        "KB국민은행"
+      ],
+      "tags_en": [
+        "finance-AI",
+        "university",
+        "hiring-preference",
+        "KB-bank"
+      ],
+      "url": "https://www.wevity.com/?c=find&gbn=viewok&gp=1&ix=109141&s=1",
+      "prize": "총 상금 약 2,800만 원 · 수상팀 KB국민은행 ICT 채용 서류·필기 면제",
+      "prize_en": "~28M KRW total; winners skip KB Bank ICT resume/written screening",
+      "description": "KB국민은행 주최 AI 금융 서비스 구현 대회. 금감원·이화여대 후원. 개인 또는 3인 이내 팀.",
+      "description_en": "AI financial-service contest by KB Kookmin Bank, backed by FSS and Ewha. Solo or teams up to 3.",
+      "tip": "마감 08.03 — 열흘 안 남음. 1997년 이후 출생 대학(원)생 대상.",
+      "tip_en": "Deadline Aug 3, under ten days away. For university students born 1997 or later.",
+      "events": [
+        {
+          "type": "apply_end",
+          "date": "2026-08-03",
+          "label": "접수 마감",
+          "label_en": "Application deadline"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-09-02",
+          "label": "본선 (이화여대)",
+          "label_en": "Finals (Ewha Univ.)"
+        }
+      ],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "embedded-sw-contest-24",
+      "name": "제24회 임베디드SW경진대회",
+      "name_en": "24th Embedded SW Contest",
+      "category": "SW·웹 개발",
+      "status": "applying",
+      "tags": [
+        "임베디드",
+        "장관상",
+        "LG전자",
+        "현대차"
+      ],
+      "tags_en": [
+        "embedded",
+        "minister-award",
+        "LG",
+        "Hyundai"
+      ],
+      "url": "https://www.eswcontest.or.kr",
+      "prize": "대상 300만 원 · 산업부 장관상 (LG전자·현대차 후원)",
+      "prize_en": "Grand prize 3M KRW; MOTIE Minister's Award (backed by LG, Hyundai)",
+      "description": "산업통상자원부 주관 임베디드 SW 대회. 자유공모 부문 접수 중 (~09.03). 본선·시상 11월 예상.",
+      "description_en": "Embedded software contest by MOTIE. Open-category applications until Sep 3; finals expected in November.",
+      "tip": "자유공모는 09.03까지 여유 있음. 임베디드·IoT 포트폴리오에 최적.",
+      "tip_en": "Open category runs to Sep 3. Great for embedded/IoT portfolios.",
+      "events": [
+        {
+          "type": "apply_end",
+          "date": "2026-09-03",
+          "label": "자유공모 접수 마감",
+          "label_en": "Open-category deadline"
+        }
+      ],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "maplestory-worlds-contest-2026",
+      "name": "메이플스토리 월드 글로벌 개발 콘테스트",
+      "name_en": "MapleStory Worlds Global Dev Contest",
+      "category": "SW·웹 개발",
+      "status": "applying",
+      "tags": [
+        "게임개발",
+        "넥슨",
+        "지원금",
+        "글로벌"
+      ],
+      "tags_en": [
+        "game-dev",
+        "Nexon",
+        "funding",
+        "global"
+      ],
+      "url": "https://maplestoryworlds.nexon.com/events/ko/2026globalcontest",
+      "prize": "30팀 선정 · 총 18억 원 상당 지원 (팀당 5천만~9천만 원)",
+      "prize_en": "30 teams selected; total ~1.8B KRW support (50-90M KRW per team)",
+      "description": "넥슨 주최. 메이플스토리 IP 기반 월드(게임) 개발. 상금이 아닌 개발 지원금 구조. 글로벌 누구나.",
+      "description_en": "By Nexon. Build worlds on the MapleStory IP. Development funding rather than prize money. Open globally.",
+      "tip": "접수 10.07까지. 게임 개발 관심자에게 규모 큰 기회.",
+      "tip_en": "Applications until Oct 7. A large-scale opportunity for game developers.",
+      "events": [
+        {
+          "type": "apply_end",
+          "date": "2026-10-07",
+          "label": "참가 접수 마감",
+          "label_en": "Application deadline"
+        }
+      ],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "bigcontest-2026",
+      "name": "2026 빅콘테스트 (제14회)",
+      "name_en": "BigContest 2026 (14th)",
+      "category": "AI/ML 국내",
+      "status": "upcoming",
+      "tags": [
+        "빅데이터",
+        "AI",
+        "장관상"
+      ],
+      "tags_en": [
+        "big-data",
+        "AI",
+        "minister-award"
+      ],
+      "url": "https://www.bigcontest.or.kr",
+      "prize": "추후 공지 (예년: 과기정통부 장관상 등)",
+      "prize_en": "TBA (past years: MSIT Minister's Award)",
+      "description": "국내 대표 AI·데이터 경진대회 14회차. 공식 사이트에 9~12월 대회 기간 게시, 세부 추후공지.",
+      "description_en": "Korea's flagship AI/data contest, 14th edition. Official site lists Sep-Dec period; details TBA.",
+      "tip": "모집 8~9월 예상 — 사이트 공지 주시.",
+      "tip_en": "Recruiting expected Aug-Sep; watch the site.",
+      "schedule_note": "대회 기간 2026년 9~12월 · 참가자 모집 8~9월 예상",
+      "schedule_note_en": "Competition Sep-Dec 2026; participant recruiting expected Aug-Sep",
+      "events": [],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "maicon-2026",
+      "name": "제5회 국방 AI 경진대회 (MAICON)",
+      "name_en": "5th Defense AI Competition (MAICON)",
+      "category": "AI/ML 국내",
+      "status": "upcoming",
+      "tags": [
+        "국방",
+        "AI",
+        "장관상"
+      ],
+      "tags_en": [
+        "defense",
+        "AI",
+        "minister-award"
+      ],
+      "url": "https://maicon.kr",
+      "prize": "예년 기준 국방부 장관상 + 상금",
+      "prize_en": "Ministry of National Defense Minister's Award + prizes (past years)",
+      "description": "국방부 주최 AI 대회. 일반부 트랙 있어 누구나 참여 가능. 공식 사이트에 '2026 준비 중' 명시.",
+      "description_en": "Defense AI contest with a public track open to everyone. Official site says the 2026 edition is in preparation.",
+      "tip": "예년 접수 9월 초~중순 — 8월 말부터 maicon.kr 확인.",
+      "tip_en": "Past registrations opened early-mid September; check maicon.kr from late August.",
+      "schedule_note": "접수 2026년 9월 예상 (2025: 9.1~9.21) · 본선 10~11월",
+      "schedule_note_en": "Registration expected Sep 2026 (2025: Sep 1-21); finals Oct-Nov",
+      "events": [],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "fiesta-2026",
+      "name": "FIESTA 2026 (금융보안 위협분석 대회)",
+      "name_en": "FIESTA 2026 (Financial Security Threat Analysis)",
+      "category": "보안",
+      "status": "upcoming",
+      "tags": [
+        "보안",
+        "CTF",
+        "금융",
+        "입사우대"
+      ],
+      "tags_en": [
+        "security",
+        "CTF",
+        "finance",
+        "hiring-preference"
+      ],
+      "url": "https://www.fsec.or.kr",
+      "prize": "2025 기준 대상 금융위원장상 + 600만 원 · 학생 수상팀 금융보안원 입사 우대",
+      "prize_en": "2025: FSC Chairman's Award + 6M KRW; student winners get FSI hiring preference",
+      "description": "금융보안원 주최 CTF형 위협분석 대회. 대학(원)생 부문 별도. 매년 9월 정례 개최.",
+      "description_en": "CTF-style threat analysis contest by the Financial Security Institute, with a student division. Held every September.",
+      "tip": "대회 사이트(fiesta.fsec.or.kr)는 시즌(9월)에만 오픈 — 평시엔 금융보안원 공지 확인.",
+      "tip_en": "The contest site (fiesta.fsec.or.kr) only opens in season (Sep); check FSI notices otherwise.",
+      "schedule_note": "2026 공고 대기 · 예년 9월 개최 (2025: 9.26~28)",
+      "schedule_note_en": "2026 notice pending; usually held in September (2025: Sep 26-28)",
+      "events": [],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "whitehat-contest-2026",
+      "name": "2026 화이트햇 콘테스트",
+      "name_en": "WhiteHat Contest 2026",
+      "category": "보안",
+      "status": "upcoming",
+      "tags": [
+        "보안",
+        "CTF",
+        "국방부",
+        "장관상"
+      ],
+      "tags_en": [
+        "security",
+        "CTF",
+        "defense",
+        "minister-award"
+      ],
+      "url": "https://linkareer.com/activity/272634",
+      "prize": "예년 기준 국방부 장관상 + 상금",
+      "prize_en": "MND Minister's Award + prizes (past years)",
+      "description": "국방부·사이버작전사령부 주최 해킹방어(CTF) 대회. 학생트랙·국방트랙 구분.",
+      "description_en": "CTF by the Ministry of National Defense and Cyber Operations Command. Separate student and defense tracks.",
+      "tip": "공식 사이트(whitehatcontest.kr)는 시즌에만 오픈. 예년 접수 9월 말~10월 초 — 링커리어·콘테스트코리아 공고 확인.",
+      "tip_en": "Official site opens only in season. Registrations were late Sep-early Oct; watch Linkareer/ContestKorea.",
+      "schedule_note": "2026 공고 대기 · 예년 접수 9~10월, 본선 11월",
+      "schedule_note_en": "2026 notice pending; registrations Sep-Oct, finals Nov in past years",
+      "events": [],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "kisa-aisec-2026",
+      "name": "사이버보안 AI·빅데이터 챌린지 2026",
+      "name_en": "KISA Cybersecurity AI Challenge 2026",
+      "category": "보안",
+      "status": "upcoming",
+      "tags": [
+        "보안",
+        "AI",
+        "KISA",
+        "장관상"
+      ],
+      "tags_en": [
+        "security",
+        "AI",
+        "KISA",
+        "minister-award"
+      ],
+      "url": "https://aibigdatasec.kr",
+      "prize": "과기정통부 장관상 2팀 · KISA 원장상 7팀 + 상금 (예년)",
+      "prize_en": "2 MSIT Minister's Awards, 7 KISA President's Awards + prizes (past years)",
+      "description": "KISA·과기정통부 연례 대회. 악성코드·네트워크 공격 AI 분류 트랙. 개인 또는 4인 이내 팀.",
+      "description_en": "Annual KISA/MSIT contest: AI classification of malware and network attacks. Solo or teams up to 4.",
+      "tip": "보안 × AI 교차 포트폴리오로 희소성 높음. 9월 공고 주시.",
+      "tip_en": "Rare security-times-AI portfolio value. Watch for the September notice.",
+      "schedule_note": "2026 공고 대기 · 예년 9월 개회, 11월 시상",
+      "schedule_note_en": "2026 notice pending; opens Sep, awards Nov in past years",
+      "events": [],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "junction-asia-2026",
+      "name": "JUNCTION ASIA 2026 (JunctionX Korea)",
+      "name_en": "JUNCTION ASIA 2026 (JunctionX Korea)",
+      "category": "해커톤",
+      "status": "upcoming",
+      "tags": [
+        "해커톤",
+        "글로벌",
+        "2박3일"
+      ],
+      "tags_en": [
+        "hackathon",
+        "global",
+        "3-days"
+      ],
+      "url": "https://asia.hackjunction.com",
+      "prize": "예년 우승 300만 원 + 핀란드 Junction 본선 참가권",
+      "prize_en": "Past years: 3M KRW + a ticket to Junction finals in Finland",
+      "description": "핀란드발 글로벌 해커톤의 아시아판. 개발자·디자이너·기획자 무제한. 2026년은 JunctionX 형태로 준비 중.",
+      "description_en": "Asian edition of the Finnish global hackathon. Open to developers, designers, planners. 2026 shaping up as JunctionX.",
+      "tip": "예년 8월 2박3일 개최 — 공식 페이지 전환 중이라 공지 뜨는 즉시 신청.",
+      "tip_en": "Usually a 3-day August event. Apply the moment the notice lands.",
+      "schedule_note": "2026 하반기 예상 · 세부 일정 미공개",
+      "schedule_note_en": "Expected H2 2026; details not yet published",
+      "events": [],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "sw-hackathon-13",
+      "name": "제13회 대한민국 SW융합 해커톤",
+      "name_en": "13th Korea SW Convergence Hackathon",
+      "category": "해커톤",
+      "status": "upcoming",
+      "tags": [
+        "해커톤",
+        "무박",
+        "장관상",
+        "지역선발"
+      ],
+      "tags_en": [
+        "hackathon",
+        "overnight",
+        "minister-award",
+        "regional"
+      ],
+      "url": "https://www.wevity.com/?c=find&s=1&gbn=list&gp=1&mode=srch&keyword=SW%EC%9C%B5%ED%95%A9+%ED%95%B4%EC%BB%A4%ED%86%A4",
+      "prize": "예년 기준 과기정통부 장관상 등",
+      "prize_en": "MSIT Minister's Award and others (past years)",
+      "description": "42.195시간 무박 해커톤. 만 15세 이상 2~5인 팀, 12개 지역 테크노파크 통해 선발.",
+      "description_en": "A 42.195-hour nonstop hackathon. Teams of 2-5, age 15+, selected via 12 regional technoparks.",
+      "tip": "공식 사이트(swhackathon.kr)는 시즌에만 오픈. 소속 지역 테크노파크 공고 또는 위비티 검색으로 접수처 확인.",
+      "tip_en": "Official site opens only in season. Check your regional technopark notices or Wevity search.",
+      "schedule_note": "지역별 접수 2026년 7~8월 · 본선 8월 말~9월 예상 (12회: 2025.8.29~31 세종)",
+      "schedule_note_en": "Regional registration Jul-Aug; finals late Aug-Sep expected (12th: Aug 29-31, 2025, Sejong)",
+      "events": [],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "jeonbuk-ai-bigdata-4",
+      "name": "제4회 전북청년 AI·빅데이터 경진대회",
+      "name_en": "4th Jeonbuk Youth AI & Big Data Competition",
+      "category": "AI/ML 국내",
+      "status": "applying",
+      "tags": [
+        "빅데이터",
+        "지역제한",
+        "전북",
+        "학생"
+      ],
+      "tags_en": [
+        "big-data",
+        "regional-only",
+        "Jeonbuk",
+        "students"
+      ],
+      "url": "https://sotong.go.kr/front/epilogue/epilogueNewViewPage.do?bbs_id=59292d53795b4f8492969fc194322d39&menu_id=527&pagetype=bbs",
+      "prize": "공고문 참조",
+      "prize_en": "See official notice",
+      "description": "전북특별자치도 소재 중·고·대학(원) 재학/휴학생 대상 지역 대회. 접수 중 (~08.28).",
+      "description_en": "Regional contest for students enrolled in Jeonbuk schools. Applications open until Aug 28.",
+      "tip": "전북 소재 학교 학생만 지원 가능 — 해당되면 경쟁률 낮은 기회.",
+      "tip_en": "Jeonbuk-enrolled students only; lower competition if you qualify.",
+      "events": [
+        {
+          "type": "apply_end",
+          "date": "2026-08-28",
+          "label": "접수 마감",
+          "label_en": "Application deadline"
+        }
+      ],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "lg-aimers-10",
+      "name": "LG Aimers 10기",
+      "name_en": "LG Aimers (10th)",
+      "category": "AI/ML 국내",
+      "status": "upcoming",
+      "tags": [
+        "LG",
+        "채용연계",
+        "무료교육",
+        "만19~29세"
+      ],
+      "tags_en": [
+        "LG",
+        "hiring-linked",
+        "free-training",
+        "age-19-29"
+      ],
+      "url": "https://www.lgaimers.ai",
+      "prize": "무료 AI 교육 + LG 실데이터 해커톤 · 채용 연계",
+      "prize_en": "Free AI training + hackathon on real LG data; hiring links",
+      "description": "LG AI연구원의 AI 교육+해커톤 프로그램. 반기별 기수. 만 19~29세 미취업 청년 대상.",
+      "description_en": "LG AI Research's training + hackathon program, run twice a year. For unemployed youth aged 19-29.",
+      "tip": "9기는 6.15 마감됨. 10기 모집 11~12월 예상 — lgaimers.ai 관심 등록.",
+      "tip_en": "9th closed Jun 15. 10th expected to recruit Nov-Dec; register interest at lgaimers.ai.",
+      "schedule_note": "10기 모집 2026년 11~12월 예상 (8기: 2025.12 모집 패턴)",
+      "schedule_note_en": "10th intake expected Nov-Dec 2026 (8th recruited Dec 2025)",
+      "events": [],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "pycon-kr-2026",
+      "name": "파이콘 한국 2026",
+      "name_en": "PyCon Korea 2026",
+      "category": "컨퍼런스·박람회",
+      "status": "applying",
+      "tags": [
+        "Python",
+        "컨퍼런스",
+        "유료"
+      ],
+      "tags_en": [
+        "Python",
+        "conference",
+        "paid"
+      ],
+      "url": "https://2026.pycon.kr",
+      "prize": "유료 티켓 (예년 수만 원대)",
+      "prize_en": "Paid tickets (tens of thousands KRW in past years)",
+      "description": "국내 최대 파이썬 커뮤니티 컨퍼런스. 2026-08-15~17 동국대 개최, 테마 'Make it hap.py'.",
+      "description_en": "Korea's largest Python conference. Aug 15-17, 2026 at Dongguk Univ. Theme: 'Make it hap.py'.",
+      "tip": "광복절 연휴 3일 개최. 티켓 오픈 공지는 공식 사이트·SNS 확인.",
+      "tip_en": "Runs over the Aug 15 holiday weekend. Watch the site/SNS for ticket opening.",
+      "events": [
+        {
+          "type": "activity_start",
+          "date": "2026-08-15",
+          "label": "PyCon 시작 (동국대)",
+          "label_en": "PyCon starts (Dongguk Univ.)"
+        },
+        {
+          "type": "activity_end",
+          "date": "2026-08-17",
+          "label": "PyCon 종료",
+          "label_en": "PyCon ends"
+        }
+      ],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "ai-summit-seoul-2026",
+      "name": "AI Summit Seoul & Expo 2026",
+      "name_en": "AI Summit Seoul & Expo 2026",
+      "category": "컨퍼런스·박람회",
+      "status": "applying",
+      "tags": [
+        "AI",
+        "박람회",
+        "코엑스",
+        "무료사전등록"
+      ],
+      "tags_en": [
+        "AI",
+        "expo",
+        "COEX",
+        "free-preregistration"
+      ],
+      "url": "https://www.aisummit.co.kr",
+      "prize": "엑스포 사전등록 무료 (7.31까지) · 이후 1~2만 원 · 컨퍼런스 별도 유료",
+      "prize_en": "Expo free with pre-registration until Jul 31, then 10-20K KRW; conference ticketed separately",
+      "description": "코엑스 개최 AI 컨퍼런스+엑스포. 컨퍼런스 8.19~20, 엑스포 8.19~21.",
+      "description_en": "AI conference + expo at COEX. Conference Aug 19-20, expo Aug 19-21.",
+      "tip": "무료 사전등록이 07.31 마감 — 지금 등록해야 무료.",
+      "tip_en": "Free pre-registration closes Jul 31; register now to attend free.",
+      "events": [
+        {
+          "type": "apply_end",
+          "date": "2026-07-31",
+          "label": "무료 사전등록 마감",
+          "label_en": "Free pre-registration deadline"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-08-19",
+          "label": "개막 (코엑스)",
+          "label_en": "Opens (COEX)"
+        },
+        {
+          "type": "activity_end",
+          "date": "2026-08-21",
+          "label": "폐막",
+          "label_en": "Closes"
+        }
+      ],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "kes-2026",
+      "name": "한국전자전 KES 2026 (제57회)",
+      "name_en": "Korea Electronics Show 2026 (57th)",
+      "category": "컨퍼런스·박람회",
+      "status": "upcoming",
+      "tags": [
+        "전자",
+        "박람회",
+        "코엑스",
+        "무료사전등록"
+      ],
+      "tags_en": [
+        "electronics",
+        "expo",
+        "COEX",
+        "free-preregistration"
+      ],
+      "url": "https://kes.org/kor/",
+      "prize": "사전등록 무료 · 현장등록 2만 원",
+      "prize_en": "Free with pre-registration; 20K KRW on site",
+      "description": "삼성·LG 참가 국내 최대 전자·IT 전시. AX·로보틱스·XR 등. 코엑스 A·B홀.",
+      "description_en": "Korea's largest electronics/IT show with Samsung and LG. AX, robotics, XR. COEX halls A-B.",
+      "tip": "사전등록 필수 (무료). 최신 하드웨어·AI 기기 트렌드 파악에 최적.",
+      "tip_en": "Pre-register (free). Great for hardware and AI device trends.",
+      "events": [
+        {
+          "type": "activity_start",
+          "date": "2026-10-13",
+          "label": "개막 (코엑스)",
+          "label_en": "Opens (COEX)"
+        },
+        {
+          "type": "activity_end",
+          "date": "2026-10-16",
+          "label": "폐막",
+          "label_en": "Closes"
+        }
+      ],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "softwave-2026",
+      "name": "소프트웨이브 2026 (제11회)",
+      "name_en": "SOFTWAVE 2026 (11th)",
+      "category": "컨퍼런스·박람회",
+      "status": "upcoming",
+      "tags": [
+        "SW",
+        "박람회",
+        "코엑스",
+        "무료"
+      ],
+      "tags_en": [
+        "software",
+        "expo",
+        "COEX",
+        "free"
+      ],
+      "url": "https://k-softwave.com",
+      "prize": "무료 (사전등록)",
+      "prize_en": "Free with pre-registration",
+      "description": "대한민국 소프트웨어대전 — AI·SW B2B 국내 대표 전시. 코엑스 Hall A.",
+      "description_en": "Korea's flagship software expo (AI/SW B2B). COEX Hall A.",
+      "tip": "참관 사전등록은 가을쯤 오픈 예정 — 12월 초 일정 캘린더에 등록해둘 것.",
+      "tip_en": "Visitor pre-registration opens around autumn; mark early December.",
+      "events": [
+        {
+          "type": "activity_start",
+          "date": "2026-12-02",
+          "label": "개막 (코엑스)",
+          "label_en": "Opens (COEX)"
+        },
+        {
+          "type": "activity_end",
+          "date": "2026-12-04",
+          "label": "폐막",
+          "label_en": "Closes"
+        }
+      ],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "comeup-2026",
+      "name": "COMEUP 2026",
+      "name_en": "COMEUP 2026",
+      "category": "컨퍼런스·박람회",
+      "status": "upcoming",
+      "tags": [
+        "스타트업",
+        "박람회",
+        "코엑스",
+        "네트워킹"
+      ],
+      "tags_en": [
+        "startup",
+        "expo",
+        "COEX",
+        "networking"
+      ],
+      "url": "https://www.comeup.org",
+      "prize": "일반 관람 무료~소액 (예년 기준)",
+      "prize_en": "Free to low-cost general admission (past years)",
+      "description": "국내 대표 글로벌 스타트업 행사. 2026년은 AI·딥테크 중심 확장. 채용·네트워킹에도 유용.",
+      "description_en": "Korea's flagship global startup event, expanding around AI/deep tech in 2026. Useful for hiring and networking.",
+      "tip": "개발자 채용 부스·네트워킹 목적 방문 추천.",
+      "tip_en": "Worth visiting for hiring booths and networking.",
+      "events": [
+        {
+          "type": "activity_start",
+          "date": "2026-12-09",
+          "label": "개막 (코엑스)",
+          "label_en": "Opens (COEX)"
+        },
+        {
+          "type": "activity_end",
+          "date": "2026-12-11",
+          "label": "폐막",
+          "label_en": "Closes"
+        }
+      ],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "if-kakao-26",
+      "name": "if(kakao) 26",
+      "name_en": "if(kakao) 26",
+      "category": "컨퍼런스·박람회",
+      "status": "upcoming",
+      "tags": [
+        "카카오",
+        "컨퍼런스",
+        "무료",
+        "AI"
+      ],
+      "tags_en": [
+        "Kakao",
+        "conference",
+        "free",
+        "AI"
+      ],
+      "url": "https://if.kakao.com",
+      "prize": "무료 (사전신청제)",
+      "prize_en": "Free (advance registration)",
+      "description": "카카오 연례 개발자 컨퍼런스. 2025년은 9.23~25 카카오 AI 캠퍼스 개최. 2026 미공지.",
+      "description_en": "Kakao's annual dev conference. 2025 ran Sep 23-25 at Kakao AI Campus; 2026 TBA.",
+      "tip": "8월 말~9월 초 공지 예상. 오프라인 신청 경쟁 치열 — tech.kakao.com/events 모니터링.",
+      "tip_en": "Announcement expected late Aug-early Sep. Offline seats are competitive; monitor tech.kakao.com/events.",
+      "schedule_note": "2026년 9~10월 예상 (2025: 9.23~25)",
+      "schedule_note_en": "Expected Sep-Oct 2026 (2025: Sep 23-25)",
+      "events": [],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "woowacon-2026",
+      "name": "우아콘 2026 (WOOWACON)",
+      "name_en": "WOOWACON 2026",
+      "category": "컨퍼런스·박람회",
+      "status": "upcoming",
+      "tags": [
+        "배민",
+        "컨퍼런스",
+        "무료"
+      ],
+      "tags_en": [
+        "Baemin",
+        "conference",
+        "free"
+      ],
+      "url": "https://woowacon.com",
+      "prize": "무료 (사전등록, 예년 추첨/선착순)",
+      "prize_en": "Free (advance registration, lottery/first-come in past years)",
+      "description": "우아한형제들 기술 컨퍼런스. 2025년은 10.28 개최. 2026 미공지.",
+      "description_en": "Woowa Brothers' tech conference. 2025 was Oct 28; 2026 TBA.",
+      "tip": "매년 9월경 등록 오픈 — 우아한형제들 기술블로그에서 공지, 마감 주의.",
+      "tip_en": "Registration usually opens around September via their tech blog; fills fast.",
+      "schedule_note": "2026년 10월 말 예상 (2025: 10.28)",
+      "schedule_note_en": "Expected late Oct 2026 (2025: Oct 28)",
+      "events": [],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "naver-dan-26",
+      "name": "팀네이버 컨퍼런스 DAN 26 (구 DEVIEW)",
+      "name_en": "TEAM NAVER Conference DAN 26 (formerly DEVIEW)",
+      "category": "컨퍼런스·박람회",
+      "status": "upcoming",
+      "tags": [
+        "네이버",
+        "컨퍼런스",
+        "무료",
+        "AI"
+      ],
+      "tags_en": [
+        "NAVER",
+        "conference",
+        "free",
+        "AI"
+      ],
+      "url": "https://dan.naver.com",
+      "prize": "무료 (사전신청제)",
+      "prize_en": "Free (advance registration)",
+      "description": "네이버 통합 기술 컨퍼런스 (DEVIEW를 흡수). 매년 11월 코엑스. DAN25는 2025.11.6~7 개최.",
+      "description_en": "NAVER's unified tech conference (absorbed DEVIEW). Every November at COEX; DAN25 ran Nov 6-7, 2025.",
+      "tip": "10월경 공지 예상 — 신청 매진 주의.",
+      "tip_en": "Announcement expected around October; seats fill fast.",
+      "schedule_note": "2026년 11월 초 예상 (DAN25: 11.6~7)",
+      "schedule_note_en": "Expected early Nov 2026 (DAN25: Nov 6-7)",
+      "events": [],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "infcon-2026",
+      "name": "인프콘 2026 (INFCON)",
+      "name_en": "INFCON 2026",
+      "category": "컨퍼런스·박람회",
+      "status": "upcoming",
+      "tags": [
+        "인프런",
+        "컨퍼런스",
+        "유료"
+      ],
+      "tags_en": [
+        "Inflearn",
+        "conference",
+        "paid"
+      ],
+      "url": "https://www.inflearn.com",
+      "prize": "유료 (예년 기준)",
+      "prize_en": "Paid (past years)",
+      "description": "인프런의 개발자 컨퍼런스. 2025년은 휴식, 2026년 복귀를 공식 예고. 일정 미발표.",
+      "description_en": "Inflearn's dev conference. Skipped 2025; officially teased a 2026 return. Schedule TBA.",
+      "tip": "복귀 예고만 뜬 상태 — 인프런 공지 모니터링.",
+      "tip_en": "Only the return teaser is out; monitor Inflearn notices.",
+      "schedule_note": "2026 하반기 개최 예고 · 날짜 미공지 (예년은 8월)",
+      "schedule_note_en": "Teased for H2 2026, date TBA (historically August)",
+      "events": [],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "devfest-korea-2026",
+      "name": "DevFest Korea 2026",
+      "name_en": "DevFest Korea 2026",
+      "category": "컨퍼런스·박람회",
+      "status": "upcoming",
+      "tags": [
+        "구글",
+        "커뮤니티",
+        "무료"
+      ],
+      "tags_en": [
+        "Google",
+        "community",
+        "free"
+      ],
+      "url": "https://gdg.community.dev/gdg-seoul/",
+      "prize": "무료~소액 (커뮤니티 행사)",
+      "prize_en": "Free to low-cost community event",
+      "description": "GDG 글로벌 DevFest 시즌의 한국 행사들. 서울·인천 등 지역별 개별 개최.",
+      "description_en": "Korean editions of the global GDG DevFest season, held per city (Seoul, Incheon, ...).",
+      "tip": "11~12월 시즌 — GDG Seoul 커뮤니티 페이지에서 지역별 일정 확인.",
+      "tip_en": "Nov-Dec season; check the GDG Seoul community page for city schedules.",
+      "schedule_note": "2026년 11~12월 예상 · 지역별 일정 하반기 발표",
+      "schedule_note_en": "Expected Nov-Dec 2026; city schedules announced in H2",
+      "events": [],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "sopt-39",
+      "name": "SOPT 39기",
+      "name_en": "SOPT (39th)",
+      "category": "동아리·커뮤니티",
+      "status": "upcoming",
+      "tags": [
+        "대학생연합",
+        "동아리",
+        "앱잼",
+        "서울"
+      ],
+      "tags_en": [
+        "university-union",
+        "club",
+        "AppJam",
+        "Seoul"
+      ],
+      "url": "https://www.sopt.org",
+      "prize": "세미나 + 앱잼(해커톤) + 데모데이",
+      "prize_en": "Seminars + AppJam hackathon + demo day",
+      "description": "국내 최대 대학생 IT 벤처창업 동아리. 기획·디자인·안드로이드·iOS·웹·서버 6개 파트, 학기제 5개월.",
+      "description_en": "Korea's largest university IT/venture club. Six parts (PM, design, Android, iOS, web, server), 5-month terms.",
+      "tip": "39기 makers 8월 모집 공식 언급 확인됨. 일반 회원(YB)은 8월 말~9월 초 예상 — sopt.org 주시.",
+      "tip_en": "Makers recruiting officially hinted for August; general members expected late Aug-early Sep. Watch sopt.org.",
+      "schedule_note": "39기 모집 2026년 8월~9월 초 예상 (makers 8월 공식 언급)",
+      "schedule_note_en": "39th recruiting expected Aug-early Sep 2026 (makers in August, per official page)",
+      "events": [],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "yapp-29",
+      "name": "YAPP 29기",
+      "name_en": "YAPP (29th)",
+      "category": "동아리·커뮤니티",
+      "status": "upcoming",
+      "tags": [
+        "연합동아리",
+        "프로젝트",
+        "직장인가능"
+      ],
+      "tags_en": [
+        "union-club",
+        "project",
+        "professionals-ok"
+      ],
+      "url": "https://www.yapp.co.kr/recruit",
+      "prize": "4개월간 IT 서비스 1개 런칭",
+      "prize_en": "Launch one IT service in four months",
+      "description": "기업형 IT 연합 커뮤니티. PM·디자인·웹·안드로이드·iOS·서버 6개 직군. 매주 토 13~17시 필수 세션.",
+      "description_en": "Company-style IT community. Six tracks; mandatory Saturday sessions (1-5 PM). Four-month product cycle.",
+      "tip": "29기 모집 9~10월 예상 (28기: 4월 모집). 홈페이지에서 모집 알림 신청 가능.",
+      "tip_en": "29th expected Sep-Oct (28th recruited in April). Sign up for recruiting alerts on the site.",
+      "schedule_note": "29기 모집 2026년 9~10월 예상",
+      "schedule_note_en": "29th recruiting expected Sep-Oct 2026",
+      "events": [],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "nexters-30",
+      "name": "NEXTERS 30기",
+      "name_en": "NEXTERS (30th)",
+      "category": "동아리·커뮤니티",
+      "status": "upcoming",
+      "tags": [
+        "연합동아리",
+        "8주",
+        "직장인가능"
+      ],
+      "tags_en": [
+        "union-club",
+        "8-weeks",
+        "professionals-ok"
+      ],
+      "url": "https://nexters.co.kr/recruit",
+      "prize": "8주 프로젝트 + 최종발표(데모데이)",
+      "prize_en": "8-week project + final demo day",
+      "description": "개발자+디자이너 연합 동아리 (기획 직군 없음). 8주 단기 집중 사이클.",
+      "description_en": "Developer + designer club (no separate PM track). Intense 8-week cycles.",
+      "tip": "30기 사전 알림 페이지 이미 오픈 — 지금 알림 신청. 모집은 11월~1월 예상.",
+      "tip_en": "Pre-registration alert page is already open; recruiting expected Nov-Jan.",
+      "schedule_note": "30기 사전알림 접수 중 · 모집 2026년 11월~2027년 1월 예상",
+      "schedule_note_en": "30th alert sign-up open; recruiting expected Nov 2026-Jan 2027",
+      "events": [],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "depromeet-18",
+      "name": "디프만 18기 (Depromeet)",
+      "name_en": "Depromeet (18th)",
+      "category": "동아리·커뮤니티",
+      "status": "upcoming",
+      "tags": [
+        "연합동아리",
+        "런칭",
+        "직장인가능"
+      ],
+      "tags_en": [
+        "union-club",
+        "launch",
+        "professionals-ok"
+      ],
+      "url": "https://www.depromeet.com",
+      "prize": "런칭데이 — 실제 서비스 출시 목표",
+      "prize_en": "Launch day: shipping a real service",
+      "description": "디자이너+프로그래머 연합. 기획→릴리즈→개선 전 과정을 6개월 주기로. 17기는 현재 활동 중.",
+      "description_en": "Designers + programmers running plan-release-improve cycles over ~6 months. 17th currently active.",
+      "tip": "18기 모집 12월~1월 예상 (17기: 7.6 접수 마감). 디자이너는 포트폴리오 필수.",
+      "tip_en": "18th expected Dec-Jan (17th closed Jul 6). Designers need a portfolio.",
+      "schedule_note": "18기 모집 2026년 12월~2027년 1월 예상",
+      "schedule_note_en": "18th recruiting expected Dec 2026-Jan 2027",
+      "events": [],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "dnd-16",
+      "name": "DND 16기",
+      "name_en": "DND (16th)",
+      "category": "동아리·커뮤니티",
+      "status": "upcoming",
+      "tags": [
+        "연합동아리",
+        "8주",
+        "서울부산"
+      ],
+      "tags_en": [
+        "union-club",
+        "8-weeks",
+        "Seoul-Busan"
+      ],
+      "url": "https://dnd.ac",
+      "prize": "8주 사이드 프로젝트 + 현직자 멘토링",
+      "prize_en": "8-week side project + working-pro mentoring",
+      "description": "IT 비영리단체. 개발자+디자이너 8주 사이드 프로젝트, 격주 오프라인. 서울/부산.",
+      "description_en": "IT nonprofit: 8-week side projects for developers and designers, biweekly offline. Seoul/Busan.",
+      "tip": "연 2회(여름/겨울) 모집 — 16기는 12월~1월 예상.",
+      "tip_en": "Recruits twice a year; 16th expected Dec-Jan.",
+      "schedule_note": "16기 모집 2026년 12월~2027년 1월 예상 (15기 활동 중)",
+      "schedule_note_en": "16th expected Dec 2026-Jan 2027 (15th currently active)",
+      "events": [],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "umc",
+      "name": "UMC (University MakeUs Challenge)",
+      "name_en": "UMC (University MakeUs Challenge)",
+      "category": "동아리·커뮤니티",
+      "status": "upcoming",
+      "tags": [
+        "대학생",
+        "지부제",
+        "앱런칭"
+      ],
+      "tags_en": [
+        "university",
+        "campus-chapters",
+        "app-launch"
+      ],
+      "url": "https://umc.makeus.in/recruitment",
+      "prize": "스터디 + 방학 프로젝트 런칭 + 데모데이",
+      "prize_en": "Study terms + vacation launch projects + demo day",
+      "description": "전국 대학 지부제 IT 동아리. Plan/Design/Web/Spring/Node/Android/iOS. 학기 스터디 + 방학 런칭.",
+      "description_en": "Nationwide campus-chapter IT club. Plan/Design/Web/Spring/Node/Android/iOS tracks.",
+      "tip": "매 학기 모집, 지부(학교)별 일정 상이 — 2학기 모집 8~9월 예상. 소속 학교 지부 확인.",
+      "tip_en": "Recruits every semester per chapter; fall round expected Aug-Sep. Check your campus chapter.",
+      "schedule_note": "2학기 모집 2026년 8~9월 예상 (지부별 상이)",
+      "schedule_note_en": "Fall recruiting expected Aug-Sep 2026 (varies by chapter)",
+      "events": [],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "kusitms-34",
+      "name": "큐시즘 34기 (KUSITMS)",
+      "name_en": "KUSITMS (34th)",
+      "category": "동아리·커뮤니티",
+      "status": "upcoming",
+      "tags": [
+        "IT경영학회",
+        "대학생",
+        "밋업",
+        "서울"
+      ],
+      "tags_en": [
+        "IT-business",
+        "university",
+        "meetup",
+        "Seoul"
+      ],
+      "url": "https://www.kusitms.com/recruit",
+      "prize": "6개월 활동 + 밋업 프로젝트 + 데모데이",
+      "prize_en": "6-month terms + meetup projects + demo day",
+      "description": "한국대학생IT경영학회 — IT×경영 융합. 기획·디자인·프론트·백엔드. 매주 토 서울 대면.",
+      "description_en": "Korea University Students' IT & Management Society. PM, design, frontend, backend. Saturday sessions in Seoul.",
+      "tip": "34기 접수 7월 말~8월 초 예상 — 지금이 공지 시점, kusitms.com 바로 확인.",
+      "tip_en": "34th applications expected late Jul-early Aug, i.e. right now; check kusitms.com.",
+      "schedule_note": "34기 모집 2026년 7월 말~8월 예상 (33기: 3~8월 활동)",
+      "schedule_note_en": "34th recruiting expected late Jul-Aug 2026",
+      "events": [],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "prography-12",
+      "name": "프로그라피 12기 (Prography)",
+      "name_en": "Prography (12th)",
+      "category": "동아리·커뮤니티",
+      "status": "upcoming",
+      "tags": [
+        "연합동아리",
+        "6개월",
+        "런칭"
+      ],
+      "tags_en": [
+        "union-club",
+        "6-months",
+        "launch"
+      ],
+      "url": "https://prography.org",
+      "prize": "6개월 프로젝트 — 런칭 + 유저 검증 + 수익화",
+      "prize_en": "6-month projects: launch, user validation, monetization",
+      "description": "PO·디자이너·iOS·Android·React·Spring 직군. 실제 서비스 런칭과 검증까지 목표.",
+      "description_en": "PO, designer, iOS, Android, React, Spring tracks. Aims for real launches with user validation.",
+      "tip": "연 1회 모집 — 12기 2027년 1~2월 예상.",
+      "tip_en": "Recruits once a year; 12th expected Jan-Feb 2027.",
+      "schedule_note": "12기 모집 2027년 1~2월 예상 (11기 활동 중)",
+      "schedule_note_en": "12th expected Jan-Feb 2027 (11th currently active)",
+      "events": [],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "cmc",
+      "name": "CMC (Central MakeUs Challenge)",
+      "name_en": "CMC (Central MakeUs Challenge)",
+      "category": "동아리·커뮤니티",
+      "status": "upcoming",
+      "tags": [
+        "직장인가능",
+        "앱런칭",
+        "3개월"
+      ],
+      "tags_en": [
+        "professionals-ok",
+        "app-launch",
+        "3-months"
+      ],
+      "url": "https://cmc.makeus.in",
+      "prize": "3개월 수익형 앱 런칭 + 데모데이",
+      "prize_en": "3-month revenue-app launches + demo day",
+      "description": "UMC의 성인판 — 대학생·취준생·현직자·창업자 모두 가능. 기획·디자인·모바일·서버·웹.",
+      "description_en": "Adult counterpart of UMC, open to students, job seekers, professionals, founders.",
+      "tip": "다음 기수 모집 8~9월 예상 — makeus.in 확인.",
+      "tip_en": "Next round expected Aug-Sep; check makeus.in.",
+      "schedule_note": "차기 모집 2026년 8~9월 예상 (3개월 단위 기수)",
+      "schedule_note_en": "Next round expected Aug-Sep 2026 (3-month terms)",
+      "events": [],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "pirogramming-26",
+      "name": "피로그래밍 26기",
+      "name_en": "Pirogramming (26th)",
+      "category": "동아리·커뮤니티",
+      "status": "upcoming",
+      "tags": [
+        "비전공자",
+        "웹입문",
+        "방학8주"
+      ],
+      "tags_en": [
+        "non-majors",
+        "web-basics",
+        "8-week-vacation"
+      ],
+      "url": "https://pirogramming.com",
+      "prize": "8주 웹 교육 + 1개월 프로젝트",
+      "prize_en": "8-week web training + 1-month project",
+      "description": "비전공자·저학년 중심 웹 프로그래밍 동아리. HTML/CSS/JS·Django, 방학 8주 과정, 연 2회 모집.",
+      "description_en": "Web programming club for non-majors and underclassmen. HTML/CSS/JS + Django, 8-week vacation terms, twice yearly.",
+      "tip": "26기(겨울)는 11~12월 모집 예상 (25기: 5.25~6.5 접수).",
+      "tip_en": "26th (winter) expected to recruit Nov-Dec (25th applied May 25-Jun 5).",
+      "schedule_note": "26기 모집 2026년 11~12월 예상",
+      "schedule_note_en": "26th recruiting expected Nov-Dec 2026",
+      "events": [],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "goormthon-univ",
+      "name": "구름톤 유니브 (kakao×goorm)",
+      "name_en": "9oormthon UNIV (kakao × goorm)",
+      "category": "동아리·커뮤니티",
+      "status": "upcoming",
+      "tags": [
+        "대학생",
+        "해커톤",
+        "카카오",
+        "전국"
+      ],
+      "tags_en": [
+        "university",
+        "hackathon",
+        "Kakao",
+        "nationwide"
+      ],
+      "url": "https://github.com/9oormthon-univ",
+      "prize": "구름톤 in JEJU 등 시즌 해커톤 참가",
+      "prize_en": "Seasonal hackathons like 9oormthon in JEJU",
+      "description": "구름·카카오 공동 운영 전국 대학 IT 연합. 학교별 대표 선발 → 참가자 모집 구조. 해커톤 중심.",
+      "description_en": "Nationwide university IT union by goorm and Kakao. Campus-rep structure, hackathon-centric.",
+      "tip": "차기 기수 일정 미확인 — goorm 공식 블로그·인스타 모니터링.",
+      "tip_en": "Next cohort schedule unconfirmed; monitor goorm's official blog/Instagram.",
+      "schedule_note": "차기 기수 일정 미공개 · goorm 공식 채널 공지 대기",
+      "schedule_note_en": "Next cohort schedule not yet published; watch goorm's official channels",
+      "events": [],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
+    },
+    {
+      "id": "sw-maestro-18",
+      "name": "SW마에스트로 18기",
+      "name_en": "SW Maestro (18th)",
+      "category": "부트캠프",
+      "status": "upcoming",
+      "tags": [
+        "정부",
+        "월100만원",
+        "장비지원",
+        "연수"
+      ],
+      "tags_en": [
+        "government",
+        "1M-KRW-monthly",
+        "device-stipend",
+        "fellowship"
+      ],
+      "url": "https://www.swmaestro.ai",
+      "prize": "월 100만 원 장학금 + IT 기기 구입비 300만 원",
+      "prize_en": "1M KRW monthly scholarship + 3M KRW device stipend",
+      "description": "과기정통부 AI·SW 인재 연수 (예비 2개월 + 본과정 6개월). 재학생·미취업자, 학력·전공 무관. 서울 300명 + 부산 150명.",
+      "description_en": "MSIT's AI/SW fellowship (2-month prep + 6-month main). Students or unemployed, any major. 300 seats Seoul + 150 Busan.",
+      "tip": "17기는 1~3월 모집 완료. 18기 2027년 1~2월 예상 — 코딩테스트 지금부터 준비.",
+      "tip_en": "17th recruited Jan-Mar. 18th expected Jan-Feb 2027; start preparing for the coding test now.",
+      "schedule_note": "18기 모집 2027년 1~2월 예상 (17기: 서울 1.12~2.11)",
+      "schedule_note_en": "18th expected Jan-Feb 2027 (17th Seoul round: Jan 12-Feb 11)",
+      "events": [],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
     }
   ],
   "roadmaps": [
@@ -1728,8 +2923,8 @@
           "activityId": "boostcamp-11",
           "phase": "집중 교육",
           "phase_en": "Training",
-          "note": "대안: 네이버 계열 경로",
-          "note_en": "Alternative: NAVER path"
+          "note": "2026년 미운영 공지 — 재개 시 대안 경로",
+          "note_en": "Not running in 2026; an alternative if it returns"
         }
       ]
     },
@@ -1744,8 +2939,8 @@
           "activityId": "gdsc",
           "phase": "커뮤니티",
           "phase_en": "Community",
-          "note": "지금 Lead 모집 중 — 멤버는 9~10월",
-          "note_en": "Lead recruiting now; members Sep-Oct"
+          "note": "멤버 모집 9~10월 (캠퍼스별)",
+          "note_en": "Member recruiting Sep-Oct per campus"
         },
         {
           "activityId": "likelion",
@@ -1839,6 +3034,289 @@
     }
   ],
   "briefings": [
+    {
+      "date": "2026-07-25",
+      "summary": "신규 34건 · 변경 9건 · 10일 내 마감 3건",
+      "summary_en": "34 new · 9 changed · 3 deadlines within 10 days",
+      "items": [
+        {
+          "kind": "new",
+          "text": "신규: 제8회 KB Future Finance A.I. Challenge",
+          "text_en": "New: 8th KB Future Finance AI Challenge",
+          "id": "kb-future-finance-ai-8"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 제24회 임베디드SW경진대회",
+          "text_en": "New: 24th Embedded SW Contest",
+          "id": "embedded-sw-contest-24"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 메이플스토리 월드 글로벌 개발 콘테스트",
+          "text_en": "New: MapleStory Worlds Global Dev Contest",
+          "id": "maplestory-worlds-contest-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 2026 빅콘테스트 (제14회)",
+          "text_en": "New: BigContest 2026 (14th)",
+          "id": "bigcontest-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 제5회 국방 AI 경진대회 (MAICON)",
+          "text_en": "New: 5th Defense AI Competition (MAICON)",
+          "id": "maicon-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: FIESTA 2026 (금융보안 위협분석 대회)",
+          "text_en": "New: FIESTA 2026 (Financial Security Threat Analysis)",
+          "id": "fiesta-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 2026 화이트햇 콘테스트",
+          "text_en": "New: WhiteHat Contest 2026",
+          "id": "whitehat-contest-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 사이버보안 AI·빅데이터 챌린지 2026",
+          "text_en": "New: KISA Cybersecurity AI Challenge 2026",
+          "id": "kisa-aisec-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: JUNCTION ASIA 2026 (JunctionX Korea)",
+          "text_en": "New: JUNCTION ASIA 2026 (JunctionX Korea)",
+          "id": "junction-asia-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 제13회 대한민국 SW융합 해커톤",
+          "text_en": "New: 13th Korea SW Convergence Hackathon",
+          "id": "sw-hackathon-13"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 제4회 전북청년 AI·빅데이터 경진대회",
+          "text_en": "New: 4th Jeonbuk Youth AI & Big Data Competition",
+          "id": "jeonbuk-ai-bigdata-4"
+        },
+        {
+          "kind": "new",
+          "text": "신규: LG Aimers 10기",
+          "text_en": "New: LG Aimers (10th)",
+          "id": "lg-aimers-10"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 파이콘 한국 2026",
+          "text_en": "New: PyCon Korea 2026",
+          "id": "pycon-kr-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: AI Summit Seoul & Expo 2026",
+          "text_en": "New: AI Summit Seoul & Expo 2026",
+          "id": "ai-summit-seoul-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 한국전자전 KES 2026 (제57회)",
+          "text_en": "New: Korea Electronics Show 2026 (57th)",
+          "id": "kes-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 소프트웨이브 2026 (제11회)",
+          "text_en": "New: SOFTWAVE 2026 (11th)",
+          "id": "softwave-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: COMEUP 2026",
+          "text_en": "New: COMEUP 2026",
+          "id": "comeup-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: if(kakao) 26",
+          "text_en": "New: if(kakao) 26",
+          "id": "if-kakao-26"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 우아콘 2026 (WOOWACON)",
+          "text_en": "New: WOOWACON 2026",
+          "id": "woowacon-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 팀네이버 컨퍼런스 DAN 26 (구 DEVIEW)",
+          "text_en": "New: TEAM NAVER Conference DAN 26 (formerly DEVIEW)",
+          "id": "naver-dan-26"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 인프콘 2026 (INFCON)",
+          "text_en": "New: INFCON 2026",
+          "id": "infcon-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: DevFest Korea 2026",
+          "text_en": "New: DevFest Korea 2026",
+          "id": "devfest-korea-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: SOPT 39기",
+          "text_en": "New: SOPT (39th)",
+          "id": "sopt-39"
+        },
+        {
+          "kind": "new",
+          "text": "신규: YAPP 29기",
+          "text_en": "New: YAPP (29th)",
+          "id": "yapp-29"
+        },
+        {
+          "kind": "new",
+          "text": "신규: NEXTERS 30기",
+          "text_en": "New: NEXTERS (30th)",
+          "id": "nexters-30"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 디프만 18기 (Depromeet)",
+          "text_en": "New: Depromeet (18th)",
+          "id": "depromeet-18"
+        },
+        {
+          "kind": "new",
+          "text": "신규: DND 16기",
+          "text_en": "New: DND (16th)",
+          "id": "dnd-16"
+        },
+        {
+          "kind": "new",
+          "text": "신규: UMC (University MakeUs Challenge)",
+          "text_en": "New: UMC (University MakeUs Challenge)",
+          "id": "umc"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 큐시즘 34기 (KUSITMS)",
+          "text_en": "New: KUSITMS (34th)",
+          "id": "kusitms-34"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 프로그라피 12기 (Prography)",
+          "text_en": "New: Prography (12th)",
+          "id": "prography-12"
+        },
+        {
+          "kind": "new",
+          "text": "신규: CMC (Central MakeUs Challenge)",
+          "text_en": "New: CMC (Central MakeUs Challenge)",
+          "id": "cmc"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 피로그래밍 26기",
+          "text_en": "New: Pirogramming (26th)",
+          "id": "pirogramming-26"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 구름톤 유니브 (kakao×goorm)",
+          "text_en": "New: 9oormthon UNIV (kakao × goorm)",
+          "id": "goormthon-univ"
+        },
+        {
+          "kind": "new",
+          "text": "신규: SW마에스트로 18기",
+          "text_en": "New: SW Maestro (18th)",
+          "id": "sw-maestro-18"
+        },
+        {
+          "kind": "change",
+          "text": "신규 활동 24건 추가 (해커톤·보안 대회·컨퍼런스·박람회·IT 동아리 12곳 등)",
+          "text_en": "Added 24 new activities (hackathons, security contests, conferences, expos, 12 IT clubs)",
+          "id": ""
+        },
+        {
+          "kind": "change",
+          "text": "네이버 부스트캠프 2026년 미운영 공식 공지 — 종료 처리",
+          "text_en": "NAVER Boostcamp officially not running in 2026; marked ended",
+          "id": "boostcamp-11"
+        },
+        {
+          "kind": "change",
+          "text": "42서울 2026.9.30 운영 종료 (3.4 공지) — 종료 처리",
+          "text_en": "42Seoul closing Sep 30, 2026 (announced Mar 4); marked ended",
+          "id": "42seoul"
+        },
+        {
+          "kind": "change",
+          "text": "LG Aimers 9기 모집은 5~6월에 이미 마감 — 진행중(참가 불가)로 정정, 10기 항목 신설",
+          "text_en": "LG Aimers 9th recruiting actually closed in May-Jun; corrected to ongoing (closed), added 10th entry",
+          "id": "lg-aimers-9"
+        },
+        {
+          "kind": "change",
+          "text": "ARC Prize 최종 마감 11.02로 정정 (기존 11.09), Paper Track 11.08 추가",
+          "text_en": "ARC Prize final deadline corrected to Nov 2 (was Nov 9); Paper Track Nov 8 added",
+          "id": "arc-prize-2026"
+        },
+        {
+          "kind": "change",
+          "text": "GDSC → GDG on Campus 개명 반영, Lead 모집 시기 정정 (3~6월)",
+          "text_en": "Renamed GDSC to GDG on Campus; organizer window corrected to Mar-Jun",
+          "id": "gdsc"
+        },
+        {
+          "kind": "change",
+          "text": "Meta Hacker Cup 예선 시기 10~11월로 정정 (최근 패턴)",
+          "text_en": "Meta Hacker Cup qualifiers corrected to Oct-Nov per recent pattern",
+          "id": "meta-hacker-cup-2026"
+        },
+        {
+          "kind": "change",
+          "text": "FEConf 예년 8월 개최로 정정 (기존 10~11월 표기)",
+          "text_en": "FEConf corrected to its usual August timing (was listed Oct-Nov)",
+          "id": "feconf-2026"
+        },
+        {
+          "kind": "change",
+          "text": "전국민 AI 경진대회 공식 도메인 교체 + 사례 공모전(참가 가능) 정보 추가",
+          "text_en": "AI Champion: official domain replaced; open side-track (use-case contest) noted",
+          "id": "ai-champion-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-1 AMIA 2026 Public Challenge — 제출 마감 (2026-07-26)",
+          "text_en": "D-1 AMIA 2026 Public Challenge — Submission deadline (2026-07-26)",
+          "id": "amia-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-6 AI Summit Seoul & Expo 2026 — 무료 사전등록 마감 (2026-07-31)",
+          "text_en": "D-6 AI Summit Seoul & Expo 2026 — Free pre-registration deadline (2026-07-31)",
+          "id": "ai-summit-seoul-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-9 제8회 KB Future Finance A.I. Challenge — 접수 마감 (2026-08-03)",
+          "text_en": "D-9 8th KB Future Finance AI Challenge — Application deadline (2026-08-03)",
+          "id": "kb-future-finance-ai-8"
+        }
+      ]
+    },
     {
       "date": "2026-07-24",
       "summary": "신규 0건 · 변경 0건 · 10일 내 마감 1건",

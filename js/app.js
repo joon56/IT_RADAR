@@ -173,6 +173,7 @@
     "동아리·커뮤니티": "Clubs · Community",
     "컨퍼런스·박람회": "Conferences · Expos",
     "해커톤": "Hackathons",
+    "보안": "Security",
   };
 
   let DATA = null;
