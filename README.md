@@ -13,6 +13,8 @@
 
 *Bilingual (한국어 / English) · Dark theme · Zero dependencies · Free forever*
 
+📖 **[이용 가이드 (User Guide, Korean)](docs/GUIDE.md)**
+
 </div>
 
 ---
