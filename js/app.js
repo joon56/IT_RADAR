@@ -28,9 +28,13 @@
       due_today: "오늘",
       due_today_badge: "오늘 마감",
       day_events: "이 날의 일정",
-      day_applying: "이 날 신청 진행 중",
+      day_applying: "이 날 신청 중",
+      day_ongoing: "이 날 진행중",
+      mark_open: "참가 가능",
+      mark_closed: "참가 불가",
       no_events: "일정 없음",
-      no_applying: "신청 기간에 해당하는 활동 없음",
+      no_applying: "신청 중인 활동 없음",
+      no_ongoing: "진행중인 활동 없음",
       panel_hint: "날짜를 클릭하면 해당일의 일정과 신청 진행 중인 활동을 보여줍니다.",
       deadline_suffix: "마감",
       search_placeholder: "활동명·태그 검색",
@@ -56,8 +60,8 @@
       changelog_title: "최근 변경 사항",
       no_timeline: "표시할 일정이 없습니다.",
       tl_range_note: "이번 달부터 6개월",
-      tl_apply_span: "신청 기간",
-      tl_activity_span: "대회·활동 기간",
+      tl_apply_span: "신청 중 기간",
+      tl_activity_span: "대회 진행 기간",
       tl_today: "오늘",
       tab_roadmap: "로드맵",
       tab_briefing: "브리핑",
@@ -101,9 +105,13 @@
       due_today: "Today",
       due_today_badge: "Due today",
       day_events: "Events on this day",
-      day_applying: "Accepting applications on this day",
+      day_applying: "Applying (신청 중) on this day",
+      day_ongoing: "Ongoing on this day",
+      mark_open: "joinable",
+      mark_closed: "closed",
       no_events: "No events",
-      no_applying: "No activities in their application window",
+      no_applying: "No activities accepting applications",
+      no_ongoing: "No ongoing activities",
       panel_hint: "Click a date to see its events and activities currently accepting applications.",
       deadline_suffix: "deadline",
       search_placeholder: "Search name or tags",
@@ -129,8 +137,8 @@
       changelog_title: "Recent changes",
       no_timeline: "Nothing to show.",
       tl_range_note: "this month + 6 months",
-      tl_apply_span: "Application window",
-      tl_activity_span: "Activity period",
+      tl_apply_span: "Applying window (신청 중)",
+      tl_activity_span: "Activity period (진행중)",
       tl_today: "Today",
       tab_roadmap: "Roadmaps",
       tab_briefing: "Briefing",
@@ -259,6 +267,26 @@
       if (start) return start <= dateStr && dateStr <= end;
       return dateStr <= end && (a.status === "applying" || a.status === "ongoing_open");
     });
+  }
+
+  // Activities whose activity period covers the date, with a joinable/closed mark.
+  // Period = first activity_start .. last activity_end (or last activity_start if no end).
+  function ongoingOn(dateStr) {
+    const out = [];
+    for (const a of DATA.activities) {
+      const starts = (a.events || []).filter((e) => e.type === "activity_start").map((e) => e.date);
+      const ends = (a.events || []).filter((e) => e.type === "activity_end").map((e) => e.date);
+      if (!starts.length) continue;
+      const from = starts[0];
+      const to = ends.length ? ends[ends.length - 1] : starts[starts.length - 1];
+      if (!(from <= dateStr && dateStr <= to)) continue;
+      const applyEnds = (a.events || []).filter((e) => e.type === "apply_end").map((e) => e.date);
+      const joinable = applyEnds.length
+        ? applyEnds[applyEnds.length - 1] >= dateStr
+        : a.status === "ongoing_open";
+      out.push({ a, joinable });
+    }
+    return out;
   }
 
   function isBookmarked(id) {
@@ -617,6 +645,21 @@
         .join("");
     } else {
       apHtml += `<p class="day-panel-empty">${t().no_applying}</p>`;
+    }
+
+    const ongoing = ongoingOn(dateStr);
+    apHtml += `<h4>${t().day_ongoing} (${ongoing.length})</h4>`;
+    if (ongoing.length) {
+      apHtml += ongoing
+        .map(
+          (o) =>
+            `<div class="panel-ongoing ${o.joinable ? "" : "po-closed"}">` +
+            `<a href="${o.a.url}" target="_blank" rel="noopener">${f(o.a, "name")}</a>` +
+            `<span class="sub">${o.joinable ? "🟢 " + t().mark_open : "🟡 " + t().mark_closed}</span></div>`
+        )
+        .join("");
+    } else {
+      apHtml += `<p class="day-panel-empty">${t().no_ongoing}</p>`;
     }
 
     panel.innerHTML = html + `<div class="panel-columns"><div>${evHtml}</div><div>${apHtml}</div></div>`;

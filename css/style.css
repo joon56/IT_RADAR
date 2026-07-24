@@ -390,6 +390,7 @@ a:hover { text-decoration: underline; }
 .panel-event .dot { margin-top: 8px; flex-shrink: 0; }
 .panel-event .ev-label { color: var(--text-dim); font-size: 13px; display: block; }
 .panel-ongoing { font-size: 15px; padding: 8px 12px; border-left: 3px solid var(--green); margin-bottom: 8px; }
+.panel-ongoing.po-closed { border-left-color: var(--yellow); }
 .panel-ongoing .sub { color: var(--text-dim); font-size: 13px; display: block; }
 
 /* ---------- Timeline ---------- */

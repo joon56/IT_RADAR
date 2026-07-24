@@ -30,6 +30,8 @@ Each activity:
 
 ## Canonical classification (user-defined, latest version — overrides master_files)
 
+This is ONE unified marking system, not two independent taxonomies. Statuses are its period marks and event types are its point marks; every view must use the same vocabulary. The calendar shows point marks as date chips and surfaces period marks in the day panel (신청 중 / 진행중 with 참가 가능·불가); the timeline draws period marks as bars labeled with the same terms; list/roadmap show period marks as badges.
+
 Statuses (`status`):
 
 - `applying` (신청 중): the activity is currently accepting participation applications, within a bounded window. For boundary-less competitions like Kaggle, do NOT use this; use `ongoing_open` instead.
