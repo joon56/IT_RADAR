@@ -77,7 +77,7 @@ CLAUDE.md               ← data schema + maintenance playbook
 
 <div align="center">
 
-Published by **[Minjoon Yoo](https://www.yoominjoon.com)**
+Published by **Minjoon Yoo**
 
 [![Email](https://img.shields.io/badge/Email-webdamo56%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:webdamo56@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-joon56-181717?logo=github&logoColor=white)](https://github.com/joon56)
