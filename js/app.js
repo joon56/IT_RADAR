@@ -922,6 +922,11 @@
       tab.addEventListener("click", () => setView(tab.dataset.view))
     );
 
+    $("#brand-home").addEventListener("click", () => {
+      setView("calendar");
+      window.scrollTo({ top: 0 });
+    });
+
     document.querySelectorAll(".lang-btn").forEach((btn) =>
       btn.addEventListener("click", () => {
         if (btn.dataset.lang === lang) return;

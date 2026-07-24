@@ -52,7 +52,17 @@ a:hover { text-decoration: underline; }
   justify-content: space-between;
   gap: 16px;
 }
-.brand { display: flex; align-items: center; gap: 10px; }
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: none;
+  border: none;
+  padding: 0;
+  color: inherit;
+  font-family: inherit;
+  cursor: pointer;
+}
 .brand-mark {
   position: relative;
   overflow: hidden;
@@ -714,6 +724,9 @@ a:hover { text-decoration: underline; }
   color: var(--text-dim);
   font-size: 13px;
 }
+.published { margin-top: 10px; font-size: 12.5px; color: var(--text-dim); }
+.published a { color: var(--text-dim); text-decoration: underline; text-underline-offset: 2px; }
+.published a:hover { color: var(--accent); }
 .contact {
   display: flex;
   align-items: center;
