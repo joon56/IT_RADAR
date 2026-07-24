@@ -56,6 +56,9 @@
       changelog_title: "최근 변경 사항",
       no_timeline: "표시할 일정이 없습니다.",
       tl_range_note: "이번 달부터 6개월",
+      tl_apply_span: "신청 기간",
+      tl_activity_span: "대회·활동 기간",
+      tl_today: "오늘",
       tab_roadmap: "로드맵",
       tab_briefing: "브리핑",
       roadmap_intro: "목표를 고르면 어떤 활동을 어떤 순서로 하면 되는지 보여줍니다. 각 단계는 실제 활동과 연결되어 있습니다.",
@@ -123,6 +126,9 @@
       changelog_title: "Recent changes",
       no_timeline: "Nothing to show.",
       tl_range_note: "this month + 6 months",
+      tl_apply_span: "Application window",
+      tl_activity_span: "Activity period",
+      tl_today: "Today",
       tab_roadmap: "Roadmaps",
       tab_briefing: "Briefing",
       roadmap_intro: "Pick a goal to see which activities to do, in what order. Every step links to a real activity.",
@@ -604,6 +610,19 @@
   /* ---------- Timeline ---------- */
 
   function renderTimeline() {
+    // Legend: what each bar/marker shape and color means
+    $("#tl-legend").innerHTML = [
+      `<span class="legend-item"><i class="sw-bar swb-green"></i>${t().tl_apply_span}</span>`,
+      `<span class="legend-item"><i class="sw-bar swb-blue"></i>${t().tl_activity_span}</span>`,
+      `<span class="legend-item"><i class="sw-diamond tlm-red"></i>${t().types.apply_end}</span>`,
+      `<span class="legend-item"><i class="sw-diamond tlm-orange"></i>${t().types.partial_deadline}</span>`,
+      `<span class="legend-item"><i class="dot dot-green"></i>${t().types.apply_start}</span>`,
+      `<span class="legend-item"><i class="dot dot-blue"></i>${t().types.activity_start}</span>`,
+      `<span class="legend-item"><i class="dot dot-slate"></i>${t().types.activity_end}</span>`,
+      `<span class="legend-item"><i class="dot dot-purple"></i>${t().types.announce}</span>`,
+      `<span class="legend-item"><i class="sw-today"></i>${t().tl_today}</span>`,
+    ].join("");
+
     const wrap = $("#timeline-body");
     const now = new Date();
     const rangeStart = new Date(now.getFullYear(), now.getMonth(), 1);

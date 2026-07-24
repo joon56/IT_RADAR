@@ -44,20 +44,40 @@ Event types (`events[].type`):
 - `activity_end` (활동 종료, slate): the complete end point of the competition.
 - `announce` (발표, purple): scheduled results announcement date.
 
-## Update routine (when the user asks to refresh / 최신화)
+## Maintenance routine (when the user asks to refresh / 최신화)
 
-1. Web-search every activity whose status or dates could have changed (anything not `ended`, plus expected announcements). Verify against official sites.
-2. Search for NEW activities to add: hackathons, contests, bootcamps, conferences, expos, IT clubs (SOPT, YAPP, 넥스터즈, 디프만, DND, UMC, 큐시즘...), government programs. Include everything; the web UI filters by tags.
-3. Update `data/activities.json`: bump `updated`, flip statuses, add confirmed dates to `events`, add new activities, keep `ended` items (history).
-   - New activities get `added: <today>` (drives the per-visitor NEW badge).
-   - Append a `changelog` entry: `{ date, changes: [{ id, note, note_en }] }` covering additions and meaningful date/status changes. Keep the newest first; the UI shows the latest 5 entries.
-4. Regenerate derived files, in this order:
-   - `py tools/build_briefing.py` — composes the briefing for `updated` from new items, the matching changelog entry, and deadlines within 10 days (idempotent per date)
-   - `py tools/build_rss.py` — regenerates feed.xml from briefings
-   - `py tools/build_md.py` — regenerates the markdown master doc
-   - `py tools/build_ics.py` — regenerates calendar.ics (public subscription feed; stable UIDs let calendar apps update in place)
-5. Update `lastmod` in `sitemap.xml`.
-6. Commit and push (English commit message, see conventions below).
+The user's canonical 4-phase routine. Follow every phase, in order.
+
+### Phase 1 — Deep web search first, always
+
+- Web-search EVERY activity whose status or dates could have changed (anything not `ended`, plus expected announcements). Verify against official sites, not news articles.
+- Deep-search for NEW events not yet in the list: hackathons, contests, bootcamps, conferences, expos, IT clubs (SOPT, YAPP, 넥스터즈, 디프만, DND, UMC, 큐시즘...), government programs. Include everything worth insight; the web UI filters by tags.
+
+### Phase 2 — Apply changes across the whole site
+
+- Update `data/activities.json`: bump `updated`, flip statuses, add confirmed dates to `events`, add new activities, keep `ended` items (history).
+  - New activities get `added: <today>` (drives the per-visitor NEW badge).
+  - Append a `changelog` entry: `{ date, changes: [{ id, note, note_en }] }` covering additions and meaningful date/status changes. Newest first; the UI shows the latest 5 entries.
+- Propagate beyond the list: review `roadmaps` step notes (stale dates/statuses), category set, and whether new activities belong in existing roadmaps or checklists.
+- Regenerate derived files, in this order:
+  - `py tools/build_briefing.py` — briefing for `updated` (idempotent per date)
+  - `py tools/build_rss.py` — feed.xml from briefings
+  - `py tools/build_md.py` — markdown master doc
+  - `py tools/build_ics.py` — calendar.ics (stable UIDs let calendar apps update in place)
+- Update `lastmod` in `sitemap.xml`.
+
+### Phase 3 — Integrity check before shipping
+
+- JSON parses; every activity has all `_en` fields; every event type and status is a valid enum value.
+- Roadmap `activityId` references all resolve; checklist/links structures well-formed.
+- No date typos (events sorted sanely, apply_start <= apply_end); statuses consistent with today's date.
+- Quick check script pattern:
+  `py -c "import json; d=json.load(open('data/activities.json',encoding='utf-8')); ..."` (validate enums, _en coverage, roadmap refs).
+
+### Phase 4 — Redeploy
+
+- Commit and push (English commit message, see conventions below). Push = deploy on GitHub Pages.
+- Confirm the live site loads and shows the new `updated` date.
 
 ## Content fields beyond the basics
 

@@ -371,6 +371,12 @@ a:hover { text-decoration: underline; }
   border-radius: var(--radius);
   padding: 16px;
 }
+.tl-legend { margin-bottom: 14px; }
+.sw-bar { width: 22px; height: 10px; border-radius: 5px; display: inline-block; flex-shrink: 0; }
+.swb-green { background: rgba(63, 185, 80, 0.55); }
+.swb-blue { background: rgba(88, 166, 255, 0.5); }
+.sw-diamond { width: 9px; height: 9px; transform: rotate(45deg); display: inline-block; flex-shrink: 0; }
+.sw-today { width: 2px; height: 14px; background: var(--accent); opacity: 0.75; display: inline-block; flex-shrink: 0; }
 .timeline-scroll { overflow-x: auto; }
 .timeline-scroll > div { min-width: 720px; }
 .tl-row {
