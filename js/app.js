@@ -63,7 +63,9 @@
       tab_briefing: "브리핑",
       roadmap_intro: "목표를 고르면 어떤 활동을 어떤 순서로 하면 되는지 보여줍니다. 제목을 누르면 펼쳐집니다.",
       rm_steps: (n) => `${n}단계`,
-      briefing_intro: "데이터가 갱신될 때마다 자동 생성되는 요약입니다. RSS로 구독할 수 있습니다.",
+      briefing_intro: "데이터는 매주 월·수·금 자동 업데이트되며, 갱신될 때마다 아래 요약이 생성됩니다. RSS로 구독할 수 있습니다.",
+      data_notice: "일정 정보는 웹 검색 기반으로 수집되어 100% 정확하지 않을 수 있습니다. 지원 전 반드시 공식 사이트에서 확인하세요. 오류를 발견하면",
+      data_notice_report: "제보해주세요",
       checklist_label: "준비 체크리스트",
       links_label: "관련 자료",
       link_google: "구글 후기 검색",
@@ -134,7 +136,9 @@
       tab_briefing: "Briefing",
       roadmap_intro: "Pick a goal to see which activities to do, in what order. Tap a title to expand.",
       rm_steps: (n) => `${n} steps`,
-      briefing_intro: "Auto-generated summaries for every data refresh. Subscribe via RSS.",
+      briefing_intro: "Data auto-updates every Mon, Wed, and Fri; each refresh generates a summary below. Subscribe via RSS.",
+      data_notice: "Schedules are collected via web research and may not be 100% accurate. Always confirm on the official site before applying. Found an error?",
+      data_notice_report: "Report it",
       checklist_label: "Prep checklist",
       links_label: "Related links",
       link_google: "Google reviews",
@@ -311,6 +315,14 @@
     document.querySelector('[data-view="briefing"]').textContent = t().tab_briefing;
     $("#roadmap-intro").textContent = t().roadmap_intro;
     $("#briefing-intro").textContent = t().briefing_intro;
+
+    // Accuracy / report notice on calendar, timeline, list tabs
+    document.querySelectorAll(".data-notice").forEach((el) => {
+      el.innerHTML =
+        `⚠️ ${t().data_notice} ` +
+        `<a href="https://github.com/joon56/IT_RADAR/issues" target="_blank" rel="noopener">${t().data_notice_report}</a>` +
+        ` · <a href="mailto:webdamo56@gmail.com">Email</a>`;
+    });
     $("#cal-today").textContent = t().today;
     $("#search-input").placeholder = t().search_placeholder;
     $("#search-input").value = searchQuery;

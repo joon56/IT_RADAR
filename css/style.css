@@ -222,6 +222,18 @@ a:hover { text-decoration: underline; }
 }
 .sub-btn:hover { border-color: var(--accent); text-decoration: none; }
 
+/* ---------- Data accuracy notice ---------- */
+.data-notice {
+  font-size: 13px;
+  color: var(--text-dim);
+  background: rgba(210, 153, 34, 0.06);
+  border: 1px solid rgba(210, 153, 34, 0.25);
+  border-radius: 8px;
+  padding: 8px 14px;
+  margin-bottom: 14px;
+}
+.data-notice a { font-weight: 600; }
+
 /* ---------- Calendar ---------- */
 .calendar-wrap {
   display: flex;
