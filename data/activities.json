@@ -6,6 +6,11 @@
       "date": "2026-07-25",
       "changes": [
         {
+          "id": "pseudo-lab",
+          "note": "가짜연구소(Pseudo Lab) 추가 — PseudoCon 2026(7.25), 차기 시즌 모집 8~9월 예상",
+          "note_en": "Added Pseudo Lab: PseudoCon 2026 (Jul 25), next-season recruiting expected Aug-Sep"
+        },
+        {
           "id": "",
           "note": "신규 활동 24건 추가 (해커톤·보안 대회·컨퍼런스·박람회·IT 동아리 12곳 등)",
           "note_en": "Added 24 new activities (hackathons, security contests, conferences, expos, 12 IT clubs)"
@@ -2807,6 +2812,48 @@
       "events": [],
       "added": "2026-07-25",
       "checked": "2026-07-25"
+    },
+    {
+      "id": "pseudo-lab",
+      "name": "가짜연구소 (Pseudo Lab)",
+      "name_en": "Pseudo Lab",
+      "category": "동아리·커뮤니티",
+      "status": "ongoing_open",
+      "tags": [
+        "비영리",
+        "AI",
+        "ML",
+        "스터디",
+        "오픈소스",
+        "기수제"
+      ],
+      "tags_en": [
+        "nonprofit",
+        "AI",
+        "ML",
+        "study",
+        "open-source",
+        "seasonal"
+      ],
+      "url": "https://pseudo-lab.com",
+      "prize": "무료 · 시즌제 스터디 + 프로젝트 + PseudoCon 컨퍼런스",
+      "prize_en": "Free; seasonal studies + projects + the PseudoCon conference",
+      "description": "국내 최대 AI/ML 비영리 오픈 커뮤니티 (멤버 6,300+, 누적 프로젝트 292개). Agentic AI·Physical AI 중심. 디스코드 상시 참여, 시즌제 러너(스터디원)·빌더(리더) 모집.",
+      "description_en": "Korea's largest nonprofit open AI/ML community (6,300+ members, 292 projects). Focused on agentic and physical AI. Discord open anytime; seasonal runner/builder recruiting.",
+      "tip": "디스코드는 지금 바로 가입 가능. 다음 시즌 러너 모집은 예년 패턴상 8월 말~9월 초 — 공지 주시.",
+      "tip_en": "Join the Discord anytime. Next-season runner recruiting usually opens late Aug-early Sep; watch for the notice.",
+      "schedule_note": "차기 시즌 러너 모집 2026년 8~9월 예상 (Season 11: 9.4 마감 패턴) · PseudoCon 2026: 7.25",
+      "schedule_note_en": "Next-season runner recruiting expected Aug-Sep 2026 (Season 11 closed Sep 4); PseudoCon 2026 on Jul 25",
+      "events": [
+        {
+          "type": "activity_start",
+          "date": "2026-07-25",
+          "label": "PseudoCon 2026",
+          "label_en": "PseudoCon 2026"
+        }
+      ],
+      "added": "2026-07-25",
+      "checked": "2026-07-25"
     }
   ],
   "roadmaps": [
@@ -3036,8 +3083,8 @@
   "briefings": [
     {
       "date": "2026-07-25",
-      "summary": "신규 34건 · 변경 9건 · 10일 내 마감 3건",
-      "summary_en": "34 new · 9 changed · 3 deadlines within 10 days",
+      "summary": "신규 35건 · 변경 10건 · 10일 내 마감 3건",
+      "summary_en": "35 new · 10 changed · 3 deadlines within 10 days",
       "items": [
         {
           "kind": "new",
@@ -3242,6 +3289,18 @@
           "text": "신규: SW마에스트로 18기",
           "text_en": "New: SW Maestro (18th)",
           "id": "sw-maestro-18"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 가짜연구소 (Pseudo Lab)",
+          "text_en": "New: Pseudo Lab",
+          "id": "pseudo-lab"
+        },
+        {
+          "kind": "change",
+          "text": "가짜연구소(Pseudo Lab) 추가 — PseudoCon 2026(7.25), 차기 시즌 모집 8~9월 예상",
+          "text_en": "Added Pseudo Lab: PseudoCon 2026 (Jul 25), next-season recruiting expected Aug-Sep",
+          "id": "pseudo-lab"
         },
         {
           "kind": "change",
