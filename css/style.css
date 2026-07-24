@@ -109,7 +109,13 @@ a:hover { text-decoration: underline; }
 .lang-btn:hover { color: var(--text); }
 .lang-btn.active { background: var(--surface-2); color: var(--accent); }
 
-.tabs { display: flex; gap: 4px; }
+.tabs {
+  display: flex;
+  gap: 4px;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+.tabs::-webkit-scrollbar { display: none; }
 .tab {
   background: none;
   border: none;
@@ -372,6 +378,7 @@ a:hover { text-decoration: underline; }
   padding: 16px;
 }
 .tl-legend { margin-bottom: 14px; }
+.timeline-scroll { -webkit-overflow-scrolling: touch; }
 .sw-bar { width: 22px; height: 10px; border-radius: 5px; display: inline-block; flex-shrink: 0; }
 .swb-green { background: rgba(63, 185, 80, 0.55); }
 .swb-blue { background: rgba(88, 166, 255, 0.5); }
@@ -698,14 +705,28 @@ a:hover { text-decoration: underline; }
 @media (max-width: 700px) {
   .header-inner { height: auto; flex-wrap: wrap; padding: 8px 12px; row-gap: 4px; }
   .tabs { overflow-x: auto; max-width: 100%; }
+  .header-right { width: 100%; justify-content: space-between; }
+  .brand h1 { font-size: 17px; }
   .rm-flow { flex-direction: column; }
   .rm-step { max-width: none; }
   .rm-arrow { transform: rotate(90deg); align-self: flex-start; margin-left: 20px; }
+  .roadmap { padding: 14px 14px; }
+  .briefing { padding: 12px 14px; }
+  .day-panel { padding: 16px 14px; }
+  .calendar-main { padding: 12px 10px; }
 }
 @media (max-width: 600px) {
   .header-inner { padding: 8px 12px; }
-  .container { padding: 12px; }
-  .day-cell { min-height: 64px; padding: 4px 5px; }
+  .container { padding: 12px 10px; }
+  .tab { font-size: 14px; padding: 7px 11px; white-space: nowrap; }
+  .cal-nav { width: 36px; height: 36px; }
+  .cal-today-btn { padding: 8px 14px; }
+  .calendar-header h2 { font-size: 17px; min-width: 110px; }
+  .sub-btn { font-size: 12.5px; padding: 7px 10px; }
+  .cal-legend { gap: 3px 10px; }
+  .legend-item { font-size: 12px; }
+  .day-cell { min-height: 58px; padding: 4px 4px; }
+  .day-num { font-size: 13px; }
   .day-events { flex-direction: row; flex-wrap: wrap; gap: 3px; }
   .cell-chip {
     width: 9px;
@@ -714,8 +735,16 @@ a:hover { text-decoration: underline; }
     border-radius: 50%;
     font-size: 0;
   }
+  .day-more { font-size: 10px; }
   .panel-columns { grid-template-columns: 1fr; }
+  .panel-event { font-size: 14px; }
   .card-grid { grid-template-columns: 1fr; }
+  .card { padding: 14px; }
   .updated { display: none; }
-  .tl-row { grid-template-columns: 150px 1fr; }
+  .deadline-banner li, .my-dday li { font-size: 13.5px; }
+  .tl-row { grid-template-columns: 130px 1fr; gap: 8px; }
+  .tl-name { font-size: 13px; }
+  .chip { font-size: 13px; padding: 6px 11px; }
+  .contact { gap: 12px; }
+  .contact a svg { width: 20px; height: 20px; }
 }
