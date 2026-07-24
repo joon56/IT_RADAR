@@ -122,7 +122,8 @@
           "title_en": "Open SW portal",
           "url": "https://www.oss.kr"
         }
-      ]
+      ],
+      "checked": "2026-07-13"
     },
     {
       "id": "google-solution-challenge",
@@ -176,7 +177,8 @@
           "item": "Firebase·GCP 학습",
           "item_en": "Learn Firebase/GCP"
         }
-      ]
+      ],
+      "checked": "2026-07-13"
     },
     {
       "id": "oss-contribution-academy",
@@ -206,7 +208,8 @@
       "schedule_note": "체험형 진행 중 · 참여형 2026 하반기 모집 예정",
       "schedule_note_en": "Experience track ongoing · participation track recruiting in H2 2026",
       "events": [],
-      "added": "2026-07-13"
+      "added": "2026-07-13",
+      "checked": "2026-07-13"
     },
     {
       "id": "aws-hackathon-korea",
@@ -236,7 +239,8 @@
       "schedule_note": "연중 수시 개최 · aws.amazon.com/ko/events 공지 확인",
       "schedule_note_en": "Held throughout the year · check aws.amazon.com/ko/events",
       "events": [],
-      "added": "2026-07-13"
+      "added": "2026-07-13",
+      "checked": "2026-07-13"
     },
     {
       "id": "feconf-2026",
@@ -266,7 +270,8 @@
       "schedule_note": "CFP 2026 여름 공지 예정 · 컨퍼런스 10~11월 예상",
       "schedule_note_en": "CFP announced summer 2026 · conference expected Oct-Nov",
       "events": [],
-      "added": "2026-07-13"
+      "added": "2026-07-13",
+      "checked": "2026-07-13"
     },
     {
       "id": "kaggle-platform",
@@ -309,7 +314,8 @@
           "title_en": "Playground Series",
           "url": "https://www.kaggle.com/competitions?hostSegmentIdFilter=8"
         }
-      ]
+      ],
+      "checked": "2026-07-13"
     },
     {
       "id": "arc-prize-2026",
@@ -370,7 +376,8 @@
           "item": "Milestone #2 제출 (~09.30)",
           "item_en": "Submit for Milestone #2 (by Sep 30)"
         }
-      ]
+      ],
+      "checked": "2026-07-13"
     },
     {
       "id": "drivendata",
@@ -402,7 +409,8 @@
       "schedule_note": "상시 복수 대회 운영",
       "schedule_note_en": "Multiple competitions at all times",
       "events": [],
-      "added": "2026-07-13"
+      "added": "2026-07-13",
+      "checked": "2026-07-13"
     },
     {
       "id": "dacon",
@@ -439,7 +447,8 @@
           "title_en": "2026 competitions forum thread",
           "url": "https://dacon.io/forum/401687"
         }
-      ]
+      ],
+      "checked": "2026-07-13"
     },
     {
       "id": "ai-factory",
@@ -467,7 +476,8 @@
       "schedule_note": "에너지 AI 경진대회 등 수시 모집",
       "schedule_note_en": "Energy AI contest and others recruiting periodically",
       "events": [],
-      "added": "2026-07-13"
+      "added": "2026-07-13",
+      "checked": "2026-07-13"
     },
     {
       "id": "samsung-ai-challenge-2026",
@@ -495,7 +505,8 @@
       "schedule_note": "2026년 7~8월 오픈 예상 · dacon.io 공지 확인",
       "schedule_note_en": "Expected to open Jul-Aug 2026 · watch dacon.io",
       "events": [],
-      "added": "2026-07-13"
+      "added": "2026-07-13",
+      "checked": "2026-07-13"
     },
     {
       "id": "lg-aimers-9",
@@ -525,7 +536,8 @@
       "schedule_note": "2026년 8~10월 모집 예상",
       "schedule_note_en": "Recruiting expected Aug-Oct 2026",
       "events": [],
-      "added": "2026-07-13"
+      "added": "2026-07-13",
+      "checked": "2026-07-13"
     },
     {
       "id": "jump-ai-4",
@@ -596,7 +608,8 @@
           "item": "예선 제출 (~08.07)",
           "item_en": "Submit prelim entry (by Aug 7)"
         }
-      ]
+      ],
+      "checked": "2026-07-13"
     },
     {
       "id": "ai-champion-2026",
@@ -624,7 +637,8 @@
       "schedule_note": "본선 2026년 8월 · 결선 11월 (세부 일자 미공개)",
       "schedule_note_en": "Finals Aug 2026 · grand finals Nov (exact dates TBA)",
       "events": [],
-      "added": "2026-07-13"
+      "added": "2026-07-13",
+      "checked": "2026-07-13"
     },
     {
       "id": "neurips-2026-competitions",
@@ -667,7 +681,8 @@
           "label_en": "NeurIPS conference ends"
         }
       ],
-      "added": "2026-07-13"
+      "added": "2026-07-13",
+      "checked": "2026-07-13"
     },
     {
       "id": "icml-2026",
@@ -695,7 +710,8 @@
       "schedule_note": "종료 · ICML 2027 논문 제출 ~2027.01",
       "schedule_note_en": "Ended · ICML 2027 paper deadline ~Jan 2027",
       "events": [],
-      "added": "2026-07-13"
+      "added": "2026-07-13",
+      "checked": "2026-07-13"
     },
     {
       "id": "cvpr-2026",
@@ -723,7 +739,8 @@
       "schedule_note": "2026 학회 종료 · CVPR 2027 논문 제출 ~2026.11",
       "schedule_note_en": "2026 conference ended · CVPR 2027 paper deadline ~Nov 2026",
       "events": [],
-      "added": "2026-07-13"
+      "added": "2026-07-13",
+      "checked": "2026-07-13"
     },
     {
       "id": "eccv-2026",
@@ -764,7 +781,8 @@
           "label_en": "ECCV conference ends"
         }
       ],
-      "added": "2026-07-13"
+      "added": "2026-07-13",
+      "checked": "2026-07-13"
     },
     {
       "id": "iclr-2027",
@@ -792,7 +810,8 @@
       "schedule_note": "논문 제출 2026년 9~10월 예상 · 학회 2027년 봄",
       "schedule_note_en": "Paper deadline expected Sep-Oct 2026 · conference spring 2027",
       "events": [],
-      "added": "2026-07-13"
+      "added": "2026-07-13",
+      "checked": "2026-07-13"
     },
     {
       "id": "grand-challenge",
@@ -825,9 +844,10 @@
         {
           "title": "Active Challenges",
           "title_en": "Active Challenges",
-          "url": "https://grand-challenge.org/challenges/all-challenges/"
+          "url": "https://grand-challenge.org/challenges/"
         }
-      ]
+      ],
+      "checked": "2026-07-13"
     },
     {
       "id": "miccai-2026",
@@ -866,7 +886,8 @@
           "label_en": "MICCAI conference ends"
         }
       ],
-      "added": "2026-07-13"
+      "added": "2026-07-13",
+      "checked": "2026-07-13"
     },
     {
       "id": "amia-2026",
@@ -899,7 +920,8 @@
           "label_en": "Submission deadline"
         }
       ],
-      "added": "2026-07-13"
+      "added": "2026-07-13",
+      "checked": "2026-07-13"
     },
     {
       "id": "codeforces-atcoder",
@@ -939,7 +961,8 @@
           "title_en": "Baekjoon (BOJ)",
           "url": "https://www.acmicpc.net"
         }
-      ]
+      ],
+      "checked": "2026-07-13"
     },
     {
       "id": "icpc-korea-2026",
@@ -1002,7 +1025,8 @@
           "item": "팀 등록 (8~9월)",
           "item_en": "Register team (Aug-Sep)"
         }
-      ]
+      ],
+      "checked": "2026-07-13"
     },
     {
       "id": "scpc-2026",
@@ -1067,7 +1091,8 @@
           "item": "2027년 6월 접수 알림 설정",
           "item_en": "Set alert for Jun 2027 registration"
         }
-      ]
+      ],
+      "checked": "2026-07-13"
     },
     {
       "id": "meta-hacker-cup-2026",
@@ -1095,7 +1120,8 @@
       "schedule_note": "예선 2026년 8~9월 예정",
       "schedule_note_en": "Qualifiers expected Aug-Sep 2026",
       "events": [],
-      "added": "2026-07-13"
+      "added": "2026-07-13",
+      "checked": "2026-07-13"
     },
     {
       "id": "kt-aivle-10",
@@ -1117,7 +1143,7 @@
         "under-34",
         "unemployed"
       ],
-      "url": "https://aivleschool.co.kr",
+      "url": "https://aivle.kt.co.kr",
       "prize": "무료(고용노동부 지원) · KT 채용 우대",
       "prize_en": "Free (MOEL funded) · KT hiring preference",
       "description": "KT + 고용노동부. AI 개발자 / DX 컨설턴트 2개 트랙, 6개월 온라인 840시간. 4년제 6학기 이상.",
@@ -1170,7 +1196,8 @@
           "item": "코딩테스트 준비 (Python 기초)",
           "item_en": "Prepare coding test (Python basics)"
         }
-      ]
+      ],
+      "checked": "2026-07-13"
     },
     {
       "id": "ssafy-17",
@@ -1220,7 +1247,8 @@
           "item": "면접 준비 (인성+PT)",
           "item_en": "Prepare interview (personality + PT)"
         }
-      ]
+      ],
+      "checked": "2026-07-13"
     },
     {
       "id": "softeer-9",
@@ -1268,7 +1296,8 @@
           "item": "포트폴리오 정리",
           "item_en": "Polish portfolio"
         }
-      ]
+      ],
+      "checked": "2026-07-13"
     },
     {
       "id": "boostcamp-11",
@@ -1316,7 +1345,8 @@
           "item": "코어타임(평일 10-19시) 가능 여부 확인",
           "item_en": "Confirm core-time availability (weekdays 10-19)"
         }
-      ]
+      ],
+      "checked": "2026-07-13"
     },
     {
       "id": "krafton-jungle-14",
@@ -1336,7 +1366,7 @@
         "5-months",
         "gaming"
       ],
-      "url": "https://swjungle.net",
+      "url": "https://jungle.krafton.com",
       "prize": "무료 · 게임 업계 채용 연계",
       "prize_en": "Free · gaming industry hiring links",
       "description": "크래프톤 운영, KAIST 정글 기반. 5개월 합숙(용인). 수료생 700+.",
@@ -1364,7 +1394,8 @@
           "item": "5개월 합숙(용인) 가능 여부 확인",
           "item_en": "Confirm 5-month residential availability (Yongin)"
         }
-      ]
+      ],
+      "checked": "2026-07-13"
     },
     {
       "id": "woowacourse-9",
@@ -1412,7 +1443,8 @@
           "item": "최종 코딩테스트 대비",
           "item_en": "Prepare for the final coding test"
         }
-      ]
+      ],
+      "checked": "2026-07-13"
     },
     {
       "id": "42seoul",
@@ -1456,7 +1488,8 @@
           "item": "기초 논리·문제해결 연습",
           "item_en": "Practice logic and problem-solving"
         }
-      ]
+      ],
+      "checked": "2026-07-13"
     },
     {
       "id": "gdsc",
@@ -1486,7 +1519,8 @@
       "schedule_note": "Lead 모집 7~8월 · 멤버 모집 9~10월",
       "schedule_note_en": "Lead recruiting Jul-Aug · member recruiting Sep-Oct",
       "events": [],
-      "added": "2026-07-13"
+      "added": "2026-07-13",
+      "checked": "2026-07-13"
     },
     {
       "id": "likelion",
@@ -1516,7 +1550,8 @@
       "schedule_note": "각 대학 2학기 모집 8~9월",
       "schedule_note_en": "Fall recruiting Aug-Sep per campus",
       "events": [],
-      "added": "2026-07-13"
+      "added": "2026-07-13",
+      "checked": "2026-07-13"
     },
     {
       "id": "gdg-korea",
@@ -1536,7 +1571,7 @@
         "DevFest",
         "professionals-too"
       ],
-      "url": "https://gdg.community.dev/korea",
+      "url": "https://gdg.community.dev/chapters/?country=KR",
       "prize": "DevFest 참가 · 구글러 네트워킹",
       "prize_en": "DevFest access · Googler networking",
       "description": "Google 공인 개발자 커뮤니티. 전국 챕터 월 1~2회 정기 행사. 학생·직장인 모두 활동.",
@@ -1546,7 +1581,8 @@
       "schedule_note": "챕터별 월 1~2회 행사 · DevFest 11~12월",
       "schedule_note_en": "1-2 chapter events monthly · DevFest Nov-Dec",
       "events": [],
-      "added": "2026-07-13"
+      "added": "2026-07-13",
+      "checked": "2026-07-13"
     },
     {
       "id": "it-supporters",
@@ -1574,7 +1610,8 @@
       "schedule_note": "하반기 모집 10~11월 예상 · linkareer 수시 확인",
       "schedule_note_en": "H2 recruiting expected Oct-Nov · check Linkareer regularly",
       "events": [],
-      "added": "2026-07-13"
+      "added": "2026-07-13",
+      "checked": "2026-07-13"
     }
   ],
   "roadmaps": [

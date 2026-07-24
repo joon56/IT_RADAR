@@ -21,6 +21,7 @@ Each activity:
 - `status` and `events[].type` follow the user's canonical classification below.
 - `tags`: Korean keywords for filtering/search
 - `url`, `prize`, `description`, `tip`: display fields (Korean)
+- `added`: date the activity entered the list (drives the NEW badge). `checked`: date its facts were last verified against the web (drives re-verification priority).
 - **Bilingual data**: the site has a KR/EN toggle. Every display field has an `_en` counterpart (`name_en`, `description_en`, `tip_en`, `prize_en`, `schedule_note_en`, `tags_en`, and `label_en` on events). The UI falls back to Korean when an `_en` field is missing, but when adding or editing activities ALWAYS fill both languages.
 - `events`: array of `{ type, date: "YYYY-MM-DD", label? }`. Only concrete confirmed dates go here; fuzzy schedules ("2026 하반기") go in `schedule_note` instead.
 - D-day badges and the deadline banner use `apply_end` + `partial_deadline`.
@@ -46,18 +47,22 @@ Event types (`events[].type`):
 
 ## Maintenance routine (when the user asks to refresh / 최신화)
 
-The user's canonical 4-phase routine. Follow every phase, in order.
+The user's canonical 4-phase routine. Follow every phase, in order. Recommended cadence: **weekly** (the briefing's 10-day deadline horizon assumes roughly weekly refreshes).
 
 ### Phase 1 — Deep web search first, always
 
-- Web-search EVERY activity whose status or dates could have changed (anything not `ended`, plus expected announcements). Verify against official sites, not news articles.
+- Web-search EVERY activity whose status or dates could have changed (anything not `ended`, plus expected announcements). Prioritize activities with the oldest `checked` dates.
+- **Source priority**: official site > competition platform (DACON, Kaggle, grand-challenge) > news > blogs. If no reliable confirmation exists, do NOT write a date — leave it in `schedule_note` marked "예상"/"expected".
 - Deep-search for NEW events not yet in the list: hackathons, contests, bootcamps, conferences, expos, IT clubs (SOPT, YAPP, 넥스터즈, 디프만, DND, UMC, 큐시즘...), government programs. Include everything worth insight; the web UI filters by tags.
+- Stamp `checked: <today>` on every activity actually verified this round.
 
 ### Phase 2 — Apply changes across the whole site
 
 - Update `data/activities.json`: bump `updated`, flip statuses, add confirmed dates to `events`, add new activities, keep `ended` items (history).
   - New activities get `added: <today>` (drives the per-visitor NEW badge).
   - Append a `changelog` entry: `{ date, changes: [{ id, note, note_en }] }` covering additions and meaningful date/status changes. Newest first; the UI shows the latest 5 entries.
+- **ID immutability (hard rule)**: NEVER rename or delete an activity `id`. Visitor bookmarks, checklist states, and ICS UIDs are all keyed by id — renaming silently breaks every visitor's saved data and subscribed calendars. Finished activities become `ended`, never deleted.
+- **Annual rollover**: when a yearly competition's round ends (e.g. SCPC 2026 → `ended`), create the next round as a NEW activity (new id like `scpc-2027`, status `upcoming`) with the expected window in `schedule_note` marked "예상" based on past patterns. Keep the old round as history.
 - Propagate beyond the list: review `roadmaps` step notes (stale dates/statuses), category set, and whether new activities belong in existing roadmaps or checklists.
 - Regenerate derived files, in this order:
   - `py tools/build_briefing.py` — briefing for `updated` (idempotent per date)
@@ -68,11 +73,8 @@ The user's canonical 4-phase routine. Follow every phase, in order.
 
 ### Phase 3 — Integrity check before shipping
 
-- JSON parses; every activity has all `_en` fields; every event type and status is a valid enum value.
-- Roadmap `activityId` references all resolve; checklist/links structures well-formed.
-- No date typos (events sorted sanely, apply_start <= apply_end); statuses consistent with today's date.
-- Quick check script pattern:
-  `py -c "import json; d=json.load(open('data/activities.json',encoding='utf-8')); ..."` (validate enums, _en coverage, roadmap refs).
+- Run `py tools/validate.py` — checks enums, bilingual `_en` coverage (including event labels, checklist, roadmap steps, changelog, briefings), roadmap references, date logic, `added`/`checked` presence, and status-vs-today consistency. Must exit with 0 errors.
+- Run `py tools/validate.py --links` at least once a month (or when adding activities) — pings every activity URL and curated link. Investigate warnings: DNS failures and 404s are real dead links to fix; 403s are usually bot-blocking and fine.
 
 ### Phase 4 — Redeploy
 
