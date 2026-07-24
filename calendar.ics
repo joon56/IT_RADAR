@@ -1,0 +1,352 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//IT RADAR//activities//KO
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IT RADAR
+X-WR-CALDESC:IT 공모전·해커톤·부트캠프 일정
+X-WR-TIMEZONE:Asia/Seoul
+BEGIN:VEVENT
+UID:itradar-oss-dev-contest-2026-apply_start-2026-06-15@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20260615
+DTEND;VALUE=DATE:20260616
+SUMMARY:🟢 2026 오픈소스 개발자대회 (제20회) — 신청 시작
+DESCRIPTION:과기정통부·NIPA 주관\, 20년 역사. GitHub에 오픈
+ 소스 공개하는 SW 개발 대회. 웹·앱·라이브러리·AI 도구
+  전 분야. 학생부·일반부 분리 심사. | https://osscontest.kr
+URL:https://osscontest.kr
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-oss-dev-contest-2026-apply_end-2026-07-17@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
+SUMMARY:🔴 2026 오픈소스 개발자대회 (제20회) — 신청 마감
+DESCRIPTION:과기정통부·NIPA 주관\, 20년 역사. GitHub에 오픈
+ 소스 공개하는 SW 개발 대회. 웹·앱·라이브러리·AI 도구
+  전 분야. 학생부·일반부 분리 심사. | https://osscontest.kr
+URL:https://osscontest.kr
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-oss-dev-contest-2026-activity_start-2026-07-18@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20260718
+DTEND;VALUE=DATE:20260719
+SUMMARY:🔵 2026 오픈소스 개발자대회 (제20회) — 출품작 제
+ 출 시작
+DESCRIPTION:과기정통부·NIPA 주관\, 20년 역사. GitHub에 오픈
+ 소스 공개하는 SW 개발 대회. 웹·앱·라이브러리·AI 도구
+  전 분야. 학생부·일반부 분리 심사. | https://osscontest.kr
+URL:https://osscontest.kr
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-oss-dev-contest-2026-partial_deadline-2026-08-27@joon56.github.
+ io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20260827
+DTEND;VALUE=DATE:20260828
+SUMMARY:🟠 2026 오픈소스 개발자대회 (제20회) — 출품작 제
+ 출 마감
+DESCRIPTION:과기정통부·NIPA 주관\, 20년 역사. GitHub에 오픈
+ 소스 공개하는 SW 개발 대회. 웹·앱·라이브러리·AI 도구
+  전 분야. 학생부·일반부 분리 심사. | https://osscontest.kr
+URL:https://osscontest.kr
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-oss-dev-contest-2026-announce-2026-11-11@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:🟣 2026 오픈소스 개발자대회 (제20회) — 수상 발표
+DESCRIPTION:과기정통부·NIPA 주관\, 20년 역사. GitHub에 오픈
+ 소스 공개하는 SW 개발 대회. 웹·앱·라이브러리·AI 도구
+  전 분야. 학생부·일반부 분리 심사. | https://osscontest.kr
+URL:https://osscontest.kr
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-oss-dev-contest-2026-announce-2026-12-04@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:🟣 2026 오픈소스 개발자대회 (제20회) — 시상식
+DESCRIPTION:과기정통부·NIPA 주관\, 20년 역사. GitHub에 오픈
+ 소스 공개하는 SW 개발 대회. 웹·앱·라이브러리·AI 도구
+  전 분야. 학생부·일반부 분리 심사. | https://osscontest.kr
+URL:https://osscontest.kr
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-arc-prize-2026-partial_deadline-2026-09-30@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:🟠 ARC Prize 2026 (ARC-AGI-2 & AGI-3) — Milestone #2 마감
+DESCRIPTION:François Chollet 주최 AGI 벤치마크. AGI-2 정적 추론(
+ AI ~24%)\, AGI-3 동적 게임형(AI <1%). 오픈소스 의무. | https://
+ arcprize.org
+URL:https://arcprize.org
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-arc-prize-2026-apply_end-2026-11-09@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261110
+SUMMARY:🔴 ARC Prize 2026 (ARC-AGI-2 & AGI-3) — 최종 제출 마감
+DESCRIPTION:François Chollet 주최 AGI 벤치마크. AGI-2 정적 추론(
+ AI ~24%)\, AGI-3 동적 게임형(AI <1%). 오픈소스 의무. | https://
+ arcprize.org
+URL:https://arcprize.org
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-jump-ai-4-apply_end-2026-08-07@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:🔴 제4회 JUMP AI 신약개발 경진대회 — 예선 마감
+DESCRIPTION:보건복지부·한국보건산업진흥원 주관. Agentic AI
+  신약개발 주제. 개인 또는 최대 3인 팀. | https://dacon.io
+URL:https://dacon.io
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-jump-ai-4-activity_start-2026-09-07@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:🔵 제4회 JUMP AI 신약개발 경진대회 — 본선 시작
+DESCRIPTION:보건복지부·한국보건산업진흥원 주관. Agentic AI
+  신약개발 주제. 개인 또는 최대 3인 팀. | https://dacon.io
+URL:https://dacon.io
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-jump-ai-4-activity_end-2026-10-02@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:⚪ 제4회 JUMP AI 신약개발 경진대회 — 본선 종료
+DESCRIPTION:보건복지부·한국보건산업진흥원 주관. Agentic AI
+  신약개발 주제. 개인 또는 최대 3인 팀. | https://dacon.io
+URL:https://dacon.io
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-jump-ai-4-announce-2026-11-06@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:🟣 제4회 JUMP AI 신약개발 경진대회 — 수상자 발표
+DESCRIPTION:보건복지부·한국보건산업진흥원 주관. Agentic AI
+  신약개발 주제. 개인 또는 최대 3인 팀. | https://dacon.io
+URL:https://dacon.io
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-neurips-2026-competitions-activity_start-2026-12-06@joon56.gith
+ ub.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:🔵 NeurIPS 2026 Competitions Track — NeurIPS 학회 시작
+DESCRIPTION:세계 최고 AI 학회 NeurIPS 공식 경진대회 트랙. 수
+ 상 시 학회 발표 = 학술 커리어 직결. | https://neurips.cc/Conf
+ erences/2026/CallForCompetitions
+URL:https://neurips.cc/Conferences/2026/CallForCompetitions
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-neurips-2026-competitions-activity_end-2026-12-12@joon56.github
+ .io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:⚪ NeurIPS 2026 Competitions Track — NeurIPS 학회 종료
+DESCRIPTION:세계 최고 AI 학회 NeurIPS 공식 경진대회 트랙. 수
+ 상 시 학회 발표 = 학술 커리어 직결. | https://neurips.cc/Conf
+ erences/2026/CallForCompetitions
+URL:https://neurips.cc/Conferences/2026/CallForCompetitions
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-eccv-2026-activity_start-2026-09-08@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:🔵 ECCV 2026 Workshop Challenges — ECCV 학회 시작 (Malmö)
+DESCRIPTION:CV 3대 학회(유럽\, 격년). 다수 Workshop Challenge 현
+ 재 제출 접수 중. Kaggle 연계 챌린지도 운영. | https://eccv.e
+ cva.net
+URL:https://eccv.ecva.net
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-eccv-2026-activity_end-2026-09-13@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:⚪ ECCV 2026 Workshop Challenges — ECCV 학회 종료
+DESCRIPTION:CV 3대 학회(유럽\, 격년). 다수 Workshop Challenge 현
+ 재 제출 접수 중. Kaggle 연계 챌린지도 운영. | https://eccv.e
+ cva.net
+URL:https://eccv.ecva.net
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-miccai-2026-activity_start-2026-09-27@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:🔵 MICCAI 2026 Challenges — MICCAI 학회 시작 (스트라스
+ 부르)
+DESCRIPTION:의료 영상 컴퓨팅 세계 1위 학회. 매년 35+ 챌린
+ 지. 챌린지 참가 + 논문 = 학술·실무 동시 경력. | https://c
+ onferences.miccai.org/2026
+URL:https://conferences.miccai.org/2026
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-miccai-2026-activity_end-2026-10-01@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:⚪ MICCAI 2026 Challenges — MICCAI 학회 종료
+DESCRIPTION:의료 영상 컴퓨팅 세계 1위 학회. 매년 35+ 챌린
+ 지. 챌린지 참가 + 논문 = 학술·실무 동시 경력. | https://c
+ onferences.miccai.org/2026
+URL:https://conferences.miccai.org/2026
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-amia-2026-apply_end-2026-07-26@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260727
+SUMMARY:🔴 AMIA 2026 Public Challenge — 제출 마감
+DESCRIPTION:AMIA(미국 의료정보학회) 주관 Kaggle 챌린지. 의료
+  NLP·임상 정보 추출. | https://kaggle.com/competitions/amia-public-
+ challenge-2026
+URL:https://kaggle.com/competitions/amia-public-challenge-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-icpc-korea-2026-activity_start-2026-10-16@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:🔵 ICPC Korea 2026 — 예선 시작
+DESCRIPTION:세계 최대 대학생 알고리즘 대회. 세계 대회 진
+ 출 = 빅테크 서류 통과 보장 수준. | https://icpckorea.org
+URL:https://icpckorea.org
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-icpc-korea-2026-activity_end-2026-10-17@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:⚪ ICPC Korea 2026 — 예선 종료
+DESCRIPTION:세계 최대 대학생 알고리즘 대회. 세계 대회 진
+ 출 = 빅테크 서류 통과 보장 수준. | https://icpckorea.org
+URL:https://icpckorea.org
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-icpc-korea-2026-activity_start-2026-11-13@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:🔵 ICPC Korea 2026 — 서울 본선 (KINTEX)
+DESCRIPTION:세계 최대 대학생 알고리즘 대회. 세계 대회 진
+ 출 = 빅테크 서류 통과 보장 수준. | https://icpckorea.org
+URL:https://icpckorea.org
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-scpc-2026-activity_start-2026-07-29@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20260729
+DTEND;VALUE=DATE:20260730
+SUMMARY:🔵 SCPC 2026 (삼성 프로그래밍 챌린지) — AI Round 2 
+ 시작
+DESCRIPTION:삼성리서치 주관 12년 역사. 올해부터 AI Agent 챌
+ 린지 트랙 신설. 이번 회차 신규 참가 불가. | https://resear
+ ch.samsung.com/scpc
+URL:https://research.samsung.com/scpc
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-scpc-2026-partial_deadline-2026-08-05@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+SUMMARY:🟠 SCPC 2026 (삼성 프로그래밍 챌린지) — AI Round 2 
+ 제출 마감
+DESCRIPTION:삼성리서치 주관 12년 역사. 올해부터 AI Agent 챌
+ 린지 트랙 신설. 이번 회차 신규 참가 불가. | https://resear
+ ch.samsung.com/scpc
+URL:https://research.samsung.com/scpc
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-scpc-2026-activity_start-2026-08-21@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+SUMMARY:🔵 SCPC 2026 (삼성 프로그래밍 챌린지) — AI 본선
+DESCRIPTION:삼성리서치 주관 12년 역사. 올해부터 AI Agent 챌
+ 린지 트랙 신설. 이번 회차 신규 참가 불가. | https://resear
+ ch.samsung.com/scpc
+URL:https://research.samsung.com/scpc
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-scpc-2026-activity_start-2026-08-28@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+SUMMARY:🔵 SCPC 2026 (삼성 프로그래밍 챌린지) — 알고리즘 
+ 본선
+DESCRIPTION:삼성리서치 주관 12년 역사. 올해부터 AI Agent 챌
+ 린지 트랙 신설. 이번 회차 신규 참가 불가. | https://resear
+ ch.samsung.com/scpc
+URL:https://research.samsung.com/scpc
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-kt-aivle-10-apply_start-2026-07-07@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
+SUMMARY:🟢 KT 에이블스쿨 10기 (AIVLE School) — 신청 시작
+DESCRIPTION:KT + 고용노동부. AI 개발자 / DX 컨설턴트 2개 트
+ 랙\, 6개월 온라인 840시간. 4년제 6학기 이상. | https://aivle
+ school.co.kr
+URL:https://aivleschool.co.kr
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-kt-aivle-10-apply_end-2026-08-10@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
+SUMMARY:🔴 KT 에이블스쿨 10기 (AIVLE School) — 신청 마감
+DESCRIPTION:KT + 고용노동부. AI 개발자 / DX 컨설턴트 2개 트
+ 랙\, 6개월 온라인 840시간. 4년제 6학기 이상. | https://aivle
+ school.co.kr
+URL:https://aivleschool.co.kr
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-kt-aivle-10-announce-2026-08-28@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+SUMMARY:🟣 KT 에이블스쿨 10기 (AIVLE School) — 합격 발표
+DESCRIPTION:KT + 고용노동부. AI 개발자 / DX 컨설턴트 2개 트
+ 랙\, 6개월 온라인 840시간. 4년제 6학기 이상. | https://aivle
+ school.co.kr
+URL:https://aivleschool.co.kr
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-kt-aivle-10-activity_start-2026-09-29@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:🔵 KT 에이블스쿨 10기 (AIVLE School) — 교육 시작
+DESCRIPTION:KT + 고용노동부. AI 개발자 / DX 컨설턴트 2개 트
+ 랙\, 6개월 온라인 840시간. 4년제 6학기 이상. | https://aivle
+ school.co.kr
+URL:https://aivleschool.co.kr
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-kt-aivle-10-activity_end-2027-03-05@joon56.github.io
+DTSTAMP:20260724T143220Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:⚪ KT 에이블스쿨 10기 (AIVLE School) — 교육 종료
+DESCRIPTION:KT + 고용노동부. AI 개발자 / DX 컨설턴트 2개 트
+ 랙\, 6개월 온라인 840시간. 4년제 6학기 이상. | https://aivle
+ school.co.kr
+URL:https://aivleschool.co.kr
+END:VEVENT
+END:VCALENDAR

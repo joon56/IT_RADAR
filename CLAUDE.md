@@ -49,8 +49,11 @@ Event types (`events[].type`):
 1. Web-search every activity whose status or dates could have changed (anything not `ended`, plus expected announcements). Verify against official sites.
 2. Search for NEW activities to add: hackathons, contests, bootcamps, conferences, expos, IT clubs (SOPT, YAPP, 넥스터즈, 디프만, DND, UMC, 큐시즘...), government programs. Include everything; the web UI filters by tags.
 3. Update `data/activities.json`: bump `updated`, flip statuses, add confirmed dates to `events`, add new activities, keep `ended` items (history).
-4. Regenerate the markdown: `python tools/build_md.py`
-5. Commit and push (English commit message, see conventions below).
+   - New activities get `added: <today>` (drives the per-visitor NEW badge).
+   - Append a `changelog` entry: `{ date, changes: [{ id, note, note_en }] }` covering additions and meaningful date/status changes. Keep the newest first; the UI shows the latest 5 entries.
+4. Regenerate derived files: `py tools/build_md.py` and `py tools/build_ics.py` (calendar.ics is the public subscription feed; stable UIDs let calendar apps update in place).
+5. Update `lastmod` in `sitemap.xml`.
+6. Commit and push (English commit message, see conventions below).
 
 ## Conventions
 

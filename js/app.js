@@ -1,7 +1,10 @@
-/* IT RADAR - vanilla JS app. Loads data/activities.json, renders calendar + list.
-   Bilingual: ko (default) / en, toggled in the header, persisted in localStorage. */
+/* IT RADAR - vanilla JS app. Loads data/activities.json, renders calendar, timeline, list.
+   Bilingual ko/en. Personal state (bookmarks, language, last visit) lives in localStorage only. */
 (function () {
   "use strict";
+
+  const SITE = "https://joon56.github.io/IT_RADAR";
+  const ICS_URL = SITE + "/calendar.ics";
 
   const COLOR_BY_TYPE = {
     apply_start: "green",
@@ -17,6 +20,7 @@
   const I18N = {
     ko: {
       tab_calendar: "캘린더",
+      tab_timeline: "타임라인",
       tab_list: "목록",
       updated: "업데이트",
       today: "오늘",
@@ -37,7 +41,21 @@
       load_error: "데이터 로드 실패",
       weekdays: ["일", "월", "화", "수", "목", "금", "토"],
       month_title: (y, m) => `${y}년 ${m}월`,
+      month_short: (m) => `${m}월`,
       fmt_date: (m, d, wd) => `${m}.${String(d).padStart(2, "0")} (${wd})`,
+      subscribe_google: "Google 캘린더 구독",
+      subscribe_webcal: "Apple·Outlook 구독",
+      copy_ics: "ICS URL 복사",
+      copied: "복사됨!",
+      my_dday: "⭐ 내 활동 D-day",
+      my_dday_empty: "카드의 별표(☆)를 누르면 내 활동으로 저장되고, 마감이 여기에 모입니다. 저장은 이 브라우저에만 됩니다.",
+      download_my_ics: "내 활동 .ics 다운로드",
+      chip_my: "⭐ 내 활동",
+      chip_new: "🆕 NEW",
+      badge_new: "NEW",
+      changelog_title: "최근 변경 사항",
+      no_timeline: "표시할 일정이 없습니다.",
+      tl_range_note: "이번 달부터 6개월",
       status: {
         applying: "🟢 신청 중",
         ongoing_open: "🟢 진행중 (참가 가능)",
@@ -56,6 +74,7 @@
     },
     en: {
       tab_calendar: "Calendar",
+      tab_timeline: "Timeline",
       tab_list: "List",
       updated: "Updated",
       today: "Today",
@@ -76,7 +95,21 @@
       load_error: "Failed to load data",
       weekdays: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
       month_title: (y, m) => `${["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][m - 1]} ${y}`,
+      month_short: (m) => ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][m - 1],
       fmt_date: (m, d, wd) => `${["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][m - 1]} ${d} (${wd})`,
+      subscribe_google: "Subscribe (Google)",
+      subscribe_webcal: "Subscribe (Apple/Outlook)",
+      copy_ics: "Copy ICS URL",
+      copied: "Copied!",
+      my_dday: "⭐ My D-days",
+      my_dday_empty: "Star (☆) activities on their cards to collect their deadlines here. Saved in this browser only.",
+      download_my_ics: "Download my .ics",
+      chip_my: "⭐ My picks",
+      chip_new: "🆕 NEW",
+      badge_new: "NEW",
+      changelog_title: "Recent changes",
+      no_timeline: "Nothing to show.",
+      tl_range_note: "this month + 6 months",
       status: {
         applying: "🟢 Applying now",
         ongoing_open: "🟢 Ongoing (joinable)",
@@ -110,8 +143,11 @@
 
   let DATA = null;
   let lang = localStorage.getItem("itradar_lang") || "ko";
+  let bookmarks = JSON.parse(localStorage.getItem("itradar_bookmarks") || "[]");
+  let newIds = new Set();
   let calYear, calMonth;
   let selectedDate = null;
+  let currentView = "calendar";
   let filterStatus = "all";
   let filterCategory = "all";
   let searchQuery = "";
@@ -119,7 +155,6 @@
   const $ = (sel) => document.querySelector(sel);
   const t = () => I18N[lang];
 
-  // Localized field access with Korean fallback
   function f(obj, field) {
     if (lang === "en" && obj[field + "_en"]) return obj[field + "_en"];
     return obj[field];
@@ -186,15 +221,74 @@
     });
   }
 
-  /* ---------- Static chrome (header, legend, chips, footer) ---------- */
+  function isBookmarked(id) {
+    return bookmarks.includes(id);
+  }
+  function toggleBookmark(id) {
+    bookmarks = isBookmarked(id) ? bookmarks.filter((x) => x !== id) : [...bookmarks, id];
+    localStorage.setItem("itradar_bookmarks", JSON.stringify(bookmarks));
+    renderMyDday();
+    renderList();
+  }
+
+  /* ---------- URL hash sync ---------- */
+
+  function readHash() {
+    const p = new URLSearchParams(location.hash.slice(1));
+    if (p.get("view")) currentView = p.get("view");
+    if (p.get("status")) filterStatus = p.get("status");
+    if (p.get("cat")) filterCategory = p.get("cat");
+    if (p.get("q")) searchQuery = p.get("q");
+  }
+  function writeHash() {
+    const p = new URLSearchParams();
+    if (currentView !== "calendar") p.set("view", currentView);
+    if (filterStatus !== "all") p.set("status", filterStatus);
+    if (filterCategory !== "all") p.set("cat", filterCategory);
+    if (searchQuery.trim()) p.set("q", searchQuery.trim());
+    const h = p.toString();
+    history.replaceState(null, "", h ? "#" + h : location.pathname + location.search);
+  }
+
+  /* ---------- View switching ---------- */
+
+  function setView(view) {
+    currentView = view;
+    document.querySelectorAll(".tab").forEach((x) => {
+      const on = x.dataset.view === view;
+      x.classList.toggle("active", on);
+      x.setAttribute("aria-selected", String(on));
+    });
+    document.querySelectorAll(".view").forEach((v) => v.classList.remove("active"));
+    $("#view-" + view).classList.add("active");
+    writeHash();
+  }
+
+  /* ---------- Static chrome ---------- */
 
   function renderChrome() {
     $("#updated-badge").textContent = `${t().updated} ${DATA.updated}`;
     document.querySelector('[data-view="calendar"]').textContent = t().tab_calendar;
+    document.querySelector('[data-view="timeline"]').textContent = t().tab_timeline;
     document.querySelector('[data-view="list"]').textContent = t().tab_list;
     $("#cal-today").textContent = t().today;
     $("#search-input").placeholder = t().search_placeholder;
+    $("#search-input").value = searchQuery;
     $("#footer-text").textContent = t().footer;
+
+    // Subscribe bar
+    const googleUrl = "https://calendar.google.com/calendar/render?cid=" + encodeURIComponent(ICS_URL);
+    const webcalUrl = ICS_URL.replace(/^https:/, "webcal:");
+    $("#subscribe-bar").innerHTML =
+      `<a class="sub-btn" href="${googleUrl}" target="_blank" rel="noopener">📅 ${t().subscribe_google}</a>` +
+      `<a class="sub-btn" href="${webcalUrl}">🍎 ${t().subscribe_webcal}</a>` +
+      `<button class="sub-btn" id="copy-ics">🔗 ${t().copy_ics}</button>`;
+    $("#copy-ics").addEventListener("click", () => {
+      navigator.clipboard.writeText(ICS_URL).then(() => {
+        $("#copy-ics").textContent = "✓ " + t().copied;
+        setTimeout(() => ($("#copy-ics").innerHTML = "🔗 " + t().copy_ics), 1500);
+      });
+    });
 
     // Legend
     const legendTypes = ["apply_start", "apply_end", "activity_start", "partial_deadline", "activity_end", "announce"];
@@ -202,47 +296,64 @@
       .map((ty) => `<span class="legend-item"><i class="dot dot-${COLOR_BY_TYPE[ty]}"></i>${t().types[ty]}</span>`)
       .join("");
 
-    // Status chips
+    // Status chips (+ special: my picks, new)
     const statuses = ["applying", "ongoing_open", "upcoming", "ongoing_closed", "ended"];
-    $("#status-chips").innerHTML =
-      `<button class="chip ${filterStatus === "all" ? "active" : ""}" data-status="all">${t().all}</button>` +
-      statuses
-        .map(
-          (s) =>
-            `<button class="chip ${filterStatus === s ? "active" : ""}" data-status="${s}">${t().status[s]}</button>`
-        )
-        .join("");
-    $("#status-chips")
-      .querySelectorAll(".chip")
-      .forEach((chip) =>
-        chip.addEventListener("click", () => {
-          filterStatus = chip.dataset.status;
-          $("#status-chips").querySelectorAll(".chip").forEach((c) => c.classList.remove("active"));
-          chip.classList.add("active");
-          renderList();
-        })
-      );
+    let chipsHtml =
+      `<button class="chip" data-status="all">${t().all}</button>` +
+      `<button class="chip chip-special" data-status="my">${t().chip_my}</button>`;
+    if (newIds.size) {
+      chipsHtml += `<button class="chip chip-special" data-status="new">${t().chip_new} (${newIds.size})</button>`;
+    }
+    chipsHtml += statuses
+      .map((s) => `<button class="chip" data-status="${s}">${t().status[s]}</button>`)
+      .join("");
+    $("#status-chips").innerHTML = chipsHtml;
+    $("#status-chips").querySelectorAll(".chip").forEach((chip) => {
+      chip.classList.toggle("active", chip.dataset.status === filterStatus);
+      chip.addEventListener("click", () => {
+        filterStatus = chip.dataset.status;
+        $("#status-chips").querySelectorAll(".chip").forEach((c) => c.classList.remove("active"));
+        chip.classList.add("active");
+        writeHash();
+        renderList();
+      });
+    });
 
     // Category chips
     const cats = [...new Set(DATA.activities.map((a) => a.category))];
     $("#category-chips").innerHTML =
-      `<button class="chip ${filterCategory === "all" ? "active" : ""}" data-category="all">${t().all_categories}</button>` +
-      cats
-        .map(
-          (c) =>
-            `<button class="chip ${filterCategory === c ? "active" : ""}" data-category="${c}">${catLabel(c)}</button>`
-        )
-        .join("");
-    $("#category-chips")
-      .querySelectorAll(".chip")
-      .forEach((chip) =>
-        chip.addEventListener("click", () => {
-          filterCategory = chip.dataset.category;
-          $("#category-chips").querySelectorAll(".chip").forEach((c) => c.classList.remove("active"));
-          chip.classList.add("active");
-          renderList();
-        })
-      );
+      `<button class="chip" data-category="all">${t().all_categories}</button>` +
+      cats.map((c) => `<button class="chip" data-category="${c}">${catLabel(c)}</button>`).join("");
+    $("#category-chips").querySelectorAll(".chip").forEach((chip) => {
+      chip.classList.toggle("active", chip.dataset.category === filterCategory);
+      chip.addEventListener("click", () => {
+        filterCategory = chip.dataset.category;
+        $("#category-chips").querySelectorAll(".chip").forEach((c) => c.classList.remove("active"));
+        chip.classList.add("active");
+        writeHash();
+        renderList();
+      });
+    });
+
+    // Changelog
+    const log = DATA.changelog || [];
+    const clWrap = $("#changelog");
+    if (log.length) {
+      clWrap.hidden = false;
+      clWrap.innerHTML =
+        `<summary>${t().changelog_title}</summary>` +
+        log
+          .slice(0, 5)
+          .map(
+            (entry) =>
+              `<div class="cl-entry"><span class="cl-date">${entry.date}</span><ul>` +
+              entry.changes.map((c) => `<li>${lang === "en" && c.note_en ? c.note_en : c.note}</li>`).join("") +
+              `</ul></div>`
+          )
+          .join("");
+    } else {
+      clWrap.hidden = true;
+    }
 
     // Lang toggle state
     document.querySelectorAll(".lang-btn").forEach((b) => {
@@ -279,6 +390,79 @@
         )
         .join("") +
       `</ul>`;
+  }
+
+  /* ---------- My D-day strip ---------- */
+
+  function renderMyDday() {
+    const wrap = $("#my-dday");
+    if (!bookmarks.length) {
+      wrap.hidden = true;
+      return;
+    }
+    wrap.hidden = false;
+    const acts = DATA.activities.filter((a) => isBookmarked(a.id));
+    const items = [];
+    for (const a of acts) {
+      for (const ev of a.events || []) {
+        if (!DEADLINE_TYPES.includes(ev.type)) continue;
+        const dd = daysUntil(ev.date);
+        if (dd >= 0) items.push({ a, ev, dd });
+      }
+    }
+    items.sort((x, y) => x.dd - y.dd);
+    let html = `<div class="my-dday-head"><h3>${t().my_dday}</h3>` +
+      `<button class="sub-btn" id="dl-my-ics">⬇ ${t().download_my_ics}</button></div>`;
+    if (items.length) {
+      html += `<ul>` +
+        items
+          .map(
+            (it) =>
+              `<li><span class="dday ${it.dd <= 3 ? "u" : it.dd <= 7 ? "s" : ""}">${it.dd === 0 ? t().due_today : "D-" + it.dd}</span>` +
+              `<a href="${it.a.url}" target="_blank" rel="noopener">${f(it.a, "name")}</a>` +
+              ` <span style="color:var(--text-dim)">${fmtDate(it.ev.date)} · ${evLabel(it.ev)}</span></li>`
+          )
+          .join("") +
+        `</ul>`;
+    } else {
+      html += `<p class="day-panel-empty">${t().my_dday_empty}</p>`;
+    }
+    wrap.innerHTML = html;
+    $("#dl-my-ics").addEventListener("click", downloadMyIcs);
+  }
+
+  function downloadMyIcs() {
+    const esc = (s) => String(s).replace(/\\/g, "\\\\").replace(/;/g, "\\;").replace(/,/g, "\\,").replace(/\n/g, "\\n");
+    const stamp = new Date().toISOString().replace(/[-:]/g, "").replace(/\.\d+Z/, "Z");
+    const lines = [
+      "BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//IT RADAR//my//KO",
+      "CALSCALE:GREGORIAN", "X-WR-CALNAME:IT RADAR (my picks)",
+    ];
+    const emoji = { apply_start: "🟢", apply_end: "🔴", activity_start: "🔵", partial_deadline: "🟠", activity_end: "⚪", announce: "🟣" };
+    for (const a of DATA.activities.filter((x) => isBookmarked(x.id))) {
+      for (const ev of a.events || []) {
+        const d = ev.date.replace(/-/g, "");
+        const next = new Date(ev.date);
+        next.setDate(next.getDate() + 1);
+        lines.push(
+          "BEGIN:VEVENT",
+          `UID:itradar-my-${a.id}-${ev.type}-${ev.date}@joon56.github.io`,
+          `DTSTAMP:${stamp}`,
+          `DTSTART;VALUE=DATE:${d}`,
+          `DTEND;VALUE=DATE:${toDateStr(next).replace(/-/g, "")}`,
+          `SUMMARY:${esc(`${emoji[ev.type] || ""} ${f(a, "name")} — ${evLabel(ev)}`)}`,
+          `URL:${a.url || ""}`,
+          "END:VEVENT"
+        );
+      }
+    }
+    lines.push("END:VCALENDAR");
+    const blob = new Blob([lines.join("\r\n")], { type: "text/calendar" });
+    const link = document.createElement("a");
+    link.href = URL.createObjectURL(blob);
+    link.download = "it-radar-my.ics";
+    link.click();
+    URL.revokeObjectURL(link.href);
   }
 
   /* ---------- Calendar ---------- */
@@ -386,6 +570,85 @@
     panel.innerHTML = html + `<div class="panel-columns"><div>${evHtml}</div><div>${apHtml}</div></div>`;
   }
 
+  /* ---------- Timeline ---------- */
+
+  function renderTimeline() {
+    const wrap = $("#timeline-body");
+    const now = new Date();
+    const rangeStart = new Date(now.getFullYear(), now.getMonth(), 1);
+    const rangeEnd = new Date(now.getFullYear(), now.getMonth() + 7, 1);
+    const total = rangeEnd - rangeStart;
+    const pct = (d) => Math.max(0, Math.min(100, ((d - rangeStart) / total) * 100));
+    const parse = (s) => {
+      const [y, m, d] = s.split("-").map(Number);
+      return new Date(y, m - 1, d);
+    };
+
+    // Month axis
+    const months = [];
+    for (let i = 0; i < 7; i++) {
+      const m = new Date(now.getFullYear(), now.getMonth() + i, 1);
+      months.push(`<div class="tl-month" style="left:${pct(m)}%">${t().month_short(m.getMonth() + 1)}</div>`);
+    }
+    const todayLine = `<div class="tl-today" style="left:${pct(now)}%"></div>`;
+
+    // Rows: activities with at least one event in range
+    const rows = [];
+    for (const a of DATA.activities) {
+      const evs = (a.events || []).filter((e) => {
+        const d = parse(e.date);
+        return d >= rangeStart && d < rangeEnd;
+      });
+      const applyStart = (a.events || []).find((e) => e.type === "apply_start");
+      const applyEnd = (a.events || []).filter((e) => e.type === "apply_end").slice(-1)[0];
+      const actStarts = (a.events || []).filter((e) => e.type === "activity_start");
+      const actEnd = (a.events || []).filter((e) => e.type === "activity_end").slice(-1)[0];
+
+      const spanIntersects = (s, e) => s && e && parse(s.date) < rangeEnd && parse(e.date) >= rangeStart;
+      const hasApplySpan = spanIntersects(applyStart, applyEnd);
+      const hasActSpan = actStarts.length === 1 && actEnd && spanIntersects(actStarts[0], actEnd);
+      if (!evs.length && !hasApplySpan && !hasActSpan) continue;
+
+      let bars = "";
+      if (hasApplySpan) {
+        const l = pct(parse(applyStart.date));
+        const r = pct(parse(applyEnd.date));
+        bars += `<div class="tl-bar tlb-green" style="left:${l}%;width:${Math.max(r - l, 0.8)}%" title="${t().types.apply_start} ${applyStart.date} ~ ${applyEnd.date}"></div>`;
+      }
+      if (hasActSpan) {
+        const l = pct(parse(actStarts[0].date));
+        const r = pct(parse(actEnd.date));
+        bars += `<div class="tl-bar tlb-blue" style="left:${l}%;width:${Math.max(r - l, 0.8)}%" title="${actStarts[0].date} ~ ${actEnd.date}"></div>`;
+      }
+      // Point markers for everything in range not covered by a span
+      for (const e of evs) {
+        if (hasApplySpan && (e.type === "apply_start" || e.type === "apply_end")) {
+          if (e.type === "apply_end" && e !== applyEnd) { /* keep extra deadlines */ } else continue;
+        }
+        if (hasActSpan && (e === actStarts[0] || e === actEnd)) continue;
+        const shape = DEADLINE_TYPES.includes(e.type) ? "tl-diamond" : "tl-dot-mark";
+        bars += `<div class="${shape} tlm-${COLOR_BY_TYPE[e.type]}" style="left:${pct(parse(e.date))}%" title="${evLabel(e)} · ${fmtDate(e.date)}"></div>`;
+      }
+
+      const dl = nextDeadline(a);
+      const sortKey = evs.length ? Math.min(...evs.map((e) => parse(e.date).getTime())) : parse((applyEnd || actEnd).date).getTime();
+      rows.push({
+        sortKey,
+        html:
+          `<div class="tl-row"><div class="tl-name">` +
+          `<a href="${a.url}" target="_blank" rel="noopener">${f(a, "name")}</a>` +
+          (dl ? `<span class="tl-dd">D-${daysUntil(dl.date)}</span>` : "") +
+          `</div><div class="tl-track">${todayLine}${bars}</div></div>`,
+      });
+    }
+    rows.sort((x, y) => x.sortKey - y.sortKey);
+
+    $("#timeline-axis").innerHTML = `<div class="tl-name tl-range">${t().tl_range_note}</div><div class="tl-track tl-axis-track">${todayLine}${months.join("")}</div>`;
+    wrap.innerHTML = rows.length
+      ? rows.map((r) => r.html).join("")
+      : `<p class="day-panel-empty" style="padding:16px">${t().no_timeline}</p>`;
+  }
+
   /* ---------- List ---------- */
 
   function ddayBadge(a) {
@@ -409,7 +672,13 @@
   function renderList() {
     const q = searchQuery.trim().toLowerCase();
     let items = DATA.activities.filter((a) => {
-      if (filterStatus !== "all" && a.status !== filterStatus) return false;
+      if (filterStatus === "my") {
+        if (!isBookmarked(a.id)) return false;
+      } else if (filterStatus === "new") {
+        if (!newIds.has(a.id)) return false;
+      } else if (filterStatus !== "all" && a.status !== filterStatus) {
+        return false;
+      }
       if (filterCategory !== "all" && a.category !== filterCategory) return false;
       if (q) {
         const hay = (
@@ -438,8 +707,11 @@
         (a) => `
       <article class="card">
         <div class="card-top">
-          <h3 class="card-title"><a href="${a.url}" target="_blank" rel="noopener">${f(a, "name")}<span class="ext">↗</span></a></h3>
-          ${ddayBadge(a)}
+          <h3 class="card-title">${newIds.has(a.id) ? `<span class="new-badge">${t().badge_new}</span>` : ""}<a href="${a.url}" target="_blank" rel="noopener">${f(a, "name")}<span class="ext">↗</span></a></h3>
+          <div class="card-top-right">
+            ${ddayBadge(a)}
+            <button class="star ${isBookmarked(a.id) ? "on" : ""}" data-id="${a.id}" title="${t().chip_my}">${isBookmarked(a.id) ? "★" : "☆"}</button>
+          </div>
         </div>
         <div class="badge-row">
           <span class="badge badge-status-${a.status}">${t().status[a.status]}</span>
@@ -453,16 +725,25 @@
       </article>`
       )
       .join("");
+
+    $("#card-grid").querySelectorAll(".star").forEach((btn) =>
+      btn.addEventListener("click", (e) => {
+        e.preventDefault();
+        toggleBookmark(btn.dataset.id);
+      })
+    );
   }
 
-  /* ---------- Render all (used on init and language switch) ---------- */
+  /* ---------- Render all ---------- */
 
   function renderAll() {
     renderChrome();
     renderWeekdays();
     renderBanner();
+    renderMyDday();
     renderCalendar();
     renderDayPanel(selectedDate);
+    renderTimeline();
     renderList();
   }
 
@@ -470,16 +751,7 @@
 
   function bindControls() {
     document.querySelectorAll(".tab").forEach((tab) =>
-      tab.addEventListener("click", () => {
-        document.querySelectorAll(".tab").forEach((x) => {
-          x.classList.remove("active");
-          x.setAttribute("aria-selected", "false");
-        });
-        tab.classList.add("active");
-        tab.setAttribute("aria-selected", "true");
-        document.querySelectorAll(".view").forEach((v) => v.classList.remove("active"));
-        $("#view-" + tab.dataset.view).classList.add("active");
-      })
+      tab.addEventListener("click", () => setView(tab.dataset.view))
     );
 
     document.querySelectorAll(".lang-btn").forEach((btn) =>
@@ -513,7 +785,23 @@
 
     $("#search-input").addEventListener("input", (e) => {
       searchQuery = e.target.value;
+      writeHash();
       renderList();
+    });
+
+    // Keyboard shortcuts: arrows = month nav (calendar), t = today, / = search
+    document.addEventListener("keydown", (e) => {
+      if (e.target.matches("input, textarea") || e.metaKey || e.ctrlKey || e.altKey) return;
+      if (currentView === "calendar") {
+        if (e.key === "ArrowLeft") $("#cal-prev").click();
+        if (e.key === "ArrowRight") $("#cal-next").click();
+        if (e.key === "t" || e.key === "T") $("#cal-today").click();
+      }
+      if (e.key === "/") {
+        e.preventDefault();
+        setView("list");
+        $("#search-input").focus();
+      }
     });
   }
 
@@ -523,14 +811,25 @@
     const res = await fetch("data/activities.json");
     DATA = await res.json();
 
+    // NEW detection: activities added since the user's last visit (per-browser)
+    const lastVisit = localStorage.getItem("itradar_lastvisit");
+    if (lastVisit) {
+      for (const a of DATA.activities) {
+        if (a.added && a.added > lastVisit) newIds.add(a.id);
+      }
+    }
+    localStorage.setItem("itradar_lastvisit", todayStr());
+
     document.documentElement.lang = lang;
     const now = new Date();
     calYear = now.getFullYear();
     calMonth = now.getMonth();
     selectedDate = todayStr();
 
+    readHash();
     renderAll();
     bindControls();
+    setView(currentView);
   }
 
   init().catch((err) => {

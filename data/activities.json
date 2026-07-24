@@ -1,13 +1,32 @@
 {
   "updated": "2026-07-24",
   "note": "Converted from master md (2026-07-13 baseline). Statuses recalculated as of 2026-07-24. Full refresh + new items pending.",
+  "changelog": [],
   "eventTypes": {
-    "apply_start": { "label": "신청 시작", "color": "green" },
-    "apply_end": { "label": "신청 마감", "color": "red" },
-    "activity_start": { "label": "대회 시작", "color": "blue" },
-    "partial_deadline": { "label": "부분 제출 마감", "color": "orange" },
-    "activity_end": { "label": "활동 종료", "color": "slate" },
-    "announce": { "label": "발표", "color": "purple" }
+    "apply_start": {
+      "label": "신청 시작",
+      "color": "green"
+    },
+    "apply_end": {
+      "label": "신청 마감",
+      "color": "red"
+    },
+    "activity_start": {
+      "label": "대회 시작",
+      "color": "blue"
+    },
+    "partial_deadline": {
+      "label": "부분 제출 마감",
+      "color": "orange"
+    },
+    "activity_end": {
+      "label": "활동 종료",
+      "color": "slate"
+    },
+    "announce": {
+      "label": "발표",
+      "color": "purple"
+    }
   },
   "statusTypes": {
     "applying": "신청 중",
@@ -23,8 +42,24 @@
       "name_en": "2026 Open Source Developer Contest (20th)",
       "category": "SW·웹 개발",
       "status": "ongoing_closed",
-      "tags": ["오픈소스", "웹", "앱", "장관상", "멘토링", "학생부", "일반부"],
-      "tags_en": ["open-source", "web", "app", "minister-award", "mentoring", "student", "general"],
+      "tags": [
+        "오픈소스",
+        "웹",
+        "앱",
+        "장관상",
+        "멘토링",
+        "학생부",
+        "일반부"
+      ],
+      "tags_en": [
+        "open-source",
+        "web",
+        "app",
+        "minister-award",
+        "mentoring",
+        "student",
+        "general"
+      ],
       "url": "https://osscontest.kr",
       "prize": "과기정통부 장관상 · 수상팀 무상 멘토링",
       "prize_en": "MSIT Minister's Award · free mentoring for winners",
@@ -33,13 +68,40 @@
       "tip": "접수는 마감. 출품작 제출 기간 진행 중(~08.27). 내년 6월 접수 대비.",
       "tip_en": "Applications closed. Submission period running until 08.27. Prepare for next June's intake.",
       "events": [
-        { "type": "apply_start", "date": "2026-06-15" },
-        { "type": "apply_end", "date": "2026-07-17" },
-        { "type": "activity_start", "date": "2026-07-18", "label": "출품작 제출 시작", "label_en": "Submission opens" },
-        { "type": "partial_deadline", "date": "2026-08-27", "label": "출품작 제출 마감", "label_en": "Submission deadline" },
-        { "type": "announce", "date": "2026-11-11", "label": "수상 발표", "label_en": "Winners announced" },
-        { "type": "announce", "date": "2026-12-04", "label": "시상식", "label_en": "Award ceremony" }
-      ]
+        {
+          "type": "apply_start",
+          "date": "2026-06-15"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-07-17"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-07-18",
+          "label": "출품작 제출 시작",
+          "label_en": "Submission opens"
+        },
+        {
+          "type": "partial_deadline",
+          "date": "2026-08-27",
+          "label": "출품작 제출 마감",
+          "label_en": "Submission deadline"
+        },
+        {
+          "type": "announce",
+          "date": "2026-11-11",
+          "label": "수상 발표",
+          "label_en": "Winners announced"
+        },
+        {
+          "type": "announce",
+          "date": "2026-12-04",
+          "label": "시상식",
+          "label_en": "Award ceremony"
+        }
+      ],
+      "added": "2026-07-13"
     },
     {
       "id": "google-solution-challenge",
@@ -47,8 +109,24 @@
       "name_en": "Google Solution Challenge",
       "category": "SW·웹 개발",
       "status": "upcoming",
-      "tags": ["글로벌", "대학생", "팀", "웹", "앱", "AI", "SDGs"],
-      "tags_en": ["global", "university", "team", "web", "app", "AI", "SDGs"],
+      "tags": [
+        "글로벌",
+        "대학생",
+        "팀",
+        "웹",
+        "앱",
+        "AI",
+        "SDGs"
+      ],
+      "tags_en": [
+        "global",
+        "university",
+        "team",
+        "web",
+        "app",
+        "AI",
+        "SDGs"
+      ],
       "url": "https://developers.google.com/community/gdsc/solution-challenge",
       "prize": "Top 100 구글 본사 초청 · Top 3 트로피",
       "prize_en": "Top 100 invited to Google HQ · Top 3 trophy",
@@ -58,7 +136,8 @@
       "tip_en": "Join a GDSC club and form a team early in the semester (Sep-Oct). Learn Firebase/GCP in advance. Recruiting Jan-Feb 2027.",
       "schedule_note": "2027년 1~2월 모집 예상 (매년 연초)",
       "schedule_note_en": "Recruiting expected Jan-Feb 2027 (every year, early in the year)",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "oss-contribution-academy",
@@ -66,8 +145,18 @@
       "name_en": "Open Source Contribution Academy",
       "category": "SW·웹 개발",
       "status": "ongoing_open",
-      "tags": ["오픈소스", "멘토링", "GitHub", "수료증"],
-      "tags_en": ["open-source", "mentoring", "GitHub", "certificate"],
+      "tags": [
+        "오픈소스",
+        "멘토링",
+        "GitHub",
+        "수료증"
+      ],
+      "tags_en": [
+        "open-source",
+        "mentoring",
+        "GitHub",
+        "certificate"
+      ],
       "url": "https://www.oss.kr",
       "prize": "수료증 · 멘토 추천서 · 해외 행사 참가 기회",
       "prize_en": "Certificate · mentor recommendation letter · overseas event opportunities",
@@ -77,7 +166,8 @@
       "tip_en": "PRs to global projects (React, Python) strongly boost resume pass rates. Watch for the H2 participation track.",
       "schedule_note": "체험형 진행 중 · 참여형 2026 하반기 모집 예정",
       "schedule_note_en": "Experience track ongoing · participation track recruiting in H2 2026",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "aws-hackathon-korea",
@@ -85,8 +175,18 @@
       "name_en": "AWS Build On / AWS Hackathon Korea",
       "category": "SW·웹 개발",
       "status": "upcoming",
-      "tags": ["클라우드", "해커톤", "서버리스", "풀스택"],
-      "tags_en": ["cloud", "hackathon", "serverless", "fullstack"],
+      "tags": [
+        "클라우드",
+        "해커톤",
+        "서버리스",
+        "풀스택"
+      ],
+      "tags_en": [
+        "cloud",
+        "hackathon",
+        "serverless",
+        "fullstack"
+      ],
       "url": "https://aws.amazon.com/ko/events",
       "prize": "AWS 크레딧 · 장비 · 상금 · 취업 우대",
       "prize_en": "AWS credits · gear · cash prizes · hiring preference",
@@ -96,7 +196,8 @@
       "tip_en": "Practice on AWS Free Tier beforehand. Check the events page regularly.",
       "schedule_note": "연중 수시 개최 · aws.amazon.com/ko/events 공지 확인",
       "schedule_note_en": "Held throughout the year · check aws.amazon.com/ko/events",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "feconf-2026",
@@ -104,8 +205,18 @@
       "name_en": "FEConf 2026 (Frontend Conference)",
       "category": "컨퍼런스·박람회",
       "status": "upcoming",
-      "tags": ["프론트엔드", "React", "컨퍼런스", "CFP"],
-      "tags_en": ["frontend", "React", "conference", "CFP"],
+      "tags": [
+        "프론트엔드",
+        "React",
+        "컨퍼런스",
+        "CFP"
+      ],
+      "tags_en": [
+        "frontend",
+        "React",
+        "conference",
+        "CFP"
+      ],
       "url": "https://feconf.kr",
       "prize": "발표자 커리어 상승 · 네트워킹",
       "prize_en": "Speaker career boost · networking",
@@ -115,7 +226,8 @@
       "tip_en": "CFP is competitive. Tickets sell out instantly; set up notifications.",
       "schedule_note": "CFP 2026 여름 공지 예정 · 컨퍼런스 10~11월 예상",
       "schedule_note_en": "CFP announced summer 2026 · conference expected Oct-Nov",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "kaggle-platform",
@@ -123,8 +235,24 @@
       "name_en": "Kaggle Competitions (always on)",
       "category": "AI/ML 글로벌",
       "status": "ongoing_open",
-      "tags": ["상시", "ML", "DL", "NLP", "CV", "무료GPU", "등급"],
-      "tags_en": ["always-on", "ML", "DL", "NLP", "CV", "free-GPU", "ranking"],
+      "tags": [
+        "상시",
+        "ML",
+        "DL",
+        "NLP",
+        "CV",
+        "무료GPU",
+        "등급"
+      ],
+      "tags_en": [
+        "always-on",
+        "ML",
+        "DL",
+        "NLP",
+        "CV",
+        "free-GPU",
+        "ranking"
+      ],
       "url": "https://www.kaggle.com/competitions",
       "prize": "대회별 $0~$106K+ · Grandmaster 등급 체계",
       "prize_en": "$0-$106K+ per competition · Grandmaster tier system",
@@ -134,7 +262,8 @@
       "tip_en": "Submitting to Playground Series every month is the fastest way to rank up.",
       "schedule_note": "상시 수십 개 대회 운영",
       "schedule_note_en": "Dozens of competitions running at all times",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "arc-prize-2026",
@@ -142,8 +271,20 @@
       "name_en": "ARC Prize 2026 (ARC-AGI-2 & AGI-3)",
       "category": "AI/ML 글로벌",
       "status": "ongoing_open",
-      "tags": ["AGI", "추론", "상금$2M", "오픈소스", "논문"],
-      "tags_en": ["AGI", "reasoning", "$2M-prize", "open-source", "paper"],
+      "tags": [
+        "AGI",
+        "추론",
+        "상금$2M",
+        "오픈소스",
+        "논문"
+      ],
+      "tags_en": [
+        "AGI",
+        "reasoning",
+        "$2M-prize",
+        "open-source",
+        "paper"
+      ],
       "url": "https://arcprize.org",
       "prize": "총 $2,000,000 · Paper Award $375K",
       "prize_en": "Total $2,000,000 · Paper Award $375K",
@@ -152,9 +293,20 @@
       "tip": "AI 연구 커리어 목표 시 최고 레버리지. Milestone #2(09.30) 먼저 노려볼 것.",
       "tip_en": "Highest leverage for an AI research career. Aim for Milestone #2 (Sep 30) first.",
       "events": [
-        { "type": "partial_deadline", "date": "2026-09-30", "label": "Milestone #2 마감", "label_en": "Milestone #2 deadline" },
-        { "type": "apply_end", "date": "2026-11-09", "label": "최종 제출 마감", "label_en": "Final submission deadline" }
-      ]
+        {
+          "type": "partial_deadline",
+          "date": "2026-09-30",
+          "label": "Milestone #2 마감",
+          "label_en": "Milestone #2 deadline"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-11-09",
+          "label": "최종 제출 마감",
+          "label_en": "Final submission deadline"
+        }
+      ],
+      "added": "2026-07-13"
     },
     {
       "id": "drivendata",
@@ -162,8 +314,20 @@
       "name_en": "DrivenData Competitions",
       "category": "AI/ML 글로벌",
       "status": "ongoing_open",
-      "tags": ["상시", "사회공헌", "NASA", "의료", "기후"],
-      "tags_en": ["always-on", "social-impact", "NASA", "healthcare", "climate"],
+      "tags": [
+        "상시",
+        "사회공헌",
+        "NASA",
+        "의료",
+        "기후"
+      ],
+      "tags_en": [
+        "always-on",
+        "social-impact",
+        "NASA",
+        "healthcare",
+        "climate"
+      ],
       "url": "https://www.drivendata.org/competitions",
       "prize": "대회별 $5K~$50K+",
       "prize_en": "$5K-$50K+ per competition",
@@ -173,7 +337,8 @@
       "tip_en": "Working with NASA/WHO makes a distinctive portfolio. Great for healthcare, environment, public-sector AI.",
       "schedule_note": "상시 복수 대회 운영",
       "schedule_note_en": "Multiple competitions at all times",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "dacon",
@@ -181,8 +346,18 @@
       "name_en": "DACON",
       "category": "AI/ML 국내",
       "status": "ongoing_open",
-      "tags": ["상시", "국내최대", "채용연계", "대기업"],
-      "tags_en": ["always-on", "largest-in-Korea", "hiring-linked", "enterprise"],
+      "tags": [
+        "상시",
+        "국내최대",
+        "채용연계",
+        "대기업"
+      ],
+      "tags_en": [
+        "always-on",
+        "largest-in-Korea",
+        "hiring-linked",
+        "enterprise"
+      ],
       "url": "https://dacon.io/competitions",
       "prize": "대회별 100만~6,300만 원",
       "prize_en": "1M-63M KRW per competition",
@@ -192,7 +367,8 @@
       "tip_en": "Bookmark the \"2026 competitions\" forum thread. Practice steadily with Monthly DACON.",
       "schedule_note": "상시 다수 대회 진행",
       "schedule_note_en": "Many competitions running at all times",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "ai-factory",
@@ -200,8 +376,16 @@
       "name_en": "AI Factory",
       "category": "AI/ML 국내",
       "status": "ongoing_open",
-      "tags": ["정부주관", "공신력", "에너지AI"],
-      "tags_en": ["government", "credibility", "energy-AI"],
+      "tags": [
+        "정부주관",
+        "공신력",
+        "에너지AI"
+      ],
+      "tags_en": [
+        "government",
+        "credibility",
+        "energy-AI"
+      ],
       "url": "https://aifactory.space/competition",
       "prize": "대회별 상이 · 최대 25억 사업화 지원 사례",
       "prize_en": "Varies · up to 2.5B KRW commercialization support cases",
@@ -211,7 +395,8 @@
       "tip_en": "Visit the site directly to check currently open competitions.",
       "schedule_note": "에너지 AI 경진대회 등 수시 모집",
       "schedule_note_en": "Energy AI contest and others recruiting periodically",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "samsung-ai-challenge-2026",
@@ -219,8 +404,16 @@
       "name_en": "2026 Samsung AI Challenge",
       "category": "AI/ML 국내",
       "status": "upcoming",
-      "tags": ["삼성", "채용연계", "R&D"],
-      "tags_en": ["Samsung", "hiring-linked", "R&D"],
+      "tags": [
+        "삼성",
+        "채용연계",
+        "R&D"
+      ],
+      "tags_en": [
+        "Samsung",
+        "hiring-linked",
+        "R&D"
+      ],
       "url": "https://dacon.io",
       "prize": "2025년 기준 총 6,300만 원 규모",
       "prize_en": "63M KRW total in 2025",
@@ -230,7 +423,8 @@
       "tip_en": "Announcement expected on DACON in Jul-Aug, i.e. right now. Set DACON notifications.",
       "schedule_note": "2026년 7~8월 오픈 예상 · dacon.io 공지 확인",
       "schedule_note_en": "Expected to open Jul-Aug 2026 · watch dacon.io",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "lg-aimers-9",
@@ -238,8 +432,18 @@
       "name_en": "LG Aimers Hackathon (9th)",
       "category": "AI/ML 국내",
       "status": "upcoming",
-      "tags": ["LG", "채용연계", "LLM", "해커톤"],
-      "tags_en": ["LG", "hiring-linked", "LLM", "hackathon"],
+      "tags": [
+        "LG",
+        "채용연계",
+        "LLM",
+        "해커톤"
+      ],
+      "tags_en": [
+        "LG",
+        "hiring-linked",
+        "LLM",
+        "hackathon"
+      ],
       "url": "https://dacon.io",
       "prize": "약 1,000만 원 + LG 그룹사 채용 특전",
       "prize_en": "~10M KRW + LG Group hiring benefits",
@@ -249,7 +453,8 @@
       "tip_en": "Search \"LG Aimers\" on dacon.io to catch the announcement. Learn LLM fine-tuning in advance.",
       "schedule_note": "2026년 8~10월 모집 예상",
       "schedule_note_en": "Recruiting expected Aug-Oct 2026",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "jump-ai-4",
@@ -257,8 +462,18 @@
       "name_en": "4th JUMP AI Drug Discovery Contest",
       "category": "AI/ML 국내",
       "status": "ongoing_open",
-      "tags": ["보건복지부", "장관상", "신약개발", "바이오"],
-      "tags_en": ["MOHW", "minister-award", "drug-discovery", "bio"],
+      "tags": [
+        "보건복지부",
+        "장관상",
+        "신약개발",
+        "바이오"
+      ],
+      "tags_en": [
+        "MOHW",
+        "minister-award",
+        "drug-discovery",
+        "bio"
+      ],
       "url": "https://dacon.io",
       "prize": "대상 장관상 + 1,000만 원 · 우수상 3팀 각 400만 원",
       "prize_en": "Grand prize: Minister's Award + 10M KRW · 3 excellence awards of 4M KRW",
@@ -267,11 +482,32 @@
       "tip": "예선 마감 08.07 — 2주 남음. 장관상 = 공공 의료 분야 최고 레퍼런스.",
       "tip_en": "Prelim deadline Aug 7, two weeks away. The Minister's Award is a top public-health reference.",
       "events": [
-        { "type": "apply_end", "date": "2026-08-07", "label": "예선 마감", "label_en": "Prelim deadline" },
-        { "type": "activity_start", "date": "2026-09-07", "label": "본선 시작", "label_en": "Finals start" },
-        { "type": "activity_end", "date": "2026-10-02", "label": "본선 종료", "label_en": "Finals end" },
-        { "type": "announce", "date": "2026-11-06", "label": "수상자 발표", "label_en": "Winners announced" }
-      ]
+        {
+          "type": "apply_end",
+          "date": "2026-08-07",
+          "label": "예선 마감",
+          "label_en": "Prelim deadline"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-09-07",
+          "label": "본선 시작",
+          "label_en": "Finals start"
+        },
+        {
+          "type": "activity_end",
+          "date": "2026-10-02",
+          "label": "본선 종료",
+          "label_en": "Finals end"
+        },
+        {
+          "type": "announce",
+          "date": "2026-11-06",
+          "label": "수상자 발표",
+          "label_en": "Winners announced"
+        }
+      ],
+      "added": "2026-07-13"
     },
     {
       "id": "ai-champion-2026",
@@ -279,8 +515,16 @@
       "name_en": "2026 National AI Competition (AI Champion)",
       "category": "AI/ML 국내",
       "status": "ongoing_closed",
-      "tags": ["과기정통부", "장관상", "상금26억"],
-      "tags_en": ["MSIT", "minister-award", "2.6B-prize"],
+      "tags": [
+        "과기정통부",
+        "장관상",
+        "상금26억"
+      ],
+      "tags_en": [
+        "MSIT",
+        "minister-award",
+        "2.6B-prize"
+      ],
       "url": "https://ai-champion.or.kr",
       "prize": "총 상금 26억 원 · 대상 장관상",
       "prize_en": "Total 2.6B KRW · grand prize Minister's Award",
@@ -290,7 +534,8 @@
       "tip_en": "This round is closed. Be ready to apply the moment Mar-Apr 2027 recruiting opens.",
       "schedule_note": "본선 2026년 8월 · 결선 11월 (세부 일자 미공개)",
       "schedule_note_en": "Finals Aug 2026 · grand finals Nov (exact dates TBA)",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "neurips-2026-competitions",
@@ -298,8 +543,18 @@
       "name_en": "NeurIPS 2026 Competitions Track",
       "category": "학술 챌린지",
       "status": "upcoming",
-      "tags": ["학회", "글로벌", "논문", "ML"],
-      "tags_en": ["conference", "global", "paper", "ML"],
+      "tags": [
+        "학회",
+        "글로벌",
+        "논문",
+        "ML"
+      ],
+      "tags_en": [
+        "conference",
+        "global",
+        "paper",
+        "ML"
+      ],
       "url": "https://neurips.cc/Conferences/2026/CallForCompetitions",
       "prize": "2025년 기준 총 $270K (18개 대회)",
       "prize_en": "Total $270K across 18 competitions in 2025",
@@ -310,9 +565,20 @@
       "schedule_note": "대회 오픈 6~10월 예상 · 학회 2026.12.06~12 (시드니)",
       "schedule_note_en": "Competitions open Jun-Oct · conference Dec 6-12, 2026 (Sydney)",
       "events": [
-        { "type": "activity_start", "date": "2026-12-06", "label": "NeurIPS 학회 시작", "label_en": "NeurIPS conference starts" },
-        { "type": "activity_end", "date": "2026-12-12", "label": "NeurIPS 학회 종료", "label_en": "NeurIPS conference ends" }
-      ]
+        {
+          "type": "activity_start",
+          "date": "2026-12-06",
+          "label": "NeurIPS 학회 시작",
+          "label_en": "NeurIPS conference starts"
+        },
+        {
+          "type": "activity_end",
+          "date": "2026-12-12",
+          "label": "NeurIPS 학회 종료",
+          "label_en": "NeurIPS conference ends"
+        }
+      ],
+      "added": "2026-07-13"
     },
     {
       "id": "icml-2026",
@@ -320,8 +586,16 @@
       "name_en": "ICML 2026 (held in Seoul)",
       "category": "학술 챌린지",
       "status": "ended",
-      "tags": ["학회", "서울", "ML이론"],
-      "tags_en": ["conference", "Seoul", "ML-theory"],
+      "tags": [
+        "학회",
+        "서울",
+        "ML이론"
+      ],
+      "tags_en": [
+        "conference",
+        "Seoul",
+        "ML-theory"
+      ],
       "url": "https://icml.cc",
       "prize": "워크숍별 상이",
       "prize_en": "Varies by workshop",
@@ -331,7 +605,8 @@
       "tip_en": "ICML 2027 workshop challenges recruit in early 2027. Browse accepted papers on OpenReview.",
       "schedule_note": "종료 · ICML 2027 논문 제출 ~2027.01",
       "schedule_note_en": "Ended · ICML 2027 paper deadline ~Jan 2027",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "cvpr-2026",
@@ -339,8 +614,16 @@
       "name_en": "CVPR 2026 Workshop Challenges",
       "category": "학술 챌린지",
       "status": "ended",
-      "tags": ["학회", "CV", "비전"],
-      "tags_en": ["conference", "CV", "vision"],
+      "tags": [
+        "학회",
+        "CV",
+        "비전"
+      ],
+      "tags_en": [
+        "conference",
+        "CV",
+        "vision"
+      ],
       "url": "https://cvpr.thecvf.com",
       "prize": "챌린지별 $5K~$50K+",
       "prize_en": "$5K-$50K+ per challenge",
@@ -350,7 +633,8 @@
       "tip_en": "Start preparing for CVPR 2027; paper deadline ~Nov 2026. Monitor thecvf.com.",
       "schedule_note": "2026 학회 종료 · CVPR 2027 논문 제출 ~2026.11",
       "schedule_note_en": "2026 conference ended · CVPR 2027 paper deadline ~Nov 2026",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "eccv-2026",
@@ -358,8 +642,18 @@
       "name_en": "ECCV 2026 Workshop Challenges",
       "category": "학술 챌린지",
       "status": "ongoing_open",
-      "tags": ["학회", "CV", "유럽", "챌린지"],
-      "tags_en": ["conference", "CV", "Europe", "challenge"],
+      "tags": [
+        "학회",
+        "CV",
+        "유럽",
+        "챌린지"
+      ],
+      "tags_en": [
+        "conference",
+        "CV",
+        "Europe",
+        "challenge"
+      ],
       "url": "https://eccv.ecva.net",
       "prize": "챌린지별 $5K~$50K+",
       "prize_en": "$5K-$50K+ per challenge",
@@ -368,9 +662,20 @@
       "tip": "워크숍 탭에서 챌린지 목록 확인. 대부분 7~8월 마감 예상 — 서둘러야 함.",
       "tip_en": "Check the workshop tab for challenges. Most close Jul-Aug; hurry.",
       "events": [
-        { "type": "activity_start", "date": "2026-09-08", "label": "ECCV 학회 시작 (Malmö)", "label_en": "ECCV conference starts (Malmö)" },
-        { "type": "activity_end", "date": "2026-09-13", "label": "ECCV 학회 종료", "label_en": "ECCV conference ends" }
-      ]
+        {
+          "type": "activity_start",
+          "date": "2026-09-08",
+          "label": "ECCV 학회 시작 (Malmö)",
+          "label_en": "ECCV conference starts (Malmö)"
+        },
+        {
+          "type": "activity_end",
+          "date": "2026-09-13",
+          "label": "ECCV 학회 종료",
+          "label_en": "ECCV conference ends"
+        }
+      ],
+      "added": "2026-07-13"
     },
     {
       "id": "iclr-2027",
@@ -378,8 +683,16 @@
       "name_en": "ICLR 2027",
       "category": "학술 챌린지",
       "status": "upcoming",
-      "tags": ["학회", "딥러닝", "논문"],
-      "tags_en": ["conference", "deep-learning", "paper"],
+      "tags": [
+        "학회",
+        "딥러닝",
+        "논문"
+      ],
+      "tags_en": [
+        "conference",
+        "deep-learning",
+        "paper"
+      ],
       "url": "https://iclr.cc",
       "prize": "논문 Accept = 최고 DL 커리어",
       "prize_en": "Accepted paper = top DL career credential",
@@ -389,7 +702,8 @@
       "tip_en": "Workshop papers are less competitive; good for a first publication.",
       "schedule_note": "논문 제출 2026년 9~10월 예상 · 학회 2027년 봄",
       "schedule_note_en": "Paper deadline expected Sep-Oct 2026 · conference spring 2027",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "grand-challenge",
@@ -397,8 +711,16 @@
       "name_en": "Grand Challenge (medical AI platform)",
       "category": "의료·과학 AI",
       "status": "ongoing_open",
-      "tags": ["상시", "의료영상", "MICCAI연계"],
-      "tags_en": ["always-on", "medical-imaging", "MICCAI-linked"],
+      "tags": [
+        "상시",
+        "의료영상",
+        "MICCAI연계"
+      ],
+      "tags_en": [
+        "always-on",
+        "medical-imaging",
+        "MICCAI-linked"
+      ],
       "url": "https://grand-challenge.org/challenges",
       "prize": "챌린지별 €100~€1,000+",
       "prize_en": "€100-€1,000+ per challenge",
@@ -408,7 +730,8 @@
       "tip_en": "Browse with the Active Challenges filter. Rare experience, strong differentiation for jobs.",
       "schedule_note": "상시 300+ 활성 챌린지",
       "schedule_note_en": "300+ active challenges at all times",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "miccai-2026",
@@ -416,8 +739,16 @@
       "name_en": "MICCAI 2026 Challenges",
       "category": "의료·과학 AI",
       "status": "ongoing_open",
-      "tags": ["학회", "의료영상", "챌린지"],
-      "tags_en": ["conference", "medical-imaging", "challenge"],
+      "tags": [
+        "학회",
+        "의료영상",
+        "챌린지"
+      ],
+      "tags_en": [
+        "conference",
+        "medical-imaging",
+        "challenge"
+      ],
       "url": "https://conferences.miccai.org/2026",
       "prize": "수상팀 학회 초청 발표",
       "prize_en": "Winning teams present at the conference",
@@ -426,9 +757,20 @@
       "tip": "grand-challenge.org에서 MICCAI 2026 필터 검색. 7~9월 마감 챌린지 즉시 검토.",
       "tip_en": "Filter for MICCAI 2026 on grand-challenge.org. Review challenges closing Jul-Sep now.",
       "events": [
-        { "type": "activity_start", "date": "2026-09-27", "label": "MICCAI 학회 시작 (스트라스부르)", "label_en": "MICCAI conference starts (Strasbourg)" },
-        { "type": "activity_end", "date": "2026-10-01", "label": "MICCAI 학회 종료", "label_en": "MICCAI conference ends" }
-      ]
+        {
+          "type": "activity_start",
+          "date": "2026-09-27",
+          "label": "MICCAI 학회 시작 (스트라스부르)",
+          "label_en": "MICCAI conference starts (Strasbourg)"
+        },
+        {
+          "type": "activity_end",
+          "date": "2026-10-01",
+          "label": "MICCAI 학회 종료",
+          "label_en": "MICCAI conference ends"
+        }
+      ],
+      "added": "2026-07-13"
     },
     {
       "id": "amia-2026",
@@ -436,8 +778,16 @@
       "name_en": "AMIA 2026 Public Challenge",
       "category": "의료·과학 AI",
       "status": "ongoing_open",
-      "tags": ["의료NLP", "Kaggle", "메달"],
-      "tags_en": ["medical-NLP", "Kaggle", "medal"],
+      "tags": [
+        "의료NLP",
+        "Kaggle",
+        "메달"
+      ],
+      "tags_en": [
+        "medical-NLP",
+        "Kaggle",
+        "medal"
+      ],
       "url": "https://kaggle.com/competitions/amia-public-challenge-2026",
       "prize": "학술 포인트 · Kaggle 메달",
       "prize_en": "Academic credit · Kaggle medals",
@@ -446,8 +796,14 @@
       "tip": "마감 07.26 — 이틀 남음! 즉시 제출.",
       "tip_en": "Deadline Jul 26, two days away. Submit now.",
       "events": [
-        { "type": "apply_end", "date": "2026-07-26", "label": "제출 마감", "label_en": "Submission deadline" }
-      ]
+        {
+          "type": "apply_end",
+          "date": "2026-07-26",
+          "label": "제출 마감",
+          "label_en": "Submission deadline"
+        }
+      ],
+      "added": "2026-07-13"
     },
     {
       "id": "codeforces-atcoder",
@@ -455,8 +811,16 @@
       "name_en": "Codeforces / AtCoder (always on)",
       "category": "알고리즘",
       "status": "ongoing_open",
-      "tags": ["상시", "레이팅", "코딩테스트"],
-      "tags_en": ["always-on", "rating", "coding-test"],
+      "tags": [
+        "상시",
+        "레이팅",
+        "코딩테스트"
+      ],
+      "tags_en": [
+        "always-on",
+        "rating",
+        "coding-test"
+      ],
       "url": "https://codeforces.com",
       "prize": "레이팅 · 일부 스폰서 라운드 상금",
       "prize_en": "Rating · prizes in some sponsored rounds",
@@ -466,7 +830,8 @@
       "tip_en": "CF 1-3 rounds weekly, AtCoder ABC biweekly Sat 21:00 KST. Pair with BOJ; weekly consistency is key.",
       "schedule_note": "주 1~3회 라운드 상시",
       "schedule_note_en": "1-3 rounds every week",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "icpc-korea-2026",
@@ -474,8 +839,16 @@
       "name_en": "ICPC Korea 2026",
       "category": "알고리즘",
       "status": "upcoming",
-      "tags": ["대학생", "3인팀", "세계대회"],
-      "tags_en": ["university", "team-of-3", "world-finals"],
+      "tags": [
+        "대학생",
+        "3인팀",
+        "세계대회"
+      ],
+      "tags_en": [
+        "university",
+        "team-of-3",
+        "world-finals"
+      ],
       "url": "https://icpckorea.org",
       "prize": "메달 · 세계 대회 진출권",
       "prize_en": "Medals · World Finals qualification",
@@ -484,10 +857,26 @@
       "tip": "BOJ 플래티넘 이상 목표로 준비. 팀원 3인 미리 구성. 팀 등록 8~9월.",
       "tip_en": "Aim for BOJ Platinum or above. Form your team of 3 early. Registration Aug-Sep.",
       "events": [
-        { "type": "activity_start", "date": "2026-10-16", "label": "예선 시작", "label_en": "Prelims start" },
-        { "type": "activity_end", "date": "2026-10-17", "label": "예선 종료", "label_en": "Prelims end" },
-        { "type": "activity_start", "date": "2026-11-13", "label": "서울 본선 (KINTEX)", "label_en": "Seoul regional (KINTEX)" }
-      ]
+        {
+          "type": "activity_start",
+          "date": "2026-10-16",
+          "label": "예선 시작",
+          "label_en": "Prelims start"
+        },
+        {
+          "type": "activity_end",
+          "date": "2026-10-17",
+          "label": "예선 종료",
+          "label_en": "Prelims end"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-11-13",
+          "label": "서울 본선 (KINTEX)",
+          "label_en": "Seoul regional (KINTEX)"
+        }
+      ],
+      "added": "2026-07-13"
     },
     {
       "id": "scpc-2026",
@@ -495,8 +884,16 @@
       "name_en": "SCPC 2026 (Samsung Programming Challenge)",
       "category": "알고리즘",
       "status": "ongoing_closed",
-      "tags": ["삼성", "채용우대", "AI에이전트"],
-      "tags_en": ["Samsung", "hiring-preference", "AI-agent"],
+      "tags": [
+        "삼성",
+        "채용우대",
+        "AI에이전트"
+      ],
+      "tags_en": [
+        "Samsung",
+        "hiring-preference",
+        "AI-agent"
+      ],
       "url": "https://research.samsung.com/scpc",
       "prize": "AI 챌린지 총 7,000만 원 · 1등 2,000만 원",
       "prize_en": "AI challenge total 70M KRW · 1st place 20M KRW",
@@ -505,11 +902,32 @@
       "tip": "SCPC 2027은 2027년 6월 모집 예상. AI Agent + 알고리즘 실력 준비.",
       "tip_en": "SCPC 2027 recruiting expected Jun 2027. Build AI-agent and algorithm skills.",
       "events": [
-        { "type": "activity_start", "date": "2026-07-29", "label": "AI Round 2 시작", "label_en": "AI Round 2 starts" },
-        { "type": "partial_deadline", "date": "2026-08-05", "label": "AI Round 2 제출 마감", "label_en": "AI Round 2 submission deadline" },
-        { "type": "activity_start", "date": "2026-08-21", "label": "AI 본선", "label_en": "AI finals" },
-        { "type": "activity_start", "date": "2026-08-28", "label": "알고리즘 본선", "label_en": "Algorithm finals" }
-      ]
+        {
+          "type": "activity_start",
+          "date": "2026-07-29",
+          "label": "AI Round 2 시작",
+          "label_en": "AI Round 2 starts"
+        },
+        {
+          "type": "partial_deadline",
+          "date": "2026-08-05",
+          "label": "AI Round 2 제출 마감",
+          "label_en": "AI Round 2 submission deadline"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-08-21",
+          "label": "AI 본선",
+          "label_en": "AI finals"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-08-28",
+          "label": "알고리즘 본선",
+          "label_en": "Algorithm finals"
+        }
+      ],
+      "added": "2026-07-13"
     },
     {
       "id": "meta-hacker-cup-2026",
@@ -517,8 +935,16 @@
       "name_en": "Meta Hacker Cup 2026",
       "category": "알고리즘",
       "status": "upcoming",
-      "tags": ["Meta", "글로벌", "상금"],
-      "tags_en": ["Meta", "global", "prize"],
+      "tags": [
+        "Meta",
+        "글로벌",
+        "상금"
+      ],
+      "tags_en": [
+        "Meta",
+        "global",
+        "prize"
+      ],
       "url": "https://www.facebook.com/codingcompetitions/hacker-cup",
       "prize": "1등 $20,000 · 결선 Meta 본사 초청",
       "prize_en": "1st place $20,000 · finals at Meta HQ",
@@ -528,7 +954,8 @@
       "tip_en": "Register the moment the August announcement drops. Direct line to Meta hiring.",
       "schedule_note": "예선 2026년 8~9월 예정",
       "schedule_note_en": "Qualifiers expected Aug-Sep 2026",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "kt-aivle-10",
@@ -536,8 +963,20 @@
       "name_en": "KT AIVLE School (10th)",
       "category": "부트캠프",
       "status": "applying",
-      "tags": ["무료", "채용연계", "온라인", "만34세이하", "미취업자"],
-      "tags_en": ["free", "hiring-linked", "online", "under-34", "unemployed"],
+      "tags": [
+        "무료",
+        "채용연계",
+        "온라인",
+        "만34세이하",
+        "미취업자"
+      ],
+      "tags_en": [
+        "free",
+        "hiring-linked",
+        "online",
+        "under-34",
+        "unemployed"
+      ],
       "url": "https://aivleschool.co.kr",
       "prize": "무료(고용노동부 지원) · KT 채용 우대",
       "prize_en": "Free (MOEL funded) · KT hiring preference",
@@ -546,12 +985,34 @@
       "tip": "접수 마감 08.10 — 지금 지원 가능! 온라인이라 지역 무관.",
       "tip_en": "Applications close Aug 10; you can apply right now. Online, so location doesn't matter.",
       "events": [
-        { "type": "apply_start", "date": "2026-07-07" },
-        { "type": "apply_end", "date": "2026-08-10" },
-        { "type": "announce", "date": "2026-08-28", "label": "합격 발표", "label_en": "Acceptance announced" },
-        { "type": "activity_start", "date": "2026-09-29", "label": "교육 시작", "label_en": "Training starts" },
-        { "type": "activity_end", "date": "2027-03-05", "label": "교육 종료", "label_en": "Training ends" }
-      ]
+        {
+          "type": "apply_start",
+          "date": "2026-07-07"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-08-10"
+        },
+        {
+          "type": "announce",
+          "date": "2026-08-28",
+          "label": "합격 발표",
+          "label_en": "Acceptance announced"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-09-29",
+          "label": "교육 시작",
+          "label_en": "Training starts"
+        },
+        {
+          "type": "activity_end",
+          "date": "2027-03-05",
+          "label": "교육 종료",
+          "label_en": "Training ends"
+        }
+      ],
+      "added": "2026-07-13"
     },
     {
       "id": "ssafy-17",
@@ -559,8 +1020,20 @@
       "name_en": "SSAFY (17th, Samsung SW·AI Academy for Youth)",
       "category": "부트캠프",
       "status": "upcoming",
-      "tags": ["무료", "월100만원", "만29세이하", "삼성", "12개월"],
-      "tags_en": ["free", "1M-KRW-monthly", "under-29", "Samsung", "12-months"],
+      "tags": [
+        "무료",
+        "월100만원",
+        "만29세이하",
+        "삼성",
+        "12개월"
+      ],
+      "tags_en": [
+        "free",
+        "1M-KRW-monthly",
+        "under-29",
+        "Samsung",
+        "12-months"
+      ],
       "url": "https://www.ssafy.com",
       "prize": "무료 · 월 100만 원 지원 · 취업률 85%",
       "prize_en": "Free · 1M KRW monthly stipend · 85% employment rate",
@@ -570,7 +1043,8 @@
       "tip_en": "Recruiting expected Oct-Nov. Prepare coding tests and essays now. Separate Java track for non-majors.",
       "schedule_note": "17기 모집 2026년 10~11월 예상 → 2027.01 입과",
       "schedule_note_en": "17th intake recruiting Oct-Nov 2026, starts Jan 2027",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "softeer-9",
@@ -578,8 +1052,18 @@
       "name_en": "Hyundai Softeer Bootcamp (9th)",
       "category": "부트캠프",
       "status": "upcoming",
-      "tags": ["무료", "채용연계", "현대차", "8주"],
-      "tags_en": ["free", "hiring-linked", "Hyundai", "8-weeks"],
+      "tags": [
+        "무료",
+        "채용연계",
+        "현대차",
+        "8주"
+      ],
+      "tags_en": [
+        "free",
+        "hiring-linked",
+        "Hyundai",
+        "8-weeks"
+      ],
       "url": "https://softeerbootcamp.hyundaimotorgroup.com",
       "prize": "무료 · 수료 후 현대차·기아 최종 면접",
       "prize_en": "Free · final interview at Hyundai/Kia after completion",
@@ -589,7 +1073,8 @@
       "tip_en": "Learn React and Spring Boot beforehand. Best path for mobility software.",
       "schedule_note": "9기 모집 2026년 10~11월 예상",
       "schedule_note_en": "9th intake recruiting expected Oct-Nov 2026",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "boostcamp-11",
@@ -597,8 +1082,18 @@
       "name_en": "NAVER Boostcamp (11th)",
       "category": "부트캠프",
       "status": "upcoming",
-      "tags": ["무료", "네이버", "8개월", "고강도"],
-      "tags_en": ["free", "NAVER", "8-months", "intense"],
+      "tags": [
+        "무료",
+        "네이버",
+        "8개월",
+        "고강도"
+      ],
+      "tags_en": [
+        "free",
+        "NAVER",
+        "8-months",
+        "intense"
+      ],
       "url": "https://boostcamp.connect.or.kr",
       "prize": "무료 · 네이버 계열사 채용 우대",
       "prize_en": "Free · NAVER affiliate hiring preference",
@@ -608,7 +1103,8 @@
       "tip_en": "Basic has no selection (open to all). 11th intake is spring 2027; build fundamentals now.",
       "schedule_note": "11기 모집 2027년 4~6월 예상",
       "schedule_note_en": "11th intake recruiting expected Apr-Jun 2027",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "krafton-jungle-14",
@@ -616,8 +1112,18 @@
       "name_en": "Krafton Jungle (14th)",
       "category": "부트캠프",
       "status": "upcoming",
-      "tags": ["무료", "합숙", "5개월", "게임"],
-      "tags_en": ["free", "residential", "5-months", "gaming"],
+      "tags": [
+        "무료",
+        "합숙",
+        "5개월",
+        "게임"
+      ],
+      "tags_en": [
+        "free",
+        "residential",
+        "5-months",
+        "gaming"
+      ],
       "url": "https://swjungle.net",
       "prize": "무료 · 게임 업계 채용 연계",
       "prize_en": "Free · gaming industry hiring links",
@@ -627,7 +1133,8 @@
       "tip_en": "14th intake expected spring 2027. Start C, data structures, OS basics now.",
       "schedule_note": "14기 모집 2027년 봄 예상",
       "schedule_note_en": "14th intake recruiting expected spring 2027",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "woowacourse-9",
@@ -635,8 +1142,18 @@
       "name_en": "Woowacourse (9th)",
       "category": "부트캠프",
       "status": "upcoming",
-      "tags": ["무료", "배민", "10개월", "프리코스"],
-      "tags_en": ["free", "Baemin", "10-months", "precourse"],
+      "tags": [
+        "무료",
+        "배민",
+        "10개월",
+        "프리코스"
+      ],
+      "tags_en": [
+        "free",
+        "Baemin",
+        "10-months",
+        "precourse"
+      ],
       "url": "https://www.woowacourse.io",
       "prize": "무료 · 우아한형제들 채용 우대",
       "prize_en": "Free · Woowa Brothers hiring preference",
@@ -646,7 +1163,8 @@
       "tip_en": "Selection after a 5-week precourse. Recruiting expected Sep-Oct; solidify Java/JS basics now.",
       "schedule_note": "9기 모집 2026년 9~10월 예상 → 2027.02 입과",
       "schedule_note_en": "9th intake recruiting Sep-Oct 2026, starts Feb 2027",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "42seoul",
@@ -654,8 +1172,18 @@
       "name_en": "42Seoul (Innovation Academy)",
       "category": "부트캠프",
       "status": "upcoming",
-      "tags": ["무료", "피어러닝", "C언어", "글로벌"],
-      "tags_en": ["free", "peer-learning", "C", "global"],
+      "tags": [
+        "무료",
+        "피어러닝",
+        "C언어",
+        "글로벌"
+      ],
+      "tags_en": [
+        "free",
+        "peer-learning",
+        "C",
+        "global"
+      ],
       "url": "https://42seoul.kr",
       "prize": "무료 · 42 글로벌 네트워크 해외 취업 연계",
       "prize_en": "Free · overseas jobs via the 42 global network",
@@ -665,7 +1193,8 @@
       "tip_en": "Aims at fundamentals over quick employment. Watch for the H2 Piscine notice.",
       "schedule_note": "라피신 2026년 하반기 모집 예상",
       "schedule_note_en": "Piscine recruiting expected H2 2026",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "gdsc",
@@ -673,8 +1202,18 @@
       "name_en": "GDSC (Google Developer Student Clubs)",
       "category": "동아리·커뮤니티",
       "status": "applying",
-      "tags": ["구글", "대학생", "동아리", "리더십"],
-      "tags_en": ["Google", "university", "club", "leadership"],
+      "tags": [
+        "구글",
+        "대학생",
+        "동아리",
+        "리더십"
+      ],
+      "tags_en": [
+        "Google",
+        "university",
+        "club",
+        "leadership"
+      ],
       "url": "https://gdsc.community.dev",
       "prize": "구글 멘토·리소스 · Solution Challenge 참가 기반",
       "prize_en": "Google mentors and resources · base for Solution Challenge",
@@ -684,7 +1223,8 @@
       "tip_en": "Core team (Lead) recruiting is happening now (Jul-Aug). Member recruiting is Sep-Oct.",
       "schedule_note": "Lead 모집 7~8월 · 멤버 모집 9~10월",
       "schedule_note_en": "Lead recruiting Jul-Aug · member recruiting Sep-Oct",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "likelion",
@@ -692,8 +1232,18 @@
       "name_en": "LIKELION University Clubs",
       "category": "동아리·커뮤니티",
       "status": "upcoming",
-      "tags": ["대학생", "동아리", "웹입문", "해커톤"],
-      "tags_en": ["university", "club", "web-basics", "hackathon"],
+      "tags": [
+        "대학생",
+        "동아리",
+        "웹입문",
+        "해커톤"
+      ],
+      "tags_en": [
+        "university",
+        "club",
+        "web-basics",
+        "hackathon"
+      ],
       "url": "https://likelion.net",
       "prize": "연합 해커톤 참가 · 취업 연계",
       "prize_en": "Joint hackathon access · job connections",
@@ -703,7 +1253,8 @@
       "tip_en": "Fall recruiting is Aug-Sep, starting soon. Check your campus club's SNS.",
       "schedule_note": "각 대학 2학기 모집 8~9월",
       "schedule_note_en": "Fall recruiting Aug-Sep per campus",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "gdg-korea",
@@ -711,8 +1262,18 @@
       "name_en": "GDG Korea (Google Developer Groups)",
       "category": "동아리·커뮤니티",
       "status": "ongoing_open",
-      "tags": ["구글", "커뮤니티", "DevFest", "직장인도"],
-      "tags_en": ["Google", "community", "DevFest", "professionals-too"],
+      "tags": [
+        "구글",
+        "커뮤니티",
+        "DevFest",
+        "직장인도"
+      ],
+      "tags_en": [
+        "Google",
+        "community",
+        "DevFest",
+        "professionals-too"
+      ],
       "url": "https://gdg.community.dev/korea",
       "prize": "DevFest 참가 · 구글러 네트워킹",
       "prize_en": "DevFest access · Googler networking",
@@ -722,7 +1283,8 @@
       "tip_en": "Essential community if you target Google. DevFest is Nov-Dec.",
       "schedule_note": "챕터별 월 1~2회 행사 · DevFest 11~12월",
       "schedule_note_en": "1-2 chapter events monthly · DevFest Nov-Dec",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     },
     {
       "id": "it-supporters",
@@ -730,8 +1292,16 @@
       "name_en": "Big-tech IT Supporters / Ambassadors",
       "category": "동아리·커뮤니티",
       "status": "upcoming",
-      "tags": ["서포터즈", "활동비", "채용우대"],
-      "tags_en": ["supporters", "stipend", "hiring-preference"],
+      "tags": [
+        "서포터즈",
+        "활동비",
+        "채용우대"
+      ],
+      "tags_en": [
+        "supporters",
+        "stipend",
+        "hiring-preference"
+      ],
       "url": "https://linkareer.com",
       "prize": "월 활동비 20~50만 원 · 채용 우대",
       "prize_en": "Monthly stipend 200-500K KRW · hiring preference",
@@ -741,7 +1311,8 @@
       "tip_en": "Search \"서포터즈\" on Linkareer to see everything currently recruiting.",
       "schedule_note": "하반기 모집 10~11월 예상 · linkareer 수시 확인",
       "schedule_note_en": "H2 recruiting expected Oct-Nov · check Linkareer regularly",
-      "events": []
+      "events": [],
+      "added": "2026-07-13"
     }
   ]
 }
