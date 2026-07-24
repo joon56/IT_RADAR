@@ -24,6 +24,7 @@
     "inLanguage": ["ko", "en"]
   }
   </script>
+  <link rel="alternate" type="application/rss+xml" title="IT RADAR 브리핑" href="feed.xml">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -40,6 +41,8 @@
           <button class="tab active" data-view="calendar" role="tab" aria-selected="true">캘린더</button>
           <button class="tab" data-view="timeline" role="tab" aria-selected="false">타임라인</button>
           <button class="tab" data-view="list" role="tab" aria-selected="false">목록</button>
+          <button class="tab" data-view="roadmap" role="tab" aria-selected="false">로드맵</button>
+          <button class="tab" data-view="briefing" role="tab" aria-selected="false">브리핑</button>
         </nav>
         <div class="lang-toggle" role="group" aria-label="Language">
           <button class="lang-btn active" data-lang="ko">KR</button>
@@ -88,6 +91,21 @@
           <div id="timeline-body"></div>
         </div>
       </div>
+    </section>
+
+    <!-- Roadmap view -->
+    <section id="view-roadmap" class="view">
+      <p class="view-intro" id="roadmap-intro"></p>
+      <div id="roadmap-body"></div>
+    </section>
+
+    <!-- Briefing view -->
+    <section id="view-briefing" class="view">
+      <div class="briefing-head">
+        <p class="view-intro" id="briefing-intro"></p>
+        <a class="sub-btn" href="feed.xml" id="rss-link">📡 RSS</a>
+      </div>
+      <div id="briefing-body"></div>
     </section>
 
     <!-- List view -->

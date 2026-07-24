@@ -56,6 +56,19 @@
       changelog_title: "최근 변경 사항",
       no_timeline: "표시할 일정이 없습니다.",
       tl_range_note: "이번 달부터 6개월",
+      tab_roadmap: "로드맵",
+      tab_briefing: "브리핑",
+      roadmap_intro: "목표를 고르면 어떤 활동을 어떤 순서로 하면 되는지 보여줍니다. 각 단계는 실제 활동과 연결되어 있습니다.",
+      briefing_intro: "데이터가 갱신될 때마다 자동 생성되는 요약입니다. RSS로 구독할 수 있습니다.",
+      checklist_label: "준비 체크리스트",
+      links_label: "관련 자료",
+      link_google: "구글 후기 검색",
+      link_velog: "Velog",
+      link_youtube: "YouTube",
+      brief_new: "신규",
+      brief_change: "변경",
+      brief_deadline: "마감",
+      no_briefing: "아직 브리핑이 없습니다.",
       status: {
         applying: "🟢 신청 중",
         ongoing_open: "🟢 진행중 (참가 가능)",
@@ -110,6 +123,19 @@
       changelog_title: "Recent changes",
       no_timeline: "Nothing to show.",
       tl_range_note: "this month + 6 months",
+      tab_roadmap: "Roadmaps",
+      tab_briefing: "Briefing",
+      roadmap_intro: "Pick a goal to see which activities to do, in what order. Every step links to a real activity.",
+      briefing_intro: "Auto-generated summaries for every data refresh. Subscribe via RSS.",
+      checklist_label: "Prep checklist",
+      links_label: "Related links",
+      link_google: "Google reviews",
+      link_velog: "Velog",
+      link_youtube: "YouTube",
+      brief_new: "NEW",
+      brief_change: "CHANGED",
+      brief_deadline: "DEADLINE",
+      no_briefing: "No briefings yet.",
       status: {
         applying: "🟢 Applying now",
         ongoing_open: "🟢 Ongoing (joinable)",
@@ -144,6 +170,7 @@
   let DATA = null;
   let lang = localStorage.getItem("itradar_lang") || "ko";
   let bookmarks = JSON.parse(localStorage.getItem("itradar_bookmarks") || "[]");
+  let checks = JSON.parse(localStorage.getItem("itradar_checks") || "{}");
   let newIds = new Set();
   let calYear, calMonth;
   let selectedDate = null;
@@ -271,6 +298,10 @@
     document.querySelector('[data-view="calendar"]').textContent = t().tab_calendar;
     document.querySelector('[data-view="timeline"]').textContent = t().tab_timeline;
     document.querySelector('[data-view="list"]').textContent = t().tab_list;
+    document.querySelector('[data-view="roadmap"]').textContent = t().tab_roadmap;
+    document.querySelector('[data-view="briefing"]').textContent = t().tab_briefing;
+    $("#roadmap-intro").textContent = t().roadmap_intro;
+    $("#briefing-intro").textContent = t().briefing_intro;
     $("#cal-today").textContent = t().today;
     $("#search-input").placeholder = t().search_placeholder;
     $("#search-input").value = searchQuery;
@@ -649,6 +680,65 @@
       : `<p class="day-panel-empty" style="padding:16px">${t().no_timeline}</p>`;
   }
 
+  /* ---------- Roadmaps ---------- */
+
+  function renderRoadmaps() {
+    const byId = Object.fromEntries(DATA.activities.map((a) => [a.id, a]));
+    $("#roadmap-body").innerHTML = (DATA.roadmaps || [])
+      .map((r) => {
+        const steps = r.steps
+          .map((s) => {
+            const a = byId[s.activityId];
+            if (!a) return "";
+            const dl = nextDeadline(a);
+            return (
+              `<div class="rm-step">` +
+              `<span class="rm-phase">${lang === "en" ? s.phase_en : s.phase}</span>` +
+              `<a class="rm-name" href="${a.url}" target="_blank" rel="noopener">${f(a, "name")}</a>` +
+              `<span class="badge badge-status-${a.status}">${t().status[a.status]}</span>` +
+              (dl ? `<span class="rm-dd">D-${daysUntil(dl.date)}</span>` : "") +
+              `<p class="rm-note">${lang === "en" ? s.note_en : s.note}</p>` +
+              `</div>`
+            );
+          })
+          .join(`<div class="rm-arrow">→</div>`);
+        return (
+          `<section class="roadmap">` +
+          `<h3>${f(r, "title")}</h3>` +
+          `<p class="rm-desc">${f(r, "description")}</p>` +
+          `<div class="rm-flow">${steps}</div>` +
+          `</section>`
+        );
+      })
+      .join("");
+  }
+
+  /* ---------- Briefings ---------- */
+
+  function renderBriefings() {
+    const list = DATA.briefings || [];
+    if (!list.length) {
+      $("#briefing-body").innerHTML = `<p class="day-panel-empty">${t().no_briefing}</p>`;
+      return;
+    }
+    const kindLabel = { new: t().brief_new, change: t().brief_change, deadline: t().brief_deadline };
+    $("#briefing-body").innerHTML = list
+      .map(
+        (b, i) =>
+          `<details class="briefing" ${i === 0 ? "open" : ""}>` +
+          `<summary><span class="bf-date">${b.date}</span> ${lang === "en" ? b.summary_en : b.summary}</summary>` +
+          `<ul>` +
+          b.items
+            .map(
+              (it) =>
+                `<li><span class="bf-kind bf-${it.kind}">${kindLabel[it.kind] || ""}</span>${lang === "en" ? it.text_en : it.text}</li>`
+            )
+            .join("") +
+          `</ul></details>`
+      )
+      .join("");
+  }
+
   /* ---------- List ---------- */
 
   function ddayBadge(a) {
@@ -667,6 +757,40 @@
         .join(" · ");
     }
     return f(a, "schedule_note") || "";
+  }
+
+  // Auto search links (always valid) + curated links from data
+  function linksRow(a) {
+    const q = encodeURIComponent(a.name);
+    const auto = [
+      { title: t().link_google, url: `https://www.google.com/search?q=${q}+%ED%9B%84%EA%B8%B0` },
+      { title: t().link_velog, url: `https://velog.io/search?q=${q}` },
+      { title: t().link_youtube, url: `https://www.youtube.com/results?search_query=${q}` },
+    ];
+    const curated = (a.links || []).map((l) => ({ title: lang === "en" ? l.title_en || l.title : l.title, url: l.url }));
+    return (
+      `<div class="link-row"><span class="link-label">${t().links_label}</span>` +
+      [...curated, ...auto]
+        .map((l) => `<a class="link-chip" href="${l.url}" target="_blank" rel="noopener">${l.title}</a>`)
+        .join("") +
+      `</div>`
+    );
+  }
+
+  function checklistBlock(a) {
+    if (!a.checklist || !a.checklist.length) return "";
+    const done = new Set(checks[a.id] || []);
+    const items = a.checklist
+      .map(
+        (c, i) =>
+          `<label class="ck-item"><input type="checkbox" data-id="${a.id}" data-idx="${i}" ${done.has(i) ? "checked" : ""}>` +
+          `<span class="${done.has(i) ? "ck-done" : ""}">${lang === "en" ? c.item_en || c.item : c.item}</span></label>`
+      )
+      .join("");
+    return (
+      `<details class="checklist"${done.size ? " open" : ""}>` +
+      `<summary>${t().checklist_label} (${done.size}/${a.checklist.length})</summary>${items}</details>`
+    );
   }
 
   function renderList() {
@@ -721,6 +845,8 @@
         ${f(a, "prize") ? `<p class="card-prize">${f(a, "prize")}</p>` : ""}
         ${scheduleSummary(a) ? `<p class="card-schedule">${scheduleSummary(a)}</p>` : ""}
         ${f(a, "tip") ? `<p class="card-tip">${f(a, "tip")}</p>` : ""}
+        ${checklistBlock(a)}
+        ${linksRow(a)}
         <div class="tag-row">${(f(a, "tags") || []).map((x) => `<span class="tag">${x}</span>`).join("")}</div>
       </article>`
       )
@@ -730,6 +856,18 @@
       btn.addEventListener("click", (e) => {
         e.preventDefault();
         toggleBookmark(btn.dataset.id);
+      })
+    );
+
+    $("#card-grid").querySelectorAll(".ck-item input").forEach((box) =>
+      box.addEventListener("change", () => {
+        const id = box.dataset.id;
+        const idx = Number(box.dataset.idx);
+        const set = new Set(checks[id] || []);
+        box.checked ? set.add(idx) : set.delete(idx);
+        checks[id] = [...set];
+        localStorage.setItem("itradar_checks", JSON.stringify(checks));
+        renderList();
       })
     );
   }
@@ -744,6 +882,8 @@
     renderCalendar();
     renderDayPanel(selectedDate);
     renderTimeline();
+    renderRoadmaps();
+    renderBriefings();
     renderList();
   }
 
