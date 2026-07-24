@@ -460,11 +460,45 @@ a:hover { text-decoration: underline; }
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 18px 20px;
-  margin-bottom: 16px;
+  padding: 14px 20px;
+  margin-bottom: 12px;
 }
-.roadmap h3 { font-size: 18px; font-weight: 800; margin-bottom: 4px; }
-.rm-desc { color: var(--text-dim); font-size: 14px; margin-bottom: 14px; }
+.roadmap summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+}
+.roadmap summary::-webkit-details-marker { display: none; }
+.roadmap summary::before {
+  content: "▸";
+  color: var(--accent);
+  font-size: 15px;
+  transition: transform 0.15s;
+}
+.roadmap[open] summary::before { content: "▾"; }
+.rm-title { font-size: 17px; font-weight: 800; }
+.rm-count {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 1px 9px;
+}
+.rm-preview {
+  flex-basis: 100%;
+  color: var(--text-dim);
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 21px;
+}
+.roadmap[open] .rm-preview { display: none; }
+.rm-desc { color: var(--text-dim); font-size: 14px; margin: 10px 0 14px; }
 .rm-flow { display: flex; align-items: stretch; gap: 8px; flex-wrap: wrap; }
 .rm-step {
   background: var(--surface-2);
@@ -707,10 +741,41 @@ a:hover { text-decoration: underline; }
   .tabs { overflow-x: auto; max-width: 100%; }
   .header-right { width: 100%; justify-content: space-between; }
   .brand h1 { font-size: 17px; }
-  .rm-flow { flex-direction: column; }
-  .rm-step { max-width: none; }
-  .rm-arrow { transform: rotate(90deg); align-self: flex-start; margin-left: 20px; }
-  .roadmap { padding: 14px 14px; }
+  /* Mobile roadmap: compact row list instead of stacked boxes */
+  .rm-flow {
+    flex-direction: column;
+    gap: 0;
+    background: var(--surface-2);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .rm-arrow { display: none; }
+  .rm-step {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    max-width: none;
+    min-width: 0;
+    background: none;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid var(--border);
+    padding: 10px 12px;
+  }
+  .rm-step:last-child { border-bottom: none; }
+  .rm-note { display: none; }
+  .rm-name {
+    font-size: 14px;
+    flex: 1;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .rm-step .badge { font-size: 11px; padding: 2px 8px; white-space: nowrap; }
+  .rm-phase { font-size: 10.5px; padding: 1px 7px; flex-shrink: 0; }
+  .roadmap { padding: 12px 14px; }
   .briefing { padding: 12px 14px; }
   .day-panel { padding: 16px 14px; }
   .calendar-main { padding: 12px 10px; }

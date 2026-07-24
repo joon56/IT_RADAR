@@ -61,7 +61,8 @@
       tl_today: "오늘",
       tab_roadmap: "로드맵",
       tab_briefing: "브리핑",
-      roadmap_intro: "목표를 고르면 어떤 활동을 어떤 순서로 하면 되는지 보여줍니다. 각 단계는 실제 활동과 연결되어 있습니다.",
+      roadmap_intro: "목표를 고르면 어떤 활동을 어떤 순서로 하면 되는지 보여줍니다. 제목을 누르면 펼쳐집니다.",
+      rm_steps: (n) => `${n}단계`,
       briefing_intro: "데이터가 갱신될 때마다 자동 생성되는 요약입니다. RSS로 구독할 수 있습니다.",
       checklist_label: "준비 체크리스트",
       links_label: "관련 자료",
@@ -131,7 +132,8 @@
       tl_today: "Today",
       tab_roadmap: "Roadmaps",
       tab_briefing: "Briefing",
-      roadmap_intro: "Pick a goal to see which activities to do, in what order. Every step links to a real activity.",
+      roadmap_intro: "Pick a goal to see which activities to do, in what order. Tap a title to expand.",
+      rm_steps: (n) => `${n} steps`,
       briefing_intro: "Auto-generated summaries for every data refresh. Subscribe via RSS.",
       checklist_label: "Prep checklist",
       links_label: "Related links",
@@ -300,7 +302,7 @@
   /* ---------- Static chrome ---------- */
 
   function renderChrome() {
-    $("#updated-badge").textContent = `${t().updated} ${DATA.updated}`;
+    $("#updated-badge").textContent = `${t().updated} ${DATA.updated} (KST)`;
     document.querySelector('[data-view="calendar"]').textContent = t().tab_calendar;
     document.querySelector('[data-view="timeline"]').textContent = t().tab_timeline;
     document.querySelector('[data-view="list"]').textContent = t().tab_list;
@@ -705,6 +707,8 @@
     const byId = Object.fromEntries(DATA.activities.map((a) => [a.id, a]));
     $("#roadmap-body").innerHTML = (DATA.roadmaps || [])
       .map((r) => {
+        const acts = r.steps.map((s) => byId[s.activityId]).filter(Boolean);
+        const preview = acts.map((a) => f(a, "name").split(" (")[0]).join(" → ");
         const steps = r.steps
           .map((s) => {
             const a = byId[s.activityId];
@@ -722,11 +726,15 @@
           })
           .join(`<div class="rm-arrow">→</div>`);
         return (
-          `<section class="roadmap">` +
-          `<h3>${f(r, "title")}</h3>` +
+          `<details class="roadmap">` +
+          `<summary>` +
+          `<span class="rm-title">${f(r, "title")}</span>` +
+          `<span class="rm-count">${t().rm_steps(r.steps.length)}</span>` +
+          `<span class="rm-preview">${preview}</span>` +
+          `</summary>` +
           `<p class="rm-desc">${f(r, "description")}</p>` +
           `<div class="rm-flow">${steps}</div>` +
-          `</section>`
+          `</details>`
         );
       })
       .join("");

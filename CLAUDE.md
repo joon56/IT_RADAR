@@ -13,6 +13,8 @@ Static web app tracking Korean IT competitions, hackathons, bootcamps, conferenc
 
 Top level: `{ updated: "YYYY-MM-DD", activities: [...] }`.
 
+All dates in the data (`updated`, `added`, `checked`, event dates) are **KST (Asia/Seoul)** calendar dates. When bumping `updated`, use the current date in Seoul, not UTC. The UI shows "(KST)" next to the updated badge; the RSS feed stamps +09:00.
+
 Each activity:
 
 - `id`: kebab-case English slug (stable, never renamed)

@@ -4,7 +4,9 @@ Usage: python tools/build_rss.py (run after build_briefing.py)
 """
 import json
 from email.utils import format_datetime
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
+
+KST = timezone(timedelta(hours=9))
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -18,7 +20,7 @@ def main() -> None:
     d = json.loads(DATA.read_text(encoding="utf-8"))
     items_xml = []
     for b in d.get("briefings", [])[:20]:
-        pub = format_datetime(datetime.fromisoformat(b["date"]).replace(hour=9, tzinfo=timezone.utc))
+        pub = format_datetime(datetime.fromisoformat(b["date"]).replace(hour=9, tzinfo=KST))
         lines = "".join(f"<li>{escape(i['text'])}</li>" for i in b["items"])
         desc = escape(f"<p>{escape(b['summary'])}</p><ul>{lines}</ul>")
         items_xml.append(
