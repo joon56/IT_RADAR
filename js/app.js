@@ -190,6 +190,9 @@
 
   let DATA = null;
   let lang = localStorage.getItem("itradar_lang") || "ko";
+  let theme =
+    localStorage.getItem("itradar_theme") ||
+    (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
   let bookmarks = JSON.parse(localStorage.getItem("itradar_bookmarks") || "[]");
   let checks = JSON.parse(localStorage.getItem("itradar_checks") || "{}");
   let newIds = new Set();
@@ -297,6 +300,15 @@
     localStorage.setItem("itradar_bookmarks", JSON.stringify(bookmarks));
     renderMyDday();
     renderList();
+  }
+
+  /* ---------- Theme ---------- */
+
+  function applyTheme() {
+    document.documentElement.dataset.theme = theme;
+    document.getElementById("meta-theme-color").content = theme === "light" ? "#ffffff" : "#0d1117";
+    const btn = document.getElementById("theme-toggle");
+    if (btn) btn.textContent = theme === "light" ? "🌙" : "☀️";
   }
 
   /* ---------- URL hash sync ---------- */
@@ -982,6 +994,12 @@
       window.scrollTo({ top: 0 });
     });
 
+    $("#theme-toggle").addEventListener("click", () => {
+      theme = theme === "light" ? "dark" : "light";
+      localStorage.setItem("itradar_theme", theme);
+      applyTheme();
+    });
+
     document.querySelectorAll(".lang-btn").forEach((btn) =>
       btn.addEventListener("click", () => {
         if (btn.dataset.lang === lang) return;
@@ -1050,6 +1068,7 @@
     localStorage.setItem("itradar_lastvisit", todayStr());
 
     document.documentElement.lang = lang;
+    applyTheme();
     const now = new Date();
     calYear = now.getFullYear();
     calMonth = now.getMonth();
