@@ -39,6 +39,11 @@
           "id": "",
           "note": "삼성 AI Challenge·SOPT 39기·FEConf·KT 해커톤·if(kakao)·인프콘 등 15건 재검증 — 모두 공지 대기 중",
           "note_en": "Re-verified 15 items (Samsung AI Challenge, SOPT, FEConf, KT hackathon, if(kakao), INFCON...): all still awaiting announcements"
+        },
+        {
+          "id": "neurips-2026-competitions",
+          "note": "NeurIPS 2026 대회 16개 확정 발표(7.28) 반영 — 진행중(참가 가능) 전환",
+          "note_en": "NeurIPS 2026: 16 competitions announced Jul 28; flipped to ongoing (joinable)"
         }
       ]
     },
@@ -822,7 +827,7 @@
       "name": "NeurIPS 2026 Competitions Track",
       "name_en": "NeurIPS 2026 Competitions Track",
       "category": "학술 챌린지",
-      "status": "upcoming",
+      "status": "ongoing_open",
       "tags": [
         "학회",
         "글로벌",
@@ -838,12 +843,12 @@
       "url": "https://neurips.cc/Conferences/2026/CallForCompetitions",
       "prize": "2025년 기준 총 $270K (18개 대회)",
       "prize_en": "Total $270K across 18 competitions in 2025",
-      "description": "세계 최고 AI 학회 NeurIPS 공식 경진대회 트랙. 수상 시 학회 발표 = 학술 커리어 직결.",
-      "description_en": "Official competition track of NeurIPS, the top AI conference. Winning means presenting at the conference.",
-      "tip": "Kaggle에서 \"NeurIPS 2026\" 검색으로 모니터링. 8~9월 공지 예상.",
-      "tip_en": "Monitor by searching \"NeurIPS 2026\" on Kaggle. Announcements expected Aug-Sep.",
-      "schedule_note": "대회 오픈 6~10월 예상 · 학회 2026.12.06~12 (시드니)",
-      "schedule_note_en": "Competitions open Jun-Oct · conference Dec 6-12, 2026 (Sydney)",
+      "description": "세계 최고 AI 학회 NeurIPS 공식 경진대회 트랙 10회차. 2026년 대회 16개 확정 발표(7.28) — 과학·의료·파운데이션모델·로보틱스 4개 분야. 대회별로 8월부터 순차 오픈.",
+      "description_en": "The 10th official NeurIPS competition track. 16 competitions announced Jul 28, 2026 across science, healthcare, foundation models, and robotics. Individual competitions open from August onward.",
+      "tip": "16개 대회 목록·링크는 공식 블로그 참고. 대회별 접수 일정이 제각각이라 관심 분야 사이트를 직접 확인할 것.",
+      "tip_en": "See the official blog for all 16 competitions and links. Timelines vary per competition; check the sites you care about.",
+      "schedule_note": "16개 대회 확정 (7.28 발표) · 대회별 접수 8월~ 순차 오픈 · 학회 2026.12.06~12 (시드니)",
+      "schedule_note_en": "16 competitions confirmed (announced Jul 28); registrations open from August per competition; conference Dec 6-12, Sydney",
       "events": [
         {
           "type": "activity_start",
@@ -859,7 +864,14 @@
         }
       ],
       "added": "2026-07-13",
-      "checked": "2026-07-13"
+      "checked": "2026-07-31",
+      "links": [
+        {
+          "title": "16개 대회 발표 (공식 블로그)",
+          "title_en": "16 competitions announced (official blog)",
+          "url": "https://blog.neurips.cc/2026/07/28/neurips-2026-competitions-announced/"
+        }
+      ]
     },
     {
       "id": "icml-2026",
@@ -3602,8 +3614,8 @@
   "briefings": [
     {
       "date": "2026-07-31",
-      "summary": "신규 4건 · 변경 7건 · 10일 내 마감 10건",
-      "summary_en": "4 new · 7 changed · 10 deadlines within 10 days",
+      "summary": "신규 4건 · 변경 8건 · 10일 내 마감 10건",
+      "summary_en": "4 new · 8 changed · 10 deadlines within 10 days",
       "items": [
         {
           "kind": "new",
@@ -3670,6 +3682,12 @@
           "text": "삼성 AI Challenge·SOPT 39기·FEConf·KT 해커톤·if(kakao)·인프콘 등 15건 재검증 — 모두 공지 대기 중",
           "text_en": "Re-verified 15 items (Samsung AI Challenge, SOPT, FEConf, KT hackathon, if(kakao), INFCON...): all still awaiting announcements",
           "id": ""
+        },
+        {
+          "kind": "change",
+          "text": "NeurIPS 2026 대회 16개 확정 발표(7.28) 반영 — 진행중(참가 가능) 전환",
+          "text_en": "NeurIPS 2026: 16 competitions announced Jul 28; flipped to ongoing (joinable)",
+          "id": "neurips-2026-competitions"
         },
         {
           "kind": "deadline",
