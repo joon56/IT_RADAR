@@ -44,6 +44,21 @@
           "id": "neurips-2026-competitions",
           "note": "NeurIPS 2026 대회 16개 확정 발표(7.28) 반영 — 진행중(참가 가능) 전환",
           "note_en": "NeurIPS 2026: 16 competitions announced Jul 28; flipped to ongoing (joinable)"
+        },
+        {
+          "id": "neurips-simulacrabench-2026",
+          "note": "신규: SimulacraBench — 8.1 퍼블릭 런칭",
+          "note_en": "New: SimulacraBench, public launch Aug 1"
+        },
+        {
+          "id": "neurips-steerability-2026",
+          "note": "신규: Steerability Challenge — 8.1 시작",
+          "note_en": "New: Steerability Challenge, opens Aug 1"
+        },
+        {
+          "id": "neurips-fair-universe-2026",
+          "note": "신규: FAIR Universe Phase 2 — 진행 중, ~10.11",
+          "note_en": "New: FAIR Universe Phase 2, running now, due Oct 11"
         }
       ]
     },
@@ -3385,6 +3400,138 @@
       ],
       "added": "2026-07-31",
       "checked": "2026-07-31"
+    },
+    {
+      "id": "neurips-simulacrabench-2026",
+      "name": "SimulacraBench (NeurIPS 2026)",
+      "name_en": "SimulacraBench (NeurIPS 2026)",
+      "category": "학술 챌린지",
+      "status": "upcoming",
+      "tags": [
+        "NeurIPS",
+        "UN데이터",
+        "서베이",
+        "Docker제출"
+      ],
+      "tags_en": [
+        "NeurIPS",
+        "UN-data",
+        "surveys",
+        "Docker-submission"
+      ],
+      "url": "http://situatedevals.org/simulacrabench",
+      "prize": "상위 3팀 논문 공저 + NeurIPS 발표 · 소외지역 팀 여비 지원",
+      "prize_en": "Top-3 proceedings co-authorship + NeurIPS talks; travel grants for LMIC teams",
+      "description": "미공개 UN 마이크로데이터(21개국 약 6.1만 명)로 도달하기 어려운 인구집단에 대한 AI 표현을 검증 — 서베이 응답 행렬의 확률적 완성 과제. 컨테이너(Docker) 코드 제출, 폐쇄 평가 환경에서 채점.",
+      "description_en": "Validate AI representations of hard-to-reach populations using unreleased UN microdata (~61K respondents, 21 countries) by probabilistically completing survey response matrices. Containerized (Docker) submissions scored in a closed environment.",
+      "tip": "내일(8.1) 퍼블릭 런칭 — 개발 페이즈에서 일일 리더보드 제출 가능. 학계·산업·개인 모두 참가 가능.",
+      "tip_en": "Public launch tomorrow (Aug 1) with daily leaderboard submissions in the dev phase. Open to academia, industry, and independents.",
+      "schedule_note": "12월 NeurIPS 세션에서 결과 발표 · 논문 2027 Q1",
+      "schedule_note_en": "Results at the NeurIPS session in December; paper in Q1 2027",
+      "events": [
+        {
+          "type": "apply_start",
+          "date": "2026-08-01",
+          "label": "퍼블릭 런칭 (개발 페이즈)",
+          "label_en": "Public launch (dev phase)"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-11-01",
+          "label": "테스트 페이즈 시작",
+          "label_en": "Test phase starts"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-11-14",
+          "label": "최종 제출 마감",
+          "label_en": "Final submission deadline"
+        }
+      ],
+      "added": "2026-07-31",
+      "checked": "2026-07-31"
+    },
+    {
+      "id": "neurips-steerability-2026",
+      "name": "Steerability Challenge (NeurIPS 2026)",
+      "name_en": "Steerability Challenge (NeurIPS 2026)",
+      "category": "학술 챌린지",
+      "status": "upcoming",
+      "tags": [
+        "NeurIPS",
+        "LLM",
+        "스티어링",
+        "CodaBench",
+        "팀5인"
+      ],
+      "tags_en": [
+        "NeurIPS",
+        "LLM",
+        "steering",
+        "CodaBench",
+        "team-of-5"
+      ],
+      "url": "https://steerability.github.io/competition/",
+      "prize": "컴퓨트 크레딧·상금(스폰서십 따라) + 상위팀 논문 공저",
+      "prize_en": "Compute credits and cash (sponsorship-dependent) + co-authorship for top teams",
+      "description": "LLM 스티어링 대회 — 모델의 아첨(sycophancy)을 줄이되 나머지 능력은 유지하는 스티어링 정책 설계. CodaBench 호스팅, 약 90일간 진행, 24시간당 5회 제출.",
+      "description_en": "Steer LLMs: design policies that reduce sycophancy while leaving everything else intact. Hosted on CodaBench, ~90 days, 5 submissions per rolling 24h.",
+      "tip": "내일(8.1) 대회 시작. 팀 최대 5인. 제출 마감은 10월 하순 예정.",
+      "tip_en": "Starts tomorrow (Aug 1). Teams up to 5. Submissions close late October.",
+      "schedule_note": "제출 마감 10월 하순 (정확일 미공지) · 결과 워크숍 12.11~12 (NeurIPS 시드니)",
+      "schedule_note_en": "Submission deadline late Oct (exact date TBA); results workshop Dec 11-12 at NeurIPS Sydney",
+      "events": [
+        {
+          "type": "apply_start",
+          "date": "2026-08-01",
+          "label": "대회 시작 (CodaBench)",
+          "label_en": "Competition opens (CodaBench)"
+        },
+        {
+          "type": "announce",
+          "date": "2026-12-11",
+          "label": "결과 워크숍 (NeurIPS)",
+          "label_en": "Results workshop (NeurIPS)"
+        }
+      ],
+      "added": "2026-07-31",
+      "checked": "2026-07-31"
+    },
+    {
+      "id": "neurips-fair-universe-2026",
+      "name": "FAIR Universe Weak Lensing Challenge (NeurIPS 2026)",
+      "name_en": "FAIR Universe Weak Lensing Challenge (NeurIPS 2026)",
+      "category": "학술 챌린지",
+      "status": "ongoing_open",
+      "tags": [
+        "NeurIPS",
+        "우주론",
+        "OoD탐지",
+        "Codabench"
+      ],
+      "tags_en": [
+        "NeurIPS",
+        "cosmology",
+        "OoD-detection",
+        "Codabench"
+      ],
+      "url": "https://fair-universe.lbl.gov",
+      "prize": "Phase 1 기준 상금 있음 (Phase 2 상세 미공지)",
+      "prize_en": "Phase 1 had monetary prizes; Phase 2 details TBA",
+      "description": "약한 중력렌즈 convergence map에서 학습 분포를 벗어난(OoD) 데이터를 탐지하는 불확실성 정량화 챌린지. Phase 2가 NeurIPS 2026 트랙으로 채택돼 현재 진행 중. Codabench + NERSC HPC.",
+      "description_en": "Detect out-of-distribution data in weak lensing convergence maps (uncertainty quantification). Phase 2, accepted to NeurIPS 2026, is running now on Codabench with NERSC HPC.",
+      "tip": "지금 바로 참가 가능 — Phase 2 제출 마감 10.11 (UTC). 과학 ML 포트폴리오로 희소성 높음.",
+      "tip_en": "Joinable right now; Phase 2 submissions close Oct 11 (UTC). Rare scientific-ML portfolio value.",
+      "events": [
+        {
+          "type": "apply_end",
+          "date": "2026-10-11",
+          "label": "Phase 2 제출 마감",
+          "label_en": "Phase 2 submission deadline"
+        }
+      ],
+      "added": "2026-07-31",
+      "checked": "2026-07-31"
     }
   ],
   "roadmaps": [
@@ -3614,8 +3761,8 @@
   "briefings": [
     {
       "date": "2026-07-31",
-      "summary": "신규 4건 · 변경 8건 · 10일 내 마감 10건",
-      "summary_en": "4 new · 8 changed · 10 deadlines within 10 days",
+      "summary": "신규 7건 · 변경 11건 · 10일 내 마감 10건",
+      "summary_en": "7 new · 11 changed · 10 deadlines within 10 days",
       "items": [
         {
           "kind": "new",
@@ -3640,6 +3787,24 @@
           "text": "신규: AI Agent Security 챌린지 (Kaggle)",
           "text_en": "New: AI Agent Security: Multi-Step Tool Attacks (Kaggle)",
           "id": "kaggle-agent-security-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: SimulacraBench (NeurIPS 2026)",
+          "text_en": "New: SimulacraBench (NeurIPS 2026)",
+          "id": "neurips-simulacrabench-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: Steerability Challenge (NeurIPS 2026)",
+          "text_en": "New: Steerability Challenge (NeurIPS 2026)",
+          "id": "neurips-steerability-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: FAIR Universe Weak Lensing Challenge (NeurIPS 2026)",
+          "text_en": "New: FAIR Universe Weak Lensing Challenge (NeurIPS 2026)",
+          "id": "neurips-fair-universe-2026"
         },
         {
           "kind": "change",
@@ -3688,6 +3853,24 @@
           "text": "NeurIPS 2026 대회 16개 확정 발표(7.28) 반영 — 진행중(참가 가능) 전환",
           "text_en": "NeurIPS 2026: 16 competitions announced Jul 28; flipped to ongoing (joinable)",
           "id": "neurips-2026-competitions"
+        },
+        {
+          "kind": "change",
+          "text": "신규: SimulacraBench — 8.1 퍼블릭 런칭",
+          "text_en": "New: SimulacraBench, public launch Aug 1",
+          "id": "neurips-simulacrabench-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: Steerability Challenge — 8.1 시작",
+          "text_en": "New: Steerability Challenge, opens Aug 1",
+          "id": "neurips-steerability-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: FAIR Universe Phase 2 — 진행 중, ~10.11",
+          "text_en": "New: FAIR Universe Phase 2, running now, due Oct 11",
+          "id": "neurips-fair-universe-2026"
         },
         {
           "kind": "deadline",
