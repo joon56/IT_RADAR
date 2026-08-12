@@ -1,7 +1,37 @@
 {
-  "updated": "2026-08-11",
-  "note": "Refresh 2026-08-11: 3 new activities (OpenAI Game Builders, GenAI Risk Contest, Copilot Dev Days), three Aug-10 closings processed, 4 corrections (Ocean AI, NAIS, CMC, Samsung-SCPC), ~40 items re-verified.",
+  "updated": "2026-08-12",
+  "note": "Refresh 2026-08-12: CCE 2026 schedule revealed (applications close tonight), SimulacraBench launch corrected to Aug 17, 3 new activities (KISTI DATA-AI, RSNA Knee MRI, Tourism DataLab), 11 items re-verified.",
   "changelog": [
+    {
+      "date": "2026-08-12",
+      "changes": [
+        {
+          "id": "kisti-data-ai-contest-2026",
+          "note": "신규: KISTI DATA·AI 분석 경진대회 7회 (8.11 접수 시작, 국회의장상)",
+          "note_en": "New: 7th KISTI DATA-AI Analysis Competition (opened Aug 11; Speaker's award)"
+        },
+        {
+          "id": "rsna-knee-mri-2026",
+          "note": "신규: RSNA 무릎 MRI 챌린지 — Kaggle, $77K (~10.22)",
+          "note_en": "New: RSNA Knee MRI Challenge on Kaggle, $77K (due Oct 22)"
+        },
+        {
+          "id": "tourism-datalab-contest-2026",
+          "note": "신규: 한국관광 데이터랩 경진대회 (~9.30, 총 2,000만)",
+          "note_en": "New: Korea Tourism DataLab Competition (due Sep 30, 20M KRW)"
+        },
+        {
+          "id": "cce-2026",
+          "note": "CCE 일정 공개 — 신청 마감 오늘 8.12 23:59! 예선 8.22 · 본선 9.17 코엑스 · 총상금 1억",
+          "note_en": "CCE schedule revealed — applications close TODAY Aug 12 23:59! Prelims Aug 22, finals Sep 17 at COEX, 100M KRW pool"
+        },
+        {
+          "id": "neurips-simulacrabench-2026",
+          "note": "정정: SimulacraBench 퍼블릭 런칭 8.10 → 8.17 — 아직 접수 전",
+          "note_en": "Correction: SimulacraBench public launch moved Aug 10 → Aug 17; not yet open"
+        }
+      ]
+    },
     {
       "date": "2026-08-11",
       "changes": [
@@ -694,7 +724,7 @@
       "schedule_note_en": "2026 not announced; usually held in August (2025: Aug 23). Announcement is later than usual",
       "events": [],
       "added": "2026-07-13",
-      "checked": "2026-08-11"
+      "checked": "2026-08-12"
     },
     {
       "id": "kaggle-platform",
@@ -1685,7 +1715,7 @@
           "item_en": "Prepare coding test (Python basics)"
         }
       ],
-      "checked": "2026-08-11"
+      "checked": "2026-08-12"
     },
     {
       "id": "ssafy-17",
@@ -2467,7 +2497,7 @@
       "schedule_note_en": "Regional registration Jul-Aug; finals late Aug-Sep expected (12th: Aug 29-31, 2025, Sejong)",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-08-11"
+      "checked": "2026-08-12"
     },
     {
       "id": "jeonbuk-ai-bigdata-4",
@@ -2574,7 +2604,7 @@
         }
       ],
       "added": "2026-07-25",
-      "checked": "2026-08-04"
+      "checked": "2026-08-12"
     },
     {
       "id": "ai-summit-seoul-2026",
@@ -2936,7 +2966,7 @@
       "schedule_note_en": "39th recruiting expected Aug-early Sep 2026 (makers in August, per official page)",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-08-11"
+      "checked": "2026-08-12"
     },
     {
       "id": "yapp-29",
@@ -3081,7 +3111,7 @@
       "schedule_note_en": "Fall recruiting expected Aug-Sep 2026 (varies by chapter)",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-08-11"
+      "checked": "2026-08-12"
     },
     {
       "id": "kusitms-34",
@@ -3336,7 +3366,7 @@
         }
       ],
       "added": "2026-07-25",
-      "checked": "2026-08-07"
+      "checked": "2026-08-12"
     },
     {
       "id": "nhn-nan-2026",
@@ -3500,7 +3530,7 @@
         }
       ],
       "added": "2026-07-28",
-      "checked": "2026-08-11"
+      "checked": "2026-08-12"
     },
     {
       "id": "skt-prompt-2026",
@@ -3779,7 +3809,7 @@
       "name": "SimulacraBench (NeurIPS 2026)",
       "name_en": "SimulacraBench (NeurIPS 2026)",
       "category": "학술 챌린지",
-      "status": "ongoing_open",
+      "status": "upcoming",
       "tags": [
         "NeurIPS",
         "UN데이터",
@@ -3797,14 +3827,14 @@
       "prize_en": "Top-3 proceedings co-authorship + NeurIPS talks; travel grants for LMIC teams",
       "description": "미공개 UN 마이크로데이터(21개국 약 6.1만 명)로 도달하기 어려운 인구집단에 대한 AI 표현을 검증 — 서베이 응답 행렬의 확률적 완성 과제. 컨테이너(Docker) 코드 제출, 폐쇄 평가 환경에서 채점.",
       "description_en": "Validate AI representations of hard-to-reach populations using unreleased UN microdata (~61K respondents, 21 countries) by probabilistically completing survey response matrices. Containerized (Docker) submissions scored in a closed environment.",
-      "tip": "개발 페이즈 진행 중(8.10 런칭) — 일일 리더보드 제출 가능. 테스트 페이즈 11.1, 최종 마감 11.14.",
-      "tip_en": "Dev phase live since the Aug 10 launch; daily leaderboard submissions. Test phase Nov 1, final deadline Nov 14.",
+      "tip": "퍼블릭 런칭 8.17로 조정 — 등록도 런칭과 함께 오픈(현재는 구글폼 관심등록만). 테스트 페이즈 11.1~11.14.",
+      "tip_en": "Public launch adjusted to Aug 17; registration opens with it (only a Google-Form interest list for now). Test phase Nov 1-14.",
       "schedule_note": "12월 NeurIPS 세션에서 결과 발표 · 논문 2027 Q1",
       "schedule_note_en": "Results at the NeurIPS session in December; paper in Q1 2027",
       "events": [
         {
           "type": "apply_start",
-          "date": "2026-08-10",
+          "date": "2026-08-17",
           "label": "퍼블릭 런칭 (개발 페이즈)",
           "label_en": "Public launch (dev phase)"
         },
@@ -3822,7 +3852,7 @@
         }
       ],
       "added": "2026-07-31",
-      "checked": "2026-08-11"
+      "checked": "2026-08-12"
     },
     {
       "id": "neurips-steerability-2026",
@@ -4403,17 +4433,40 @@
         "open-division"
       ],
       "url": "https://cce.cstec.kr",
-      "prize": "공홈 공고 참조",
-      "prize_en": "See the official notice",
-      "description": "국가정보원·국가보안기술연구소 주최 국내 최대 규모 사이버공격방어대회(CTF). 일반부·청소년부 운영, 상금 총 1억 원 규모.",
-      "description_en": "Korea's largest cyber attack-defense CTF, hosted by the NIS and NSR. General and youth divisions; prize pool around 100M KRW.",
-      "tip": "공홈(cce.cstec.kr)에 일정 미게시 — 참가 의사 있으면 즉시 공홈·cce@nsr.re.kr로 확인.",
-      "tip_en": "No schedule on cce.cstec.kr; if interested, check the site or email cce@nsr.re.kr right away.",
-      "events": [],
-      "schedule_note": "공홈 일정 미게시 · 예년 패턴(접수 6월말~7월말, 예선 8월 중순) 기준 접수가 이미 종료됐을 수 있음 — 공홈 확인 필요",
-      "schedule_note_en": "No dates on the official site; by past pattern (apply late Jun-late Jul, prelims mid-Aug) applications may already be closed — verify on the site",
+      "prize": "총상금 1억 원",
+      "prize_en": "100M KRW total",
+      "description": "국가정보원·국가보안기술연구소 주최 국내 최대 규모 사이버공격방어대회(CTF). 공공·일반·청소년 부문.",
+      "description_en": "Korea's largest cyber attack-defense CTF, hosted by the NIS and NSR. Public-sector, general, and youth divisions.",
+      "tip": "신청 마감 오늘(8.12) 23:59 — 참가하려면 지금 즉시 등록. 예선은 온라인(8.22 09~18시).",
+      "tip_en": "Applications close TODAY (Aug 12) 23:59 — register right now if interested. Online prelims Aug 22, 9am-6pm.",
+      "events": [
+        {
+          "type": "apply_end",
+          "date": "2026-08-12",
+          "label": "신청 마감 (23:59)",
+          "label_en": "Application deadline (23:59)"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-08-22",
+          "label": "예선 (온라인, 09~18시)",
+          "label_en": "Online prelims (9am-6pm)"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-09-17",
+          "label": "본선 (코엑스)",
+          "label_en": "Finals (COEX)"
+        },
+        {
+          "type": "announce",
+          "date": "2026-09-18",
+          "label": "시상식",
+          "label_en": "Awards ceremony"
+        }
+      ],
       "added": "2026-08-07",
-      "checked": "2026-08-11"
+      "checked": "2026-08-12"
     },
     {
       "id": "ocean-ai-bigdata-2026",
@@ -4701,7 +4754,7 @@
       "schedule_note": "시즌1은 7.13~7.31 종료 · 시즌2 8.14~9.4 · 시즌3 9.21~10.12",
       "schedule_note_en": "Season 1 ran Jul 13-31; Season 2 Aug 14-Sep 4; Season 3 Sep 21-Oct 12",
       "added": "2026-08-11",
-      "checked": "2026-08-11"
+      "checked": "2026-08-12"
     },
     {
       "id": "github-copilot-devdays-seoul-2026",
@@ -4742,6 +4795,126 @@
       "schedule_note_en": "Registration in preparation; tickets open once the program is finalized",
       "added": "2026-08-11",
       "checked": "2026-08-11"
+    },
+    {
+      "id": "kisti-data-ai-contest-2026",
+      "name": "2026 DATA·AI 분석 경진대회 (제7회)",
+      "name_en": "2026 DATA-AI Analysis Competition (7th)",
+      "category": "AI/ML 국내",
+      "status": "applying",
+      "tags": [
+        "KISTI",
+        "국회의장상",
+        "데이터융합",
+        "공공데이터"
+      ],
+      "tags_en": [
+        "KISTI",
+        "Speaker-award",
+        "data-fusion",
+        "public-data"
+      ],
+      "url": "https://aida.kisti.re.kr/",
+      "prize": "총 1,300만 원 (대상 국회의장상 + 300만 · 최우수 과기정통부 장관상 + 200만)",
+      "prize_en": "13M KRW total (grand: National Assembly Speaker's award + 3M; runner-up: MSIT Minister's award + 2M)",
+      "description": "KISTI(DataON 국가연구데이터플랫폼) 주최 7회차. 문제발굴 + 문제해결(AI 모델 개발) 2단계 구성. 이종 분야 데이터 융합 과제에 가점. 개인·기관 누구나.",
+      "description_en": "7th edition by KISTI (DataON national research-data platform). Two phases: problem discovery plus AI-model problem solving, with bonus points for cross-domain data fusion. Open to individuals and organizations.",
+      "tip": "국회의장상+장관상 라인업 — 공공 연구데이터 융합 아이디어가 있으면 가성비 좋음. 문제해결 부문 마감은 공홈에서 확인.",
+      "tip_en": "Speaker's plus Minister's awards on offer — great value if you have a research-data fusion idea. Check the site for the problem-solving phase deadline.",
+      "events": [
+        {
+          "type": "apply_start",
+          "date": "2026-08-11",
+          "label": "문제발굴 접수 시작",
+          "label_en": "Problem-discovery phase opens"
+        }
+      ],
+      "schedule_note": "대회 기간 ~11월 말 · 문제해결(모델 개발) 부문 세부 마감 공홈 확인 필요",
+      "schedule_note_en": "Runs to late November; check the site for the problem-solving phase deadlines",
+      "added": "2026-08-12",
+      "checked": "2026-08-12"
+    },
+    {
+      "id": "rsna-knee-mri-2026",
+      "name": "RSNA 2026 무릎 MRI 이상 탐지 챌린지",
+      "name_en": "RSNA 2026 Knee MRI Abnormality Detection Challenge",
+      "category": "의료·과학 AI",
+      "status": "ongoing_open",
+      "tags": [
+        "Kaggle",
+        "RSNA",
+        "의료영상",
+        "멀티모달",
+        "상금$77K"
+      ],
+      "tags_en": [
+        "Kaggle",
+        "RSNA",
+        "medical-imaging",
+        "multimodal",
+        "77K-prize"
+      ],
+      "url": "https://www.rsna.org/news/2026/august/ai-challenge-knee-mri",
+      "prize": "총 $77,000 (효율성 부문 포함)",
+      "prize_en": "$77,000 total (incl. efficiency awards)",
+      "description": "RSNA 연례 AI 챌린지 — 무릎 MRI 이상 탐지. 5,000건 이상 MRI에 약 12개 언어의 실제 판독문 동봉(멀티모달·NLP 접점). Kaggle에서 진행, 지금 참가 가능.",
+      "description_en": "RSNA's annual AI challenge: knee-MRI abnormality detection. 5,000+ exams paired with real radiology reports in ~12 languages (a multimodal/NLP angle). Runs on Kaggle; joinable now.",
+      "tip": "의료영상 AI 대표 대회 — 판독문(텍스트) 활용이 차별화 포인트. 수상 시 RSNA 2026(11.29~12.3 시카고)에서 시상.",
+      "tip_en": "The flagship medical-imaging AI challenge; leveraging the report text is the differentiator. Winners honored at RSNA 2026 (Nov 29-Dec 3, Chicago).",
+      "events": [
+        {
+          "type": "apply_end",
+          "date": "2026-10-22",
+          "label": "제출 마감",
+          "label_en": "Submission deadline"
+        }
+      ],
+      "schedule_note": "수상 발표 2026년 11월 (RSNA 학회에서 시상)",
+      "schedule_note_en": "Winners announced Nov 2026 and honored at the RSNA meeting",
+      "added": "2026-08-12",
+      "checked": "2026-08-12"
+    },
+    {
+      "id": "tourism-datalab-contest-2026",
+      "name": "2026 한국관광 데이터랩 활용 경진대회",
+      "name_en": "2026 Korea Tourism DataLab Competition",
+      "category": "AI/ML 국내",
+      "status": "applying",
+      "tags": [
+        "문체부",
+        "장관상",
+        "데이터분석",
+        "공공데이터"
+      ],
+      "tags_en": [
+        "MCST",
+        "minister-award",
+        "data-analysis",
+        "public-data"
+      ],
+      "url": "https://datalab.visitkorea.or.kr/",
+      "prize": "총 2,000만 원 (대상 문체부 장관상 500만 · 최우수 200만 2점)",
+      "prize_en": "20M KRW total (grand: MCST Minister's award + 5M; two runners-up at 2M)",
+      "description": "문화체육관광부·한국관광공사 주최. 한국관광 데이터랩 데이터를 활용한 분석·아이디어 경진. 개인, 4인 이하 팀, 기관 누구나.",
+      "description_en": "By the MCST and the Korea Tourism Organization: an analysis/idea contest using Korea Tourism DataLab data. Open to individuals, teams of up to 4, and organizations.",
+      "tip": "ML 깊이는 얕은 분석형 대회지만 장관상 트랙 — 데이터 분석 포트폴리오용으로 가볍게 노려볼 만.",
+      "tip_en": "A light analysis-style contest, but with a Minister's award track — an easy add to a data-analysis portfolio.",
+      "events": [
+        {
+          "type": "apply_end",
+          "date": "2026-09-30",
+          "label": "접수 마감 (14시)",
+          "label_en": "Application deadline (2pm)"
+        },
+        {
+          "type": "announce",
+          "date": "2026-10-23",
+          "label": "시상식 (서울)",
+          "label_en": "Awards ceremony (Seoul)"
+        }
+      ],
+      "added": "2026-08-12",
+      "checked": "2026-08-12"
     }
   ],
   "roadmaps": [
@@ -4969,6 +5142,115 @@
     }
   ],
   "briefings": [
+    {
+      "date": "2026-08-12",
+      "summary": "신규 3건 · 변경 5건 · 10일 내 마감 9건",
+      "summary_en": "3 new · 5 changed · 9 deadlines within 10 days",
+      "items": [
+        {
+          "kind": "new",
+          "text": "신규: 2026 DATA·AI 분석 경진대회 (제7회)",
+          "text_en": "New: 2026 DATA-AI Analysis Competition (7th)",
+          "id": "kisti-data-ai-contest-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: RSNA 2026 무릎 MRI 이상 탐지 챌린지",
+          "text_en": "New: RSNA 2026 Knee MRI Abnormality Detection Challenge",
+          "id": "rsna-knee-mri-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 2026 한국관광 데이터랩 활용 경진대회",
+          "text_en": "New: 2026 Korea Tourism DataLab Competition",
+          "id": "tourism-datalab-contest-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: KISTI DATA·AI 분석 경진대회 7회 (8.11 접수 시작, 국회의장상)",
+          "text_en": "New: 7th KISTI DATA-AI Analysis Competition (opened Aug 11; Speaker's award)",
+          "id": "kisti-data-ai-contest-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: RSNA 무릎 MRI 챌린지 — Kaggle, $77K (~10.22)",
+          "text_en": "New: RSNA Knee MRI Challenge on Kaggle, $77K (due Oct 22)",
+          "id": "rsna-knee-mri-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: 한국관광 데이터랩 경진대회 (~9.30, 총 2,000만)",
+          "text_en": "New: Korea Tourism DataLab Competition (due Sep 30, 20M KRW)",
+          "id": "tourism-datalab-contest-2026"
+        },
+        {
+          "kind": "change",
+          "text": "CCE 일정 공개 — 신청 마감 오늘 8.12 23:59! 예선 8.22 · 본선 9.17 코엑스 · 총상금 1억",
+          "text_en": "CCE schedule revealed — applications close TODAY Aug 12 23:59! Prelims Aug 22, finals Sep 17 at COEX, 100M KRW pool",
+          "id": "cce-2026"
+        },
+        {
+          "kind": "change",
+          "text": "정정: SimulacraBench 퍼블릭 런칭 8.10 → 8.17 — 아직 접수 전",
+          "text_en": "Correction: SimulacraBench public launch moved Aug 10 → Aug 17; not yet open",
+          "id": "neurips-simulacrabench-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-0 CCE 2026 사이버공격방어대회 — 신청 마감 (23:59) (2026-08-12)",
+          "text_en": "D-0 CCE 2026 Cyber Conflict Exercise — Application deadline (23:59) (2026-08-12)",
+          "id": "cce-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-2 제3회 풍력발전량 예측 AI 경진대회 (BARAM) — 최종 제출 마감 (2026-08-14)",
+          "text_en": "D-2 3rd Wind Power Forecasting AI Competition (BARAM) — Final submission deadline (2026-08-14)",
+          "id": "baram-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-2 2026 해양과학 AI×빅데이터 경진대회 (제6회) — 데이터분석 중·고등부 마감 (2026-08-14)",
+          "text_en": "D-2 2026 Ocean Science AI x Big Data Competition (6th) — Secondary-school analysis deadline (2026-08-14)",
+          "id": "ocean-ai-bigdata-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-4 Kaggle × 포켓몬 TCG AI 배틀 챌린지 — Simulation 트랙 마감 (2026-08-16)",
+          "text_en": "D-4 Kaggle x Pokemon TCG AI Battle Challenge — Simulation track deadline (2026-08-16)",
+          "id": "kaggle-ptcg-ai-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-5 제3회 풍력발전량 예측 AI 경진대회 (BARAM) — 2차 평가 산출물 제출 마감 (2026-08-17)",
+          "text_en": "D-5 3rd Wind Power Forecasting AI Competition (BARAM) — Round-2 deliverable deadline (2026-08-17)",
+          "id": "baram-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-6 AI Summit Seoul & Expo 2026 — 최종 등록 마감 (2026-08-18)",
+          "text_en": "D-6 AI Summit Seoul & Expo 2026 — Final registration deadline (2026-08-18)",
+          "id": "ai-summit-seoul-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-7 가짜연구소 (Pseudo Lab) — 시즌 13 빌더 모집 마감 (2026-08-19)",
+          "text_en": "D-7 Pseudo Lab — Season 13 builder application deadline (2026-08-19)",
+          "id": "pseudo-lab"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-8 RealPDE Challenge (NeurIPS 2026) — 등록 마감 (2026-08-20)",
+          "text_en": "D-8 RealPDE Challenge (NeurIPS 2026) — Registration deadline (2026-08-20)",
+          "id": "neurips-realpde-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-9 제2회 TRAITHON (AI 신뢰성 해커톤) — 접수 마감 (2026-08-21)",
+          "text_en": "D-9 2nd TRAITHON (AI Trustworthiness Hackathon) — Application deadline (2026-08-21)",
+          "id": "traithon-2"
+        }
+      ]
+    },
     {
       "date": "2026-08-11",
       "summary": "신규 3건 · 변경 14건 · 10일 내 마감 8건",
