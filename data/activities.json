@@ -1,7 +1,127 @@
 {
-  "updated": "2026-08-19",
-  "note": "Refresh 2026-08-19: 3 MOIS public-AI challenges + AI WORLD added, CCE applications closed, Agenthon registration confirmed open, AI Summit opened, 19 items re-verified.",
+  "updated": "2026-08-21",
+  "note": "Refresh 2026-08-21: 11 new activities (5 NeurIPS comps incl. Virtual Embryo $104K and Predictive AI Eval opening Sep 1, MABC, OpenAI DevDay Exchange Seoul, AUSGCON, KCD x OpenInfra Day, Agent Field Trip Incheon, Industrial AI EXPO); SAPC2 deadline extended to Oct 24, iM Bank to Sep 20; MAICON window Sep 1-30; FIESTA reorganized (employees only); SKT Promp.T, GCP x Solana, AI Summit ended; RealPDE registration closed; 76 items re-verified.",
   "changelog": [
+    {
+      "date": "2026-08-21",
+      "changes": [
+        {
+          "id": "skt-prompt-2026",
+          "note": "SKT 모두의 Promp.T 종료 — 결과 8.20 뉴스룸 발표",
+          "note_en": "SKT Promp.T contest ended — results posted Aug 20 on SKT Newsroom"
+        },
+        {
+          "id": "gcp-solana-hackathon-2026",
+          "note": "GCP×Solana 해커톤 데모데이(8.21)로 종료",
+          "note_en": "GCP x Solana hackathon ended with demo day Aug 21"
+        },
+        {
+          "id": "ai-summit-seoul-2026",
+          "note": "AI Summit Seoul 2026 폐막 (8.21)",
+          "note_en": "AI Summit Seoul 2026 closed Aug 21"
+        },
+        {
+          "id": "neurips-realpde-2026",
+          "note": "RealPDE 등록 마감(8.20) — 추가 등록 불가, 참가 불가로 전환",
+          "note_en": "RealPDE registration closed Aug 20 — no late entry; now ongoing/closed"
+        },
+        {
+          "id": "neurips-sapc2-2026",
+          "note": "SAPC2 제출 마감 8.31 → 10.24 AoE 연장 (8.14 공지)",
+          "note_en": "SAPC2 submission deadline extended Aug 31 -> Oct 24 AoE (announced Aug 14)"
+        },
+        {
+          "id": "imbank-ai-blockchain-2026",
+          "note": "iM뱅크 경진대회 접수 마감 9.14 → 9.20 연장 (예선 발표 9.23)",
+          "note_en": "iM Bank challenge deadline extended Sep 14 -> Sep 20 (prelim results Sep 23)"
+        },
+        {
+          "id": "maicon-2026",
+          "note": "MAICON 2026 접수 기간 공개: 9.1~9.30 (세부 일정은 준비중)",
+          "note_en": "MAICON 2026 application window posted: Sep 1-30 (other details still in preparation)"
+        },
+        {
+          "id": "fiesta-2026",
+          "note": "FIESTA 2026 → \"금융보안 AI 활용 해킹방어 대회\"로 개편 공고 (신청 8.24~9.2, 예선 9.5, 본선 10.3) — 금융권 재직자 전용",
+          "note_en": "FIESTA 2026 reorganized as the \"Financial-Security AI Hacking Defense Competition\" (apply Aug 24-Sep 2, prelims Sep 5, finals Oct 3) - financial-sector employees only"
+        },
+        {
+          "id": "lg-aimers-9",
+          "note": "LG Aimers 9기 오프라인 해커톤 9.19~20(1박2일) · 진출자 발표 9.14 확정",
+          "note_en": "LG Aimers 9 offline hackathon confirmed Sep 19-20 (2 days); finalists announced Sep 14"
+        },
+        {
+          "id": "lg-aimers-10",
+          "note": "LG Aimers 10기 모집 일정 확정 (12.5~12.22, 발표 12.26)",
+          "note_en": "LG Aimers 10 recruitment dates confirmed (Dec 5-22, results Dec 26)"
+        },
+        {
+          "id": "mois-bidding-nlp-2026",
+          "note": "행안부 3종 공통 일정 보강: 팀 병합 9.23 · 2차 자료 10.5 · 시상 11.27 / 나라장터 NLP 설명회 8.24 14시",
+          "note_en": "MOIS trio: team merger Sep 23, phase-2 materials Oct 5, awards Nov 27 added; KONEPS NLP briefing Aug 24 2pm"
+        },
+        {
+          "id": "neurips-virtual-embryo-2026",
+          "note": "신규: Virtual Embryo Challenge (NeurIPS 2026)",
+          "note_en": "New: Virtual Embryo Challenge (NeurIPS 2026)"
+        },
+        {
+          "id": "neurips-predictive-eval-2026",
+          "note": "신규: Predictive AI Evaluation Competition (NeurIPS 2026)",
+          "note_en": "New: Predictive AI Evaluation Competition (NeurIPS 2026)"
+        },
+        {
+          "id": "neurips-learn2design-2026",
+          "note": "신규: Learn2Design 2026 — 중력파 검출기 설계 (NeurIPS 2026)",
+          "note_en": "New: Learn2Design 2026 - Gravitational-Wave Detector Design (NeurIPS 2026)"
+        },
+        {
+          "id": "neurips-fusion-equilibrium-2026",
+          "note": "신규: Fusion Equilibrium Challenge (NeurIPS 2026)",
+          "note_en": "New: Fusion Equilibrium Challenge (NeurIPS 2026)"
+        },
+        {
+          "id": "neurips-roco-spring-2026",
+          "note": "신규: RoCo-Spring 강건 대응점 챌린지 (NeurIPS 2026)",
+          "note_en": "New: RoCo-Spring: Robust Correspondence Challenge (NeurIPS 2026)"
+        },
+        {
+          "id": "mabc-2026",
+          "note": "신규: MABC 2026 (Making AI Beneficial Challenge) — 업스테이지 AI 에이전트 챌린지",
+          "note_en": "New: MABC 2026 (Making AI Beneficial Challenge) - Upstage AI Agent Challenge"
+        },
+        {
+          "id": "openai-devday-exchange-seoul-2026",
+          "note": "신규: OpenAI DevDay Exchange 2026 서울",
+          "note_en": "New: OpenAI DevDay Exchange 2026 - Seoul"
+        },
+        {
+          "id": "ausgcon-2026",
+          "note": "신규: AUSGCON 2026 (AWS 대학생 사용자 그룹 컨퍼런스)",
+          "note_en": "New: AUSGCON 2026 (AWS University Student Group Conference)"
+        },
+        {
+          "id": "kcd-openinfra-day-korea-2026",
+          "note": "신규: KCD × Ceph × OpenInfra Day Korea 2026",
+          "note_en": "New: KCD x Ceph x OpenInfra Day Korea 2026"
+        },
+        {
+          "id": "agent-field-trip-incheon-2026",
+          "note": "신규: 에이전트 필드 트립 2026: 인천 (GDG Incheon)",
+          "note_en": "New: Agent Field Trip 2026: Incheon (GDG Incheon)"
+        },
+        {
+          "id": "industrial-ai-expo-2026",
+          "note": "신규: 2026 산업AI EXPO (Embodied AI: Beyond Physical AI)",
+          "note_en": "New: Industrial AI EXPO 2026 (Embodied AI: Beyond Physical AI)"
+        },
+        {
+          "id": "",
+          "note": "11개 신규(NeurIPS 대회 5종 · MABC · OpenAI DevDay Exchange 서울 · AUSGCON · KCD×OpenInfra Day · 에이전트 필드 트립 · 산업AI EXPO) · 76개 항목 재검증 · SOPT 39기·FEConf·인프콘·UMC·if(kakao)·휴먼테크 33회·우테코 9기 여전히 미공지 · 스마트빌딩·AMP·RoboSyn NeurIPS 대회는 일정 미공개로 보류",
+          "note_en": "11 new items (5 NeurIPS competitions, MABC, OpenAI DevDay Exchange Seoul, AUSGCON, KCD x OpenInfra Day, Agent Field Trip, Industrial AI EXPO); 76 items re-verified; SOPT 39th, FEConf, INFCON, UMC, if(kakao), HumanTech 33rd, Woowacourse 9 still unannounced; Smart Buildings/AMP/RoboSyn NeurIPS comps held back pending dates"
+        }
+      ]
+    },
     {
       "date": "2026-08-19",
       "changes": [
@@ -714,7 +834,7 @@
           "url": "https://www.oss.kr"
         }
       ],
-      "checked": "2026-08-11",
+      "checked": "2026-08-21",
       "schedule_note": "1차 서면평가 9.3 · 멘토링 9.18~10.9 · 2차 평가 10.12~28 · 수상 발표는 11월 중 홈페이지 공지",
       "schedule_note_en": "Round-1 document review Sep 3; mentoring Sep 18-Oct 9; round-2 Oct 12-28; winners announced on the site in November"
     },
@@ -864,7 +984,7 @@
       "schedule_note_en": "2026 not announced; usually held in August (2025: Aug 23). Announcement is later than usual",
       "events": [],
       "added": "2026-07-13",
-      "checked": "2026-08-19"
+      "checked": "2026-08-21"
     },
     {
       "id": "kaggle-platform",
@@ -982,7 +1102,7 @@
           "item_en": "Submit for Milestone #2 (by Sep 30)"
         }
       ],
-      "checked": "2026-08-07"
+      "checked": "2026-08-21"
     },
     {
       "id": "drivendata",
@@ -1111,7 +1231,7 @@
       "schedule_note_en": "No standalone 2026 edition announced; the AI track appears to have merged into the SCPC AI Challenge (DACON, ran Jun-Aug), so a separate run is uncertain",
       "events": [],
       "added": "2026-07-13",
-      "checked": "2026-08-11"
+      "checked": "2026-08-21"
     },
     {
       "id": "lg-aimers-9",
@@ -1138,8 +1258,8 @@
       "description_en": "By LG AI Research. Practical topics: LLM, lightweighting (LoRA). Online prelims, top 100 to offline finals. Shortest path to LG hiring.",
       "tip": "9기 모집 이미 마감. 10기는 연말(11~12월) 모집 예상 — lgaimers.ai 관심 등록.",
       "tip_en": "9th round closed. 10th expected to recruit Nov-Dec; register interest at lgaimers.ai.",
-      "schedule_note": "9기 모집 종료 (5.22~6.15) · 현재 교육 진행 중",
-      "schedule_note_en": "9th intake recruiting closed (May 22-Jun 15); training in progress",
+      "schedule_note": "9기 모집 종료 · 온라인 해커톤 8.5 10시~9.2 10시 · Phase 3 진출자 발표 9.14 · 오프라인 해커톤 9.19~20",
+      "schedule_note_en": "Cohort 9 closed; online hackathon Aug 5 10am-Sep 2 10am; Phase 3 finalists Sep 14; offline hackathon Sep 19-20",
       "events": [
         {
           "type": "activity_start",
@@ -1154,14 +1274,26 @@
           "label_en": "Online hackathon ends"
         },
         {
+          "type": "announce",
+          "date": "2026-09-14",
+          "label": "Phase 3 진출자 발표",
+          "label_en": "Phase 3 finalists announced"
+        },
+        {
           "type": "activity_start",
           "date": "2026-09-19",
-          "label": "오프라인 해커톤 (Phase 3)",
-          "label_en": "Offline hackathon (Phase 3)"
+          "label": "오프라인 해커톤 시작 (Phase 3, 1박 2일)",
+          "label_en": "Offline hackathon starts (Phase 3, 2 days)"
+        },
+        {
+          "type": "activity_end",
+          "date": "2026-09-20",
+          "label": "오프라인 해커톤 종료",
+          "label_en": "Offline hackathon ends"
         }
       ],
       "added": "2026-07-13",
-      "checked": "2026-08-07"
+      "checked": "2026-08-21"
     },
     {
       "id": "jump-ai-4",
@@ -1289,8 +1421,8 @@
       "description_en": "The 10th official NeurIPS competition track. 16 competitions announced Jul 28, 2026 across science, healthcare, foundation models, and robotics. Individual competitions open from August onward.",
       "tip": "16개 대회 목록·링크는 공식 블로그 참고. 대회별 접수 일정이 제각각이라 관심 분야 사이트를 직접 확인할 것.",
       "tip_en": "See the official blog for all 16 competitions and links. Timelines vary per competition; check the sites you care about.",
-      "schedule_note": "16개 대회 확정 (7.28 발표) · 대회별 접수 8월~ 순차 오픈 · 학회 2026.12.06~12 (시드니)",
-      "schedule_note_en": "16 competitions confirmed (announced Jul 28); registrations open from August per competition; conference Dec 6-12, Sydney",
+      "schedule_note": "16개 대회 확정 (7.28 발표) · 개별 대회 추적 중: SimulacraBench·Steerability·FAIR Universe·AIMO Interp·RealPDE·QuantiPhy·Agenthon·SAPC2·Virtual Embryo·Predictive Eval·Learn2Design·Fusion Equilibrium·RoCo-Spring · 학회 2026.12.06~12 (시드니)",
+      "schedule_note_en": "16 competitions confirmed (announced Jul 28); tracked individually: SimulacraBench, Steerability, FAIR Universe, AIMO Interp, RealPDE, QuantiPhy, Agenthon, SAPC2, Virtual Embryo, Predictive Eval, Learn2Design, Fusion Equilibrium, RoCo-Spring; conference Dec 6-12, 2026 (Sydney)",
       "events": [
         {
           "type": "activity_start",
@@ -1306,7 +1438,7 @@
         }
       ],
       "added": "2026-07-13",
-      "checked": "2026-08-07",
+      "checked": "2026-08-21",
       "links": [
         {
           "title": "16개 대회 발표 (공식 블로그)",
@@ -1455,7 +1587,7 @@
         }
       ],
       "added": "2026-07-13",
-      "checked": "2026-08-07"
+      "checked": "2026-08-21"
     },
     {
       "id": "grand-challenge",
@@ -1676,7 +1808,7 @@
           "item_en": "Register team (Aug-Sep)"
         }
       ],
-      "checked": "2026-08-11",
+      "checked": "2026-08-21",
       "schedule_note": "팀 등록 기간 미공개(TBA) · 예년 패턴 8~9월",
       "schedule_note_en": "Team registration window TBA; past pattern Aug-Sep"
     },
@@ -1744,7 +1876,7 @@
           "item_en": "Set alert for Jun 2027 registration"
         }
       ],
-      "checked": "2026-08-19"
+      "checked": "2026-08-21"
     },
     {
       "id": "meta-hacker-cup-2026",
@@ -1773,7 +1905,7 @@
       "schedule_note_en": "2026 schedule TBA; recent pattern suggests Oct-Nov (2025 qualifiers were in October)",
       "events": [],
       "added": "2026-07-13",
-      "checked": "2026-08-07"
+      "checked": "2026-08-21"
     },
     {
       "id": "kt-aivle-10",
@@ -1855,7 +1987,9 @@
           "item_en": "Prepare coding test (Python basics)"
         }
       ],
-      "checked": "2026-08-14"
+      "checked": "2026-08-21",
+      "schedule_note": "역량심사 8.14~8.23 · 합격 발표 8.28 · 교육 9.29~2027.3.5",
+      "schedule_note_en": "Aptitude screening Aug 14-23; final results Aug 28; training Sep 29-Mar 5, 2027"
     },
     {
       "id": "ssafy-17",
@@ -1906,7 +2040,7 @@
           "item_en": "Prepare interview (personality + PT)"
         }
       ],
-      "checked": "2026-08-11"
+      "checked": "2026-08-21"
     },
     {
       "id": "softeer-9",
@@ -1955,7 +2089,7 @@
           "item_en": "Polish portfolio"
         }
       ],
-      "checked": "2026-08-11"
+      "checked": "2026-08-21"
     },
     {
       "id": "boostcamp-11",
@@ -2102,7 +2236,7 @@
           "item_en": "Prepare for the final coding test"
         }
       ],
-      "checked": "2026-08-11"
+      "checked": "2026-08-21"
     },
     {
       "id": "42seoul",
@@ -2178,7 +2312,7 @@
       "schedule_note_en": "Member recruiting Sep-Oct per campus; organizer applications Mar-Jun globally",
       "events": [],
       "added": "2026-07-13",
-      "checked": "2026-08-07"
+      "checked": "2026-08-21"
     },
     {
       "id": "likelion",
@@ -2209,7 +2343,7 @@
       "schedule_note_en": "Recruiting varies by campus; main round early in the year (Feb-Mar), only some campuses recruit in fall",
       "events": [],
       "added": "2026-07-13",
-      "checked": "2026-08-07"
+      "checked": "2026-08-21"
     },
     {
       "id": "gdg-korea",
@@ -2311,7 +2445,7 @@
         }
       ],
       "added": "2026-07-25",
-      "checked": "2026-08-07"
+      "checked": "2026-08-21"
     },
     {
       "id": "embedded-sw-contest-24",
@@ -2359,9 +2493,9 @@
         }
       ],
       "added": "2026-07-25",
-      "checked": "2026-08-11",
-      "schedule_note": "예선 심사 9.7~9.25 · 수상작 전시 12.9~11 (시상식 12.11)",
-      "schedule_note_en": "Preliminary judging Sep 7-25; winners exhibition Dec 9-11 (ceremony Dec 11)"
+      "checked": "2026-08-21",
+      "schedule_note": "예선 심사 9.7~9.25 · 수상작 전시 12.9~11 (시상식 12.11) · 구글폼 접수는 9.4 14시까지 허용",
+      "schedule_note_en": "Prelim judging Sep 7-25; exhibition Dec 9-11 (awards Dec 11); Google Form accepted until Sep 4 2pm"
     },
     {
       "id": "maplestory-worlds-contest-2026",
@@ -2409,7 +2543,7 @@
         }
       ],
       "added": "2026-07-25",
-      "checked": "2026-08-07"
+      "checked": "2026-08-21"
     },
     {
       "id": "bigcontest-2026",
@@ -2438,7 +2572,7 @@
       "schedule_note_en": "14th edition; runs Sep-Dec 2026 with awards in Dec; phase dates still TBA",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-08-11"
+      "checked": "2026-08-21"
     },
     {
       "id": "maicon-2026",
@@ -2463,16 +2597,29 @@
       "description_en": "Defense AI contest with a public track open to everyone. Official site says the 2026 edition is in preparation.",
       "tip": "예년 접수 9월 초~중순 — 8월 말부터 maicon.kr 확인.",
       "tip_en": "Past registrations opened early-mid September; check maicon.kr from late August.",
-      "schedule_note": "공식 사이트 '제5회 준비중' 표기 · 접수 2026년 9월 예상 (2025: 9.1~9.21)",
-      "schedule_note_en": "Official site says the 5th edition is in preparation; applications expected Sep 2026 (2025: Sep 1-21)",
-      "events": [],
+      "schedule_note": "공홈: 참가 접수 9.1(화)~9.30(수) 확정 · 예선·본선·장소·상금은 \"준비중\" (공지 게시판 추후 안내)",
+      "schedule_note_en": "Official site: applications Sep 1 (Tue)-Sep 30 (Wed) confirmed; prelim/finals/venue/prizes still \"in preparation\" (to be posted on the notice board)",
+      "events": [
+        {
+          "type": "apply_start",
+          "date": "2026-09-01",
+          "label": "참가 접수 시작",
+          "label_en": "Applications open"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-09-30",
+          "label": "참가 접수 마감",
+          "label_en": "Application deadline"
+        }
+      ],
       "added": "2026-07-25",
-      "checked": "2026-08-11"
+      "checked": "2026-08-21"
     },
     {
       "id": "fiesta-2026",
-      "name": "FIESTA 2026 (금융보안 위협분석 대회)",
-      "name_en": "FIESTA 2026 (Financial Security Threat Analysis)",
+      "name": "2026 금융보안 AI 활용 해킹방어 대회 (구 FIESTA)",
+      "name_en": "2026 Financial-Security AI Hacking Defense Competition (formerly FIESTA)",
       "category": "보안",
       "status": "upcoming",
       "tags": [
@@ -2488,17 +2635,42 @@
         "hiring-preference"
       ],
       "url": "https://www.fsec.or.kr",
-      "prize": "2025 기준 대상 금융위원장상 + 600만 원 · 학생 수상팀 금융보안원 입사 우대",
-      "prize_en": "2025: FSC Chairman's Award + 6M KRW; student winners get FSI hiring preference",
-      "description": "금융보안원 주최 CTF형 위협분석 대회. 대학(원)생 부문 별도. 매년 9월 정례 개최.",
-      "description_en": "CTF-style threat analysis contest by the Financial Security Institute, with a student division. Held every September.",
-      "tip": "대회 사이트(fiesta.fsec.or.kr)는 시즌(9월)에만 오픈 — 평시엔 금융보안원 공지 확인.",
-      "tip_en": "The contest site (fiesta.fsec.or.kr) only opens in season (Sep); check FSI notices otherwise.",
-      "schedule_note": "2026 공고 대기 · 예년 9월 개최 (2025: 9.26~28)",
-      "schedule_note_en": "2026 notice pending; usually held in September (2025: Sep 26-28)",
-      "events": [],
+      "prize": "대상 1,200만 원(금융위원장상) 외 10개 팀 (총상금 전년 대비 2배 이상)",
+      "prize_en": "Grand prize 12M KRW (FSC Chair award); 10 teams awarded (prize pool more than doubled YoY)",
+      "description": "금융보안원 주최(금융위 후원). 기존 위협분석 중심 FIESTA를 AI 활용 능력과 실전 방어 역량을 함께 검증하는 실전형 대회로 개편. 예선 9.5·본선 10.3 온라인(09~18시), 시상은 FISCON 2026(11월). 참가 자격은 금융보안원 사원기관·전자금융 업무 수행 금융회사·전자금융업자 임직원(최대 4인 팀) — 학생 개인 참가 불가.",
+      "description_en": "Hosted by the Financial Security Institute (backed by the FSC). The threat-analysis-focused FIESTA was reorganized into a practical contest testing AI use and hands-on defense. Prelims Sep 5, finals Oct 3, both online (9am-6pm); awards at FISCON 2026 (Nov). Eligibility: employees of FSI member institutions, e-finance firms and e-finance providers (teams up to 4) - not open to individual students.",
+      "tip": "학생 신분으로는 참가 불가 — 금융권 재직자만. 학생은 같은 금융보안원 주최 \"금융 AI Challenge\"(접수 ~9.7)를 노릴 것.",
+      "tip_en": "Not open to students - employees of financial institutions only. Students should target the FSI-run Finance AI Challenge instead (applications to Sep 7).",
+      "schedule_note": "8.18 공고 · 신청 8.24~9.2 (대회 홈페이지) · 시상 FISCON 2026 11월",
+      "schedule_note_en": "Announced Aug 18; applications Aug 24-Sep 2 via the contest site; awards at FISCON 2026 in Nov",
+      "events": [
+        {
+          "type": "apply_start",
+          "date": "2026-08-24",
+          "label": "참가 신청 시작",
+          "label_en": "Applications open"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-09-02",
+          "label": "참가 신청 마감",
+          "label_en": "Application deadline"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-09-05",
+          "label": "예선 (온라인 09~18시)",
+          "label_en": "Preliminary round (online, 9am-6pm)"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-10-03",
+          "label": "본선 (온라인)",
+          "label_en": "Final round (online)"
+        }
+      ],
       "added": "2026-07-25",
-      "checked": "2026-08-11"
+      "checked": "2026-08-21"
     },
     {
       "id": "whitehat-contest-2026",
@@ -2529,7 +2701,7 @@
       "schedule_note_en": "2026 notice pending; registrations Sep-Oct, finals Nov in past years",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-08-11"
+      "checked": "2026-08-21"
     },
     {
       "id": "kisa-aisec-2026",
@@ -2560,7 +2732,7 @@
       "schedule_note_en": "Awaiting the 2026 notice (past pattern: opens Sep, awards Nov); the official site (aibigdatasec.kr) is currently offline and should return with the announcement",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-08-11"
+      "checked": "2026-08-21"
     },
     {
       "id": "junction-asia-2026",
@@ -2606,7 +2778,7 @@
         }
       ],
       "added": "2026-07-25",
-      "checked": "2026-08-17"
+      "checked": "2026-08-21"
     },
     {
       "id": "sw-hackathon-13",
@@ -2633,11 +2805,11 @@
       "description_en": "A 42.195-hour nonstop hackathon. Teams of 2-5, age 15+, selected via 12 regional technoparks.",
       "tip": "공식 사이트(swhackathon.kr)는 시즌에만 오픈. 소속 지역 테크노파크 공고 또는 위비티 검색으로 접수처 확인.",
       "tip_en": "Official site opens only in season. Check your regional technopark notices or Wevity search.",
-      "schedule_note": "지역별 접수 2026년 7~8월 · 본선 8월 말~9월 예상 (12회: 2025.8.29~31 세종)",
-      "schedule_note_en": "Regional registration Jul-Aug; finals late Aug-Sep expected (12th: Aug 29-31, 2025, Sejong)",
+      "schedule_note": "공식 사이트(swhackathon.kr) 호스팅 만료 상태 · 2026 제13회 공고 미확인 (12회: 2025.8.29~31 세종, 접수 7.8~8.28)",
+      "schedule_note_en": "Official site (swhackathon.kr) hosting expired; no 13th-edition 2026 notice found (12th: Aug 29-31, 2025 in Sejong; apps Jul 8-Aug 28)",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-08-12"
+      "checked": "2026-08-21"
     },
     {
       "id": "jeonbuk-ai-bigdata-4",
@@ -2673,7 +2845,7 @@
         }
       ],
       "added": "2026-07-25",
-      "checked": "2026-08-07"
+      "checked": "2026-08-21"
     },
     {
       "id": "lg-aimers-10",
@@ -2700,11 +2872,30 @@
       "description_en": "LG AI Research's training + hackathon program, run twice a year. For unemployed youth aged 19-29.",
       "tip": "9기는 6.15 마감됨. 10기 모집 11~12월 예상 — lgaimers.ai 관심 등록.",
       "tip_en": "9th closed Jun 15. 10th expected to recruit Nov-Dec; register interest at lgaimers.ai.",
-      "schedule_note": "공식 사이트에 지원접수 12.5~12.22, 발표 12.26 표기 (기수 라벨 없음 — 10기 창구로 추정, 공지 확정 대기)",
-      "schedule_note_en": "Official site shows applications Dec 5-22, results Dec 26 (cohort unlabeled — presumed the 10th intake; awaiting confirmation)",
-      "events": [],
+      "schedule_note": "공식 사이트 10기 모집 확정: 지원 12.5~12.22 18시 · 참가자 발표 12.26",
+      "schedule_note_en": "Official site confirms cohort 10: apply Dec 5-Dec 22 6pm; participants announced Dec 26",
+      "events": [
+        {
+          "type": "apply_start",
+          "date": "2026-12-05",
+          "label": "지원 접수 시작",
+          "label_en": "Applications open"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-12-22",
+          "label": "지원 접수 마감 (18시)",
+          "label_en": "Application deadline (6pm)"
+        },
+        {
+          "type": "announce",
+          "date": "2026-12-26",
+          "label": "참가자 발표",
+          "label_en": "Participants announced"
+        }
+      ],
       "added": "2026-07-25",
-      "checked": "2026-08-07"
+      "checked": "2026-08-21"
     },
     {
       "id": "pycon-kr-2026",
@@ -2757,7 +2948,7 @@
       "name": "AI Summit Seoul & Expo 2026",
       "name_en": "AI Summit Seoul & Expo 2026",
       "category": "컨퍼런스·박람회",
-      "status": "ongoing_open",
+      "status": "ended",
       "tags": [
         "AI",
         "박람회",
@@ -2804,7 +2995,7 @@
         }
       ],
       "added": "2026-07-25",
-      "checked": "2026-08-19"
+      "checked": "2026-08-21"
     },
     {
       "id": "kes-2026",
@@ -2846,7 +3037,7 @@
         }
       ],
       "added": "2026-07-25",
-      "checked": "2026-08-11",
+      "checked": "2026-08-21",
       "schedule_note": "공식 사이트 사전등록 접수 중 (마감일 미공지)",
       "schedule_note_en": "Pre-registration open on the official site (no close date published)"
     },
@@ -2890,7 +3081,9 @@
         }
       ],
       "added": "2026-07-25",
-      "checked": "2026-07-25"
+      "checked": "2026-08-21",
+      "schedule_note": "공홈 \"2026 참관객 사전등록 준비중\" · 무료 입장",
+      "schedule_note_en": "Official site: \"2026 visitor pre-registration in preparation\"; free admission"
     },
     {
       "id": "comeup-2026",
@@ -2932,7 +3125,7 @@
         }
       ],
       "added": "2026-07-25",
-      "checked": "2026-07-25"
+      "checked": "2026-08-21"
     },
     {
       "id": "if-kakao-26",
@@ -2963,7 +3156,7 @@
       "schedule_note_en": "Expected Sep-Oct 2026 (2025: Sep 23-25); announcements historically land in late August, so one may be imminent",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-08-19"
+      "checked": "2026-08-21"
     },
     {
       "id": "woowacon-2026",
@@ -2992,7 +3185,7 @@
       "schedule_note_en": "Expected late Oct 2026 (2025: Oct 28)",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-08-07"
+      "checked": "2026-08-21"
     },
     {
       "id": "naver-dan-26",
@@ -3023,7 +3216,7 @@
       "schedule_note_en": "Expected early Nov 2026 (DAN25: Nov 6-7)",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-08-07"
+      "checked": "2026-08-21"
     },
     {
       "id": "infcon-2026",
@@ -3052,7 +3245,7 @@
       "schedule_note_en": "Teased for H2 2026, date TBA (historically August)",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-08-19"
+      "checked": "2026-08-21"
     },
     {
       "id": "devfest-korea-2026",
@@ -3081,7 +3274,7 @@
       "schedule_note_en": "Expected Nov-Dec 2026; city schedules announced in H2",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-08-07"
+      "checked": "2026-08-21"
     },
     {
       "id": "sopt-39",
@@ -3112,7 +3305,7 @@
       "schedule_note_en": "39th recruiting expected Aug-early Sep 2026 (makers in August, per official page)",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-08-19"
+      "checked": "2026-08-21"
     },
     {
       "id": "yapp-29",
@@ -3141,7 +3334,7 @@
       "schedule_note_en": "29th recruiting expected Sep-Oct 2026",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-08-11"
+      "checked": "2026-08-21"
     },
     {
       "id": "nexters-30",
@@ -3170,7 +3363,7 @@
       "schedule_note_en": "30th alert sign-up open; recruiting expected Nov 2026-Jan 2027",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-08-04"
+      "checked": "2026-08-21"
     },
     {
       "id": "depromeet-18",
@@ -3309,7 +3502,7 @@
         }
       ],
       "added": "2026-07-25",
-      "checked": "2026-08-11"
+      "checked": "2026-08-21"
     },
     {
       "id": "prography-12",
@@ -3427,7 +3620,7 @@
       "schedule_note_en": "Next cohort schedule not yet published; watch goorm's official channels",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-08-11"
+      "checked": "2026-08-21"
     },
     {
       "id": "sw-maestro-18",
@@ -3512,7 +3705,7 @@
         }
       ],
       "added": "2026-07-25",
-      "checked": "2026-08-19"
+      "checked": "2026-08-21"
     },
     {
       "id": "nhn-nan-2026",
@@ -3562,7 +3755,7 @@
         }
       ],
       "added": "2026-07-28",
-      "checked": "2026-08-11"
+      "checked": "2026-08-21"
     },
     {
       "id": "shinhan-careernext-2026",
@@ -3676,14 +3869,14 @@
         }
       ],
       "added": "2026-07-28",
-      "checked": "2026-08-17"
+      "checked": "2026-08-21"
     },
     {
       "id": "skt-prompt-2026",
       "name": "SKT 모두의 Promp.T 공모전",
       "name_en": "SKT Everyone's Promp.T Contest",
       "category": "AI/ML 국내",
-      "status": "ongoing_closed",
+      "status": "ended",
       "tags": [
         "SKT",
         "프롬프트",
@@ -3722,7 +3915,9 @@
         }
       ],
       "added": "2026-07-28",
-      "checked": "2026-08-19"
+      "checked": "2026-08-21",
+      "schedule_note": "결과 8.20 SKT 뉴스룸 발표 · 공모 종료",
+      "schedule_note_en": "Results posted on SKT Newsroom Aug 20; contest closed"
     },
     {
       "id": "data-ai-creator-camp-2026",
@@ -3782,7 +3977,7 @@
         }
       ],
       "added": "2026-07-28",
-      "checked": "2026-08-07"
+      "checked": "2026-08-21"
     },
     {
       "id": "aihome-matter-sprint-2026",
@@ -3826,7 +4021,7 @@
         }
       ],
       "added": "2026-07-31",
-      "checked": "2026-08-11"
+      "checked": "2026-08-21"
     },
     {
       "id": "traithon-2",
@@ -3864,14 +4059,14 @@
         }
       ],
       "added": "2026-07-31",
-      "checked": "2026-08-19"
+      "checked": "2026-08-21"
     },
     {
       "id": "gcp-solana-hackathon-2026",
       "name": "Google Cloud × Solana AI Agentic 해커톤",
       "name_en": "Google Cloud × Solana AI Agentic Hackathon",
       "category": "해커톤",
-      "status": "ongoing_closed",
+      "status": "ended",
       "tags": [
         "구글클라우드",
         "블록체인",
@@ -3912,7 +4107,9 @@
         }
       ],
       "added": "2026-07-31",
-      "checked": "2026-08-11"
+      "checked": "2026-08-21",
+      "schedule_note": "데모데이 8.21 (구글 스타트업 캠퍼스) 종료 · 상금 $3,000/$1,500/$500",
+      "schedule_note_en": "Demo day Aug 21 at Google Startup Campus; prizes $3,000/$1,500/$500"
     },
     {
       "id": "kaggle-agent-security-2026",
@@ -3948,7 +4145,7 @@
         }
       ],
       "added": "2026-07-31",
-      "checked": "2026-08-19"
+      "checked": "2026-08-21"
     },
     {
       "id": "neurips-simulacrabench-2026",
@@ -4051,7 +4248,7 @@
         }
       ],
       "added": "2026-07-31",
-      "checked": "2026-08-17"
+      "checked": "2026-08-21"
     },
     {
       "id": "neurips-fair-universe-2026",
@@ -4134,7 +4331,7 @@
       "name": "RealPDE Challenge (NeurIPS 2026)",
       "name_en": "RealPDE Challenge (NeurIPS 2026)",
       "category": "학술 챌린지",
-      "status": "ongoing_open",
+      "status": "ongoing_closed",
       "tags": [
         "NeurIPS",
         "과학ML",
@@ -4183,7 +4380,9 @@
         }
       ],
       "added": "2026-08-04",
-      "checked": "2026-08-19"
+      "checked": "2026-08-21",
+      "schedule_note": "등록 마감(8.20) · 추가 등록 없음(폼 미제출 Codabench 가입은 거부) · 개발 ~9.27 · 결정 페이즈 ~10.25 · 결과 11.10",
+      "schedule_note_en": "Registration closed Aug 20, no late registration (Codabench joins without the form are rejected); dev to Sep 27, decision phase to Oct 25, results Nov 10"
     },
     {
       "id": "neurips-quantiphy-2026",
@@ -4279,7 +4478,7 @@
         }
       ],
       "added": "2026-08-04",
-      "checked": "2026-08-19",
+      "checked": "2026-08-21",
       "schedule_note": "개발 8.28~9.28 · 최종 제출 9.29~10.12 · 검증 10.13~25 · NeurIPS 워크숍 12.9~13 애틀랜타",
       "schedule_note_en": "Dev Aug 28-Sep 28; final submissions Sep 29-Oct 12; verification Oct 13-25; NeurIPS workshop Dec 9-13, Atlanta"
     },
@@ -4311,13 +4510,21 @@
       "events": [
         {
           "type": "apply_end",
-          "date": "2026-08-31",
-          "label": "제출 마감",
-          "label_en": "Submission deadline"
+          "date": "2026-10-24",
+          "label": "제출 마감 (AoE, 연장)",
+          "label_en": "Submission deadline (AoE, extended)"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-12-11",
+          "label": "NeurIPS 대회 세션",
+          "label_en": "NeurIPS competition sessions"
         }
       ],
       "added": "2026-08-04",
-      "checked": "2026-08-04"
+      "checked": "2026-08-21",
+      "schedule_note": "8.14 공지: 최종 마감 8.31 → 10.24 AoE 연장 · NeurIPS 2026 대회 세션 12.11~12",
+      "schedule_note_en": "Aug 14 notice: final deadline extended Aug 31 -> Oct 24 AoE; NeurIPS 2026 competition sessions Dec 11-12"
     },
     {
       "id": "finance-ai-challenge-2026",
@@ -4359,7 +4566,7 @@
         }
       ],
       "added": "2026-08-04",
-      "checked": "2026-08-11"
+      "checked": "2026-08-21"
     },
     {
       "id": "gxg-ai-gamesound-2026",
@@ -4407,7 +4614,7 @@
         }
       ],
       "added": "2026-08-04",
-      "checked": "2026-08-19",
+      "checked": "2026-08-21",
       "schedule_note": "예선 전문가 심사 8.24~25 · 최종 웹투표 50% + 전문가 50%",
       "schedule_note_en": "Expert preliminary judging Aug 24-25; final score = 50% public web vote + 50% experts"
     },
@@ -4463,7 +4670,7 @@
         }
       ],
       "added": "2026-08-07",
-      "checked": "2026-08-14",
+      "checked": "2026-08-21",
       "schedule_note": "공고문 기준 접수 ~9.7 17시 · 예선심사 9.7~9 (공홈 일정표에는 TBD·예비심사 8.28 표기 병존)",
       "schedule_note_en": "Per the announcement, applications close Sep 7 5pm with screening Sep 7-9 (the site's own table still shows TBD and an Aug 28 preliminary review)"
     },
@@ -4500,12 +4707,12 @@
         {
           "type": "apply_end",
           "date": "2026-08-24",
-          "label": "접수 마감",
-          "label_en": "Application deadline"
+          "label": "접수 마감 (15시)",
+          "label_en": "Application deadline (3pm)"
         }
       ],
       "added": "2026-08-07",
-      "checked": "2026-08-19"
+      "checked": "2026-08-21"
     },
     {
       "id": "kaggle-ptcg-ai-2026",
@@ -4555,7 +4762,7 @@
         }
       ],
       "added": "2026-08-07",
-      "checked": "2026-08-17"
+      "checked": "2026-08-21"
     },
     {
       "id": "npark-satellite-ai-2026",
@@ -4693,7 +4900,7 @@
       "schedule_note": "데이터분석 대학부 접수 종료(7.27~8.6) · 중·고등부 ~8.14 · 데이터아트 ~9.21",
       "schedule_note_en": "University analysis track closed (Jul 27-Aug 6); secondary-school track to Aug 14; data-art to Sep 21",
       "added": "2026-08-07",
-      "checked": "2026-08-11"
+      "checked": "2026-08-21"
     },
     {
       "id": "ai-festa-2026",
@@ -4735,7 +4942,7 @@
         }
       ],
       "added": "2026-08-07",
-      "checked": "2026-08-07"
+      "checked": "2026-08-21"
     },
     {
       "id": "ubucon-korea-2026",
@@ -4769,7 +4976,9 @@
         }
       ],
       "added": "2026-08-07",
-      "checked": "2026-08-11"
+      "checked": "2026-08-21",
+      "schedule_note": "Late-bird 등록 진행 중 (8.17~, 식사·굿즈 비보장) · QR 입장 · MiniDebConf Korea 첫 공동 개최",
+      "schedule_note_en": "Late-bird registration open (from Aug 17; meals/merch not guaranteed); QR entry; first co-hosting with MiniDebConf Korea"
     },
     {
       "id": "snowflake-world-tour-seoul-2026",
@@ -4803,7 +5012,7 @@
         }
       ],
       "added": "2026-08-07",
-      "checked": "2026-08-07"
+      "checked": "2026-08-21"
     },
     {
       "id": "mongodb-local-seoul-2026",
@@ -4837,7 +5046,7 @@
         }
       ],
       "added": "2026-08-07",
-      "checked": "2026-08-07"
+      "checked": "2026-08-21"
     },
     {
       "id": "openai-game-builders-seoul-2026",
@@ -4883,7 +5092,7 @@
       "schedule_note": "온라인 챌린지 접수 마감됨(공홈 표기) · Track1 심사 8.27 · 본선 진출 발표 8.28~30",
       "schedule_note_en": "Online-challenge registration closed (per the site); Track 1 judging Aug 27; finalists announced Aug 28-30",
       "added": "2026-08-11",
-      "checked": "2026-08-17"
+      "checked": "2026-08-21"
     },
     {
       "id": "genai-risk-contest-2026",
@@ -4979,7 +5188,7 @@
       "schedule_note": "참가 신청 준비 중 — 프로그램 확정 후 티켓 오픈 예정",
       "schedule_note_en": "Registration in preparation; tickets open once the program is finalized",
       "added": "2026-08-11",
-      "checked": "2026-08-11"
+      "checked": "2026-08-21"
     },
     {
       "id": "kisti-data-ai-contest-2026",
@@ -5012,12 +5221,18 @@
           "date": "2026-08-11",
           "label": "문제발굴 접수 시작",
           "label_en": "Problem-discovery phase opens"
+        },
+        {
+          "type": "announce",
+          "date": "2026-11-25",
+          "label": "시상식",
+          "label_en": "Awards ceremony"
         }
       ],
-      "schedule_note": "대회 기간 ~11월 말 · 문제해결(모델 개발) 부문 세부 마감 공홈 확인 필요",
-      "schedule_note_en": "Runs to late November; check the site for the problem-solving phase deadlines",
+      "schedule_note": "대회 기간 8.11~11.25 · 시상식 11.25(변동 가능) · 문제해결(모델 개발) 부문 세부 마감 미공개 · 총상금 1,300만(대상 국회의장상)",
+      "schedule_note_en": "Contest Aug 11-Nov 25; awards Nov 25 (subject to change); model-development track deadline unpublished; 13M KRW total (grand prize: National Assembly Speaker award)",
       "added": "2026-08-12",
-      "checked": "2026-08-12"
+      "checked": "2026-08-21"
     },
     {
       "id": "rsna-knee-mri-2026",
@@ -5135,15 +5350,21 @@
         },
         {
           "type": "apply_end",
-          "date": "2026-09-14",
-          "label": "접수 마감 (23:59)",
-          "label_en": "Application deadline (23:59)"
+          "date": "2026-09-20",
+          "label": "접수 마감 (연장)",
+          "label_en": "Application deadline (extended)"
         },
         {
           "type": "announce",
-          "date": "2026-09-21",
+          "date": "2026-09-23",
           "label": "예선 결과 발표",
-          "label_en": "Prelim results"
+          "label_en": "Preliminary results"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-09-28",
+          "label": "멘토링 (대구 DIP)",
+          "label_en": "Mentoring session (Daegu DIP)"
         },
         {
           "type": "activity_start",
@@ -5153,7 +5374,9 @@
         }
       ],
       "added": "2026-08-14",
-      "checked": "2026-08-14"
+      "checked": "2026-08-21",
+      "schedule_note": "공홈 기준 접수 8.21~9.20 (기존 공고 8.14~9.14에서 연장) · 예선 발표 9.23 · 멘토링 9.28 · 본선·시상 10.22 EXCO",
+      "schedule_note_en": "Official site now lists applications Aug 21-Sep 20 (extended from Aug 14-Sep 14); prelim results Sep 23, mentoring Sep 28, finals/awards Oct 22 at EXCO"
     },
     {
       "id": "toython-2026",
@@ -5190,10 +5413,10 @@
           "label_en": "Event day (Yangjae, 5 hours)"
         }
       ],
-      "schedule_note": "신청 마감 미공지 · 신청 링크는 서울AI허브 공지 게시판 확인",
-      "schedule_note_en": "Application deadline unpublished; find the sign-up link on the Seoul AI Hub notice board",
+      "schedule_note": "행사 8.22(토) 양재 서울AI허브 · 100명 선발·무료 · 신청 링크는 서울AI허브 공지에도 미게시 — 현장 확인 필요",
+      "schedule_note_en": "Event Sat Aug 22 at Seoul AI Hub (Yangjae); 100 selected, free; application link still not posted even on the Hub notice board",
       "added": "2026-08-17",
-      "checked": "2026-08-19"
+      "checked": "2026-08-21"
     },
     {
       "id": "buidl-ctc-2026-fall",
@@ -5240,7 +5463,7 @@
         }
       ],
       "added": "2026-08-17",
-      "checked": "2026-08-17"
+      "checked": "2026-08-21"
     },
     {
       "id": "ai-challenge4all-2026",
@@ -5268,10 +5491,10 @@
       "tip": "트랙별 접수 시기가 다름 — 일부 트랙 8월 말 마감 표기(미확정)가 있으니 공홈에서 참가 가능 트랙 즉시 확인.",
       "tip_en": "Application windows differ per track — some listings show late-August deadlines (unconfirmed), so check the site now for tracks still open.",
       "events": [],
-      "schedule_note": "트랙별 접수 상이 · 일부 트랙 접수 ~8.31 표기(외부 공고 기준, 미확정) · 결선 12월",
-      "schedule_note_en": "Windows vary by track; some external listings show applications to Aug 31 (unconfirmed); finals in December",
+      "schedule_note": "공홈 \"진행 중 트랙\" 0건 표기 (AI 챔피언·루키·창작대회 접수 종료) · 로보틱스 챌린지 세부 안내 \"8월 중 예정\" · 결선 12월",
+      "schedule_note_en": "Official site lists 0 tracks currently open (Champion/Rookie/Creative closed); robotics challenge details \"due in August\"; finals in December",
       "added": "2026-08-17",
-      "checked": "2026-08-17"
+      "checked": "2026-08-21"
     },
     {
       "id": "mois-deepvoice-ai-2026",
@@ -5312,10 +5535,22 @@
           "label_en": "Competition starts"
         },
         {
+          "type": "partial_deadline",
+          "date": "2026-09-23",
+          "label": "팀 병합 마감",
+          "label_en": "Team merger deadline"
+        },
+        {
           "type": "apply_end",
           "date": "2026-09-30",
           "label": "대회 종료·제출 마감",
           "label_en": "Competition ends / submission deadline"
+        },
+        {
+          "type": "partial_deadline",
+          "date": "2026-10-05",
+          "label": "2차 평가 자료 제출 마감",
+          "label_en": "Phase-2 materials due"
         },
         {
           "type": "announce",
@@ -5325,7 +5560,9 @@
         }
       ],
       "added": "2026-08-19",
-      "checked": "2026-08-19"
+      "checked": "2026-08-21",
+      "schedule_note": "2단계 평가: 리더보드(~9.29 제출) 상위 15팀 → 2차 자료 10.5 → 최종 7팀 · 결과 10.16 · 시상 11.27 예정",
+      "schedule_note_en": "Two-phase judging: top 15 on the leaderboard (submissions to Sep 29) -> phase-2 materials Oct 5 -> final 7 teams; results Oct 16; awards Nov 27 (tentative)"
     },
     {
       "id": "mois-dashcam-ai-2026",
@@ -5366,10 +5603,22 @@
           "label_en": "Competition starts"
         },
         {
+          "type": "partial_deadline",
+          "date": "2026-09-23",
+          "label": "팀 병합 마감",
+          "label_en": "Team merger deadline"
+        },
+        {
           "type": "apply_end",
           "date": "2026-09-30",
           "label": "대회 종료·제출 마감",
           "label_en": "Competition ends / submission deadline"
+        },
+        {
+          "type": "partial_deadline",
+          "date": "2026-10-05",
+          "label": "2차 평가 자료 제출 마감",
+          "label_en": "Phase-2 materials due"
         },
         {
           "type": "announce",
@@ -5379,7 +5628,9 @@
         }
       ],
       "added": "2026-08-19",
-      "checked": "2026-08-19"
+      "checked": "2026-08-21",
+      "schedule_note": "2단계 평가: 리더보드(~9.29 제출) 상위 15팀 → 2차 자료 10.5 → 최종 7팀 · 결과 10.16 · 시상 11.27 예정",
+      "schedule_note_en": "Two-phase judging: top 15 on the leaderboard (submissions to Sep 29) -> phase-2 materials Oct 5 -> final 7 teams; results Oct 16; awards Nov 27 (tentative)"
     },
     {
       "id": "mois-bidding-nlp-2026",
@@ -5406,8 +5657,8 @@
       "prize_en": "42M KRW total across the MOIS public-AI series (per-contest split on the page)",
       "description": "행정안전부·NIA 공공 AI 시리즈 — 조달청 주관, 입찰공고 법령 위반 모니터링(NLP) 과제. 접수 8.18 시작, 대회 8.26~9.30, 국민 누구나.",
       "description_en": "Part of the MOIS/NIA public-AI series: a NLP legal-violation monitoring task run by the Public Procurement Service. Applications opened Aug 18; competition Aug 26-Sep 30; open to all Korean nationals.",
-      "tip": "공공기관 실데이터 기반 — 수상 시 공공 AI 레퍼런스로 활용도 높음. 대회 시작 8.26.",
-      "tip_en": "Built on real public-sector data — a strong public-AI reference if you place. Competition starts Aug 26.",
+      "tip": "온라인 설명회 8.24(월) 14시 Zoom · 코드 제출형(submit.zip) — 재현 가능한 파이프라인 필수. 입찰공고 텍스트 NLP라 규정 문서 전처리가 관건.",
+      "tip_en": "Online briefing Mon Aug 24 2pm (Zoom); code-submission format (submit.zip), so a reproducible pipeline is mandatory. Tender-notice NLP - preprocessing regulatory text is the crux.",
       "events": [
         {
           "type": "apply_start",
@@ -5420,10 +5671,22 @@
           "label_en": "Competition starts"
         },
         {
+          "type": "partial_deadline",
+          "date": "2026-09-23",
+          "label": "팀 병합 마감",
+          "label_en": "Team merger deadline"
+        },
+        {
           "type": "apply_end",
           "date": "2026-09-30",
           "label": "대회 종료·제출 마감",
           "label_en": "Competition ends / submission deadline"
+        },
+        {
+          "type": "partial_deadline",
+          "date": "2026-10-05",
+          "label": "2차 평가 자료 제출 마감",
+          "label_en": "Phase-2 materials due"
         },
         {
           "type": "announce",
@@ -5433,7 +5696,9 @@
         }
       ],
       "added": "2026-08-19",
-      "checked": "2026-08-19"
+      "checked": "2026-08-21",
+      "schedule_note": "2단계 평가: 리더보드(~9.29 제출) 상위 15팀 → 2차 자료 10.5 → 최종 7팀 · 결과 10.16 · 시상 11.27 예정",
+      "schedule_note_en": "Two-phase judging: top 15 on the leaderboard (submissions to Sep 29) -> phase-2 materials Oct 5 -> final 7 teams; results Oct 16; awards Nov 27 (tentative)"
     },
     {
       "id": "ai-world-2026",
@@ -5469,7 +5734,531 @@
         }
       ],
       "added": "2026-08-19",
-      "checked": "2026-08-19"
+      "checked": "2026-08-21"
+    },
+    {
+      "id": "neurips-virtual-embryo-2026",
+      "name": "Virtual Embryo Challenge (NeurIPS 2026)",
+      "name_en": "Virtual Embryo Challenge (NeurIPS 2026)",
+      "category": "학술 챌린지",
+      "status": "ongoing_open",
+      "tags": [
+        "NeurIPS",
+        "생성모델",
+        "바이오",
+        "단일세포",
+        "에이전트",
+        "글로벌"
+      ],
+      "tags_en": [
+        "NeurIPS",
+        "generative model",
+        "biology",
+        "single-cell",
+        "agents",
+        "global"
+      ],
+      "url": "https://virtualembryo.ai/challenge",
+      "prize": "총 $104K — 우승 상금 $54K(2트랙) + 초기연구자 여비 $30K + 커뮤니티 기여상 $20K",
+      "prize_en": "$104K total - $54K winner prizes (2 tracks), $30K early-career travel awards, $20K community award",
+      "description": "스탠퍼드 Qiu Lab 주관(Harvard·UCSD·MBZUAI·CMU 협력) NeurIPS 2026 공식 대회. 배아 발생 단계별 유전자 발현·3D 공간 위치·교란(knockout) 효과를 예측하는 생성모델 3개 태스크. 사람 팀 트랙과 LLM/코딩 에이전트 팀 트랙 분리 운영.",
+      "description_en": "Official NeurIPS 2026 competition run by the Stanford Qiu Lab (with Harvard, UCSD, MBZUAI, CMU). Three generative-modeling tasks: temporal gene-expression prediction, joint spatial-temporal prediction, and knockout perturbation effects. Separate tracks for human teams and LLM/coding-agent teams.",
+      "tip": "에이전트 트랙이 따로 있어 \"AI 에이전트로 과학 발견\" 내러티브를 만들기 좋음. 8.10부터 검증 리더보드 오픈 — 초기 참여가 유리. 최종 12.2, 공식 제출 12.11.",
+      "tip_en": "The separate agent track is a natural fit for an \"AI agents for scientific discovery\" story. Validation leaderboard open since Aug 10, so an early start pays off; final deadline Dec 2, official submissions due Dec 11.",
+      "events": [
+        {
+          "type": "apply_start",
+          "date": "2026-08-10",
+          "label": "등록·검증 리더보드 오픈",
+          "label_en": "Registration and validation leaderboard open"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-12-02",
+          "label": "최종 제출 마감",
+          "label_en": "Final submission deadline"
+        },
+        {
+          "type": "partial_deadline",
+          "date": "2026-12-11",
+          "label": "공식 제출 제출물 마감",
+          "label_en": "Official submissions due"
+        }
+      ],
+      "schedule_note": "3개 페이즈(8~12월) · 결과는 NeurIPS 2026 현장 발표",
+      "schedule_note_en": "Three phases Aug-Dec; results announced at NeurIPS 2026",
+      "added": "2026-08-21",
+      "checked": "2026-08-21"
+    },
+    {
+      "id": "neurips-predictive-eval-2026",
+      "name": "Predictive AI Evaluation Competition (NeurIPS 2026)",
+      "name_en": "Predictive AI Evaluation Competition (NeurIPS 2026)",
+      "category": "학술 챌린지",
+      "status": "upcoming",
+      "tags": [
+        "NeurIPS",
+        "LLM 평가",
+        "예측",
+        "Codabench",
+        "글로벌"
+      ],
+      "tags_en": [
+        "NeurIPS",
+        "LLM evaluation",
+        "prediction",
+        "Codabench",
+        "global"
+      ],
+      "url": "https://aimslab.stanford.edu/competition",
+      "prize": "상위팀 워크숍 발표 + 회고 논문 공저(상위팀 named author) · 상금 없음",
+      "prize_en": "Top teams present at the workshop and co-author the retrospective paper (named authorship for top teams); no cash prize",
+      "description": "스탠퍼드 AIMS Lab 주관 NeurIPS 2026 대회. \"특정 AI 시스템이 특정 문항을 맞힐 확률\"을 예측하는 predict() 코드를 제출하고 Brier score로 평가 — AI 평가 자체를 예측 문제로 다루는 메타 평가 대회. 팀 최대 6인, Codabench.",
+      "description_en": "NeurIPS 2026 competition by the Stanford AIMS Lab. Submit predict() code that forecasts the probability a given AI system answers a given item correctly; scored by Brier score - a meta-evaluation contest that treats AI evaluation itself as a prediction task. Teams up to 6, on Codabench.",
+      "tip": "9.1 런칭(스타터킷 공개) → 11.30 마감. LLM 평가·robustness 관심자에게 직결되는 주제이고 상위 10팀은 코드 공개(Apache/MIT) 필수 — 재현 가능한 파이프라인을 처음부터.",
+      "tip_en": "Launches Sep 1 (starter kit) and closes Nov 30. Directly relevant to anyone into LLM evaluation/robustness; top-10 teams must open-source their code (Apache/MIT), so build reproducibly from day one.",
+      "events": [
+        {
+          "type": "apply_start",
+          "date": "2026-09-01",
+          "label": "런칭 · 제출 오픈 (스타터킷 공개)",
+          "label_en": "Launch - submissions open (starter kit released)"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-11-30",
+          "label": "제출 마감",
+          "label_en": "Submission deadline"
+        }
+      ],
+      "schedule_note": "분석·리뷰 12.1~ · NeurIPS 2026 워크숍 발표",
+      "schedule_note_en": "Analysis and review from Dec 1; presented at the NeurIPS 2026 workshop",
+      "added": "2026-08-21",
+      "checked": "2026-08-21"
+    },
+    {
+      "id": "neurips-learn2design-2026",
+      "name": "Learn2Design 2026 — 중력파 검출기 설계 (NeurIPS 2026)",
+      "name_en": "Learn2Design 2026 - Gravitational-Wave Detector Design (NeurIPS 2026)",
+      "category": "학술 챌린지",
+      "status": "ongoing_open",
+      "tags": [
+        "NeurIPS",
+        "물리",
+        "최적화",
+        "JAX",
+        "글로벌"
+      ],
+      "tags_en": [
+        "NeurIPS",
+        "physics",
+        "optimization",
+        "JAX",
+        "global"
+      ],
+      "url": "https://www.learn2design2026.com/",
+      "prize": "총 EUR 25,000 (SPRIN-D 후원)",
+      "prize_en": "EUR 25,000 total (sponsored by SPRIN-D)",
+      "description": "튀빙겐대 주관(Nikhef·Caltech·FSU Jena 협력) NeurIPS 2026 대회. 미분가능 JAX 시뮬레이터 위에서 중력파 검출기 ~200개 연속 파라미터를 4시간 예산 안에 최적화하는 알고리즘(Python 클래스 1개)을 제출 — 고정 설계가 아니라 \"최적화 알고리즘\"을 겨룸. 10개 은닉 토폴로지 평균 손실로 채점.",
+      "description_en": "NeurIPS 2026 competition led by the University of Tübingen (with Nikhef, Caltech, FSU Jena). Submit an optimization algorithm (a single Python class) that tunes ~200 continuous parameters of a gravitational-wave detector on a differentiable JAX simulator within a 4-hour budget - you compete with algorithms, not fixed designs. Scored by average loss over 10 hidden topologies.",
+      "tip": "베이지안 최적화·진화전략·그래디언트 하이브리드 등 최적화 연구 포트폴리오로 바로 연결. 접수 중, 최종 제출 10.15.",
+      "tip_en": "A direct portfolio piece for optimization research (BO, evolution strategies, gradient hybrids). Open now; final submissions Oct 15.",
+      "events": [
+        {
+          "type": "apply_end",
+          "date": "2026-10-15",
+          "label": "최종 제출 마감",
+          "label_en": "Final submission deadline"
+        }
+      ],
+      "schedule_note": "제출 진행 중 · 공개 리더보드 8월부터 · 결과 NeurIPS 2026",
+      "schedule_note_en": "Submissions open; public leaderboard from August; results at NeurIPS 2026",
+      "added": "2026-08-21",
+      "checked": "2026-08-21"
+    },
+    {
+      "id": "neurips-fusion-equilibrium-2026",
+      "name": "Fusion Equilibrium Challenge (NeurIPS 2026)",
+      "name_en": "Fusion Equilibrium Challenge (NeurIPS 2026)",
+      "category": "학술 챌린지",
+      "status": "ongoing_open",
+      "tags": [
+        "NeurIPS",
+        "핵융합",
+        "물리",
+        "Codabench",
+        "글로벌"
+      ],
+      "tags_en": [
+        "NeurIPS",
+        "fusion",
+        "physics",
+        "Codabench",
+        "global"
+      ],
+      "url": "https://fusion-equilibrium-challenge.sophelio.io/",
+      "prize": "과제별 $500 × 2 + 우수 언급 4팀 · 교훈 논문 공저 + NeurIPS 세션 발표",
+      "prize_en": "$500 per challenge x2 plus four honorable mentions; co-authorship on the lessons-learned paper and a NeurIPS session slot",
+      "description": "Sophelio 주관(DIII-D/General Atomics·UKAEA·UT Austin 협력) NeurIPS 2026 대회. 자기 센서 없이 코일 전류·레이저 진단만으로 토카막 플라즈마 자기형상(65×65 flux map + q95·βN)을 재구성. 과제 1 기기 내(DIII-D), 과제 2 기기 간 zero-shot(DIII-D→MAST). Codabench·Hugging Face 데이터.",
+      "description_en": "NeurIPS 2026 competition by Sophelio (with DIII-D/General Atomics, UKAEA, UT Austin). Reconstruct tokamak plasma magnetic geometry (65x65 flux map plus q95 and betaN) from coil currents and laser diagnostics alone, without magnetic sensors. Challenge 1 intra-machine (DIII-D), challenge 2 zero-shot cross-machine (DIII-D to MAST). Codabench with Hugging Face data.",
+      "tip": "데이터 7월 공개 완료 · Phase 1 마감 10.18, 블라인드 최종 10.19~26. 교차 기기 일반화(과제 2)가 차별화 포인트 — OoD/도메인 적응 경험이 있으면 유리.",
+      "tip_en": "Data out since July; Phase 1 closes Oct 18, blind final Oct 19-26. Cross-machine generalization (challenge 2) is where to stand out - OoD/domain-adaptation experience helps.",
+      "events": [
+        {
+          "type": "apply_end",
+          "date": "2026-10-18",
+          "label": "Phase 1 제출 마감",
+          "label_en": "Phase 1 submission deadline"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-10-19",
+          "label": "블라인드 최종 페이즈 시작",
+          "label_en": "Blind final phase starts"
+        },
+        {
+          "type": "activity_end",
+          "date": "2026-10-26",
+          "label": "최종 페이즈 종료",
+          "label_en": "Final phase ends"
+        }
+      ],
+      "schedule_note": "결과 2026.12 NeurIPS 세션",
+      "schedule_note_en": "Results at the NeurIPS session in Dec 2026",
+      "added": "2026-08-21",
+      "checked": "2026-08-21"
+    },
+    {
+      "id": "neurips-roco-spring-2026",
+      "name": "RoCo-Spring 강건 대응점 챌린지 (NeurIPS 2026)",
+      "name_en": "RoCo-Spring: Robust Correspondence Challenge (NeurIPS 2026)",
+      "category": "학술 챌린지",
+      "status": "ongoing_open",
+      "tags": [
+        "NeurIPS",
+        "컴퓨터비전",
+        "optical flow",
+        "강건성",
+        "글로벌"
+      ],
+      "tags_en": [
+        "NeurIPS",
+        "computer vision",
+        "optical flow",
+        "robustness",
+        "global"
+      ],
+      "url": "https://roco-spring.github.io/",
+      "prize": "NeurIPS 워크숍 발표·수상 (상금 미공지)",
+      "prize_en": "NeurIPS workshop presentation and awards (no cash prize announced)",
+      "description": "슈투트가르트대·만하임대·NVIDIA·USTB 주관 NeurIPS 2026 대회. RobustSpring 벤치마크로 노이즈·날씨·블러 등 20종 손상 하에서 optical flow / stereo / scene flow의 정확도와 강건성을 함께 평가. 탐색(Exploration) 트랙 포함 4트랙.",
+      "description_en": "NeurIPS 2026 competition by Univ. Stuttgart, Univ. Mannheim, NVIDIA and USTB. Evaluates optical flow / stereo / scene flow for both clean accuracy and robustness under 20 corruption types (noise, weather, blur...) on the RobustSpring benchmark; four tracks including an Exploration track.",
+      "tip": "워크숍 논문 9.15, 최종 제출 9.30 — 한 달 남짓. 기존 flow/stereo 모델에 강건성 분석을 얹는 탐색 트랙이 진입 장벽이 가장 낮음.",
+      "tip_en": "Workshop paper Sep 15, final submission Sep 30 - about a month left. The Exploration track (robustness analysis on existing flow/stereo models) is the lowest-barrier entry.",
+      "events": [
+        {
+          "type": "partial_deadline",
+          "date": "2026-09-15",
+          "label": "워크숍 논문 마감",
+          "label_en": "Workshop paper deadline"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-09-30",
+          "label": "최종 제출 마감",
+          "label_en": "Final submission deadline"
+        }
+      ],
+      "schedule_note": "NeurIPS 워크숍 12.11 또는 12",
+      "schedule_note_en": "NeurIPS workshop on Dec 11 or 12",
+      "added": "2026-08-21",
+      "checked": "2026-08-21"
+    },
+    {
+      "id": "mabc-2026",
+      "name": "MABC 2026 (Making AI Beneficial Challenge) — 업스테이지 AI 에이전트 챌린지",
+      "name_en": "MABC 2026 (Making AI Beneficial Challenge) - Upstage AI Agent Challenge",
+      "category": "AI/ML 국내",
+      "status": "applying",
+      "tags": [
+        "업스테이지",
+        "AI 에이전트",
+        "노코드",
+        "과기정통부",
+        "NIA"
+      ],
+      "tags_en": [
+        "Upstage",
+        "AI agent",
+        "no-code",
+        "MSIT",
+        "NIA"
+      ],
+      "url": "https://www.upstage.ai/mabc-2026",
+      "prize": "총 1,200만 원 — 대상 500만(과기정통부 장관상) · 최우수 300만 · 우수 200만 · 장려 100만×2 · 업스테이지 채용 패스트트랙",
+      "prize_en": "12M KRW total - grand 5M (MSIT Minister award), 3M, 2M, 1M x2; Upstage hiring fast-track",
+      "description": "업스테이지 주최, 과기정통부·NIA 공동. Solar LLM 기반 노코드 에이전트 플랫폼(Timely AI)으로 일상·업무 문제를 푸는 AI 에이전트 스킬 → 서비스 MVP를 개발. 만 19세 이상 1~3인 팀, 참가비 무료. 온라인 예선 8.18~31, 온라인 본선 9.9~19, 오프라인 최종 발표 9.19(토).",
+      "description_en": "Hosted by Upstage with MSIT and NIA. Build AI-agent skills and a service MVP on the no-code Timely AI platform (Solar LLM) to solve everyday or work problems. Age 19+, teams of 1-3, free. Online prelims Aug 18-31, online finals Sep 9-19, offline final pitch Sat Sep 19.",
+      "tip": "접수 8.31(월) 18시 마감 — 예선이 접수와 겹쳐 진행 중이니 지금 바로. 코딩보다 문제 정의·에이전트 설계 완성도가 심사 핵심.",
+      "tip_en": "Applications close Mon Aug 31 6pm and the prelim already overlaps, so start now. Judging hinges on problem framing and agent design rather than code.",
+      "events": [
+        {
+          "type": "apply_start",
+          "date": "2026-07-08",
+          "label": "접수 시작",
+          "label_en": "Applications open"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-08-31",
+          "label": "접수 마감 (18시)",
+          "label_en": "Application deadline (6pm)"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-08-18",
+          "label": "온라인 예선 시작",
+          "label_en": "Online preliminary starts"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-09-09",
+          "label": "온라인 본선 시작",
+          "label_en": "Online final starts"
+        },
+        {
+          "type": "activity_end",
+          "date": "2026-09-19",
+          "label": "오프라인 최종 발표·시상",
+          "label_en": "Offline final pitch and awards"
+        }
+      ],
+      "schedule_note": "",
+      "schedule_note_en": "",
+      "added": "2026-08-21",
+      "checked": "2026-08-21"
+    },
+    {
+      "id": "openai-devday-exchange-seoul-2026",
+      "name": "OpenAI DevDay Exchange 2026 서울",
+      "name_en": "OpenAI DevDay Exchange 2026 - Seoul",
+      "category": "컨퍼런스·박람회",
+      "status": "applying",
+      "tags": [
+        "OpenAI",
+        "컨퍼런스",
+        "개발자",
+        "서울",
+        "선발형"
+      ],
+      "tags_en": [
+        "OpenAI",
+        "conference",
+        "developers",
+        "Seoul",
+        "selective"
+      ],
+      "url": "https://events.openai.com/devdayexchange2026/",
+      "prize": "무료(선발형) · OpenAI 제품·엔지니어링 팀 기술 세션 + Codex 워크플로 핸즈온",
+      "prize_en": "Free (selective) - technical sessions with OpenAI product/engineering teams plus hands-on Codex workflows",
+      "description": "SF DevDay(9.29) 이후 8개 도시 순회 개발자 행사. 서울 10.22(목) 14시 시작. 개발자·기술 창업자 대상 신청제(승인 후 장소·프로그램 공개). 다른 도시: 벵갈루루 10.16 · 도쿄 10.20 · 베를린 10.26 · 파리 10.28 · 런던 11.3 등.",
+      "description_en": "An eight-city developer tour following the SF DevDay (Sep 29). Seoul stop Thu Oct 22 from 2pm; apply-to-attend for developers and technical founders (venue and program shared after approval). Other stops: Bengaluru Oct 16, Tokyo Oct 20, Berlin Oct 26, Paris Oct 28, London Nov 3.",
+      "tip": "신청 마감 9.4 — 선발형이라 GitHub/프로젝트 링크를 구체적으로 쓸 것. OpenAI 엔지니어와 직접 대화 기회.",
+      "tip_en": "Apply by Sep 4 - it is selective, so include concrete GitHub/project links. A rare chance to talk directly with OpenAI engineers.",
+      "events": [
+        {
+          "type": "apply_start",
+          "date": "2026-08-19",
+          "label": "신청 오픈",
+          "label_en": "Applications open"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-09-04",
+          "label": "신청 마감",
+          "label_en": "Application deadline"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-10-22",
+          "label": "행사 당일 (서울, 14시~)",
+          "label_en": "Event day (Seoul, from 2pm)"
+        }
+      ],
+      "schedule_note": "",
+      "schedule_note_en": "",
+      "added": "2026-08-21",
+      "checked": "2026-08-21"
+    },
+    {
+      "id": "ausgcon-2026",
+      "name": "AUSGCON 2026 (AWS 대학생 사용자 그룹 컨퍼런스)",
+      "name_en": "AUSGCON 2026 (AWS University Student Group Conference)",
+      "category": "컨퍼런스·박람회",
+      "status": "applying",
+      "tags": [
+        "AWS",
+        "대학생",
+        "컨퍼런스",
+        "클라우드",
+        "서울"
+      ],
+      "tags_en": [
+        "AWS",
+        "university students",
+        "conference",
+        "cloud",
+        "Seoul"
+      ],
+      "url": "https://2026.ausg.me/",
+      "prize": "1:1 커리어 멘토링 · 핸즈온 워크숍 (참가비 공홈 확인)",
+      "prize_en": "1:1 career mentoring and hands-on workshop (fee on the site)",
+      "description": "AUSG(AWS 대학생 사용자 그룹) 주최, AWS·AWSKRUG·래블업·한빛미디어 후원. 9.5(토) 13~18시 서울 강남 센터필드 EAST 18F(AWS Korea). CLOUD/TECH/JUMP 3개 트랙 + 핸즈온 1 + 멘토링 1 — 대학생·주니어 개발자 대상.",
+      "description_en": "Run by AUSG (AWS university student group), backed by AWS, AWSKRUG, Lablup and Hanbit Media. Sat Sep 5, 1-6pm at Centerfield EAST 18F (AWS Korea), Gangnam. Three tracks (CLOUD/TECH/JUMP) plus one hands-on and one mentoring session, aimed at students and junior developers.",
+      "tip": "학생 연사·학생 참가자 비중이 높아 또래 네트워킹에 최적. 멘토링 세션은 조기 마감되는 편 — 등록 시 바로 신청.",
+      "tip_en": "Heavy on student speakers and attendees - ideal peer networking. Mentoring slots fill early; grab one when you register.",
+      "events": [
+        {
+          "type": "activity_start",
+          "date": "2026-09-05",
+          "label": "행사 당일 (센터필드 EAST 18F)",
+          "label_en": "Event day (Centerfield EAST 18F)"
+        }
+      ],
+      "schedule_note": "참가 등록 진행 중 (마감일·참가비 공홈 확인)",
+      "schedule_note_en": "Registration open (deadline and fee on the official site)",
+      "added": "2026-08-21",
+      "checked": "2026-08-21"
+    },
+    {
+      "id": "kcd-openinfra-day-korea-2026",
+      "name": "KCD × Ceph × OpenInfra Day Korea 2026",
+      "name_en": "KCD x Ceph x OpenInfra Day Korea 2026",
+      "category": "컨퍼런스·박람회",
+      "status": "applying",
+      "tags": [
+        "쿠버네티스",
+        "CNCF",
+        "Ceph",
+        "OpenInfra",
+        "클라우드 네이티브",
+        "서울"
+      ],
+      "tags_en": [
+        "Kubernetes",
+        "CNCF",
+        "Ceph",
+        "OpenInfra",
+        "cloud native",
+        "Seoul"
+      ],
+      "url": "https://community2.cncf.io/events/details/cncf-kcd-south-korea-presents-kcd-x-ceph-x-openinfra-day-korea-2026/",
+      "prize": "유료 티켓(얼리버드 판매 중, 점심 포함) · 정원 약 600명",
+      "prize_en": "Paid ticket (early bird on sale, lunch included); ~600 seats",
+      "description": "CNCF KCD South Korea·Ceph Korea·OpenInfra Korea 3개 오픈소스 커뮤니티 통합 컨퍼런스. 9.1(화) 09~18시 서울 용산 백범김구기념관. 키노트 + 3개 병렬 트랙(클라우드 네이티브/AI 인프라 · 플랫폼 엔지니어링/네트워킹 · 스토리지/Ceph).",
+      "description_en": "Joint conference of three open-source communities - CNCF KCD South Korea, Ceph Korea and OpenInfra Korea. Tue Sep 1, 9am-6pm at the Kim Koo Museum (Yongsan, Seoul). Keynotes plus three parallel tracks (cloud native/AI infra, platform engineering/networking, storage/Ceph).",
+      "tip": "AI 인프라 트랙(GPU 스케줄링·K8s 위 LLM 서빙)이 LLM 시스템 관심자에게 직접 유용. 얼리버드 소진 전에 예매.",
+      "tip_en": "The AI-infra track (GPU scheduling, LLM serving on K8s) is directly useful for LLM-systems folks. Book before early bird sells out.",
+      "events": [
+        {
+          "type": "activity_start",
+          "date": "2026-09-01",
+          "label": "행사 당일 (백범김구기념관)",
+          "label_en": "Event day (Kim Koo Museum)"
+        }
+      ],
+      "schedule_note": "얼리버드 티켓 판매 중 (마감일 공홈 확인)",
+      "schedule_note_en": "Early-bird tickets on sale (deadline on the event page)",
+      "added": "2026-08-21",
+      "checked": "2026-08-21"
+    },
+    {
+      "id": "agent-field-trip-incheon-2026",
+      "name": "에이전트 필드 트립 2026: 인천 (GDG Incheon)",
+      "name_en": "Agent Field Trip 2026: Incheon (GDG Incheon)",
+      "category": "해커톤",
+      "status": "applying",
+      "tags": [
+        "GDG",
+        "AI 에이전트",
+        "해커톤",
+        "인천",
+        "원데이"
+      ],
+      "tags_en": [
+        "GDG",
+        "AI agent",
+        "hackathon",
+        "Incheon",
+        "one-day"
+      ],
+      "url": "https://ticketa.co/event/xnhamniu",
+      "prize": "Gemini·ChatGPT·Claude API 토큰 제공 · 기념품 · 식사 (참가비 공홈 확인)",
+      "prize_en": "Gemini/ChatGPT/Claude API tokens, swag and meals provided (fee on the page)",
+      "description": "GDG Incheon 주최 필드형 해커톤. 9.12(토) 10~16시 인천 상상플랫폼 — 동인천 관광특구를 현장 관찰하고 모바일로 AI 에이전트를 원격 조작해 하루 만에 서비스를 완성. 개발자뿐 아니라 기획·디자인·연구자도 참여 가능(API 경험 불필요), 사전 온라인 교육 제공.",
+      "description_en": "Field-style hackathon by GDG Incheon. Sat Sep 12, 10am-4pm at Incheon Imagination Platform - observe the Dongincheon tourist district on site and remotely drive AI agents from your phone to ship a service in a day. Open to planners, designers and researchers as well as developers (no API experience needed); pre-event online training included.",
+      "tip": "팀 단위 참가라 혼자면 현장 매칭. 배포 실패해도 완주 인정 — 부담 낮은 첫 해커톤으로 적합.",
+      "tip_en": "Team-based; solo applicants get matched on site. Completion counts even if deployment fails - a low-pressure first hackathon.",
+      "events": [
+        {
+          "type": "activity_start",
+          "date": "2026-09-12",
+          "label": "행사 당일 (인천 상상플랫폼)",
+          "label_en": "Event day (Incheon Imagination Platform)"
+        }
+      ],
+      "schedule_note": "접수 진행 중 (주최 공지 기준 ~9.5 · 티켓 페이지 확인)",
+      "schedule_note_en": "Registration open (organizer notes through Sep 5 - check the ticket page)",
+      "added": "2026-08-21",
+      "checked": "2026-08-21"
+    },
+    {
+      "id": "industrial-ai-expo-2026",
+      "name": "2026 산업AI EXPO (Embodied AI: Beyond Physical AI)",
+      "name_en": "Industrial AI EXPO 2026 (Embodied AI: Beyond Physical AI)",
+      "category": "컨퍼런스·박람회",
+      "status": "applying",
+      "tags": [
+        "산업AI",
+        "피지컬 AI",
+        "제조",
+        "KINTEX",
+        "전시회",
+        "산업부"
+      ],
+      "tags_en": [
+        "industrial AI",
+        "physical AI",
+        "manufacturing",
+        "KINTEX",
+        "expo",
+        "MOTIE"
+      ],
+      "url": "https://industrialaiexpo.or.kr/",
+      "prize": "참관 사전등록 무료 · 글로벌 산업AI 컨퍼런스(10.21)·AI-Tech 세미나·IR 피칭·로봇 스타디움",
+      "prize_en": "Free visitor pre-registration; global industrial-AI conference (Oct 21), AI-Tech seminars, IR pitching, robot stadium",
+      "description": "한국산업지능화협회(KOIIA) 주최, 산업통상자원부 \"K Connect AI\" 연계. 10.21(수)~23(금) 일산 KINTEX. 주제 \"Embodied AI: Beyond Physical AI\" — 제조·전자·반도체·로봇 분야 산업AI 전시·컨퍼런스·수출상담회.",
+      "description_en": "Hosted by the Korea Industrial Intelligence Association (KOIIA), tied to MOTIE's \"K Connect AI\". Wed Oct 21-Fri Oct 23 at KINTEX (Ilsan). Theme \"Embodied AI: Beyond Physical AI\" - industrial-AI exhibition, conference and export meetings across manufacturing, electronics, semiconductors and robotics.",
+      "tip": "개막일 10.21 글로벌 컨퍼런스가 핵심 — 피지컬 AI·로보틱스 산업 적용 사례 한 번에 보기 좋음. 사전등록만 하면 무료.",
+      "tip_en": "The opening-day (Oct 21) global conference is the highlight - a one-stop look at physical-AI/robotics deployments in industry. Free with pre-registration.",
+      "events": [
+        {
+          "type": "activity_start",
+          "date": "2026-10-21",
+          "label": "개막 (KINTEX)",
+          "label_en": "Opening day (KINTEX)"
+        },
+        {
+          "type": "activity_end",
+          "date": "2026-10-23",
+          "label": "폐막",
+          "label_en": "Closing day"
+        }
+      ],
+      "schedule_note": "참관 사전등록 진행 중",
+      "schedule_note_en": "Visitor pre-registration open",
+      "added": "2026-08-21",
+      "checked": "2026-08-21"
     }
   ],
   "roadmaps": [
@@ -5697,6 +6486,265 @@
     }
   ],
   "briefings": [
+    {
+      "date": "2026-08-21",
+      "summary": "신규 11건 · 변경 23건 · 10일 내 마감 8건",
+      "summary_en": "11 new · 23 changed · 8 deadlines within 10 days",
+      "items": [
+        {
+          "kind": "new",
+          "text": "신규: Virtual Embryo Challenge (NeurIPS 2026)",
+          "text_en": "New: Virtual Embryo Challenge (NeurIPS 2026)",
+          "id": "neurips-virtual-embryo-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: Predictive AI Evaluation Competition (NeurIPS 2026)",
+          "text_en": "New: Predictive AI Evaluation Competition (NeurIPS 2026)",
+          "id": "neurips-predictive-eval-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: Learn2Design 2026 — 중력파 검출기 설계 (NeurIPS 2026)",
+          "text_en": "New: Learn2Design 2026 - Gravitational-Wave Detector Design (NeurIPS 2026)",
+          "id": "neurips-learn2design-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: Fusion Equilibrium Challenge (NeurIPS 2026)",
+          "text_en": "New: Fusion Equilibrium Challenge (NeurIPS 2026)",
+          "id": "neurips-fusion-equilibrium-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: RoCo-Spring 강건 대응점 챌린지 (NeurIPS 2026)",
+          "text_en": "New: RoCo-Spring: Robust Correspondence Challenge (NeurIPS 2026)",
+          "id": "neurips-roco-spring-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: MABC 2026 (Making AI Beneficial Challenge) — 업스테이지 AI 에이전트 챌린지",
+          "text_en": "New: MABC 2026 (Making AI Beneficial Challenge) - Upstage AI Agent Challenge",
+          "id": "mabc-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: OpenAI DevDay Exchange 2026 서울",
+          "text_en": "New: OpenAI DevDay Exchange 2026 - Seoul",
+          "id": "openai-devday-exchange-seoul-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: AUSGCON 2026 (AWS 대학생 사용자 그룹 컨퍼런스)",
+          "text_en": "New: AUSGCON 2026 (AWS University Student Group Conference)",
+          "id": "ausgcon-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: KCD × Ceph × OpenInfra Day Korea 2026",
+          "text_en": "New: KCD x Ceph x OpenInfra Day Korea 2026",
+          "id": "kcd-openinfra-day-korea-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 에이전트 필드 트립 2026: 인천 (GDG Incheon)",
+          "text_en": "New: Agent Field Trip 2026: Incheon (GDG Incheon)",
+          "id": "agent-field-trip-incheon-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 2026 산업AI EXPO (Embodied AI: Beyond Physical AI)",
+          "text_en": "New: Industrial AI EXPO 2026 (Embodied AI: Beyond Physical AI)",
+          "id": "industrial-ai-expo-2026"
+        },
+        {
+          "kind": "change",
+          "text": "SKT 모두의 Promp.T 종료 — 결과 8.20 뉴스룸 발표",
+          "text_en": "SKT Promp.T contest ended — results posted Aug 20 on SKT Newsroom",
+          "id": "skt-prompt-2026"
+        },
+        {
+          "kind": "change",
+          "text": "GCP×Solana 해커톤 데모데이(8.21)로 종료",
+          "text_en": "GCP x Solana hackathon ended with demo day Aug 21",
+          "id": "gcp-solana-hackathon-2026"
+        },
+        {
+          "kind": "change",
+          "text": "AI Summit Seoul 2026 폐막 (8.21)",
+          "text_en": "AI Summit Seoul 2026 closed Aug 21",
+          "id": "ai-summit-seoul-2026"
+        },
+        {
+          "kind": "change",
+          "text": "RealPDE 등록 마감(8.20) — 추가 등록 불가, 참가 불가로 전환",
+          "text_en": "RealPDE registration closed Aug 20 — no late entry; now ongoing/closed",
+          "id": "neurips-realpde-2026"
+        },
+        {
+          "kind": "change",
+          "text": "SAPC2 제출 마감 8.31 → 10.24 AoE 연장 (8.14 공지)",
+          "text_en": "SAPC2 submission deadline extended Aug 31 -> Oct 24 AoE (announced Aug 14)",
+          "id": "neurips-sapc2-2026"
+        },
+        {
+          "kind": "change",
+          "text": "iM뱅크 경진대회 접수 마감 9.14 → 9.20 연장 (예선 발표 9.23)",
+          "text_en": "iM Bank challenge deadline extended Sep 14 -> Sep 20 (prelim results Sep 23)",
+          "id": "imbank-ai-blockchain-2026"
+        },
+        {
+          "kind": "change",
+          "text": "MAICON 2026 접수 기간 공개: 9.1~9.30 (세부 일정은 준비중)",
+          "text_en": "MAICON 2026 application window posted: Sep 1-30 (other details still in preparation)",
+          "id": "maicon-2026"
+        },
+        {
+          "kind": "change",
+          "text": "FIESTA 2026 → \"금융보안 AI 활용 해킹방어 대회\"로 개편 공고 (신청 8.24~9.2, 예선 9.5, 본선 10.3) — 금융권 재직자 전용",
+          "text_en": "FIESTA 2026 reorganized as the \"Financial-Security AI Hacking Defense Competition\" (apply Aug 24-Sep 2, prelims Sep 5, finals Oct 3) - financial-sector employees only",
+          "id": "fiesta-2026"
+        },
+        {
+          "kind": "change",
+          "text": "LG Aimers 9기 오프라인 해커톤 9.19~20(1박2일) · 진출자 발표 9.14 확정",
+          "text_en": "LG Aimers 9 offline hackathon confirmed Sep 19-20 (2 days); finalists announced Sep 14",
+          "id": "lg-aimers-9"
+        },
+        {
+          "kind": "change",
+          "text": "LG Aimers 10기 모집 일정 확정 (12.5~12.22, 발표 12.26)",
+          "text_en": "LG Aimers 10 recruitment dates confirmed (Dec 5-22, results Dec 26)",
+          "id": "lg-aimers-10"
+        },
+        {
+          "kind": "change",
+          "text": "행안부 3종 공통 일정 보강: 팀 병합 9.23 · 2차 자료 10.5 · 시상 11.27 / 나라장터 NLP 설명회 8.24 14시",
+          "text_en": "MOIS trio: team merger Sep 23, phase-2 materials Oct 5, awards Nov 27 added; KONEPS NLP briefing Aug 24 2pm",
+          "id": "mois-bidding-nlp-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: Virtual Embryo Challenge (NeurIPS 2026)",
+          "text_en": "New: Virtual Embryo Challenge (NeurIPS 2026)",
+          "id": "neurips-virtual-embryo-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: Predictive AI Evaluation Competition (NeurIPS 2026)",
+          "text_en": "New: Predictive AI Evaluation Competition (NeurIPS 2026)",
+          "id": "neurips-predictive-eval-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: Learn2Design 2026 — 중력파 검출기 설계 (NeurIPS 2026)",
+          "text_en": "New: Learn2Design 2026 - Gravitational-Wave Detector Design (NeurIPS 2026)",
+          "id": "neurips-learn2design-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: Fusion Equilibrium Challenge (NeurIPS 2026)",
+          "text_en": "New: Fusion Equilibrium Challenge (NeurIPS 2026)",
+          "id": "neurips-fusion-equilibrium-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: RoCo-Spring 강건 대응점 챌린지 (NeurIPS 2026)",
+          "text_en": "New: RoCo-Spring: Robust Correspondence Challenge (NeurIPS 2026)",
+          "id": "neurips-roco-spring-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: MABC 2026 (Making AI Beneficial Challenge) — 업스테이지 AI 에이전트 챌린지",
+          "text_en": "New: MABC 2026 (Making AI Beneficial Challenge) - Upstage AI Agent Challenge",
+          "id": "mabc-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: OpenAI DevDay Exchange 2026 서울",
+          "text_en": "New: OpenAI DevDay Exchange 2026 - Seoul",
+          "id": "openai-devday-exchange-seoul-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: AUSGCON 2026 (AWS 대학생 사용자 그룹 컨퍼런스)",
+          "text_en": "New: AUSGCON 2026 (AWS University Student Group Conference)",
+          "id": "ausgcon-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: KCD × Ceph × OpenInfra Day Korea 2026",
+          "text_en": "New: KCD x Ceph x OpenInfra Day Korea 2026",
+          "id": "kcd-openinfra-day-korea-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: 에이전트 필드 트립 2026: 인천 (GDG Incheon)",
+          "text_en": "New: Agent Field Trip 2026: Incheon (GDG Incheon)",
+          "id": "agent-field-trip-incheon-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: 2026 산업AI EXPO (Embodied AI: Beyond Physical AI)",
+          "text_en": "New: Industrial AI EXPO 2026 (Embodied AI: Beyond Physical AI)",
+          "id": "industrial-ai-expo-2026"
+        },
+        {
+          "kind": "change",
+          "text": "11개 신규(NeurIPS 대회 5종 · MABC · OpenAI DevDay Exchange 서울 · AUSGCON · KCD×OpenInfra Day · 에이전트 필드 트립 · 산업AI EXPO) · 76개 항목 재검증 · SOPT 39기·FEConf·인프콘·UMC·if(kakao)·휴먼테크 33회·우테코 9기 여전히 미공지 · 스마트빌딩·AMP·RoboSyn NeurIPS 대회는 일정 미공개로 보류",
+          "text_en": "11 new items (5 NeurIPS competitions, MABC, OpenAI DevDay Exchange Seoul, AUSGCON, KCD x OpenInfra Day, Agent Field Trip, Industrial AI EXPO); 76 items re-verified; SOPT 39th, FEConf, INFCON, UMC, if(kakao), HumanTech 33rd, Woowacourse 9 still unannounced; Smart Buildings/AMP/RoboSyn NeurIPS comps held back pending dates",
+          "id": ""
+        },
+        {
+          "kind": "deadline",
+          "text": "D-0 제2회 TRAITHON (AI 신뢰성 해커톤) — 접수 마감 (2026-08-21)",
+          "text_en": "D-0 2nd TRAITHON (AI Trustworthiness Hackathon) — Application deadline (2026-08-21)",
+          "id": "traithon-2"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-2 제1회 AI 게임사운드디자인 챌린지 with GXG 2026 — 제출 마감 (2026-08-23)",
+          "text_en": "D-2 1st AI Game Sound Design Challenge with GXG 2026 — Submission deadline (2026-08-23)",
+          "id": "gxg-ai-gamesound-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-3 제4차 K-CURE 데이터 활용 경진대회 — 접수 마감 (15시) (2026-08-24)",
+          "text_en": "D-3 4th K-CURE Data Utilization Competition — Application deadline (3pm) (2026-08-24)",
+          "id": "k-cure-datathon-4"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-4 AI Agent Security 챌린지 (Kaggle) — Entry 마감 (2026-08-25)",
+          "text_en": "D-4 AI Agent Security: Multi-Step Tool Attacks (Kaggle) — Entry deadline (2026-08-25)",
+          "id": "kaggle-agent-security-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-5 OpenAI 게임 빌더스 서울 — Track1 제출 마감 (2026-08-26)",
+          "text_en": "D-5 OpenAI Game Builders Seoul — Track 1 submission deadline (2026-08-26)",
+          "id": "openai-game-builders-seoul-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-6 2026 오픈소스 개발자대회 (제20회) — 출품작 제출 마감 (2026-08-27)",
+          "text_en": "D-6 2026 Open Source Developer Contest (20th) — Submission deadline (2026-08-27)",
+          "id": "oss-dev-contest-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-7 제4회 전북청년 AI·빅데이터 경진대회 — 접수 마감 (2026-08-28)",
+          "text_en": "D-7 4th Jeonbuk Youth AI & Big Data Competition — Application deadline (2026-08-28)",
+          "id": "jeonbuk-ai-bigdata-4"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-10 MABC 2026 (Making AI Beneficial Challenge) — 업스테이지 AI 에이전트 챌린지 — 접수 마감 (18시) (2026-08-31)",
+          "text_en": "D-10 MABC 2026 (Making AI Beneficial Challenge) - Upstage AI Agent Challenge — Application deadline (6pm) (2026-08-31)",
+          "id": "mabc-2026"
+        }
+      ]
+    },
     {
       "date": "2026-08-19",
       "summary": "신규 4건 · 변경 8건 · 10일 내 마감 9건",
