@@ -8,7 +8,7 @@ X-WR-CALDESC:IT 공모전·해커톤·부트캠프 일정
 X-WR-TIMEZONE:Asia/Seoul
 BEGIN:VEVENT
 UID:itradar-oss-dev-contest-2026-apply_start-2026-06-15@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
 SUMMARY:🟢 2026 오픈소스 개발자대회 (제20회) — 신청 시작
@@ -19,7 +19,7 @@ URL:https://osscontest.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-oss-dev-contest-2026-apply_end-2026-07-17@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260717
 DTEND;VALUE=DATE:20260718
 SUMMARY:🔴 2026 오픈소스 개발자대회 (제20회) — 신청 마감
@@ -30,7 +30,7 @@ URL:https://osscontest.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-oss-dev-contest-2026-activity_start-2026-07-18@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260718
 DTEND;VALUE=DATE:20260719
 SUMMARY:🔵 2026 오픈소스 개발자대회 (제20회) — 출품작 제
@@ -43,7 +43,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-oss-dev-contest-2026-partial_deadline-2026-08-27@joon56.github.
  io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260828
 SUMMARY:🟠 2026 오픈소스 개발자대회 (제20회) — 출품작 제
@@ -55,7 +55,7 @@ URL:https://osscontest.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-oss-dev-contest-2026-activity_start-2026-11-04@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:🔵 2026 오픈소스 개발자대회 (제20회) — 발표평가
@@ -66,7 +66,7 @@ URL:https://osscontest.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-oss-dev-contest-2026-announce-2026-12-04@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:🟣 2026 오픈소스 개발자대회 (제20회) — 시상식
@@ -77,7 +77,7 @@ URL:https://osscontest.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-feconf-2026-apply_start-2026-10-01@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:🟢 FEConf 2026 (프론트엔드 컨퍼런스) — 티켓 오픈 (
@@ -89,7 +89,7 @@ URL:https://feconf.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-feconf-2026-activity_start-2026-10-24@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:🔵 FEConf 2026 (프론트엔드 컨퍼런스) — FEConf 2026 (
@@ -101,7 +101,7 @@ URL:https://feconf.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-arc-prize-2026-partial_deadline-2026-09-30@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:🟠 ARC Prize 2026 (ARC-AGI-2 & AGI-3) — ARC-AGI-3 마일스톤 
@@ -113,7 +113,7 @@ URL:https://arcprize.org
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-arc-prize-2026-apply_end-2026-11-02@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:🔴 ARC Prize 2026 (ARC-AGI-2 & AGI-3) — 최종 제출 마감
@@ -124,7 +124,7 @@ URL:https://arcprize.org
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-arc-prize-2026-partial_deadline-2026-11-08@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:🟠 ARC Prize 2026 (ARC-AGI-2 & AGI-3) — 논문 제출 마감
@@ -135,7 +135,7 @@ URL:https://arcprize.org
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-arc-prize-2026-announce-2026-12-04@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:🟣 ARC Prize 2026 (ARC-AGI-2 & AGI-3) — 결과 발표
@@ -146,7 +146,7 @@ URL:https://arcprize.org
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-arc-prize-2026-apply_end-2026-10-26@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 SUMMARY:🔴 ARC Prize 2026 (ARC-AGI-2 & AGI-3) — Entry 마감 (참가 
@@ -158,7 +158,7 @@ URL:https://arcprize.org
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-lg-aimers-9-activity_start-2026-08-05@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
 SUMMARY:🔵 LG Aimers Hackathon 9기 — 온라인 해커톤 시작 (Phase
@@ -170,7 +170,7 @@ URL:https://www.lgaimers.ai
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-lg-aimers-9-activity_end-2026-09-02@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:⚪ LG Aimers Hackathon 9기 — 온라인 해커톤 종료
@@ -181,7 +181,7 @@ URL:https://www.lgaimers.ai
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-lg-aimers-9-announce-2026-09-14@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:🟣 LG Aimers Hackathon 9기 — Phase 3 진출자 발표
@@ -192,7 +192,7 @@ URL:https://www.lgaimers.ai
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-lg-aimers-9-activity_start-2026-09-19@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:🔵 LG Aimers Hackathon 9기 — 오프라인 해커톤 시작 (Ph
@@ -204,7 +204,7 @@ URL:https://www.lgaimers.ai
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-lg-aimers-9-activity_end-2026-09-20@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 SUMMARY:⚪ LG Aimers Hackathon 9기 — 오프라인 해커톤 종료
@@ -215,7 +215,7 @@ URL:https://www.lgaimers.ai
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-jump-ai-4-apply_end-2026-08-07@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 SUMMARY:🔴 제4회 JUMP AI 신약개발 경진대회 — 예선 마감
@@ -225,7 +225,7 @@ URL:https://dacon.io
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-jump-ai-4-activity_start-2026-09-07@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:🔵 제4회 JUMP AI 신약개발 경진대회 — 본선 시작
@@ -235,7 +235,7 @@ URL:https://dacon.io
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-jump-ai-4-activity_end-2026-10-02@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:⚪ 제4회 JUMP AI 신약개발 경진대회 — 본선 종료
@@ -245,7 +245,7 @@ URL:https://dacon.io
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-jump-ai-4-announce-2026-11-06@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:🟣 제4회 JUMP AI 신약개발 경진대회 — 수상자 발표
@@ -254,9 +254,20 @@ DESCRIPTION:보건복지부·한국보건산업진흥원 주관. Agentic AI
 URL:https://dacon.io
 END:VEVENT
 BEGIN:VEVENT
+UID:itradar-jump-ai-4-announce-2026-11-26@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:🟣 제4회 JUMP AI 신약개발 경진대회 — 시상식 (11.26
+ ~27 예정)
+DESCRIPTION:보건복지부·한국보건산업진흥원 주관. Agentic AI
+  신약개발 주제. 개인 또는 최대 3인 팀. | https://dacon.io
+URL:https://dacon.io
+END:VEVENT
+BEGIN:VEVENT
 UID:itradar-neurips-2026-competitions-activity_start-2026-12-06@joon56.gith
  ub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:🔵 NeurIPS 2026 Competitions Track — NeurIPS 학회 시작
@@ -269,7 +280,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-2026-competitions-activity_end-2026-12-12@joon56.github
  .io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:⚪ NeurIPS 2026 Competitions Track — NeurIPS 학회 종료
@@ -281,7 +292,7 @@ URL:https://neurips.cc/Conferences/2026/CallForCompetitions
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-eccv-2026-activity_start-2026-09-08@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:🔵 ECCV 2026 Workshop Challenges — ECCV 학회 시작 (Malmö)
@@ -292,7 +303,7 @@ URL:https://eccv.ecva.net
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-eccv-2026-activity_end-2026-09-12@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:⚪ ECCV 2026 Workshop Challenges — ECCV 학회 종료
@@ -303,7 +314,7 @@ URL:https://eccv.ecva.net
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-iclr-2027-partial_deadline-2026-09-18@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:🟠 ICLR 2027 — 초록 제출 마감 (AoE)
@@ -313,7 +324,7 @@ URL:https://iclr.cc
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-iclr-2027-apply_end-2026-09-25@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:🔴 ICLR 2027 — 논문 제출 마감 (AoE)
@@ -323,7 +334,7 @@ URL:https://iclr.cc
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-iclr-2027-announce-2026-12-16@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:🟣 ICLR 2027 — 채택 결정 통보
@@ -333,7 +344,7 @@ URL:https://iclr.cc
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-miccai-2026-activity_start-2026-09-27@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:🔵 MICCAI 2026 Challenges — MICCAI 학회 시작 (스트라스
@@ -345,7 +356,7 @@ URL:https://conferences.miccai.org/2026
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-miccai-2026-activity_end-2026-10-01@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:⚪ MICCAI 2026 Challenges — MICCAI 학회 종료
@@ -356,7 +367,7 @@ URL:https://conferences.miccai.org/2026
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-amia-2026-apply_end-2026-07-26@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260726
 DTEND;VALUE=DATE:20260727
 SUMMARY:🔴 AMIA 2026 Public Challenge — 제출 마감
@@ -367,7 +378,7 @@ URL:https://kaggle.com/competitions/amia-public-challenge-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-icpc-korea-2026-activity_start-2026-10-16@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:🔵 ICPC Korea 2026 — 예선 시작
@@ -377,7 +388,7 @@ URL:https://icpckorea.org
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-icpc-korea-2026-activity_end-2026-10-17@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:⚪ ICPC Korea 2026 — 예선 종료
@@ -387,7 +398,7 @@ URL:https://icpckorea.org
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-icpc-korea-2026-activity_start-2026-11-13@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261113
 DTEND;VALUE=DATE:20261114
 SUMMARY:🔵 ICPC Korea 2026 — 서울 본선 (KINTEX)
@@ -397,7 +408,7 @@ URL:https://icpckorea.org
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-icpc-korea-2026-activity_end-2026-11-14@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:⚪ ICPC Korea 2026 — 서울 본선 종료
@@ -406,8 +417,18 @@ DESCRIPTION:세계 최대 대학생 알고리즘 대회. 세계 대회 진
 URL:https://icpckorea.org
 END:VEVENT
 BEGIN:VEVENT
+UID:itradar-icpc-korea-2026-apply_end-2026-09-22@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:🔴 ICPC Korea 2026 — 예선 팀 등록 마감
+DESCRIPTION:세계 최대 대학생 알고리즘 대회. 세계 대회 진
+ 출 = 빅테크 서류 통과 보장 수준. | https://icpckorea.org
+URL:https://icpckorea.org
+END:VEVENT
+BEGIN:VEVENT
 UID:itradar-scpc-2026-activity_start-2026-07-29@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260729
 DTEND;VALUE=DATE:20260730
 SUMMARY:🔵 SCPC 2026 (삼성 프로그래밍 챌린지) — AI Round 2 
@@ -419,7 +440,7 @@ URL:https://research.samsung.com/scpc
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-scpc-2026-partial_deadline-2026-08-05@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
 SUMMARY:🟠 SCPC 2026 (삼성 프로그래밍 챌린지) — AI Round 2 
@@ -431,7 +452,7 @@ URL:https://research.samsung.com/scpc
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-scpc-2026-activity_start-2026-08-21@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 SUMMARY:🔵 SCPC 2026 (삼성 프로그래밍 챌린지) — AI 본선
@@ -442,7 +463,7 @@ URL:https://research.samsung.com/scpc
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-scpc-2026-activity_start-2026-08-28@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20260829
 SUMMARY:🔵 SCPC 2026 (삼성 프로그래밍 챌린지) — 알고리즘 
@@ -454,7 +475,7 @@ URL:https://research.samsung.com/scpc
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kt-aivle-10-apply_start-2026-07-07@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260707
 DTEND;VALUE=DATE:20260708
 SUMMARY:🟢 KT 에이블스쿨 10기 (AIVLE School) — 신청 시작
@@ -465,7 +486,7 @@ URL:https://aivle.kt.co.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kt-aivle-10-apply_end-2026-08-10@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 SUMMARY:🔴 KT 에이블스쿨 10기 (AIVLE School) — 신청 마감
@@ -476,7 +497,7 @@ URL:https://aivle.kt.co.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kt-aivle-10-announce-2026-08-14@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
 SUMMARY:🟣 KT 에이블스쿨 10기 (AIVLE School) — 서류 발표
@@ -487,7 +508,7 @@ URL:https://aivle.kt.co.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kt-aivle-10-announce-2026-08-28@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20260829
 SUMMARY:🟣 KT 에이블스쿨 10기 (AIVLE School) — 합격 발표
@@ -498,7 +519,7 @@ URL:https://aivle.kt.co.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kt-aivle-10-activity_start-2026-09-29@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:🔵 KT 에이블스쿨 10기 (AIVLE School) — 교육 시작
@@ -509,7 +530,7 @@ URL:https://aivle.kt.co.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kt-aivle-10-activity_end-2027-03-05@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20270305
 DTEND;VALUE=DATE:20270306
 SUMMARY:⚪ KT 에이블스쿨 10기 (AIVLE School) — 교육 종료
@@ -520,7 +541,7 @@ URL:https://aivle.kt.co.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kb-future-finance-ai-8-apply_end-2026-08-03@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260803
 DTEND;VALUE=DATE:20260804
 SUMMARY:🔴 제8회 KB Future Finance A.I. Challenge — 접수 마감
@@ -532,7 +553,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kb-future-finance-ai-8-activity_start-2026-09-02@joon56.github.
  io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:🔵 제8회 KB Future Finance A.I. Challenge — 본선 (이화여
@@ -544,7 +565,7 @@ URL:https://kb-aichallenge.com
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-embedded-sw-contest-24-apply_end-2026-09-03@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
 SUMMARY:🔴 제24회 임베디드SW경진대회 — 자유공모 접수 
@@ -557,7 +578,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-embedded-sw-contest-24-activity_start-2026-11-06@joon56.github.
  io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:🔵 제24회 임베디드SW경진대회 — 오프라인 결선
@@ -568,7 +589,7 @@ URL:https://www.eswcontest.or.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-embedded-sw-contest-24-announce-2026-12-11@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:🟣 제24회 임베디드SW경진대회 — 시상식
@@ -580,7 +601,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-maplestory-worlds-contest-2026-apply_end-2026-10-07@joon56.gith
  ub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:🔴 메이플스토리 월드 글로벌 개발 콘테스트 — 
@@ -593,7 +614,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-maplestory-worlds-contest-2026-announce-2026-11-05@joon56.githu
  b.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🟣 메이플스토리 월드 글로벌 개발 콘테스트 — 
@@ -606,7 +627,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-maplestory-worlds-contest-2026-activity_end-2026-11-25@joon56.g
  ithub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:⚪ 메이플스토리 월드 글로벌 개발 콘테스트 — 파
@@ -618,7 +639,7 @@ URL:https://maplestoryworlds.nexon.com/events/ko/2026globalcontest
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-bigcontest-2026-apply_start-2026-09-08@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:🟢 2026 빅콘테스트 (제14회) — 접수 시작
@@ -629,20 +650,8 @@ DESCRIPTION:국내 대표 AI·데이터 경진대회 14회차. 2026년부
 URL:https://www.bigcontest.or.kr
 END:VEVENT
 BEGIN:VEVENT
-UID:itradar-bigcontest-2026-apply_end-2026-10-26@joon56.github.io
-DTSTAMP:20260921T131716Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
-SUMMARY:🔴 2026 빅콘테스트 (제14회) — 접수 마감
-DESCRIPTION:국내 대표 AI·데이터 경진대회 14회차. 2026년부
- 터 과기정통부 '데이터+AI 혁신 챌린지' 통합 브랜드 소
- 속. 공식 사이트에 9~12월 대회 기간 게시\, 모집은 추후
- 공지. | https://www.bigcontest.or.kr
-URL:https://www.bigcontest.or.kr
-END:VEVENT
-BEGIN:VEVENT
 UID:itradar-bigcontest-2026-announce-2026-11-27@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:🟣 2026 빅콘테스트 (제14회) — 수상자 발표
@@ -653,8 +662,34 @@ DESCRIPTION:국내 대표 AI·데이터 경진대회 14회차. 2026년부
 URL:https://www.bigcontest.or.kr
 END:VEVENT
 BEGIN:VEVENT
+UID:itradar-bigcontest-2026-apply_end-2026-10-08@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:🔴 2026 빅콘테스트 (제14회) — 참가신청(구글폼) 
+ 마감
+DESCRIPTION:국내 대표 AI·데이터 경진대회 14회차. 2026년부
+ 터 과기정통부 '데이터+AI 혁신 챌린지' 통합 브랜드 소
+ 속. 공식 사이트에 9~12월 대회 기간 게시\, 모집은 추후
+ 공지. | https://www.bigcontest.or.kr
+URL:https://www.bigcontest.or.kr
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-bigcontest-2026-partial_deadline-2026-10-26@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:🟠 2026 빅콘테스트 (제14회) — 결과물 제출 마감 (
+ 이메일)
+DESCRIPTION:국내 대표 AI·데이터 경진대회 14회차. 2026년부
+ 터 과기정통부 '데이터+AI 혁신 챌린지' 통합 브랜드 소
+ 속. 공식 사이트에 9~12월 대회 기간 게시\, 모집은 추후
+ 공지. | https://www.bigcontest.or.kr
+URL:https://www.bigcontest.or.kr
+END:VEVENT
+BEGIN:VEVENT
 UID:itradar-maicon-2026-apply_start-2026-09-01@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:🟢 제5회 국방 AI 경진대회 (MAICON) — 참가 접수 시
@@ -666,7 +701,7 @@ URL:https://maicon.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-maicon-2026-apply_end-2026-09-30@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:🔴 제5회 국방 AI 경진대회 (MAICON) — 참가 접수 마
@@ -678,7 +713,7 @@ URL:https://maicon.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-fiesta-2026-apply_start-2026-08-24@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20260825
 SUMMARY:🟢 2026 금융보안 AI 활용 해킹방어 대회 (구 FIESTA) 
@@ -694,7 +729,7 @@ URL:https://www.fsec.or.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-fiesta-2026-apply_end-2026-09-02@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:🔴 2026 금융보안 AI 활용 해킹방어 대회 (구 FIESTA) 
@@ -710,7 +745,7 @@ URL:https://www.fsec.or.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-fiesta-2026-activity_start-2026-09-05@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20260906
 SUMMARY:🔵 2026 금융보안 AI 활용 해킹방어 대회 (구 FIESTA) 
@@ -726,7 +761,7 @@ URL:https://www.fsec.or.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-fiesta-2026-activity_start-2026-10-03@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:🔵 2026 금융보안 AI 활용 해킹방어 대회 (구 FIESTA) 
@@ -742,7 +777,7 @@ URL:https://www.fsec.or.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-junction-asia-2026-apply_end-2026-08-02@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20260803
 SUMMARY:🔴 JunctionX Korea 2026 (구 JUNCTION ASIA) — 접수 마감 (
@@ -755,7 +790,7 @@ URL:https://hackjunction.app/hackathons/junctionx-korea-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-junction-asia-2026-activity_start-2026-08-21@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 SUMMARY:🔵 JunctionX Korea 2026 (구 JUNCTION ASIA) — 행사 시작 (
@@ -768,7 +803,7 @@ URL:https://hackjunction.app/hackathons/junctionx-korea-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-junction-asia-2026-activity_end-2026-08-23@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20260824
 SUMMARY:⚪ JunctionX Korea 2026 (구 JUNCTION ASIA) — 행사 종료
@@ -780,7 +815,7 @@ URL:https://hackjunction.app/hackathons/junctionx-korea-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-jeonbuk-ai-bigdata-4-apply_end-2026-08-28@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20260829
 SUMMARY:🔴 제4회 전북청년 AI·빅데이터 경진대회 — 접수 
@@ -794,7 +829,7 @@ URL:https://sotong.go.kr/front/epilogue/epilogueNewViewPage.do?bbs_id=59292
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-lg-aimers-10-apply_start-2026-12-05@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:🟢 LG Aimers 10기 — 지원 접수 시작
@@ -804,7 +839,7 @@ URL:https://www.lgaimers.ai
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-lg-aimers-10-apply_end-2026-12-22@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:🔴 LG Aimers 10기 — 지원 접수 마감 (18시)
@@ -814,7 +849,7 @@ URL:https://www.lgaimers.ai
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-lg-aimers-10-announce-2026-12-26@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
 SUMMARY:🟣 LG Aimers 10기 — 참가자 발표
@@ -824,7 +859,7 @@ URL:https://www.lgaimers.ai
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-pycon-kr-2026-activity_start-2026-08-15@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260815
 DTEND;VALUE=DATE:20260816
 SUMMARY:🔵 파이콘 한국 2026 — PyCon 시작 (동국대)
@@ -834,7 +869,7 @@ URL:https://2026.pycon.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-pycon-kr-2026-activity_end-2026-08-17@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
 SUMMARY:⚪ 파이콘 한국 2026 — PyCon 종료
@@ -844,7 +879,7 @@ URL:https://2026.pycon.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-pycon-kr-2026-apply_end-2026-08-16@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260816
 DTEND;VALUE=DATE:20260817
 SUMMARY:🔴 파이콘 한국 2026 — 온라인 티켓 마감 (13시)
@@ -854,7 +889,7 @@ URL:https://2026.pycon.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ai-summit-seoul-2026-apply_end-2026-07-31@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260731
 DTEND;VALUE=DATE:20260801
 SUMMARY:🔴 AI Summit Seoul & Expo 2026 — 무료 사전등록 마감
@@ -864,7 +899,7 @@ URL:https://www.aisummit.co.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ai-summit-seoul-2026-apply_end-2026-08-18@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260819
 SUMMARY:🔴 AI Summit Seoul & Expo 2026 — 최종 등록 마감
@@ -874,7 +909,7 @@ URL:https://www.aisummit.co.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ai-summit-seoul-2026-activity_start-2026-08-19@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260819
 DTEND;VALUE=DATE:20260820
 SUMMARY:🔵 AI Summit Seoul & Expo 2026 — 개막 (코엑스)
@@ -884,7 +919,7 @@ URL:https://www.aisummit.co.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ai-summit-seoul-2026-activity_end-2026-08-21@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 SUMMARY:⚪ AI Summit Seoul & Expo 2026 — 폐막
@@ -894,7 +929,7 @@ URL:https://www.aisummit.co.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kes-2026-activity_start-2026-10-13@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
 SUMMARY:🔵 한국전자전 KES 2026 (제57회) — 개막 (코엑스)
@@ -904,7 +939,7 @@ URL:https://kes.org/kor/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kes-2026-activity_end-2026-10-16@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:⚪ 한국전자전 KES 2026 (제57회) — 폐막
@@ -913,28 +948,8 @@ DESCRIPTION:삼성·LG 참가 국내 최대 전자·IT 전시. AX·로보
 URL:https://kes.org/kor/
 END:VEVENT
 BEGIN:VEVENT
-UID:itradar-softwave-2026-apply_start-2026-09-01@joon56.github.io
-DTSTAMP:20260921T131716Z
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
-SUMMARY:🟢 소프트웨이브 2026 (제11회) — 사전등록 시작
-DESCRIPTION:대한민국 소프트웨어대전 — AI·SW B2B 국내 대표
-  전시. 코엑스 Hall A. | https://k-softwave.com
-URL:https://k-softwave.com
-END:VEVENT
-BEGIN:VEVENT
-UID:itradar-softwave-2026-apply_end-2026-11-27@joon56.github.io
-DTSTAMP:20260921T131716Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-SUMMARY:🔴 소프트웨이브 2026 (제11회) — 사전등록 마감
-DESCRIPTION:대한민국 소프트웨어대전 — AI·SW B2B 국내 대표
-  전시. 코엑스 Hall A. | https://k-softwave.com
-URL:https://k-softwave.com
-END:VEVENT
-BEGIN:VEVENT
 UID:itradar-softwave-2026-activity_start-2026-12-02@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:🔵 소프트웨이브 2026 (제11회) — 개막 (코엑스)
@@ -944,7 +959,7 @@ URL:https://k-softwave.com
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-softwave-2026-activity_end-2026-12-04@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:⚪ 소프트웨이브 2026 (제11회) — 폐막
@@ -954,7 +969,7 @@ URL:https://k-softwave.com
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-comeup-2026-activity_start-2026-12-09@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:🔵 COMEUP 2026 — 개막 (코엑스)
@@ -965,7 +980,7 @@ URL:https://www.comeup.org
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-comeup-2026-activity_end-2026-12-11@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:⚪ COMEUP 2026 — 폐막
@@ -975,8 +990,19 @@ DESCRIPTION:국내 대표 글로벌 스타트업 행사. 2026년은 AI·딥
 URL:https://www.comeup.org
 END:VEVENT
 BEGIN:VEVENT
+UID:itradar-comeup-2026-apply_end-2026-12-04@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:🔴 COMEUP 2026 — 사전등록·비즈매칭 마감
+DESCRIPTION:국내 대표 글로벌 스타트업 행사. 2026년은 AI·딥
+ 테크 중심 확장. 채용·네트워킹에도 유용. | https://www.com
+ eup.org
+URL:https://www.comeup.org
+END:VEVENT
+BEGIN:VEVENT
 UID:itradar-if-kakao-26-apply_start-2026-09-07@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:🟢 if(kakao) 26 — 참가 신청 시작
@@ -986,7 +1012,7 @@ URL:https://if.kakao.com
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-if-kakao-26-apply_end-2026-09-28@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:🔴 if(kakao) 26 — 신청 마감 (12시\, 추첨)
@@ -996,7 +1022,7 @@ URL:https://if.kakao.com
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-if-kakao-26-activity_start-2026-10-13@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
 SUMMARY:🔵 if(kakao) 26 — DAY1
@@ -1006,7 +1032,7 @@ URL:https://if.kakao.com
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-if-kakao-26-activity_end-2026-10-14@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:⚪ if(kakao) 26 — DAY2
@@ -1015,8 +1041,30 @@ DESCRIPTION:카카오 연례 개발자 컨퍼런스. 2025년은 9.23~25 카
 URL:https://if.kakao.com
 END:VEVENT
 BEGIN:VEVENT
+UID:itradar-woowacon-2026-apply_end-2026-10-13@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:🔴 우아콘 2026 (WOOWACON) — 오프라인 참가 신청 마
+ 감 (추첨)
+DESCRIPTION:우아한형제들 기술 컨퍼런스. 2025년은 10.28 개최
+ . 2026 미공지. | https://woowacon.com
+URL:https://woowacon.com
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-woowacon-2026-activity_start-2026-10-28@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:🔵 우아콘 2026 (WOOWACON) — 우아콘 2026 (그랜드 인터
+ 컨티넨탈 서울 파르나스)
+DESCRIPTION:우아한형제들 기술 컨퍼런스. 2025년은 10.28 개최
+ . 2026 미공지. | https://woowacon.com
+URL:https://woowacon.com
+END:VEVENT
+BEGIN:VEVENT
 UID:itradar-sopt-39-apply_start-2026-08-08@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260808
 DTEND;VALUE=DATE:20260809
 SUMMARY:🟢 SOPT 39기 — OB(makers) 서류 접수 시작 (10시)
@@ -1027,7 +1075,7 @@ URL:https://www.sopt.org
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-sopt-39-partial_deadline-2026-08-11@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260811
 DTEND;VALUE=DATE:20260812
 SUMMARY:🟠 SOPT 39기 — OB(makers) 서류 마감 (18시)
@@ -1038,7 +1086,7 @@ URL:https://www.sopt.org
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-sopt-39-apply_start-2026-08-29@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260829
 DTEND;VALUE=DATE:20260830
 SUMMARY:🟢 SOPT 39기 — YB(신입) 서류 접수 시작 (10시)
@@ -1049,7 +1097,7 @@ URL:https://www.sopt.org
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-sopt-39-apply_end-2026-09-04@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:🔴 SOPT 39기 — YB(신입) 서류 마감 (18시)
@@ -1060,7 +1108,7 @@ URL:https://www.sopt.org
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-depromeet-18-apply_start-2026-02-12@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260212
 DTEND;VALUE=DATE:20260213
 SUMMARY:🟢 디프만 18기 (Depromeet) — 서류 접수 시작
@@ -1071,7 +1119,7 @@ URL:https://www.depromeet.com
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-depromeet-18-apply_end-2026-02-18@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260218
 DTEND;VALUE=DATE:20260219
 SUMMARY:🔴 디프만 18기 (Depromeet) — 서류 접수 마감
@@ -1082,7 +1130,7 @@ URL:https://www.depromeet.com
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-depromeet-18-activity_start-2026-03-14@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260314
 DTEND;VALUE=DATE:20260315
 SUMMARY:🔵 디프만 18기 (Depromeet) — OT · 활동 시작
@@ -1093,7 +1141,7 @@ URL:https://www.depromeet.com
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-depromeet-18-activity_end-2026-07-04@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260704
 DTEND;VALUE=DATE:20260705
 SUMMARY:⚪ 디프만 18기 (Depromeet) — 활동 종료
@@ -1104,7 +1152,7 @@ URL:https://www.depromeet.com
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kusitms-34-apply_start-2026-07-25@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260725
 DTEND;VALUE=DATE:20260726
 SUMMARY:🟢 큐시즘 34기 (KUSITMS) — 신청 시작
@@ -1115,7 +1163,7 @@ URL:https://www.kusitms.com/recruit
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kusitms-34-apply_end-2026-08-01@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260802
 SUMMARY:🔴 큐시즘 34기 (KUSITMS) — 학회원 접수 마감
@@ -1126,7 +1174,7 @@ URL:https://www.kusitms.com/recruit
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kusitms-34-announce-2026-08-04@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260804
 DTEND;VALUE=DATE:20260805
 SUMMARY:🟣 큐시즘 34기 (KUSITMS) — 서류 합격 발표
@@ -1137,7 +1185,7 @@ URL:https://www.kusitms.com/recruit
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kusitms-34-announce-2026-08-11@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260811
 DTEND;VALUE=DATE:20260812
 SUMMARY:🟣 큐시즘 34기 (KUSITMS) — 최종 합격 발표
@@ -1148,7 +1196,7 @@ URL:https://www.kusitms.com/recruit
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-pseudo-lab-activity_start-2026-07-25@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260725
 DTEND;VALUE=DATE:20260726
 SUMMARY:🔵 가짜연구소 (Pseudo Lab) — PseudoCon 2026
@@ -1160,7 +1208,7 @@ URL:https://pseudo-lab.com
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-pseudo-lab-apply_end-2026-08-19@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260819
 DTEND;VALUE=DATE:20260820
 SUMMARY:🔴 가짜연구소 (Pseudo Lab) — 시즌 13 빌더 모집 마
@@ -1173,7 +1221,7 @@ URL:https://pseudo-lab.com
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-pseudo-lab-announce-2026-08-21@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 SUMMARY:🟣 가짜연구소 (Pseudo Lab) — 빌더 합격 발표
@@ -1185,7 +1233,7 @@ URL:https://pseudo-lab.com
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-nhn-nan-2026-apply_end-2026-08-10@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 SUMMARY:🔴 NHN 넥스트 AI 네트워크 해커톤 (NAN 2026) — 접수 
@@ -1197,7 +1245,7 @@ URL:https://nan2026.nhn.com
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-nhn-nan-2026-activity_start-2026-09-04@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:🔵 NHN 넥스트 AI 네트워크 해커톤 (NAN 2026) — 본선 
@@ -1209,7 +1257,7 @@ URL:https://nan2026.nhn.com
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-nhn-nan-2026-activity_end-2026-09-06@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260906
 DTEND;VALUE=DATE:20260907
 SUMMARY:⚪ NHN 넥스트 AI 네트워크 해커톤 (NAN 2026) — 본선 
@@ -1221,7 +1269,7 @@ URL:https://nan2026.nhn.com
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-shinhan-careernext-2026-apply_start-2026-07-21@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260721
 DTEND;VALUE=DATE:20260722
 SUMMARY:🟢 신한 커리어넥스트 (금융IT·AI 과정) — 신청 시
@@ -1233,7 +1281,7 @@ URL:https://shinhancareer.co.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-shinhan-careernext-2026-apply_end-2026-08-04@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260804
 DTEND;VALUE=DATE:20260805
 SUMMARY:🔴 신한 커리어넥스트 (금융IT·AI 과정) — 접수 마
@@ -1245,7 +1293,7 @@ URL:https://shinhancareer.co.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-shinhan-careernext-2026-announce-2026-08-19@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260819
 DTEND;VALUE=DATE:20260820
 SUMMARY:🟣 신한 커리어넥스트 (금융IT·AI 과정) — 최종 합
@@ -1258,7 +1306,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-shinhan-careernext-2026-activity_start-2026-09-01@joon56.github
  .io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:🔵 신한 커리어넥스트 (금융IT·AI 과정) — 교육 시
@@ -1271,7 +1319,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-shinhan-careernext-2026-activity_end-2026-11-27@joon56.github.i
  o
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:⚪ 신한 커리어넥스트 (금융IT·AI 과정) — 교육 종
@@ -1283,7 +1331,7 @@ URL:https://shinhancareer.co.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-baram-2026-apply_end-2026-08-14@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
 SUMMARY:🔴 제3회 풍력발전량 예측 AI 경진대회 (BARAM) — 최
@@ -1295,7 +1343,7 @@ URL:https://dacon.io/competitions/official/236727/overview/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-baram-2026-partial_deadline-2026-08-17@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
 SUMMARY:🟠 제3회 풍력발전량 예측 AI 경진대회 (BARAM) — 2
@@ -1307,7 +1355,7 @@ URL:https://dacon.io/competitions/official/236727/overview/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-baram-2026-activity_start-2026-08-26@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260827
 SUMMARY:🔵 제3회 풍력발전량 예측 AI 경진대회 (BARAM) — 오
@@ -1319,7 +1367,7 @@ URL:https://dacon.io/competitions/official/236727/overview/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-baram-2026-announce-2026-09-03@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
 SUMMARY:🟣 제3회 풍력발전량 예측 AI 경진대회 (BARAM) — 시
@@ -1331,7 +1379,7 @@ URL:https://dacon.io/competitions/official/236727/overview/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-baram-2026-announce-2026-08-28@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20260829
 SUMMARY:🟣 제3회 풍력발전량 예측 AI 경진대회 (BARAM) — 최
@@ -1343,7 +1391,7 @@ URL:https://dacon.io/competitions/official/236727/overview/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-skt-prompt-2026-apply_start-2026-07-27@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260727
 DTEND;VALUE=DATE:20260728
 SUMMARY:🟢 SKT 모두의 Promp.T 공모전 — 신청 시작
@@ -1354,7 +1402,7 @@ URL:https://news.sktelecom.com/prompt
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-skt-prompt-2026-apply_end-2026-08-10@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 SUMMARY:🔴 SKT 모두의 Promp.T 공모전 — 접수 마감
@@ -1365,7 +1413,7 @@ URL:https://news.sktelecom.com/prompt
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-skt-prompt-2026-announce-2026-08-20@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
 SUMMARY:🟣 SKT 모두의 Promp.T 공모전 — 결과 발표 (SKT 뉴스
@@ -1377,7 +1425,7 @@ URL:https://news.sktelecom.com/prompt
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-data-ai-creator-camp-2026-apply_end-2026-07-30@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
 SUMMARY:🔴 2026 데이터+AI 크리에이터 캠프 — 접수 마감
@@ -1390,7 +1438,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-data-ai-creator-camp-2026-activity_start-2026-08-20@joon56.gith
  ub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
 SUMMARY:🔵 2026 데이터+AI 크리에이터 캠프 — 온라인 발대
@@ -1404,7 +1452,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-data-ai-creator-camp-2026-partial_deadline-2026-10-14@joon56.gi
  thub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:🟠 2026 데이터+AI 크리에이터 캠프 — 예선 결과물 
@@ -1418,7 +1466,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-data-ai-creator-camp-2026-partial_deadline-2026-11-25@joon56.gi
  thub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:🟠 2026 데이터+AI 크리에이터 캠프 — 본선 자료 제
@@ -1431,7 +1479,7 @@ URL:https://www.devtimes.co.kr/news/496782
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-data-ai-creator-camp-2026-announce-2026-11-28@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:🟣 2026 데이터+AI 크리에이터 캠프 — 시상식
@@ -1444,7 +1492,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-aihome-matter-sprint-2026-apply_start-2026-08-03@joon56.github.
  io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260803
 DTEND;VALUE=DATE:20260804
 SUMMARY:🟢 지능형 홈 Matter AX Sprint 2026 — 신청 시작
@@ -1456,7 +1504,7 @@ URL:https://www.kashi.or.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-aihome-matter-sprint-2026-apply_end-2026-09-11@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:🔴 지능형 홈 Matter AX Sprint 2026 — 접수 마감
@@ -1468,7 +1516,7 @@ URL:https://www.kashi.or.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-traithon-2-apply_end-2026-08-21@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 SUMMARY:🔴 제2회 TRAITHON (AI 신뢰성 해커톤) — 접수 마감
@@ -1479,7 +1527,7 @@ URL:https://traithon.trai-n.org
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-gcp-solana-hackathon-2026-apply_end-2026-08-03@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260803
 DTEND;VALUE=DATE:20260804
 SUMMARY:🔴 Google Cloud × Solana AI Agentic 해커톤 — 접수 마감
@@ -1490,7 +1538,7 @@ URL:https://linkareer.com/activity/338419
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-gcp-solana-hackathon-2026-announce-2026-08-07@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 SUMMARY:🟣 Google Cloud × Solana AI Agentic 해커톤 — 본선 진출 
@@ -1503,7 +1551,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-gcp-solana-hackathon-2026-activity_start-2026-08-21@joon56.gith
  ub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 SUMMARY:🔵 Google Cloud × Solana AI Agentic 해커톤 — 데모데이 (
@@ -1516,7 +1564,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kaggle-agent-security-2026-apply_end-2026-08-25@joon56.github.i
  o
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260825
 DTEND;VALUE=DATE:20260826
 SUMMARY:🔴 AI Agent Security 챌린지 (Kaggle) — Entry 마감
@@ -1530,7 +1578,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-simulacrabench-2026-apply_start-2026-08-17@joon56.githu
  b.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
 SUMMARY:🟢 SimulacraBench (NeurIPS 2026) — 퍼블릭 런칭 (개발 페
@@ -1543,12 +1591,12 @@ DESCRIPTION:미공개 UN 마이크로데이터(21개국 약 6.1만 명)로
 URL:https://simulacrabench.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:itradar-neurips-simulacrabench-2026-activity_start-2026-11-01@joon56.gi
- thub.io
-DTSTAMP:20260921T131716Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:🔵 SimulacraBench (NeurIPS 2026) — 테스트 페이즈 시작
+UID:itradar-neurips-simulacrabench-2026-partial_deadline-2026-11-13@joon56.
+ github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:🟠 SimulacraBench (NeurIPS 2026) — 개발 페이즈 종료
 DESCRIPTION:미공개 UN 마이크로데이터(21개국 약 6.1만 명)로 
  도달하기 어려운 인구집단에 대한 AI 표현을 검증 — 서
  베이 응답 행렬의 확률적 완성 과제. 컨테이너(Docker) 코
@@ -1557,12 +1605,27 @@ DESCRIPTION:미공개 UN 마이크로데이터(21개국 약 6.1만 명)로
 URL:https://simulacrabench.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:itradar-neurips-simulacrabench-2026-apply_end-2026-11-14@joon56.github.
- io
-DTSTAMP:20260921T131716Z
+UID:itradar-neurips-simulacrabench-2026-activity_start-2026-11-14@joon56.gi
+ thub.io
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
-SUMMARY:🔴 SimulacraBench (NeurIPS 2026) — 최종 제출 마감
+SUMMARY:🔵 SimulacraBench (NeurIPS 2026) — 최종 페이즈 시작 (팀
+ 당 1회 제출)
+DESCRIPTION:미공개 UN 마이크로데이터(21개국 약 6.1만 명)로 
+ 도달하기 어려운 인구집단에 대한 AI 표현을 검증 — 서
+ 베이 응답 행렬의 확률적 완성 과제. 컨테이너(Docker) 코
+ 드 제출\, 폐쇄 평가 환경에서 채점. | https://simulacrabench.o
+ rg/
+URL:https://simulacrabench.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-neurips-simulacrabench-2026-apply_end-2026-11-18@joon56.github.
+ io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:🔴 SimulacraBench (NeurIPS 2026) — 최종 페이즈 종료
 DESCRIPTION:미공개 UN 마이크로데이터(21개국 약 6.1만 명)로 
  도달하기 어려운 인구집단에 대한 AI 표현을 검증 — 서
  베이 응답 행렬의 확률적 완성 과제. 컨테이너(Docker) 코
@@ -1573,7 +1636,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-steerability-2026-apply_start-2026-09-10@joon56.github.
  io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
 SUMMARY:🟢 Steerability Challenge (NeurIPS 2026) — 등록·제출 오
@@ -1586,7 +1649,7 @@ URL:https://steerability.github.io/competition/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-steerability-2026-apply_end-2026-11-21@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:🔴 Steerability Challenge (NeurIPS 2026) — 최종 제출 마감
@@ -1600,7 +1663,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-fair-universe-2026-apply_end-2026-10-11@joon56.github.i
  o
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:🔴 FAIR Universe Weak Lensing Challenge (NeurIPS 2026) — Phase 
@@ -1612,12 +1675,25 @@ DESCRIPTION:약한 중력렌즈 convergence map에서 학습 분포를 벗
 URL:https://fair-universe.lbl.gov
 END:VEVENT
 BEGIN:VEVENT
-UID:itradar-neurips-aimo-interp-2026-apply_end-2026-10-25@joon56.github.io
-DTSTAMP:20260921T131716Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:🔴 AIMO Interpretability Challenge (NeurIPS 2026) — 제출 마
- 감
+UID:itradar-neurips-aimo-interp-2026-apply_end-2026-11-01@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:🔴 AIMO Interpretability Challenge (NeurIPS 2026) — 최종 제
+ 출 마감 (제출 창 종료)
+DESCRIPTION:AI가 수학 문제를 견고한 추론으로 푸는지\, 허
+ 위 패턴으로 푸는지 구별하는 LLM 해석가능성 대회. Codabe
+ nch 오프라인 평가 서버 사용. | https://aimo-interp.github.io
+URL:https://aimo-interp.github.io
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-neurips-aimo-interp-2026-partial_deadline-2026-11-15@joon56.git
+ hub.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:🟠 AIMO Interpretability Challenge (NeurIPS 2026) — 기술 보
+ 고서 마감 (11.1~15)
 DESCRIPTION:AI가 수학 문제를 견고한 추론으로 푸는지\, 허
  위 패턴으로 푸는지 구별하는 LLM 해석가능성 대회. Codabe
  nch 오프라인 평가 서버 사용. | https://aimo-interp.github.io
@@ -1625,7 +1701,7 @@ URL:https://aimo-interp.github.io
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-realpde-2026-apply_end-2026-08-20@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
 SUMMARY:🔴 RealPDE Challenge (NeurIPS 2026) — 등록 마감
@@ -1637,7 +1713,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-realpde-2026-partial_deadline-2026-09-27@joon56.github.
  io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:🟠 RealPDE Challenge (NeurIPS 2026) — 개발 페이즈 종료
@@ -1648,7 +1724,7 @@ URL:https://realpdecompetition.github.io/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-realpde-2026-activity_end-2026-10-25@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:⚪ RealPDE Challenge (NeurIPS 2026) — 결정 페이즈 종료
@@ -1659,7 +1735,7 @@ URL:https://realpdecompetition.github.io/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-realpde-2026-announce-2026-11-10@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:🟣 RealPDE Challenge (NeurIPS 2026) — 최종 결과 발표
@@ -1669,11 +1745,24 @@ DESCRIPTION:실제 물리 시스템 데이터 기반 과학 ML(PDE) 대회.
 URL:https://realpdecompetition.github.io/
 END:VEVENT
 BEGIN:VEVENT
-UID:itradar-neurips-quantiphy-2026-apply_end-2026-11-05@joon56.github.io
-DTSTAMP:20260921T131716Z
-DTSTART;VALUE=DATE:20261105
-DTEND;VALUE=DATE:20261106
-SUMMARY:🔴 QuantiPhy Challenge (NeurIPS 2026) — 제출 마감 (AoE)
+UID:itradar-neurips-quantiphy-2026-apply_end-2026-10-09@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:🔴 QuantiPhy Challenge (NeurIPS 2026) — 팀 등록 마감 (23:5
+ 9 AoE\, 이후 신규·수정 불가)
+DESCRIPTION:VLM(비전-언어 모델)의 정량적 물리 추론 능력을 
+ 평가하는 스탠퍼드 주관 대회. 자체 평가 서버\, CSV 제출
+ . | https://quantiphy.stanford.edu/competition/index.html
+URL:https://quantiphy.stanford.edu/competition/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-neurips-quantiphy-2026-activity_end-2026-10-23@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:⚪ QuantiPhy Challenge (NeurIPS 2026) — 최종 예측 제출 마
+ 감 (23:59 AoE)
 DESCRIPTION:VLM(비전-언어 모델)의 정량적 물리 추론 능력을 
  평가하는 스탠퍼드 주관 대회. 자체 평가 서버\, CSV 제출
  . | https://quantiphy.stanford.edu/competition/index.html
@@ -1681,7 +1770,7 @@ URL:https://quantiphy.stanford.edu/competition/index.html
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-agenthon-2026-apply_start-2026-08-17@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
 SUMMARY:🟢 Agenthon 2026 (NeurIPS\, 검증가능 금융 AI) — 등록 
@@ -1694,7 +1783,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-agenthon-2026-activity_start-2026-08-28@joon56.github.i
  o
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20260829
 SUMMARY:🔵 Agenthon 2026 (NeurIPS\, 검증가능 금융 AI) — 개발 
@@ -1706,7 +1795,7 @@ URL:https://www.agenthon.net/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-agenthon-2026-apply_end-2026-10-12@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:🔴 Agenthon 2026 (NeurIPS\, 검증가능 금융 AI) — 등록·
@@ -1719,7 +1808,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-agenthon-2026-activity_start-2026-10-13@joon56.github.i
  o
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
 SUMMARY:🔵 Agenthon 2026 (NeurIPS\, 검증가능 금융 AI) — Final+Ver
@@ -1731,7 +1820,7 @@ URL:https://www.agenthon.net/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-agenthon-2026-activity_end-2026-10-25@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:⚪ Agenthon 2026 (NeurIPS\, 검증가능 금융 AI) — Final+Veri
@@ -1743,7 +1832,7 @@ URL:https://www.agenthon.net/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-agenthon-2026-announce-2026-12-09@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:🟣 Agenthon 2026 (NeurIPS\, 검증가능 금융 AI) — NeurIPS 
@@ -1755,7 +1844,7 @@ URL:https://www.agenthon.net/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-sapc2-2026-apply_end-2026-10-24@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:🔴 Speech Accessibility Project Challenge 2 (NeurIPS 2026) — 
@@ -1767,7 +1856,7 @@ URL:https://xiuwenz2.github.io/SAPC2-website/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-sapc2-2026-activity_start-2026-12-11@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:🔵 Speech Accessibility Project Challenge 2 (NeurIPS 2026) — Ne
@@ -1778,9 +1867,21 @@ DESCRIPTION:구음장애(dysarthric) 음성 인식 ASR 챌린지 2회차. 2
 URL:https://xiuwenz2.github.io/SAPC2-website/
 END:VEVENT
 BEGIN:VEVENT
+UID:itradar-neurips-sapc2-2026-partial_deadline-2026-10-31@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:🟠 Speech Accessibility Project Challenge 2 (NeurIPS 2026) — 
+ 워크숍 논문 마감 (AoE)
+DESCRIPTION:구음장애(dysarthric) 음성 인식 ASR 챌린지 2회차. 2
+ 개 트랙\, Codabench 호스팅. | https://xiuwenz2.github.io/SAPC2-websi
+ te/
+URL:https://xiuwenz2.github.io/SAPC2-website/
+END:VEVENT
+BEGIN:VEVENT
 UID:itradar-finance-ai-challenge-2026-apply_start-2026-07-13@joon56.github.
  io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260713
 DTEND;VALUE=DATE:20260714
 SUMMARY:🟢 2026 금융 AI Challenge (금융보안원) — 신청 시작
@@ -1792,7 +1893,7 @@ URL:https://daker.ai/public/hackathons/2026-finance-ai-challenge
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-finance-ai-challenge-2026-apply_end-2026-09-07@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:🔴 2026 금융 AI Challenge (금융보안원) — 접수 마감 (
@@ -1805,7 +1906,7 @@ URL:https://daker.ai/public/hackathons/2026-finance-ai-challenge
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-gxg-ai-gamesound-2026-apply_end-2026-08-23@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20260824
 SUMMARY:🔴 제1회 AI 게임사운드디자인 챌린지 with GXG 2026 
@@ -1817,7 +1918,7 @@ URL:https://www.etnews.com/20260727000412
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-gxg-ai-gamesound-2026-announce-2026-08-26@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260827
 SUMMARY:🟣 제1회 AI 게임사운드디자인 챌린지 with GXG 2026 
@@ -1829,7 +1930,7 @@ URL:https://www.etnews.com/20260727000412
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-gxg-ai-gamesound-2026-announce-2026-09-12@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:🟣 제1회 AI 게임사운드디자인 챌린지 with GXG 2026 
@@ -1841,7 +1942,7 @@ URL:https://www.etnews.com/20260727000412
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-nais-ai-hackathon-2026-apply_start-2026-08-06@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260806
 DTEND;VALUE=DATE:20260807
 SUMMARY:🟢 NAIS AI 해커톤 (R&D 특화 AI 에이전트) — 신청 시
@@ -1854,7 +1955,7 @@ URL:https://ai4scikorea.org
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-nais-ai-hackathon-2026-apply_end-2026-09-07@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:🔴 NAIS AI 해커톤 (R&D 특화 AI 에이전트) — 접수 마
@@ -1868,7 +1969,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-nais-ai-hackathon-2026-activity_start-2026-09-30@joon56.github.
  io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:🔵 NAIS AI 해커톤 (R&D 특화 AI 에이전트) — 본선 시
@@ -1881,7 +1982,7 @@ URL:https://ai4scikorea.org
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-nais-ai-hackathon-2026-activity_end-2026-10-01@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:⚪ NAIS AI 해커톤 (R&D 특화 AI 에이전트) — 본선 종
@@ -1894,7 +1995,7 @@ URL:https://ai4scikorea.org
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-k-cure-datathon-4-apply_start-2026-07-27@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260727
 DTEND;VALUE=DATE:20260728
 SUMMARY:🟢 제4차 K-CURE 데이터 활용 경진대회 — 신청 시작
@@ -1905,7 +2006,7 @@ URL:https://k-cure.mohw.go.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-k-cure-datathon-4-apply_end-2026-08-24@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20260825
 SUMMARY:🔴 제4차 K-CURE 데이터 활용 경진대회 — 접수 마감
@@ -1918,7 +2019,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kaggle-ptcg-ai-2026-partial_deadline-2026-08-16@joon56.github.i
  o
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260816
 DTEND;VALUE=DATE:20260817
 SUMMARY:🟠 Kaggle × 포켓몬 TCG AI 배틀 챌린지 — Simulation 트
@@ -1932,7 +2033,7 @@ URL:https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-str
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kaggle-ptcg-ai-2026-apply_end-2026-09-13@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260913
 DTEND;VALUE=DATE:20260914
 SUMMARY:🔴 Kaggle × 포켓몬 TCG AI 배틀 챌린지 — Strategy 트
@@ -1946,7 +2047,7 @@ URL:https://www.kaggle.com/competitions/pokemon-tcg-ai-battle-challenge-str
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kaggle-ptcg-ai-2026-apply_end-2026-09-06@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260906
 DTEND;VALUE=DATE:20260907
 SUMMARY:🔴 Kaggle × 포켓몬 TCG AI 배틀 챌린지 — Strategy 참
@@ -1961,7 +2062,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-npark-satellite-ai-2026-partial_deadline-2026-09-21@joon56.gith
  ub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
 SUMMARY:🟠 2026 국립공원 위성영상 모니터링 AI 챌린지 — 
@@ -1974,7 +2075,7 @@ URL:https://aifactory.space/competition
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-npark-satellite-ai-2026-apply_end-2026-10-06@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261006
 DTEND;VALUE=DATE:20261007
 SUMMARY:🔴 2026 국립공원 위성영상 모니터링 AI 챌린지 — 
@@ -1987,7 +2088,7 @@ URL:https://aifactory.space/competition
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-cce-2026-apply_end-2026-08-18@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260819
 SUMMARY:🔴 CCE 2026 사이버공격방어대회 — 신청 마감 (18시\
@@ -1999,7 +2100,7 @@ URL:https://cce.cstec.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-cce-2026-activity_start-2026-08-22@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260822
 DTEND;VALUE=DATE:20260823
 SUMMARY:🔵 CCE 2026 사이버공격방어대회 — 예선 (온라인\, 0
@@ -2011,7 +2112,7 @@ URL:https://cce.cstec.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-cce-2026-activity_start-2026-09-17@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:🔵 CCE 2026 사이버공격방어대회 — 본선 (코엑스)
@@ -2022,7 +2123,7 @@ URL:https://cce.cstec.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-cce-2026-announce-2026-09-18@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:🟣 CCE 2026 사이버공격방어대회 — 결과 발표·시상
@@ -2034,7 +2135,7 @@ URL:https://cce.cstec.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ocean-ai-bigdata-2026-apply_end-2026-08-14@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
 SUMMARY:🔴 2026 해양과학 AI×빅데이터 경진대회 (제6회) — 
@@ -2047,7 +2148,7 @@ URL:https://www.oceanaidata.org
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ocean-ai-bigdata-2026-apply_end-2026-09-21@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
 SUMMARY:🔴 2026 해양과학 AI×빅데이터 경진대회 (제6회) — 
@@ -2060,7 +2161,7 @@ URL:https://www.oceanaidata.org
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ai-festa-2026-activity_start-2026-10-06@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261006
 DTEND;VALUE=DATE:20261007
 SUMMARY:🔵 인공지능 페스타 (AI Festa) 2026 — 개막 (코엑스 C
@@ -2072,7 +2173,7 @@ URL:https://www.aifesta.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ai-festa-2026-activity_end-2026-10-08@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 SUMMARY:⚪ 인공지능 페스타 (AI Festa) 2026 — 폐막
@@ -2083,7 +2184,7 @@ URL:https://www.aifesta.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ai-festa-2026-apply_end-2026-10-02@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:🔴 인공지능 페스타 (AI Festa) 2026 — 사전등록 마감
@@ -2095,7 +2196,7 @@ URL:https://www.aifesta.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ubucon-korea-2026-activity_start-2026-08-29@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260829
 DTEND;VALUE=DATE:20260830
 SUMMARY:🔵 UbuCon Korea 2026 × MiniDebConf Korea — 행사 당일 (AWS 
@@ -2108,7 +2209,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-snowflake-world-tour-seoul-2026-activity_start-2026-08-27@joon5
  6.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20260828
 SUMMARY:🔵 Snowflake World Tour 2026 서울 — 행사 당일 (코엑스)
@@ -2120,7 +2221,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mongodb-local-seoul-2026-activity_start-2026-09-01@joon56.githu
  b.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:🔵 MongoDB.local Seoul 2026 — 행사 당일 (파르나스)
@@ -2132,7 +2233,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-openai-game-builders-seoul-2026-partial_deadline-2026-08-26@joo
  n56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260827
 SUMMARY:🟠 OpenAI 게임 빌더스 서울 — Track1 제출 마감
@@ -2145,7 +2246,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-openai-game-builders-seoul-2026-activity_start-2026-08-31@joon5
  6.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:🔵 OpenAI 게임 빌더스 서울 — 본선 (서울)
@@ -2157,7 +2258,7 @@ URL:https://openaigame2026.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-genai-risk-contest-2026-apply_start-2026-08-14@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
 SUMMARY:🟢 생성형 AI 위험성 발굴 경진대회 (시즌2·3) — 
@@ -2170,7 +2271,7 @@ URL:https://ai.wiseuser.go.kr/usermain.do
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-genai-risk-contest-2026-apply_end-2026-09-04@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:🔴 생성형 AI 위험성 발굴 경진대회 (시즌2·3) — 
@@ -2183,7 +2284,7 @@ URL:https://ai.wiseuser.go.kr/usermain.do
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-genai-risk-contest-2026-apply_start-2026-09-21@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
 SUMMARY:🟢 생성형 AI 위험성 발굴 경진대회 (시즌2·3) — 
@@ -2196,7 +2297,7 @@ URL:https://ai.wiseuser.go.kr/usermain.do
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-genai-risk-contest-2026-apply_end-2026-10-12@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:🔴 생성형 AI 위험성 발굴 경진대회 (시즌2·3) — 
@@ -2210,7 +2311,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-github-copilot-devdays-seoul-2026-activity_start-2026-04-25@joo
  n56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260425
 DTEND;VALUE=DATE:20260426
 SUMMARY:🔵 GitHub Copilot Dev Days | Seoul — 서울 회차 (한국MS 
@@ -2223,7 +2324,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kisti-data-ai-contest-2026-apply_start-2026-08-11@joon56.github
  .io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260811
 DTEND;VALUE=DATE:20260812
 SUMMARY:🟢 2026 DATA·AI 분석 경진대회 (제7회) — 문제발굴 
@@ -2236,7 +2337,7 @@ URL:https://aida.kisti.re.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kisti-data-ai-contest-2026-announce-2026-11-25@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:🟣 2026 DATA·AI 분석 경진대회 (제7회) — 시상식
@@ -2249,7 +2350,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kisti-data-ai-contest-2026-apply_end-2026-11-06@joon56.github.i
  o
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:🔴 2026 DATA·AI 분석 경진대회 (제7회) — 문제해결 
@@ -2262,7 +2363,7 @@ URL:https://aida.kisti.re.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kisti-data-ai-contest-2026-announce-2026-11-09@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:🟣 2026 DATA·AI 분석 경진대회 (제7회) — 서류평가 (
@@ -2275,7 +2376,7 @@ URL:https://aida.kisti.re.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-rsna-knee-mri-2026-apply_end-2026-10-22@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:🔴 RSNA 2026 무릎 MRI 이상 탐지 챌린지 — 제출 마감
@@ -2288,7 +2389,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-tourism-datalab-contest-2026-apply_end-2026-09-30@joon56.github
  .io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:🔴 2026 한국관광 데이터랩 활용 경진대회 — 접수 
@@ -2301,7 +2402,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-tourism-datalab-contest-2026-announce-2026-10-23@joon56.github.
  io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:🟣 2026 한국관광 데이터랩 활용 경진대회 — 시상
@@ -2314,7 +2415,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-imbank-ai-blockchain-2026-apply_start-2026-08-14@joon56.github.
  io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260815
 SUMMARY:🟢 iM뱅크 2026 AI Blockchain 경진대회 — 신청 시작
@@ -2326,7 +2427,7 @@ URL:https://www.im-challenge.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-imbank-ai-blockchain-2026-apply_end-2026-09-20@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 SUMMARY:🔴 iM뱅크 2026 AI Blockchain 경진대회 — 접수 마감 (
@@ -2339,7 +2440,7 @@ URL:https://www.im-challenge.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-imbank-ai-blockchain-2026-announce-2026-09-23@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
 SUMMARY:🟣 iM뱅크 2026 AI Blockchain 경진대회 — 예선 결과 발
@@ -2353,7 +2454,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-imbank-ai-blockchain-2026-activity_start-2026-09-28@joon56.gith
  ub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:🔵 iM뱅크 2026 AI Blockchain 경진대회 — 멘토링 (대구
@@ -2367,7 +2468,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-imbank-ai-blockchain-2026-activity_start-2026-10-22@joon56.gith
  ub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:🔵 iM뱅크 2026 AI Blockchain 경진대회 — 본선 발표·
@@ -2380,7 +2481,7 @@ URL:https://www.im-challenge.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-toython-2026-activity_start-2026-08-22@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260822
 DTEND;VALUE=DATE:20260823
 SUMMARY:🔵 토이톤 — 피지컬 AI 해커톤 — 행사 당일 (양재
@@ -2393,7 +2494,7 @@ URL:https://www.seoulaihub.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-buidl-ctc-2026-fall-apply_start-2026-08-13@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260813
 DTEND;VALUE=DATE:20260814
 SUMMARY:🟢 BUIDL CTC 2026 Fall 해커톤 — 신청 시작
@@ -2404,7 +2505,7 @@ URL:https://buidl.creditcoin.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-buidl-ctc-2026-fall-apply_end-2026-09-14@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:🔴 BUIDL CTC 2026 Fall 해커톤 — 제출 마감 (연장)
@@ -2415,7 +2516,7 @@ URL:https://buidl.creditcoin.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-buidl-ctc-2026-fall-announce-2026-09-18@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:🟣 BUIDL CTC 2026 Fall 해커톤 — 우승팀 발표
@@ -2426,7 +2527,7 @@ URL:https://buidl.creditcoin.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-buidl-ctc-2026-fall-activity_end-2026-09-28@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:⚪ BUIDL CTC 2026 Fall 해커톤 — 시상식 (서울 CTC Ignitio
@@ -2438,7 +2539,7 @@ URL:https://buidl.creditcoin.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ai-challenge4all-2026-apply_end-2026-09-07@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:🔴 전국민 AI 경진대회 2026 — 로보틱스 Track A 예선
@@ -2452,7 +2553,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ai-challenge4all-2026-partial_deadline-2026-09-29@joon56.github
  .io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:🟠 전국민 AI 경진대회 2026 — 로보틱스 Track A 예선
@@ -2465,7 +2566,7 @@ URL:https://aichallenge4all.or.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ai-challenge4all-2026-announce-2026-10-08@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 SUMMARY:🟣 전국민 AI 경진대회 2026 — 로보틱스 Track A 본선
@@ -2479,7 +2580,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ai-challenge4all-2026-activity_start-2026-11-21@joon56.github.i
  o
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:🔵 전국민 AI 경진대회 2026 — 로보틱스 챌린지 본
@@ -2492,7 +2593,7 @@ URL:https://aichallenge4all.or.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mois-deepvoice-ai-2026-apply_start-2026-08-18@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260819
 SUMMARY:🟢 딥보이스 범죄 대응 AI 탐지 경진대회 — 신청 
@@ -2506,7 +2607,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mois-deepvoice-ai-2026-activity_start-2026-08-26@joon56.github.
  io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260827
 SUMMARY:🔵 딥보이스 범죄 대응 AI 탐지 경진대회 — 대회 
@@ -2520,7 +2621,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mois-deepvoice-ai-2026-partial_deadline-2026-09-23@joon56.githu
  b.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
 SUMMARY:🟠 딥보이스 범죄 대응 AI 탐지 경진대회 — 팀 병
@@ -2533,7 +2634,7 @@ URL:https://dacon.io/competitions/official/236749/overview/description
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mois-deepvoice-ai-2026-apply_end-2026-09-29@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:🔴 딥보이스 범죄 대응 AI 탐지 경진대회 — 대회 
@@ -2547,7 +2648,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mois-deepvoice-ai-2026-partial_deadline-2026-10-05@joon56.githu
  b.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
 SUMMARY:🟠 딥보이스 범죄 대응 AI 탐지 경진대회 — 2차 평
@@ -2560,7 +2661,7 @@ URL:https://dacon.io/competitions/official/236749/overview/description
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mois-deepvoice-ai-2026-announce-2026-10-16@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:🟣 딥보이스 범죄 대응 AI 탐지 경진대회 — 최종 
@@ -2573,7 +2674,7 @@ URL:https://dacon.io/competitions/official/236749/overview/description
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mois-deepvoice-ai-2026-announce-2026-11-27@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:🟣 딥보이스 범죄 대응 AI 탐지 경진대회 — 시상
@@ -2586,7 +2687,7 @@ URL:https://dacon.io/competitions/official/236749/overview/description
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mois-dashcam-ai-2026-apply_start-2026-08-18@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260819
 SUMMARY:🟢 블랙박스 영상 고의사고 분석 AI 경진대회 — 
@@ -2599,7 +2700,7 @@ URL:https://dacon.io/competitions/official/236753/overview/description
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mois-dashcam-ai-2026-activity_start-2026-08-26@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260827
 SUMMARY:🔵 블랙박스 영상 고의사고 분석 AI 경진대회 — 
@@ -2613,7 +2714,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mois-dashcam-ai-2026-partial_deadline-2026-09-23@joon56.github.
  io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
 SUMMARY:🟠 블랙박스 영상 고의사고 분석 AI 경진대회 — 
@@ -2626,7 +2727,7 @@ URL:https://dacon.io/competitions/official/236753/overview/description
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mois-dashcam-ai-2026-apply_end-2026-09-29@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:🔴 블랙박스 영상 고의사고 분석 AI 경진대회 — 
@@ -2640,7 +2741,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mois-dashcam-ai-2026-partial_deadline-2026-10-05@joon56.github.
  io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
 SUMMARY:🟠 블랙박스 영상 고의사고 분석 AI 경진대회 — 2
@@ -2653,7 +2754,7 @@ URL:https://dacon.io/competitions/official/236753/overview/description
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mois-dashcam-ai-2026-announce-2026-10-16@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:🟣 블랙박스 영상 고의사고 분석 AI 경진대회 — 
@@ -2666,7 +2767,7 @@ URL:https://dacon.io/competitions/official/236753/overview/description
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mois-dashcam-ai-2026-announce-2026-11-27@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:🟣 블랙박스 영상 고의사고 분석 AI 경진대회 — 
@@ -2679,7 +2780,7 @@ URL:https://dacon.io/competitions/official/236753/overview/description
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mois-bidding-nlp-2026-apply_start-2026-08-18@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260819
 SUMMARY:🟢 나라장터 입찰공고 법령위반 모니터링 AI 경진
@@ -2693,7 +2794,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mois-bidding-nlp-2026-activity_start-2026-08-26@joon56.github.i
  o
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260827
 SUMMARY:🔵 나라장터 입찰공고 법령위반 모니터링 AI 경진
@@ -2707,7 +2808,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mois-bidding-nlp-2026-partial_deadline-2026-09-23@joon56.github
  .io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
 SUMMARY:🟠 나라장터 입찰공고 법령위반 모니터링 AI 경진
@@ -2720,7 +2821,7 @@ URL:https://dacon.io/competitions/official/236754/overview/description
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mois-bidding-nlp-2026-apply_end-2026-09-29@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:🔴 나라장터 입찰공고 법령위반 모니터링 AI 경진
@@ -2734,7 +2835,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mois-bidding-nlp-2026-partial_deadline-2026-10-05@joon56.github
  .io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
 SUMMARY:🟠 나라장터 입찰공고 법령위반 모니터링 AI 경진
@@ -2747,7 +2848,7 @@ URL:https://dacon.io/competitions/official/236754/overview/description
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mois-bidding-nlp-2026-announce-2026-10-16@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:🟣 나라장터 입찰공고 법령위반 모니터링 AI 경진
@@ -2760,7 +2861,7 @@ URL:https://dacon.io/competitions/official/236754/overview/description
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mois-bidding-nlp-2026-announce-2026-11-27@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:🟣 나라장터 입찰공고 법령위반 모니터링 AI 경진
@@ -2773,7 +2874,7 @@ URL:https://dacon.io/competitions/official/236754/overview/description
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ai-world-2026-activity_start-2026-09-09@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
 SUMMARY:🔵 AI WORLD 2026 : AI Shift — 행사 당일 (롯데월드타워
@@ -2786,7 +2887,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-virtual-embryo-2026-apply_start-2026-08-10@joon56.githu
  b.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 SUMMARY:🟢 Virtual Embryo Challenge (NeurIPS 2026) — 등록·검증 리
@@ -2801,7 +2902,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-virtual-embryo-2026-apply_end-2026-12-02@joon56.github.
  io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:🔴 Virtual Embryo Challenge (NeurIPS 2026) — 최종 제출 마
@@ -2816,7 +2917,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-virtual-embryo-2026-partial_deadline-2026-12-11@joon56.
  github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:🟠 Virtual Embryo Challenge (NeurIPS 2026) — 공식 제출 제
@@ -2829,13 +2930,28 @@ DESCRIPTION:스탠퍼드 Qiu Lab 주관(Harvard·UCSD·MBZUAI·CMU 협력)
 URL:https://virtualembryo.ai/challenge
 END:VEVENT
 BEGIN:VEVENT
-UID:itradar-neurips-predictive-eval-2026-apply_end-2026-11-20@joon56.github
+UID:itradar-neurips-predictive-eval-2026-apply_end-2026-10-30@joon56.github
  .io
-DTSTAMP:20260921T131716Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
 SUMMARY:🔴 Predictive AI Evaluation Competition (NeurIPS 2026) — 최종
-  제출 마감 (AoE)
+  코드·기술보고서 마감 (23:59 AoE)
+DESCRIPTION:스탠퍼드 AIMS Lab 주관 NeurIPS 2026 대회. "특정 AI 
+ 시스템이 특정 문항을 맞힐 확률"을 예측하는 predict() 코
+ 드를 제출하고 Brier score로 평가 — AI 평가 자체를 예측 
+ 문제로 다루는 메타 평가 대회. 팀 최대 6인\, Codabench. | h
+ ttps://aimslab.stanford.edu/competition
+URL:https://aimslab.stanford.edu/competition
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-neurips-predictive-eval-2026-activity_start-2026-12-11@joon56.g
+ ithub.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:🔵 Predictive AI Evaluation Competition (NeurIPS 2026) — NeurIP
+ S 세션 (시드니 08:00~10:15)
 DESCRIPTION:스탠퍼드 AIMS Lab 주관 NeurIPS 2026 대회. "특정 AI 
  시스템이 특정 문항을 맞힐 확률"을 예측하는 predict() 코
  드를 제출하고 Brier score로 평가 — AI 평가 자체를 예측 
@@ -2845,7 +2961,7 @@ URL:https://aimslab.stanford.edu/competition
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-learn2design-2026-apply_end-2026-10-15@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:🔴 Learn2Design 2026 — 중력파 검출기 설계 (NeurIPS 2026
@@ -2861,7 +2977,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-fusion-equilibrium-2026-apply_end-2026-10-18@joon56.git
  hub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:🔴 Fusion Equilibrium Challenge (NeurIPS 2026) — Phase 1 제출
@@ -2877,7 +2993,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-fusion-equilibrium-2026-activity_start-2026-10-19@joon5
  6.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 SUMMARY:🔵 Fusion Equilibrium Challenge (NeurIPS 2026) — 블라인드 
@@ -2893,7 +3009,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-fusion-equilibrium-2026-activity_end-2026-10-26@joon56.
  github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 SUMMARY:⚪ Fusion Equilibrium Challenge (NeurIPS 2026) — 최종 페이
@@ -2909,7 +3025,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-roco-spring-2026-partial_deadline-2026-09-15@joon56.git
  hub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:🟠 RoCo-Spring 강건 대응점 챌린지 (NeurIPS 2026) — 워
@@ -2923,7 +3039,7 @@ URL:https://roco-spring.github.io/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-neurips-roco-spring-2026-apply_end-2026-09-30@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:🔴 RoCo-Spring 강건 대응점 챌린지 (NeurIPS 2026) — 최
@@ -2936,8 +3052,22 @@ DESCRIPTION:슈투트가르트대·만하임대·NVIDIA·USTB 주관 NeurIP
 URL:https://roco-spring.github.io/
 END:VEVENT
 BEGIN:VEVENT
+UID:itradar-neurips-roco-spring-2026-announce-2026-10-31@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:🟣 RoCo-Spring 강건 대응점 챌린지 (NeurIPS 2026) — 우
+ 승 통보
+DESCRIPTION:슈투트가르트대·만하임대·NVIDIA·USTB 주관 NeurIP
+ S 2026 대회. RobustSpring 벤치마크로 노이즈·날씨·블러 등 
+ 20종 손상 하에서 optical flow / stereo / scene flow의 정확도와 
+ 강건성을 함께 평가. 탐색(Exploration) 트랙 포함 4트랙. | h
+ ttps://roco-spring.github.io/
+URL:https://roco-spring.github.io/
+END:VEVENT
+BEGIN:VEVENT
 UID:itradar-mabc-2026-apply_start-2026-07-08@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260708
 DTEND;VALUE=DATE:20260709
 SUMMARY:🟢 MABC 2026 (Making AI Beneficial Challenge) — 업스테이지
@@ -2952,7 +3082,7 @@ URL:https://www.upstage.ai/mabc-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mabc-2026-apply_end-2026-08-31@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:🔴 MABC 2026 (Making AI Beneficial Challenge) — 업스테이지
@@ -2967,7 +3097,7 @@ URL:https://www.upstage.ai/mabc-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mabc-2026-activity_start-2026-08-18@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260819
 SUMMARY:🔵 MABC 2026 (Making AI Beneficial Challenge) — 업스테이지
@@ -2982,7 +3112,7 @@ URL:https://www.upstage.ai/mabc-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mabc-2026-activity_start-2026-09-09@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
 SUMMARY:🔵 MABC 2026 (Making AI Beneficial Challenge) — 업스테이지
@@ -2997,7 +3127,7 @@ URL:https://www.upstage.ai/mabc-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mabc-2026-activity_end-2026-09-19@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:⚪ MABC 2026 (Making AI Beneficial Challenge) — 업스테이지 
@@ -3012,7 +3142,7 @@ URL:https://www.upstage.ai/mabc-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mabc-2026-announce-2026-09-07@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:🟣 MABC 2026 (Making AI Beneficial Challenge) — 업스테이지
@@ -3027,7 +3157,7 @@ URL:https://www.upstage.ai/mabc-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-mabc-2026-partial_deadline-2026-09-16@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260916
 DTEND;VALUE=DATE:20260917
 SUMMARY:🟠 MABC 2026 (Making AI Beneficial Challenge) — 업스테이지
@@ -3043,7 +3173,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-openai-devday-exchange-seoul-2026-apply_start-2026-08-19@joon56
  .github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260819
 DTEND;VALUE=DATE:20260820
 SUMMARY:🟢 OpenAI DevDay Exchange 2026 서울 — 신청 오픈
@@ -3057,7 +3187,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-openai-devday-exchange-seoul-2026-activity_start-2026-10-22@joo
  n56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:🔵 OpenAI DevDay Exchange 2026 서울 — 행사 당일 (서울\,
@@ -3071,7 +3201,7 @@ URL:https://events.openai.com/devdayexchange2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ausgcon-2026-activity_start-2026-09-05@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20260906
 SUMMARY:🔵 AUSGCON 2026 (AWS 대학생 사용자 그룹 컨퍼런스) —
@@ -3086,7 +3216,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kcd-openinfra-day-korea-2026-activity_start-2026-09-01@joon56.g
  ithub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:🔵 KCD × Ceph × OpenInfra Day Korea 2026 — 행사 당일 (백
@@ -3103,7 +3233,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-agent-field-trip-incheon-2026-activity_start-2026-09-12@joon56.
  github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:🔵 에이전트 필드 트립 2026: 인천 (GDG Incheon) — 행
@@ -3119,7 +3249,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-industrial-ai-expo-2026-activity_start-2026-10-21@joon56.github
  .io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:🔵 2026 산업AI EXPO (Embodied AI: Beyond Physical AI) — 개
@@ -3134,7 +3264,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-industrial-ai-expo-2026-activity_end-2026-10-23@joon56.github.i
  o
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:⚪ 2026 산업AI EXPO (Embodied AI: Beyond Physical AI) — 폐막
@@ -3147,7 +3277,7 @@ URL:https://industrialaiexpo.or.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-everyone-ai-lab-2026-apply_start-2026-08-18@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260819
 SUMMARY:🟢 모두의 AI 실험실 — AI 서비스 경진대회 — 접
@@ -3163,7 +3293,7 @@ URL:https://contest.aitestbed.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-everyone-ai-lab-2026-apply_end-2026-09-06@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260906
 DTEND;VALUE=DATE:20260907
 SUMMARY:🔴 모두의 AI 실험실 — AI 서비스 경진대회 — 접
@@ -3179,7 +3309,7 @@ URL:https://contest.aitestbed.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-everyone-ai-lab-2026-announce-2026-09-11@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:🟣 모두의 AI 실험실 — AI 서비스 경진대회 — 예
@@ -3195,7 +3325,7 @@ URL:https://contest.aitestbed.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-everyone-ai-lab-2026-activity_start-2026-09-15@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:🔵 모두의 AI 실험실 — AI 서비스 경진대회 — 권
@@ -3211,7 +3341,7 @@ URL:https://contest.aitestbed.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-everyone-ai-lab-2026-announce-2026-09-23@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
 SUMMARY:🟣 모두의 AI 실험실 — AI 서비스 경진대회 — 결
@@ -3227,7 +3357,7 @@ URL:https://contest.aitestbed.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-everyone-ai-lab-2026-activity_start-2026-10-01@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:🔵 모두의 AI 실험실 — AI 서비스 경진대회 — 개
@@ -3243,7 +3373,7 @@ URL:https://contest.aitestbed.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-gr-hackathon-6-apply_start-2026-08-12@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260812
 DTEND;VALUE=DATE:20260813
 SUMMARY:🟢 제6회 그린리모델링 챌린지 — GR 대학생 해커
@@ -3257,7 +3387,7 @@ URL:https://2026grchallenge.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-gr-hackathon-6-apply_end-2026-09-30@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:🔴 제6회 그린리모델링 챌린지 — GR 대학생 해커
@@ -3271,7 +3401,7 @@ URL:https://2026grchallenge.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-gr-hackathon-6-activity_start-2026-10-24@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:🔵 제6회 그린리모델링 챌린지 — GR 대학생 해커
@@ -3285,7 +3415,7 @@ URL:https://2026grchallenge.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-gr-hackathon-6-activity_end-2026-10-25@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:⚪ 제6회 그린리모델링 챌린지 — GR 대학생 해커톤
@@ -3300,7 +3430,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-nvidia-ai-days-seoul-2026-activity_start-2026-11-09@joon56.gith
  ub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:🔵 NVIDIA AI Days Seoul 2026 — 개막
@@ -3314,7 +3444,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-nvidia-ai-days-seoul-2026-activity_end-2026-11-10@joon56.github
  .io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:⚪ NVIDIA AI Days Seoul 2026 — 폐막
@@ -3326,9 +3456,23 @@ DESCRIPTION:NVIDIA가 서울에서 처음 여는 개발자 대상 AI Days.
 URL:https://www.nvidia.com/en-us/ai-days/
 END:VEVENT
 BEGIN:VEVENT
+UID:itradar-nvidia-ai-days-seoul-2026-partial_deadline-2026-10-19@joon56.gi
+ thub.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:🟠 NVIDIA AI Days Seoul 2026 — 워크숍 얼리버드 종료
+DESCRIPTION:NVIDIA가 서울에서 처음 여는 개발자 대상 AI Days. 
+ 11.9(월)~10(화)\, 장소 미정. 현지 연사 세션 + DLI 핸즈온 
+ 랩 + 오픈모델·AI 인프라·개발 프레임워크 기술 세션. 
+ 현재 사전알림(Notify Me) 접수 중. | https://www.nvidia.com/en-us/
+ ai-days/
+URL:https://www.nvidia.com/en-us/ai-days/
+END:VEVENT
+BEGIN:VEVENT
 UID:itradar-pytorch-day-korea-2026-activity_start-2026-11-21@joon56.github.
  io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:🔵 PyTorch Day Korea 2026 (TORCH YAHO!) — 행사 당일 (서울
@@ -3341,7 +3485,7 @@ URL:https://pytorchday.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-droidknights-2026-activity_start-2026-11-02@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:🔵 드로이드나이츠 2026 (DroidKnights) — 행사 당일 (S
@@ -3353,7 +3497,7 @@ URL:https://droidknights.dev/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-droidknights-2026-apply_start-2026-09-19@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:🟢 드로이드나이츠 2026 (DroidKnights) — 티켓 판매 
@@ -3365,7 +3509,7 @@ URL:https://droidknights.dev/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-droidknights-2026-partial_deadline-2026-10-12@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:🟠 드로이드나이츠 2026 (DroidKnights) — Call for Resume 
@@ -3378,7 +3522,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ai-risk-conference-seoul-2026-activity_start-2026-09-07@joon56.
  github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:🔵 AI Risk Conference Seoul 2026 — 행사 당일 (삼성금융
@@ -3392,7 +3536,7 @@ URL:https://aim-airisk.com
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-govtech-contest-2026-apply_start-2026-08-20@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
 SUMMARY:🟢 2026 GovTech 창업경진대회 (제3회) — 공모 접수 
@@ -3408,7 +3552,7 @@ URL:https://k-govtech.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-govtech-contest-2026-apply_end-2026-09-21@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
 SUMMARY:🔴 2026 GovTech 창업경진대회 (제3회) — 접수 마감
@@ -3424,7 +3568,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-pandata-startup-contest-14-apply_end-2026-08-31@joon56.github.i
  o
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:🔴 제14회 범정부 공공데이터·AI 활용 창업경진대
@@ -3438,7 +3582,7 @@ URL:https://www.data.go.kr/suc/startup.do
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-gyeongsan-sw-challenge-3-apply_end-2026-10-07@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:🔴 제3회 미래융합인재 발굴 소프트웨어 챌린지 (
@@ -3453,7 +3597,7 @@ URL:http://gsia-sw.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-gyeongsan-sw-challenge-3-announce-2026-10-14@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:🟣 제3회 미래융합인재 발굴 소프트웨어 챌린지 (
@@ -3469,7 +3613,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-gyeongsan-sw-challenge-3-activity_start-2026-10-27@joon56.githu
  b.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 SUMMARY:🔵 제3회 미래융합인재 발굴 소프트웨어 챌린지 (
@@ -3485,7 +3629,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-gyeongsan-sw-challenge-3-activity_end-2026-10-28@joon56.github.
  io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:⚪ 제3회 미래융합인재 발굴 소프트웨어 챌린지 (
@@ -3500,7 +3644,7 @@ URL:http://gsia-sw.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-musinsa-pattern-26-apply_start-2026-08-19@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260819
 DTEND;VALUE=DATE:20260820
 SUMMARY:🟢 무신사 패턴 '26 테크 컨퍼런스 (PATTERN '26) — 신
@@ -3515,7 +3659,7 @@ URL:https://pattern.musinsa.com
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-musinsa-pattern-26-apply_end-2026-08-31@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:🔴 무신사 패턴 '26 테크 컨퍼런스 (PATTERN '26) — 신
@@ -3530,7 +3674,7 @@ URL:https://pattern.musinsa.com
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-musinsa-pattern-26-announce-2026-09-03@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
 SUMMARY:🟣 무신사 패턴 '26 테크 컨퍼런스 (PATTERN '26) — 선
@@ -3545,7 +3689,7 @@ URL:https://pattern.musinsa.com
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-musinsa-pattern-26-activity_start-2026-09-18@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:🔵 무신사 패턴 '26 테크 컨퍼런스 (PATTERN '26) — 행
@@ -3560,7 +3704,7 @@ URL:https://pattern.musinsa.com
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-slw-2026-apply_start-2026-08-10@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 SUMMARY:🟢 스마트라이프위크 2026 (SLW) — 사전등록 시작
@@ -3574,7 +3718,7 @@ URL:https://www.slw.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-slw-2026-apply_end-2026-10-05@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
 SUMMARY:🔴 스마트라이프위크 2026 (SLW) — 사전등록 마감
@@ -3588,7 +3732,7 @@ URL:https://www.slw.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-slw-2026-activity_start-2026-10-06@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261006
 DTEND;VALUE=DATE:20261007
 SUMMARY:🔵 스마트라이프위크 2026 (SLW) — 개막 (코엑스 A·B
@@ -3603,7 +3747,7 @@ URL:https://www.slw.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-slw-2026-activity_end-2026-10-08@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 SUMMARY:⚪ 스마트라이프위크 2026 (SLW) — 폐막
@@ -3617,7 +3761,7 @@ URL:https://www.slw.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-etri-conference-2026-activity_start-2026-09-01@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:🔵 ETRI 컨퍼런스 2026 (창립 50주년) — 행사 당일 (
@@ -3630,7 +3774,7 @@ URL:https://etri-conference.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kamp-ai-manufacturing-6-apply_start-2026-08-24@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20260825
 SUMMARY:🟢 제6회 K-인공지능 제조데이터 분석 경진대회 —
@@ -3644,7 +3788,7 @@ URL:https://www.kamp-ai.kr/contestNoticeDetail?PAGE=1&CPT_NOTICE_SEQ=27
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kamp-ai-manufacturing-6-apply_end-2026-09-17@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:🔴 제6회 K-인공지능 제조데이터 분석 경진대회 —
@@ -3659,7 +3803,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-k-shipbuilding-hackathon-2026-apply_start-2026-08-24@joon56.git
  hub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260824
 DTEND;VALUE=DATE:20260825
 SUMMARY:🟢 2026 K-조선 해커톤 — 접수 시작 (12시)
@@ -3673,7 +3817,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-k-shipbuilding-hackathon-2026-apply_end-2026-09-21@joon56.githu
  b.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
 SUMMARY:🔴 2026 K-조선 해커톤 — 접수 마감 (18시)
@@ -3687,7 +3831,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-k-shipbuilding-hackathon-2026-activity_start-2026-11-09@joon56.
  github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:🔵 2026 K-조선 해커톤 — 본선 (엘타워)
@@ -3701,7 +3845,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-wanted-ai-championship-2026-announce-2026-10-07@joon56.github.i
  o
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:🟣 원티드 AI Championship 2026 — 본선 20팀 발표
@@ -3714,7 +3858,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-wanted-ai-championship-2026-apply_end-2026-09-18@joon56.github.
  io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:🔴 원티드 AI Championship 2026 — 접수 마감
@@ -3727,7 +3871,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-wanted-ai-championship-2026-partial_deadline-2026-09-20@joon56.
  github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 SUMMARY:🟠 원티드 AI Championship 2026 — 프로젝트 구현·배포
@@ -3741,7 +3885,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-wanted-ai-championship-2026-announce-2026-10-17@joon56.github.i
  o
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:🟣 원티드 AI Championship 2026 — 데모데이·시상 (오
@@ -3755,7 +3899,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ict-standard-challenge-2026-apply_end-2026-08-31@joon56.github.
  io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 SUMMARY:🔴 2026 ICT 표준 챌린지 공모전 (TTA) — 접수 마감 (2
@@ -3770,7 +3914,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ict-standard-challenge-2026-activity_end-2026-12-04@joon56.gith
  ub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:⚪ 2026 ICT 표준 챌린지 공모전 (TTA) — 시상식 (양재
@@ -3784,7 +3928,7 @@ URL:https://www.tta.or.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-k-ict-week-busan-2026-apply_end-2026-09-04@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:🔴 2026 K-ICT WEEK in BUSAN — 사전등록 마감
@@ -3796,7 +3940,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-k-ict-week-busan-2026-activity_start-2026-09-09@joon56.github.i
  o
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260910
 SUMMARY:🔵 2026 K-ICT WEEK in BUSAN — 개막 (BEXCO 제1전시장)
@@ -3807,7 +3951,7 @@ URL:https://ictweek.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-k-ict-week-busan-2026-activity_end-2026-09-11@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:⚪ 2026 K-ICT WEEK in BUSAN — 폐막
@@ -3819,7 +3963,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-anyang-public-data-ai-2026-apply_start-2026-08-10@joon56.github
  .io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 SUMMARY:🟢 2026 안양시 공공데이터·AI 활용 대학생 경진대
@@ -3834,7 +3978,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-anyang-public-data-ai-2026-apply_end-2026-09-21@joon56.github.i
  o
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
 SUMMARY:🔴 2026 안양시 공공데이터·AI 활용 대학생 경진대
@@ -3848,7 +3992,7 @@ URL:https://linkareer.com/activity/344237
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-anyang-public-data-ai-2026-announce-2026-10-30@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:🟣 2026 안양시 공공데이터·AI 활용 대학생 경진대
@@ -3862,7 +4006,7 @@ URL:https://linkareer.com/activity/344237
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-anyang-public-data-ai-2026-announce-2026-10-15@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:🟣 2026 안양시 공공데이터·AI 활용 대학생 경진대
@@ -3877,7 +4021,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-data-ai-innovation-challenge-2026-apply_start-2026-09-01@joon56
  .github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:🟢 2026 데이터+AI 혁신 챌린지 (데이터안심구역·데
@@ -3892,7 +4036,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-data-ai-innovation-challenge-2026-apply_start-2026-09-08@joon56
  .github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:🟢 2026 데이터+AI 혁신 챌린지 (데이터안심구역·데
@@ -3908,7 +4052,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-data-ai-innovation-challenge-2026-apply_end-2026-10-22@joon56.g
  ithub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:🔴 2026 데이터+AI 혁신 챌린지 (데이터안심구역·데
@@ -3921,9 +4065,54 @@ DESCRIPTION:과기정통부 데이터·AI 대회 통합브랜드 첫 출범
 URL:https://www.bigcontest.or.kr/
 END:VEVENT
 BEGIN:VEVENT
+UID:itradar-data-ai-innovation-challenge-2026-activity_start-2026-10-28@joo
+ n56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:🔵 2026 데이터+AI 혁신 챌린지 (데이터안심구역·데
+ 이터 문제해결 부문) — 예선 (서면·기술\, 10.28~29)
+DESCRIPTION:과기정통부 데이터·AI 대회 통합브랜드 첫 출범
+ (9.1 통합공고). 빅콘테스트·데이터 크리에이터 캠프 외 
+ 신규 2개 부문 — 데이터안심구역(미개방 데이터 분석기
+ 획\, 접수 9.1~10.22)과 데이터 문제해결(AI 데이터 문제해
+ 결 아이디어\, 접수 9.8~10.22). | https://www.bigcontest.or.kr/
+URL:https://www.bigcontest.or.kr/
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-data-ai-innovation-challenge-2026-activity_start-2026-11-18@joo
+ n56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:🔵 2026 데이터+AI 혁신 챌린지 (데이터안심구역·데
+ 이터 문제해결 부문) — 본선 발표 (11.18~19)
+DESCRIPTION:과기정통부 데이터·AI 대회 통합브랜드 첫 출범
+ (9.1 통합공고). 빅콘테스트·데이터 크리에이터 캠프 외 
+ 신규 2개 부문 — 데이터안심구역(미개방 데이터 분석기
+ 획\, 접수 9.1~10.22)과 데이터 문제해결(AI 데이터 문제해
+ 결 아이디어\, 접수 9.8~10.22). | https://www.bigcontest.or.kr/
+URL:https://www.bigcontest.or.kr/
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-data-ai-innovation-challenge-2026-announce-2026-11-25@joon56.gi
+ thub.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:🟣 2026 데이터+AI 혁신 챌린지 (데이터안심구역·데
+ 이터 문제해결 부문) — 결과 발표
+DESCRIPTION:과기정통부 데이터·AI 대회 통합브랜드 첫 출범
+ (9.1 통합공고). 빅콘테스트·데이터 크리에이터 캠프 외 
+ 신규 2개 부문 — 데이터안심구역(미개방 데이터 분석기
+ 획\, 접수 9.1~10.22)과 데이터 문제해결(AI 데이터 문제해
+ 결 아이디어\, 접수 9.8~10.22). | https://www.bigcontest.or.kr/
+URL:https://www.bigcontest.or.kr/
+END:VEVENT
+BEGIN:VEVENT
 UID:itradar-visitseoul-api-idea-2026-apply_start-2026-09-02@joon56.github.i
  o
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:🟢 2026 비짓서울 API 데이터·AI 활용 아이디어 공모
@@ -3937,7 +4126,7 @@ URL:https://api.visitseoul.net/contest/registration/view?lang=ko
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-visitseoul-api-idea-2026-apply_end-2026-09-14@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:🔴 2026 비짓서울 API 데이터·AI 활용 아이디어 공모
@@ -3951,7 +4140,7 @@ URL:https://api.visitseoul.net/contest/registration/view?lang=ko
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-visitseoul-api-idea-2026-announce-2026-09-21@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
 SUMMARY:🟣 2026 비짓서울 API 데이터·AI 활용 아이디어 공모
@@ -3965,7 +4154,7 @@ URL:https://api.visitseoul.net/contest/registration/view?lang=ko
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-revenuecat-shipaton-2026-apply_end-2026-09-30@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:🔴 RevenueCat Shipaton 2026 — 제출 마감 (앱 출시 포함)
@@ -3976,9 +4165,23 @@ DESCRIPTION:RevenueCat SDK를 넣은 모바일 앱을 기간 내(8.1~9.30)
 URL:https://revenuecat-shipaton-2026.devpost.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:itradar-revenuecat-shipaton-2026-activity_start-2026-10-22@joon56.githu
+ b.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:🔵 RevenueCat Shipaton 2026 — 데모데이 (뉴욕 타임스스
+ 퀘어)
+DESCRIPTION:RevenueCat SDK를 넣은 모바일 앱을 기간 내(8.1~9.30) 
+ 앱스토어/구글플레이에 실제 출시해 겨루는 글로벌 해
+ 커톤(Devpost). 수상작은 NYC 시상식 초청. | https://revenuecat-s
+ hipaton-2026.devpost.com/
+URL:https://revenuecat-shipaton-2026.devpost.com/
+END:VEVENT
+BEGIN:VEVENT
 UID:itradar-daytona-hacksprint-seoul-2026-apply_end-2026-09-18@joon56.githu
  b.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:🔴 Daytona HackSprint Seoul — 등록 마감 (선착순)
@@ -3992,7 +4195,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-daytona-hacksprint-seoul-2026-activity_start-2026-09-19@joon56.
  github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:🔵 Daytona HackSprint Seoul — 행사 당일 (13시)
@@ -4005,7 +4208,7 @@ URL:https://luma.com/daytonaseoul
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-qa-korea-conference-2026-apply_end-2026-09-05@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20260906
 SUMMARY:🔴 2026 QA 코리아 컨퍼런스 (제5회) — 등록 마감
@@ -4017,7 +4220,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-qa-korea-conference-2026-activity_start-2026-09-05@joon56.githu
  b.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20260906
 SUMMARY:🔵 2026 QA 코리아 컨퍼런스 (제5회) — 행사 당일 (10
@@ -4030,7 +4233,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-infosec-policy-contest-2026-apply_end-2026-10-11@joon56.github.
  io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:🔴 2026 정보보호 정책제안 공모전 — 접수 마감 (
@@ -4045,7 +4248,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-infosec-policy-contest-2026-announce-2026-10-23@joon56.github.i
  o
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
 SUMMARY:🟣 2026 정보보호 정책제안 공모전 — 서면평가 결
@@ -4060,7 +4263,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-infosec-policy-contest-2026-announce-2026-11-27@joon56.github.i
  o
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:🟣 2026 정보보호 정책제안 공모전 — 최종 결과 발
@@ -4075,7 +4278,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-gwdc-korea-hackathon-2026-apply_start-2026-08-28@joon56.github.
  io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260828
 DTEND;VALUE=DATE:20260829
 SUMMARY:🟢 GWDC 2026 KOREA 해커톤 (AI × Web3) — 접수 시작
@@ -4088,7 +4291,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-gwdc-korea-hackathon-2026-activity_start-2026-09-28@joon56.gith
  ub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:🔵 GWDC 2026 KOREA 해커톤 (AI × Web3) — 해커톤 시작 (a
@@ -4102,7 +4305,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-gwdc-korea-hackathon-2026-activity_end-2026-09-30@joon56.github
  .io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:⚪ GWDC 2026 KOREA 해커톤 (AI × Web3) — 해커톤 종료
@@ -4114,7 +4317,7 @@ URL:https://gwdckorea.co.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-gwdc-korea-hackathon-2026-apply_end-2026-09-25@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:🔴 GWDC 2026 KOREA 해커톤 (AI × Web3) — 글로벌 온라인
@@ -4127,7 +4330,7 @@ URL:https://gwdckorea.co.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-seongnam-kaist-ai-2026-apply_end-2026-09-18@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:🔴 제2회 성남×KAIST AI 경진대회 — 접수 마감 (이
@@ -4141,7 +4344,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-seongnam-kaist-ai-2026-activity_start-2026-10-24@joon56.github.
  io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:🔵 제2회 성남×KAIST AI 경진대회 — 본선·시상식 (
@@ -4154,7 +4357,7 @@ URL:https://xai.kaist.ac.kr/ai-contest/2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-seongnam-kaist-ai-2026-announce-2026-09-29@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:🟣 제2회 성남×KAIST AI 경진대회 — 예선 결과 통보
@@ -4168,7 +4371,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-seongnam-kaist-ai-2026-partial_deadline-2026-10-16@joon56.githu
  b.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:🟠 제2회 성남×KAIST AI 경진대회 — 본선 자료 제출
@@ -4182,7 +4385,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ai-digital-social-challenge-2026-apply_start-2026-08-21@joon56.
  github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 SUMMARY:🟢 2026 AI·디지털 기반 사회문제 해결 챌린지 — 
@@ -4199,7 +4402,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ai-digital-social-challenge-2026-apply_end-2026-09-30@joon56.gi
  thub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:🔴 2026 AI·디지털 기반 사회문제 해결 챌린지 — 
@@ -4216,7 +4419,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ai-digital-social-challenge-2026-partial_deadline-2026-11-03@jo
  on56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:🟠 2026 AI·디지털 기반 사회문제 해결 챌린지 — 
@@ -4233,7 +4436,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ai-digital-social-challenge-2026-activity_start-2026-11-04@joon
  56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:🔵 2026 AI·디지털 기반 사회문제 해결 챌린지 — 
@@ -4249,46 +4452,73 @@ URL:https://digitalsolveup.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-busan-ai-startup-2026-apply_start-2026-09-07@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:🟢 2026 부산 AI 창업 경진대회 — 접수 시작
 DESCRIPTION:부산시 주최\, 전국 대상 AI 창업 경진대회. 2~4인
   AI 예비창업팀 또는 업력 2년 이내 기업. 접수 9.7~9.30\, 
- 본선·시상식 10.31 벡스코 컨벤션홀. | https://www.busan.go.kr/
- nhot/1729973
-URL:https://www.busan.go.kr/nhot/1729973
+ 본선·시상식 10.31 벡스코 컨벤션홀. | https://ai-startup-compe
+ tition.kr
+URL:https://ai-startup-competition.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-busan-ai-startup-2026-apply_end-2026-09-30@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:🔴 2026 부산 AI 창업 경진대회 — 접수 마감
 DESCRIPTION:부산시 주최\, 전국 대상 AI 창업 경진대회. 2~4인
   AI 예비창업팀 또는 업력 2년 이내 기업. 접수 9.7~9.30\, 
- 본선·시상식 10.31 벡스코 컨벤션홀. | https://www.busan.go.kr/
- nhot/1729973
-URL:https://www.busan.go.kr/nhot/1729973
+ 본선·시상식 10.31 벡스코 컨벤션홀. | https://ai-startup-compe
+ tition.kr
+URL:https://ai-startup-competition.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-busan-ai-startup-2026-activity_start-2026-10-31@joon56.github.i
  o
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:🔵 2026 부산 AI 창업 경진대회 — 본선·시상식 (벡
  스코)
 DESCRIPTION:부산시 주최\, 전국 대상 AI 창업 경진대회. 2~4인
   AI 예비창업팀 또는 업력 2년 이내 기업. 접수 9.7~9.30\, 
- 본선·시상식 10.31 벡스코 컨벤션홀. | https://www.busan.go.kr/
- nhot/1729973
-URL:https://www.busan.go.kr/nhot/1729973
+ 본선·시상식 10.31 벡스코 컨벤션홀. | https://ai-startup-compe
+ tition.kr
+URL:https://ai-startup-competition.kr
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-busan-ai-startup-2026-announce-2026-10-08@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:🟣 2026 부산 AI 창업 경진대회 — 예선 결과 발표 (1
+ 6시\, 최대 20팀)
+DESCRIPTION:부산시 주최\, 전국 대상 AI 창업 경진대회. 2~4인
+  AI 예비창업팀 또는 업력 2년 이내 기업. 접수 9.7~9.30\, 
+ 본선·시상식 10.31 벡스코 컨벤션홀. | https://ai-startup-compe
+ tition.kr
+URL:https://ai-startup-competition.kr
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-busan-ai-startup-2026-partial_deadline-2026-10-15@joon56.github
+ .io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:🟠 2026 부산 AI 창업 경진대회 — 본선 오리엔테이
+ 션 (16시\, 온라인)
+DESCRIPTION:부산시 주최\, 전국 대상 AI 창업 경진대회. 2~4인
+  AI 예비창업팀 또는 업력 2년 이내 기업. 접수 9.7~9.30\, 
+ 본선·시상식 10.31 벡스코 컨벤션홀. | https://ai-startup-compe
+ tition.kr
+URL:https://ai-startup-competition.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-midnight-korea-hackathon-2026-activity_start-2026-09-01@joon56.
  github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:🔵 Midnight Korea 해커톤 2026 (ZK·프라이버시 DApp) — 
@@ -4302,7 +4532,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-midnight-korea-hackathon-2026-apply_end-2026-09-28@joon56.githu
  b.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:🔴 Midnight Korea 해커톤 2026 (ZK·프라이버시 DApp) — 
@@ -4316,7 +4546,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-midnight-korea-hackathon-2026-announce-2026-09-29@joon56.github
  .io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:🟣 Midnight Korea 해커톤 2026 (ZK·프라이버시 DApp) — 
@@ -4329,7 +4559,7 @@ URL:https://www.risein.com/midnight
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ksc-2026-apply_start-2026-09-07@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:🟢 한국소프트웨어종합학술대회 2026 (KSC2026) — 논
@@ -4344,7 +4574,7 @@ URL:https://www.kiise.or.kr/conference/main/index.do?CC=KSC&CS=2026
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ksc-2026-apply_end-2026-10-12@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:🔴 한국소프트웨어종합학술대회 2026 (KSC2026) — 논
@@ -4359,7 +4589,7 @@ URL:https://www.kiise.or.kr/conference/main/index.do?CC=KSC&CS=2026
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ksc-2026-partial_deadline-2026-12-02@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:🟠 한국소프트웨어종합학술대회 2026 (KSC2026) — 일
@@ -4374,7 +4604,7 @@ URL:https://www.kiise.or.kr/conference/main/index.do?CC=KSC&CS=2026
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ksc-2026-activity_start-2026-12-21@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261221
 DTEND;VALUE=DATE:20261222
 SUMMARY:🔵 한국소프트웨어종합학술대회 2026 (KSC2026) — 학
@@ -4389,7 +4619,7 @@ URL:https://www.kiise.or.kr/conference/main/index.do?CC=KSC&CS=2026
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ksc-2026-activity_end-2026-12-23@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:⚪ 한국소프트웨어종합학술대회 2026 (KSC2026) — 학
@@ -4404,7 +4634,7 @@ URL:https://www.kiise.or.kr/conference/main/index.do?CC=KSC&CS=2026
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ost-2026-activity_start-2026-10-07@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:🔵 오픈소스 테크데이 2026 (OST 2026) — 행사 당일 (a
@@ -4418,7 +4648,7 @@ URL:https://ostday.kr
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kaggriculture-2026-apply_end-2026-09-23@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20260924
 SUMMARY:🔴 Kaggle Kaggriculture (농장 경영 AI 에이전트) — 참
@@ -4432,7 +4662,7 @@ URL:https://www.kaggle.com/competitions/kaggriculture
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kaggriculture-2026-activity_end-2026-09-30@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:⚪ Kaggle Kaggriculture (농장 경영 AI 에이전트) — 최종
@@ -4447,7 +4677,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-worldbank-small-ai-hackathon-2026-apply_end-2026-09-26@joon56.g
  ithub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20260927
 SUMMARY:🔴 세계은행 Small AI for Development 해커톤 2026 — 참
@@ -4465,7 +4695,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-worldbank-small-ai-hackathon-2026-activity_start-2026-10-03@joo
  n56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:🔵 세계은행 Small AI for Development 해커톤 2026 — 24시
@@ -4483,7 +4713,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-worldbank-small-ai-hackathon-2026-activity_end-2026-10-04@joon5
  6.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:⚪ 세계은행 Small AI for Development 해커톤 2026 — 해커
@@ -4501,7 +4731,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-worldbank-small-ai-hackathon-2026-announce-2026-10-05@joon56.gi
  thub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261005
 DTEND;VALUE=DATE:20261006
 SUMMARY:🟣 세계은행 Small AI for Development 해커톤 2026 — 우
@@ -4517,9 +4747,27 @@ URL:https://www.worldbank.org/en/events/2026/10/19/global-ai-and-digital-su
  mmit-2026
 END:VEVENT
 BEGIN:VEVENT
+UID:itradar-worldbank-small-ai-hackathon-2026-announce-2026-10-10@joon56.gi
+ thub.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:🟣 세계은행 Small AI for Development 해커톤 2026 — 온
+ 라인 피칭·시상
+DESCRIPTION:세계은행 디지털·AI 부총재실 × Hack-Nation. 저연
+ 결·저사양 환경에서 동작하는 'Small AI' 솔루션(보건·농
+ 업·관광)을 24시간(10.3~4\, 온라인) 안에 개발. 우승팀은 
+ 세계은행·기재부·과기정통부가 서울에서 공동 개최하
+ 는 서밋 무대에 오름. 만 18~35세\, 4인 이하 팀\, 영어 제
+ 출. | https://www.worldbank.org/en/events/2026/10/19/global-ai-and-digita
+ l-summit-2026
+URL:https://www.worldbank.org/en/events/2026/10/19/global-ai-and-digital-su
+ mmit-2026
+END:VEVENT
+BEGIN:VEVENT
 UID:itradar-ai-tinkerers-seoul-agents-hackathon-2026-activity_start-2026-09
  -12@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:🔵 AI Tinkerers Seoul 글로벌 해커톤 'Agents\, Everywhere' 
@@ -4537,7 +4785,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ethereum-korea-one-genesis-2026-activity_start-2026-09-29@joon5
  6.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:🔵 Ethereum Korea One Genesis — 행사 당일 (성수\, 13~19
@@ -4551,7 +4799,7 @@ URL:https://luma.com/0a4zc5a6
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kakao-ai-sail-summit-26-apply_start-2026-09-01@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:🟢 카카오 AI 돛 Summit 26 — 참가 신청 시작
@@ -4564,7 +4812,7 @@ URL:https://kakaoaisail.org/aisailsummit/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kakao-ai-sail-summit-26-apply_end-2026-09-06@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260906
 DTEND;VALUE=DATE:20260907
 SUMMARY:🔴 카카오 AI 돛 Summit 26 — 참가 신청 마감 (18시)
@@ -4577,7 +4825,7 @@ URL:https://kakaoaisail.org/aisailsummit/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kakao-ai-sail-summit-26-announce-2026-09-11@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:🟣 카카오 AI 돛 Summit 26 — 참가 확정자 개별 안내
@@ -4591,7 +4839,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kakao-ai-sail-summit-26-activity_start-2026-09-29@joon56.github
  .io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:🔵 카카오 AI 돛 Summit 26 — 행사 당일 (BPEX 부산\, 13
@@ -4606,7 +4854,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-daangn-builder-meetup-2026-apply_end-2026-08-30@joon56.github.i
  o
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260830
 DTEND;VALUE=DATE:20260831
 SUMMARY:🔴 2026 당근 Builder Meetup — 참가 신청 마감
@@ -4620,7 +4868,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-daangn-builder-meetup-2026-activity_start-2026-09-14@joon56.git
  hub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:🔵 2026 당근 Builder Meetup — Day 1 (모나코스페이스 
@@ -4635,7 +4883,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-daangn-builder-meetup-2026-activity_end-2026-09-17@joon56.githu
  b.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:⚪ 2026 당근 Builder Meetup — Day 4 종료
@@ -4648,7 +4896,7 @@ URL:https://ticketa.co/en/event/x0u2znh1
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-space-hackathon-2026-apply_start-2026-09-14@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:🟢 2026 스페이스 해커톤 (우주항공청) — 접수 시
@@ -4663,7 +4911,7 @@ URL:https://space-hackathon.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-space-hackathon-2026-apply_end-2026-11-05@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🔴 2026 스페이스 해커톤 (우주항공청) — 접수 마
@@ -4678,7 +4926,7 @@ URL:https://space-hackathon.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-space-hackathon-2026-announce-2026-11-11@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:🟣 2026 스페이스 해커톤 (우주항공청) — 예선 심
@@ -4693,7 +4941,7 @@ URL:https://space-hackathon.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-space-hackathon-2026-activity_start-2026-11-25@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:🔵 2026 스페이스 해커톤 (우주항공청) — 본선 (경
@@ -4708,7 +4956,7 @@ URL:https://space-hackathon.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-space-hackathon-2026-activity_end-2026-11-26@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:⚪ 2026 스페이스 해커톤 (우주항공청) — 본선 종료
@@ -4724,7 +4972,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-nebius-nvidia-global-ai-hackathon-2026-apply_end-2026-10-31@joo
  n56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:🔴 Nebius × NVIDIA 글로벌 AI 해커톤 — 제출 마감 (KST
@@ -4741,7 +4989,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-yeongnam-cyber-defense-2-apply_start-2026-09-11@joon56.github.i
  o
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260912
 SUMMARY:🟢 제2회 영남권 사이버 공격 방어 대회 — 접수 
@@ -4757,7 +5005,7 @@ URL:https://www.ewp.co.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-yeongnam-cyber-defense-2-apply_end-2026-10-07@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:🔴 제2회 영남권 사이버 공격 방어 대회 — 접수 
@@ -4774,7 +5022,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-yeongnam-cyber-defense-2-activity_start-2026-10-14@joon56.githu
  b.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:🔵 제2회 영남권 사이버 공격 방어 대회 — 온라인
@@ -4791,7 +5039,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-yeongnam-cyber-defense-2-activity_end-2026-11-04@joon56.github.
  io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:⚪ 제2회 영남권 사이버 공격 방어 대회 — 결선·
@@ -4808,7 +5056,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-nasa-space-apps-seoul-2026-apply_start-2026-09-04@joon56.github
  .io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 SUMMARY:🟢 2026 NASA 국제 스페이스 앱스 챌린지 서울 — 등
@@ -4825,7 +5073,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-nasa-space-apps-seoul-2026-activity_start-2026-11-14@joon56.git
  hub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:🔵 2026 NASA 국제 스페이스 앱스 챌린지 서울 — 해
@@ -4842,7 +5090,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-nasa-space-apps-seoul-2026-activity_end-2026-11-15@joon56.githu
  b.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:⚪ 2026 NASA 국제 스페이스 앱스 챌린지 서울 — 해
@@ -4859,7 +5107,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-build-with-gemini-seoul-2026-activity_start-2026-10-14@joon56.g
  ithub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:🔵 Build with Gemini Seoul – All Builders Day — 행사 당일
@@ -4875,7 +5123,7 @@ URL:https://cloud.google.com/events/intl/ko-kr/build-with-gemini-seoul/all-
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-lablup-conf-6-2026-apply_end-2026-09-18@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:🔴 lab | up > /conf/6 (래블업 컨퍼런스 2026) — 등록 
@@ -4890,7 +5138,7 @@ URL:https://www.lablup.com/conf/2026
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-lablup-conf-6-2026-activity_start-2026-09-29@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:🔵 lab | up > /conf/6 (래블업 컨퍼런스 2026) — 행사 
@@ -4906,7 +5154,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-samsung-ai-forum-2026-activity_start-2026-09-30@joon56.github.i
  o
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:🔵 삼성 AI 포럼 2026 — 온라인 개최
@@ -4920,7 +5168,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-d4d-edth-defense-hackathon-2026-activity_start-2026-10-09@joon5
  6.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:🔵 한국 국방 테크 해커톤 (D4D × EDTH) — 네트워킹 
@@ -4937,7 +5185,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-d4d-edth-defense-hackathon-2026-activity_start-2026-10-10@joon5
  6.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 SUMMARY:🔵 한국 국방 테크 해커톤 (D4D × EDTH) — 킥오프·24
@@ -4954,7 +5202,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-d4d-edth-defense-hackathon-2026-activity_end-2026-10-11@joon56.
  github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:⚪ 한국 국방 테크 해커톤 (D4D × EDTH) — 데모데이·
@@ -4971,7 +5219,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-global-ai-digital-summit-seoul-2026-activity_start-2026-10-19@j
  oon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 SUMMARY:🔵 글로벌 AI·디지털 서밋 2026 (세계은행) — 서밋 
@@ -4990,7 +5238,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-global-ai-digital-summit-seoul-2026-announce-2026-10-21@joon56.
  github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:🟣 글로벌 AI·디지털 서밋 2026 (세계은행) — Small A
@@ -5009,7 +5257,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-global-ai-digital-summit-seoul-2026-activity_end-2026-10-22@joo
  n56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:⚪ 글로벌 AI·디지털 서밋 2026 (세계은행) — 서밋 
@@ -5028,7 +5276,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-intel-ai-summit-seoul-2026-apply_start-2026-09-12@joon56.github
  .io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20260913
 SUMMARY:🟢 Intel AI Summit Seoul 2026 — 사전등록 시작
@@ -5043,7 +5291,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-intel-ai-summit-seoul-2026-apply_end-2026-11-06@joon56.github.i
  o
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:🔴 Intel AI Summit Seoul 2026 — 사전등록 마감 (09시)
@@ -5058,7 +5306,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-intel-ai-summit-seoul-2026-activity_start-2026-11-12@joon56.git
  hub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:🔵 Intel AI Summit Seoul 2026 — 행사 당일 (코엑스\, 09~1
@@ -5073,7 +5321,7 @@ URL:https://event-us.kr/intelseminar/event/131490
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-flutter-korea-2026-activity_start-2026-11-07@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:🔵 Flutter Korea 2026 — 행사 당일 (11시\, 센터필드 EAS
@@ -5087,7 +5335,7 @@ URL:https://ticketa.co/event/c9xsstcs
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-ddd-seoul-2026-activity_start-2026-12-04@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:🔵 DDD Seoul 2026 — 행사 당일 (09~18시\, 한국MS 광화
@@ -5102,7 +5350,7 @@ URL:https://dddseoul.kr/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-foss-for-all-2026-partial_deadline-2026-09-28@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:🟠 FOSS for All Conference 2026 — CFP 추가 모집 마감
@@ -5116,7 +5364,7 @@ URL:https://2026.fossforall.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-foss-for-all-2026-activity_start-2026-11-28@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:🔵 FOSS for All Conference 2026 — 행사 당일 (AWS 코리아 
@@ -5131,7 +5379,7 @@ URL:https://2026.fossforall.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-aiot-korea-2026-activity_start-2026-11-03@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:🔵 AIoT 국제전시회 & 국제컨퍼런스 2026 — 전시 개
@@ -5146,7 +5394,7 @@ URL:http://www.aiotkorea.or.kr/2026/kor/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-aiot-korea-2026-activity_start-2026-11-05@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:🔵 AIoT 국제전시회 & 국제컨퍼런스 2026 — 학생 입
@@ -5161,7 +5409,7 @@ URL:http://www.aiotkorea.or.kr/2026/kor/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-aiot-korea-2026-activity_end-2026-11-06@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:⚪ AIoT 국제전시회 & 국제컨퍼런스 2026 — 컨퍼런스
@@ -5177,7 +5425,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-kspo-public-data-contest-2026-apply_end-2026-10-02@joon56.githu
  b.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:🔴 국민체육진흥공단 2026 공공데이터 활용 경진대
@@ -5194,7 +5442,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-habsida-hackathon-2026-activity_start-2026-09-24@joon56.github.
  io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:🔵 HABSIDA 해커톤 2026 (인천\, 영어 진행) — 해커톤 
@@ -5208,7 +5456,7 @@ URL:https://habsida.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-habsida-hackathon-2026-activity_end-2026-09-25@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260925
 DTEND;VALUE=DATE:20260926
 SUMMARY:⚪ HABSIDA 해커톤 2026 (인천\, 영어 진행) — 해커톤 
@@ -5223,7 +5471,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-skhynix-ai-hackathon-2026-apply_start-2026-09-21@joon56.github.
  io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260921
 DTEND;VALUE=DATE:20260922
 SUMMARY:🟢 SK하이닉스 AI 해커톤 2026 — 접수 시작
@@ -5238,7 +5486,7 @@ URL:https://skhynix-hackathon.com/ai-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-skhynix-ai-hackathon-2026-apply_end-2026-09-28@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:🔴 SK하이닉스 AI 해커톤 2026 — 접수 마감 (17시)
@@ -5254,7 +5502,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-skhynix-ai-hackathon-2026-activity_start-2026-10-17@joon56.gith
  ub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:🔵 SK하이닉스 AI 해커톤 2026 — 1차 온라인 예선 (10
@@ -5271,7 +5519,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-skhynix-ai-hackathon-2026-partial_deadline-2026-10-31@joon56.gi
  thub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:🟠 SK하이닉스 AI 해커톤 2026 — 2차 온라인 예선 (10
@@ -5288,7 +5536,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-skhynix-ai-hackathon-2026-activity_end-2026-11-11@joon56.github
  .io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:⚪ SK하이닉스 AI 해커톤 2026 — 본선 (코엑스)
@@ -5304,7 +5552,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-gyeongnam-ai-sw-contest-4-apply_start-2026-09-07@joon56.github.
  io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260907
 DTEND;VALUE=DATE:20260908
 SUMMARY:🟢 제4회 경남 AI·SW 경진대회 — 접수 시작
@@ -5320,7 +5568,7 @@ URL:https://contest.gnict.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-gyeongnam-ai-sw-contest-4-apply_end-2026-09-29@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:🔴 제4회 경남 AI·SW 경진대회 — 접수 마감 (12시)
@@ -5337,7 +5585,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-gyeongnam-ai-sw-contest-4-activity_start-2026-09-29@joon56.gith
  ub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:🔵 제4회 경남 AI·SW 경진대회 — 개발 시작 (15시)
@@ -5354,7 +5602,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-gyeongnam-ai-sw-contest-4-partial_deadline-2026-10-06@joon56.gi
  thub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261006
 DTEND;VALUE=DATE:20261007
 SUMMARY:🟠 제4회 경남 AI·SW 경진대회 — 결과물 제출 마감
@@ -5371,7 +5619,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:itradar-gyeongnam-ai-sw-contest-4-activity_start-2026-10-12@joon56.gith
  ub.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261013
 SUMMARY:🔵 제4회 경남 AI·SW 경진대회 — 본선 발표평가 (10
@@ -5388,7 +5636,7 @@ URL:https://contest.gnict.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:itradar-gyeongnam-ai-sw-contest-4-announce-2026-10-14@joon56.github.io
-DTSTAMP:20260921T131716Z
+DTSTAMP:20261005T090955Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:🟣 제4회 경남 AI·SW 경진대회 — 시상식 (14~15시)
@@ -5401,5 +5649,859 @@ DESCRIPTION:경상남도·창원시·진주시 주최\, (사)경남인공
  공서비스. 고등부·대학부(학·석사)·일반부(박사 포함)\
  , 팀 3인 이하. | https://contest.gnict.org/
 URL:https://contest.gnict.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-kaggle-gemma4-agent-2026-apply_start-2026-09-23@joon56.github.i
+ o
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:🟢 Kaggle Gemma 4 Developer Agent Competition — 대회 시작
+DESCRIPTION:Google DeepMind 주최 Kaggle 대회. Gemma 4를 SFT/RL로 후
+ 처리(LoRA 어댑터 + Google ADK 에이전트 설정)해 실제 Python 
+ 저장소의 버그 수정·기능 구현을 수행하는 자율 코딩 
+ 에이전트를 만든다. SWE-Bench식 PASS/FAIL 채점. 별도 논문 
+ 트랙 운영. | https://www.kaggle.com/competitions/gemma-4-developer-age
+ nt
+URL:https://www.kaggle.com/competitions/gemma-4-developer-agent
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-kaggle-gemma4-agent-2026-partial_deadline-2026-11-12@joon56.git
+ hub.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:🟠 Kaggle Gemma 4 Developer Agent Competition — 논문 트랙 
+ 마감 (23:59 UTC)
+DESCRIPTION:Google DeepMind 주최 Kaggle 대회. Gemma 4를 SFT/RL로 후
+ 처리(LoRA 어댑터 + Google ADK 에이전트 설정)해 실제 Python 
+ 저장소의 버그 수정·기능 구현을 수행하는 자율 코딩 
+ 에이전트를 만든다. SWE-Bench식 PASS/FAIL 채점. 별도 논문 
+ 트랙 운영. | https://www.kaggle.com/competitions/gemma-4-developer-age
+ nt
+URL:https://www.kaggle.com/competitions/gemma-4-developer-agent
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-kaggle-gemma4-agent-2026-apply_end-2026-11-25@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:🔴 Kaggle Gemma 4 Developer Agent Competition — 참가·팀 병
+ 합 마감 (23:59 UTC)
+DESCRIPTION:Google DeepMind 주최 Kaggle 대회. Gemma 4를 SFT/RL로 후
+ 처리(LoRA 어댑터 + Google ADK 에이전트 설정)해 실제 Python 
+ 저장소의 버그 수정·기능 구현을 수행하는 자율 코딩 
+ 에이전트를 만든다. SWE-Bench식 PASS/FAIL 채점. 별도 논문 
+ 트랙 운영. | https://www.kaggle.com/competitions/gemma-4-developer-age
+ nt
+URL:https://www.kaggle.com/competitions/gemma-4-developer-agent
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-kaggle-gemma4-agent-2026-activity_end-2026-12-02@joon56.github.
+ io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:⚪ Kaggle Gemma 4 Developer Agent Competition — 최종 제출 
+ 마감 (23:59 UTC)
+DESCRIPTION:Google DeepMind 주최 Kaggle 대회. Gemma 4를 SFT/RL로 후
+ 처리(LoRA 어댑터 + Google ADK 에이전트 설정)해 실제 Python 
+ 저장소의 버그 수정·기능 구현을 수행하는 자율 코딩 
+ 에이전트를 만든다. SWE-Bench식 PASS/FAIL 채점. 별도 논문 
+ 트랙 운영. | https://www.kaggle.com/competitions/gemma-4-developer-age
+ nt
+URL:https://www.kaggle.com/competitions/gemma-4-developer-agent
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-kaggle-enveda-casmi-2026-apply_start-2026-09-14@joon56.github.i
+ o
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:🟢 Kaggle Enveda CASMI 2026 — 질량 스펙트럼 분자 구조
+  예측 — 대회 시작
+DESCRIPTION:Enveda 주최 Kaggle 코드(노트북) 대회. LC-MS/MS 탠덤 
+ 질량 스펙트럼에서 미지 저분자의 2D 구조(SMILES)를 예측
+ 한다. 학습 데이터 약 250만 스펙트럼. | https://www.kaggle.com
+ /competitions/enveda-CASMI26-molecule-id-mass-spectra
+URL:https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spe
+ ctra
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-kaggle-enveda-casmi-2026-apply_end-2026-12-07@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:🔴 Kaggle Enveda CASMI 2026 — 질량 스펙트럼 분자 구조
+  예측 — 참가·팀 병합 마감 (23:59 UTC)
+DESCRIPTION:Enveda 주최 Kaggle 코드(노트북) 대회. LC-MS/MS 탠덤 
+ 질량 스펙트럼에서 미지 저분자의 2D 구조(SMILES)를 예측
+ 한다. 학습 데이터 약 250만 스펙트럼. | https://www.kaggle.com
+ /competitions/enveda-CASMI26-molecule-id-mass-spectra
+URL:https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spe
+ ctra
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-kaggle-enveda-casmi-2026-activity_end-2026-12-14@joon56.github.
+ io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:⚪ Kaggle Enveda CASMI 2026 — 질량 스펙트럼 분자 구조 
+ 예측 — 최종 제출 마감 (23:59 UTC)
+DESCRIPTION:Enveda 주최 Kaggle 코드(노트북) 대회. LC-MS/MS 탠덤 
+ 질량 스펙트럼에서 미지 저분자의 2D 구조(SMILES)를 예측
+ 한다. 학습 데이터 약 250만 스펙트럼. | https://www.kaggle.com
+ /competitions/enveda-CASMI26-molecule-id-mass-spectra
+URL:https://www.kaggle.com/competitions/enveda-CASMI26-molecule-id-mass-spe
+ ctra
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-google-deepmind-hackathon-seoul-2026-apply_end-2026-10-09@joon5
+ 6.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:🔴 Google DeepMind AI 해커톤 서울 — 신청 마감 (23:59)
+DESCRIPTION:Google DeepMind × AttentionX 공동 주최 4시간 스피드 
+ 빌드 개인전 해커톤. Google AI로 아이디어를 동작하는 서
+ 비스로 구현하고 DeepMind 엔지니어가 심사. 승인제로 140
+ 명 선발. 10.16(금) 10~17시 Google for Startups Campus(강남). | http
+ s://cerebralvalley.ai/e/google-deepmind-ai-hackathon
+URL:https://cerebralvalley.ai/e/google-deepmind-ai-hackathon
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-google-deepmind-hackathon-seoul-2026-activity_start-2026-10-16@
+ joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:🔵 Google DeepMind AI 해커톤 서울 — 해커톤 (10~17시\, 
+ Google for Startups Campus)
+DESCRIPTION:Google DeepMind × AttentionX 공동 주최 4시간 스피드 
+ 빌드 개인전 해커톤. Google AI로 아이디어를 동작하는 서
+ 비스로 구현하고 DeepMind 엔지니어가 심사. 승인제로 140
+ 명 선발. 10.16(금) 10~17시 Google for Startups Campus(강남). | http
+ s://cerebralvalley.ai/e/google-deepmind-ai-hackathon
+URL:https://cerebralvalley.ai/e/google-deepmind-ai-hackathon
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-work24-ai-hackathon-2026-apply_start-2026-09-21@joon56.github.i
+ o
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:🟢 2026 고용24 국민참여 AI 고용서비스 발굴 온라인
+  해커톤 — 접수 시작
+DESCRIPTION:고용노동부·한국고용정보원 주최. 고용24 OpenAPI
+ 와 고용 공공데이터로 AI 고용서비스 MVP를 2주간 온라인
+ 으로 개발. 선정 20팀에 생성형 AI 플랫폼 제공. 접수 9.21~
+ 10.13 18시 → 서류 10.15~21 → 20팀·OT 10.22 → MVP 10.23~11.5 →
+  기능 심사 11.10~19 → 본선·시상 11.27 서울. | https://www.xn-
+ -299alkwa683hrtfsfp2mn8g3zd53kbtag2cdzeds0aqoj3nl9jq.com
+URL:https://www.xn--299alkwa683hrtfsfp2mn8g3zd53kbtag2cdzeds0aqoj3nl9jq.com
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-work24-ai-hackathon-2026-apply_end-2026-10-13@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:🔴 2026 고용24 국민참여 AI 고용서비스 발굴 온라인
+  해커톤 — 접수 마감 (18시)
+DESCRIPTION:고용노동부·한국고용정보원 주최. 고용24 OpenAPI
+ 와 고용 공공데이터로 AI 고용서비스 MVP를 2주간 온라인
+ 으로 개발. 선정 20팀에 생성형 AI 플랫폼 제공. 접수 9.21~
+ 10.13 18시 → 서류 10.15~21 → 20팀·OT 10.22 → MVP 10.23~11.5 →
+  기능 심사 11.10~19 → 본선·시상 11.27 서울. | https://www.xn-
+ -299alkwa683hrtfsfp2mn8g3zd53kbtag2cdzeds0aqoj3nl9jq.com
+URL:https://www.xn--299alkwa683hrtfsfp2mn8g3zd53kbtag2cdzeds0aqoj3nl9jq.com
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-work24-ai-hackathon-2026-announce-2026-10-22@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:🟣 2026 고용24 국민참여 AI 고용서비스 발굴 온라인
+  해커톤 — 20팀 선정·OT
+DESCRIPTION:고용노동부·한국고용정보원 주최. 고용24 OpenAPI
+ 와 고용 공공데이터로 AI 고용서비스 MVP를 2주간 온라인
+ 으로 개발. 선정 20팀에 생성형 AI 플랫폼 제공. 접수 9.21~
+ 10.13 18시 → 서류 10.15~21 → 20팀·OT 10.22 → MVP 10.23~11.5 →
+  기능 심사 11.10~19 → 본선·시상 11.27 서울. | https://www.xn-
+ -299alkwa683hrtfsfp2mn8g3zd53kbtag2cdzeds0aqoj3nl9jq.com
+URL:https://www.xn--299alkwa683hrtfsfp2mn8g3zd53kbtag2cdzeds0aqoj3nl9jq.com
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-work24-ai-hackathon-2026-activity_start-2026-10-23@joon56.githu
+ b.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:🔵 2026 고용24 국민참여 AI 고용서비스 발굴 온라인
+  해커톤 — MVP 개발 (~11.5)
+DESCRIPTION:고용노동부·한국고용정보원 주최. 고용24 OpenAPI
+ 와 고용 공공데이터로 AI 고용서비스 MVP를 2주간 온라인
+ 으로 개발. 선정 20팀에 생성형 AI 플랫폼 제공. 접수 9.21~
+ 10.13 18시 → 서류 10.15~21 → 20팀·OT 10.22 → MVP 10.23~11.5 →
+  기능 심사 11.10~19 → 본선·시상 11.27 서울. | https://www.xn-
+ -299alkwa683hrtfsfp2mn8g3zd53kbtag2cdzeds0aqoj3nl9jq.com
+URL:https://www.xn--299alkwa683hrtfsfp2mn8g3zd53kbtag2cdzeds0aqoj3nl9jq.com
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-work24-ai-hackathon-2026-activity_end-2026-11-27@joon56.github.
+ io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:⚪ 2026 고용24 국민참여 AI 고용서비스 발굴 온라인 
+ 해커톤 — 본선·시상 (서울)
+DESCRIPTION:고용노동부·한국고용정보원 주최. 고용24 OpenAPI
+ 와 고용 공공데이터로 AI 고용서비스 MVP를 2주간 온라인
+ 으로 개발. 선정 20팀에 생성형 AI 플랫폼 제공. 접수 9.21~
+ 10.13 18시 → 서류 10.15~21 → 20팀·OT 10.22 → MVP 10.23~11.5 →
+  기능 심사 11.10~19 → 본선·시상 11.27 서울. | https://www.xn-
+ -299alkwa683hrtfsfp2mn8g3zd53kbtag2cdzeds0aqoj3nl9jq.com
+URL:https://www.xn--299alkwa683hrtfsfp2mn8g3zd53kbtag2cdzeds0aqoj3nl9jq.com
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-komap-ai-2026-apply_start-2026-09-03@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:🟢 2026 KoMaP AI 경진대회 — 접수 시작
+DESCRIPTION:산업통상부·KEIT 주최\, ETRI·재료연구원 운영. 
+ 소재 데이터 플랫폼 KoMaP 기반으로 고강도 알루미늄 합
+ 금 미세조직 이미지의 상(phase) 분할 AI 모델을 개발한다.
+  접수 9.3~10.15\, 예선 결과 10.22\, 본선(대면 발표)·시상 10
+ .29 KINTEX. | https://komap.ai/front/competition2026
+URL:https://komap.ai/front/competition2026
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-komap-ai-2026-apply_end-2026-10-15@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:🔴 2026 KoMaP AI 경진대회 — 접수 마감 (24시)
+DESCRIPTION:산업통상부·KEIT 주최\, ETRI·재료연구원 운영. 
+ 소재 데이터 플랫폼 KoMaP 기반으로 고강도 알루미늄 합
+ 금 미세조직 이미지의 상(phase) 분할 AI 모델을 개발한다.
+  접수 9.3~10.15\, 예선 결과 10.22\, 본선(대면 발표)·시상 10
+ .29 KINTEX. | https://komap.ai/front/competition2026
+URL:https://komap.ai/front/competition2026
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-komap-ai-2026-announce-2026-10-22@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:🟣 2026 KoMaP AI 경진대회 — 예선 결과
+DESCRIPTION:산업통상부·KEIT 주최\, ETRI·재료연구원 운영. 
+ 소재 데이터 플랫폼 KoMaP 기반으로 고강도 알루미늄 합
+ 금 미세조직 이미지의 상(phase) 분할 AI 모델을 개발한다.
+  접수 9.3~10.15\, 예선 결과 10.22\, 본선(대면 발표)·시상 10
+ .29 KINTEX. | https://komap.ai/front/competition2026
+URL:https://komap.ai/front/competition2026
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-komap-ai-2026-activity_start-2026-10-29@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:🔵 2026 KoMaP AI 경진대회 — 본선 발표·시상 (KINTEX)
+DESCRIPTION:산업통상부·KEIT 주최\, ETRI·재료연구원 운영. 
+ 소재 데이터 플랫폼 KoMaP 기반으로 고강도 알루미늄 합
+ 금 미세조직 이미지의 상(phase) 분할 AI 모델을 개발한다.
+  접수 9.3~10.15\, 예선 결과 10.22\, 본선(대면 발표)·시상 10
+ .29 KINTEX. | https://komap.ai/front/competition2026
+URL:https://komap.ai/front/competition2026
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-kic-ai-agent-competition-2026-apply_start-2026-10-01@joon56.git
+ hub.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:🟢 한국투자공사(KIC) AI 에이전트 공모전 — 접수 
+ 시작 (10시)
+DESCRIPTION:국부펀드 한국투자공사(KIC) 주최\, DACON 운영. 투
+ 자 리서치·Peer Group 비교·내부 문서 검색·자동화 등 투
+ 자·금융 업무 혁신용 AI 에이전트를 기획하고 실제 동작
+ 하는 MVP로 구현. 접수 10.1~11.12 10시(기획서 10쪽 이내) → 
+ 상위 12팀 본선 MVP → 온라인 발표 → 2027.1.11 종료. | https
+ ://daker.ai/public/hackathons/kic-ai-agent-competition
+URL:https://daker.ai/public/hackathons/kic-ai-agent-competition
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-kic-ai-agent-competition-2026-apply_end-2026-11-12@joon56.githu
+ b.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:🔴 한국투자공사(KIC) AI 에이전트 공모전 — 접수·
+ 기획서 마감 (10시)
+DESCRIPTION:국부펀드 한국투자공사(KIC) 주최\, DACON 운영. 투
+ 자 리서치·Peer Group 비교·내부 문서 검색·자동화 등 투
+ 자·금융 업무 혁신용 AI 에이전트를 기획하고 실제 동작
+ 하는 MVP로 구현. 접수 10.1~11.12 10시(기획서 10쪽 이내) → 
+ 상위 12팀 본선 MVP → 온라인 발표 → 2027.1.11 종료. | https
+ ://daker.ai/public/hackathons/kic-ai-agent-competition
+URL:https://daker.ai/public/hackathons/kic-ai-agent-competition
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-kic-ai-agent-competition-2026-activity_end-2027-01-11@joon56.gi
+ thub.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:⚪ 한국투자공사(KIC) AI 에이전트 공모전 — 대회 
+ 종료 (18시)
+DESCRIPTION:국부펀드 한국투자공사(KIC) 주최\, DACON 운영. 투
+ 자 리서치·Peer Group 비교·내부 문서 검색·자동화 등 투
+ 자·금융 업무 혁신용 AI 에이전트를 기획하고 실제 동작
+ 하는 MVP로 구현. 접수 10.1~11.12 10시(기획서 10쪽 이내) → 
+ 상위 12팀 본선 MVP → 온라인 발표 → 2027.1.11 종료. | https
+ ://daker.ai/public/hackathons/kic-ai-agent-competition
+URL:https://daker.ai/public/hackathons/kic-ai-agent-competition
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-dacon-port-ai-2026-apply_start-2026-09-30@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:🟢 항만 문제해결을 위한 AI 기술 공모전 — 참가 
+ 신청 시작
+DESCRIPTION:해양수산부 주최\, 울산항만공사·한국정보산업
+ 연합회 주관\, DACON 운영. 불완전한 선박 입출항 기록(한/
+ 영 표기·철자 변형)을 표준 선박 제원과 매칭하는 엔티
+ 티 매칭 AI 모델 개발. 대회 10.12~11.2\, 오프라인 본선 11.10
+ \, 시상 12.2 부산. | https://dacon.io/competitions/official/236771/ove
+ rview/description
+URL:https://dacon.io/competitions/official/236771/overview/description
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-dacon-port-ai-2026-activity_start-2026-10-12@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:🔵 항만 문제해결을 위한 AI 기술 공모전 — 대회 
+ 시작 (10시)
+DESCRIPTION:해양수산부 주최\, 울산항만공사·한국정보산업
+ 연합회 주관\, DACON 운영. 불완전한 선박 입출항 기록(한/
+ 영 표기·철자 변형)을 표준 선박 제원과 매칭하는 엔티
+ 티 매칭 AI 모델 개발. 대회 10.12~11.2\, 오프라인 본선 11.10
+ \, 시상 12.2 부산. | https://dacon.io/competitions/official/236771/ove
+ rview/description
+URL:https://dacon.io/competitions/official/236771/overview/description
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-dacon-port-ai-2026-partial_deadline-2026-10-26@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:🟠 항만 문제해결을 위한 AI 기술 공모전 — 팀 병
+ 합 마감 (23:59)
+DESCRIPTION:해양수산부 주최\, 울산항만공사·한국정보산업
+ 연합회 주관\, DACON 운영. 불완전한 선박 입출항 기록(한/
+ 영 표기·철자 변형)을 표준 선박 제원과 매칭하는 엔티
+ 티 매칭 AI 모델 개발. 대회 10.12~11.2\, 오프라인 본선 11.10
+ \, 시상 12.2 부산. | https://dacon.io/competitions/official/236771/ove
+ rview/description
+URL:https://dacon.io/competitions/official/236771/overview/description
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-dacon-port-ai-2026-apply_end-2026-11-01@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:🔴 항만 문제해결을 위한 AI 기술 공모전 — 리더
+ 보드 제출 마감 (10시)
+DESCRIPTION:해양수산부 주최\, 울산항만공사·한국정보산업
+ 연합회 주관\, DACON 운영. 불완전한 선박 입출항 기록(한/
+ 영 표기·철자 변형)을 표준 선박 제원과 매칭하는 엔티
+ 티 매칭 AI 모델 개발. 대회 10.12~11.2\, 오프라인 본선 11.10
+ \, 시상 12.2 부산. | https://dacon.io/competitions/official/236771/ove
+ rview/description
+URL:https://dacon.io/competitions/official/236771/overview/description
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-dacon-port-ai-2026-activity_end-2026-11-02@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:⚪ 항만 문제해결을 위한 AI 기술 공모전 — 대회 
+ 종료 (10시)
+DESCRIPTION:해양수산부 주최\, 울산항만공사·한국정보산업
+ 연합회 주관\, DACON 운영. 불완전한 선박 입출항 기록(한/
+ 영 표기·철자 변형)을 표준 선박 제원과 매칭하는 엔티
+ 티 매칭 AI 모델 개발. 대회 10.12~11.2\, 오프라인 본선 11.10
+ \, 시상 12.2 부산. | https://dacon.io/competitions/official/236771/ove
+ rview/description
+URL:https://dacon.io/competitions/official/236771/overview/description
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-dacon-port-ai-2026-activity_start-2026-11-10@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:🔵 항만 문제해결을 위한 AI 기술 공모전 — 본선 
+ 발표평가
+DESCRIPTION:해양수산부 주최\, 울산항만공사·한국정보산업
+ 연합회 주관\, DACON 운영. 불완전한 선박 입출항 기록(한/
+ 영 표기·철자 변형)을 표준 선박 제원과 매칭하는 엔티
+ 티 매칭 AI 모델 개발. 대회 10.12~11.2\, 오프라인 본선 11.10
+ \, 시상 12.2 부산. | https://dacon.io/competitions/official/236771/ove
+ rview/description
+URL:https://dacon.io/competitions/official/236771/overview/description
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-dacon-port-ai-2026-announce-2026-12-02@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:🟣 항만 문제해결을 위한 AI 기술 공모전 — 시상
+ 식 (부산)
+DESCRIPTION:해양수산부 주최\, 울산항만공사·한국정보산업
+ 연합회 주관\, DACON 운영. 불완전한 선박 입출항 기록(한/
+ 영 표기·철자 변형)을 표준 선박 제원과 매칭하는 엔티
+ 티 매칭 AI 모델 개발. 대회 10.12~11.2\, 오프라인 본선 11.10
+ \, 시상 12.2 부산. | https://dacon.io/competitions/official/236771/ove
+ rview/description
+URL:https://dacon.io/competitions/official/236771/overview/description
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-ai-platform-build-challenge-2026-apply_start-2026-09-30@joon56.
+ github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:🟢 2026 AI 플랫폼 구축 경진대회 (AI Platform Build Chall
+ enge) — 접수 시작 (10시)
+DESCRIPTION:서울시·관악구·금천청년꿈터·서울대 앵커사
+ 업단 주최\, DACON 운영. 온라인 기획서 예선 → 온라인 교
+ 육(11.2~25)·멘토링(11.26) → 오프라인 해커톤·본선(11.27 TI
+ PS타운 S6 역삼)으로 이어지는 AI 서비스·플랫폼 구현 프
+ 로그램. | https://daker.ai/public/hackathons/ai-platform-build-challeng
+ e-prelims
+URL:https://daker.ai/public/hackathons/ai-platform-build-challenge-prelims
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-ai-platform-build-challenge-2026-apply_end-2026-10-25@joon56.gi
+ thub.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:🔴 2026 AI 플랫폼 구축 경진대회 (AI Platform Build Chall
+ enge) — 접수 마감 (17시\, 조기 마감 가능)
+DESCRIPTION:서울시·관악구·금천청년꿈터·서울대 앵커사
+ 업단 주최\, DACON 운영. 온라인 기획서 예선 → 온라인 교
+ 육(11.2~25)·멘토링(11.26) → 오프라인 해커톤·본선(11.27 TI
+ PS타운 S6 역삼)으로 이어지는 AI 서비스·플랫폼 구현 프
+ 로그램. | https://daker.ai/public/hackathons/ai-platform-build-challeng
+ e-prelims
+URL:https://daker.ai/public/hackathons/ai-platform-build-challenge-prelims
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-ai-platform-build-challenge-2026-activity_start-2026-11-02@joon
+ 56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:🔵 2026 AI 플랫폼 구축 경진대회 (AI Platform Build Chall
+ enge) — 온라인 교육 (~11.25)
+DESCRIPTION:서울시·관악구·금천청년꿈터·서울대 앵커사
+ 업단 주최\, DACON 운영. 온라인 기획서 예선 → 온라인 교
+ 육(11.2~25)·멘토링(11.26) → 오프라인 해커톤·본선(11.27 TI
+ PS타운 S6 역삼)으로 이어지는 AI 서비스·플랫폼 구현 프
+ 로그램. | https://daker.ai/public/hackathons/ai-platform-build-challeng
+ e-prelims
+URL:https://daker.ai/public/hackathons/ai-platform-build-challenge-prelims
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-ai-platform-build-challenge-2026-activity_end-2026-11-27@joon56
+ .github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:⚪ 2026 AI 플랫폼 구축 경진대회 (AI Platform Build Challe
+ nge) — 해커톤·본선 (TIPS타운 S6)
+DESCRIPTION:서울시·관악구·금천청년꿈터·서울대 앵커사
+ 업단 주최\, DACON 운영. 온라인 기획서 예선 → 온라인 교
+ 육(11.2~25)·멘토링(11.26) → 오프라인 해커톤·본선(11.27 TI
+ PS타운 S6 역삼)으로 이어지는 AI 서비스·플랫폼 구현 프
+ 로그램. | https://daker.ai/public/hackathons/ai-platform-build-challeng
+ e-prelims
+URL:https://daker.ai/public/hackathons/ai-platform-build-challenge-prelims
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-snu-croche-ai-app-hackathon-2026-apply_start-2026-09-10@joon56.
+ github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:🟢 2026 SNU × Croche AI 앱 해커톤 — 접수 시작
+DESCRIPTION:서울대 창업지원단 × 하이어에이아이(Croche) 공
+ 동 주최. Croche SDK로 캐릭터AI·교육·게임·생산성 등 실
+ 제 AI 앱을 구현(팀당 $100 크레딧). 접수 9.10~10.10 13시 → 2
+ 0팀 선발 → OT 10.14 → 온라인 빌드 10.14~16 → 오프라인 
+ 피칭·시상 10.17 서울대 관악 32-1동. | https://croche.ai/
+URL:https://croche.ai/
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-snu-croche-ai-app-hackathon-2026-apply_end-2026-10-10@joon56.gi
+ thub.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:🔴 2026 SNU × Croche AI 앱 해커톤 — 접수 마감 (13시)
+DESCRIPTION:서울대 창업지원단 × 하이어에이아이(Croche) 공
+ 동 주최. Croche SDK로 캐릭터AI·교육·게임·생산성 등 실
+ 제 AI 앱을 구현(팀당 $100 크레딧). 접수 9.10~10.10 13시 → 2
+ 0팀 선발 → OT 10.14 → 온라인 빌드 10.14~16 → 오프라인 
+ 피칭·시상 10.17 서울대 관악 32-1동. | https://croche.ai/
+URL:https://croche.ai/
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-snu-croche-ai-app-hackathon-2026-activity_start-2026-10-14@joon
+ 56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:🔵 2026 SNU × Croche AI 앱 해커톤 — OT·온라인 빌드 (
+ ~10.16)
+DESCRIPTION:서울대 창업지원단 × 하이어에이아이(Croche) 공
+ 동 주최. Croche SDK로 캐릭터AI·교육·게임·생산성 등 실
+ 제 AI 앱을 구현(팀당 $100 크레딧). 접수 9.10~10.10 13시 → 2
+ 0팀 선발 → OT 10.14 → 온라인 빌드 10.14~16 → 오프라인 
+ 피칭·시상 10.17 서울대 관악 32-1동. | https://croche.ai/
+URL:https://croche.ai/
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-snu-croche-ai-app-hackathon-2026-activity_end-2026-10-17@joon56
+ .github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:⚪ 2026 SNU × Croche AI 앱 해커톤 — 피칭·시상 (서울
+ 대 관악)
+DESCRIPTION:서울대 창업지원단 × 하이어에이아이(Croche) 공
+ 동 주최. Croche SDK로 캐릭터AI·교육·게임·생산성 등 실
+ 제 AI 앱을 구현(팀당 $100 크레딧). 접수 9.10~10.10 13시 → 2
+ 0팀 선발 → OT 10.14 → 온라인 빌드 10.14~16 → 오프라인 
+ 피칭·시상 10.17 서울대 관악 32-1동. | https://croche.ai/
+URL:https://croche.ai/
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-postech-oibc-bigdata-2026-apply_start-2026-10-01@joon56.github.
+ io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:🟢 2026 POSTECH OIBC 빅데이터 경진대회 — 접수 시작 
+ (10시)
+DESCRIPTION:에이치에너지·POSTECH·KAIST·UNIST 주최. 태양광 발
+ 전소를 두 개의 가상발전소(VPP) 그룹으로 최적 구성하고
+  발전량을 예측해 정산 수익을 극대화하는 알고리즘 대
+ 회. 접수 10.1~10.30 → 대회 11.2~13 → 온라인 결선(상위 7팀
+ ) 11.23~27 → 시상 12.4 대한산업공학회 추계학술대회(BEXCO)
+ . | https://dataen.ai/challenge
+URL:https://dataen.ai/challenge
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-postech-oibc-bigdata-2026-apply_end-2026-10-30@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:🔴 2026 POSTECH OIBC 빅데이터 경진대회 — 접수 마감
+DESCRIPTION:에이치에너지·POSTECH·KAIST·UNIST 주최. 태양광 발
+ 전소를 두 개의 가상발전소(VPP) 그룹으로 최적 구성하고
+  발전량을 예측해 정산 수익을 극대화하는 알고리즘 대
+ 회. 접수 10.1~10.30 → 대회 11.2~13 → 온라인 결선(상위 7팀
+ ) 11.23~27 → 시상 12.4 대한산업공학회 추계학술대회(BEXCO)
+ . | https://dataen.ai/challenge
+URL:https://dataen.ai/challenge
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-postech-oibc-bigdata-2026-activity_start-2026-11-02@joon56.gith
+ ub.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:🔵 2026 POSTECH OIBC 빅데이터 경진대회 — 대회 시작 
+ (10시\, ~11.13)
+DESCRIPTION:에이치에너지·POSTECH·KAIST·UNIST 주최. 태양광 발
+ 전소를 두 개의 가상발전소(VPP) 그룹으로 최적 구성하고
+  발전량을 예측해 정산 수익을 극대화하는 알고리즘 대
+ 회. 접수 10.1~10.30 → 대회 11.2~13 → 온라인 결선(상위 7팀
+ ) 11.23~27 → 시상 12.4 대한산업공학회 추계학술대회(BEXCO)
+ . | https://dataen.ai/challenge
+URL:https://dataen.ai/challenge
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-postech-oibc-bigdata-2026-activity_start-2026-11-23@joon56.gith
+ ub.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:🔵 2026 POSTECH OIBC 빅데이터 경진대회 — 온라인 결
+ 선 (상위 7팀\, ~11.27)
+DESCRIPTION:에이치에너지·POSTECH·KAIST·UNIST 주최. 태양광 발
+ 전소를 두 개의 가상발전소(VPP) 그룹으로 최적 구성하고
+  발전량을 예측해 정산 수익을 극대화하는 알고리즘 대
+ 회. 접수 10.1~10.30 → 대회 11.2~13 → 온라인 결선(상위 7팀
+ ) 11.23~27 → 시상 12.4 대한산업공학회 추계학술대회(BEXCO)
+ . | https://dataen.ai/challenge
+URL:https://dataen.ai/challenge
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-postech-oibc-bigdata-2026-announce-2026-12-04@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:🟣 2026 POSTECH OIBC 빅데이터 경진대회 — 시상 (BEXCO)
+DESCRIPTION:에이치에너지·POSTECH·KAIST·UNIST 주최. 태양광 발
+ 전소를 두 개의 가상발전소(VPP) 그룹으로 최적 구성하고
+  발전량을 예측해 정산 수익을 극대화하는 알고리즘 대
+ 회. 접수 10.1~10.30 → 대회 11.2~13 → 온라인 결선(상위 7팀
+ ) 11.23~27 → 시상 12.4 대한산업공학회 추계학술대회(BEXCO)
+ . | https://dataen.ai/challenge
+URL:https://dataen.ai/challenge
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-naver-d2sf-campus-2026-fall-apply_start-2026-09-11@joon56.githu
+ b.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:🟢 네이버 D2SF 캠퍼스 기술창업 공모전 (2026 하반
+ 기) — 공고
+DESCRIPTION:네이버 D2SF가 매학기 여는 학생 기술창업팀 선
+ 발 공모전. 핵심 멤버가 대학(원) 재학·휴학생 또는 졸
+ 업 1년 이내인 팀이 대상이며 법인 설립은 필요 없다. 서
+ 류 ~11.8 → 11월 인터뷰 → 최종 발표 12.21 → 2027년 1~6월 
+ 맞춤 인큐베이팅. | https://d2sf.naver.com/ko/story/5
+URL:https://d2sf.naver.com/ko/story/5
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-naver-d2sf-campus-2026-fall-apply_end-2026-11-08@joon56.github.
+ io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:🔴 네이버 D2SF 캠퍼스 기술창업 공모전 (2026 하반
+ 기) — 서류 접수 마감 (24시)
+DESCRIPTION:네이버 D2SF가 매학기 여는 학생 기술창업팀 선
+ 발 공모전. 핵심 멤버가 대학(원) 재학·휴학생 또는 졸
+ 업 1년 이내인 팀이 대상이며 법인 설립은 필요 없다. 서
+ 류 ~11.8 → 11월 인터뷰 → 최종 발표 12.21 → 2027년 1~6월 
+ 맞춤 인큐베이팅. | https://d2sf.naver.com/ko/story/5
+URL:https://d2sf.naver.com/ko/story/5
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-naver-d2sf-campus-2026-fall-announce-2026-12-21@joon56.github.i
+ o
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:🟣 네이버 D2SF 캠퍼스 기술창업 공모전 (2026 하반
+ 기) — 최종 발표
+DESCRIPTION:네이버 D2SF가 매학기 여는 학생 기술창업팀 선
+ 발 공모전. 핵심 멤버가 대학(원) 재학·휴학생 또는 졸
+ 업 1년 이내인 팀이 대상이며 법인 설립은 필요 없다. 서
+ 류 ~11.8 → 11월 인터뷰 → 최종 발표 12.21 → 2027년 1~6월 
+ 맞춤 인큐베이팅. | https://d2sf.naver.com/ko/story/5
+URL:https://d2sf.naver.com/ko/story/5
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-dongnam-bugbounty-2026-activity_start-2026-09-21@joon56.github.
+ io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:🔵 2026 동남 버그바운티 대회 — 대회 시작 (온라
+ 인 OT 18시)
+DESCRIPTION:과기정통부·부산시·KISA·부산정보산업진흥원 
+ 등 주최\, 파인더갭 운영. 실제 서비스 대상 취약점을 발
+ 굴하는 버그바운티 대회로\, CVE/KVE 보유 현직 연구원의 
+ 무료 실습 교육 포함. 대회 기간 9.21~11.13. | https://linkareer
+ .com/activity/352004
+URL:https://linkareer.com/activity/352004
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-dongnam-bugbounty-2026-apply_end-2026-11-13@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:🔴 2026 동남 버그바운티 대회 — 대회 종료
+DESCRIPTION:과기정통부·부산시·KISA·부산정보산업진흥원 
+ 등 주최\, 파인더갭 운영. 실제 서비스 대상 취약점을 발
+ 굴하는 버그바운티 대회로\, CVE/KVE 보유 현직 연구원의 
+ 무료 실습 교육 포함. 대회 기간 9.21~11.13. | https://linkareer
+ .com/activity/352004
+URL:https://linkareer.com/activity/352004
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-eleccon-2026-apply_start-2026-09-28@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:🟢 2026 ELECCON (에너지 사이버보안 경진대회) — 접
+ 수 시작 (10시)
+DESCRIPTION:한국전력공사·국가정보원 지부·기후에너지환
+ 경부 주최 6회 에너지 사이버보안 대회. 에너지 제어·정
+ 보시스템 대상 가상 사이버공격을 탐지·차단·복구하는
+  공방형. 접수 9.28~10.8 18시 → 온라인 CTF 예선 10.22 (부문
+ 별 상위 8팀) → 결선 11.11~12 한전 본사(나주). | https://k-ct
+ f.org/contests/6ab33df611c4d10a23949148
+URL:https://k-ctf.org/contests/6ab33df611c4d10a23949148
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-eleccon-2026-apply_end-2026-10-08@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:🔴 2026 ELECCON (에너지 사이버보안 경진대회) — 접
+ 수 마감 (18시)
+DESCRIPTION:한국전력공사·국가정보원 지부·기후에너지환
+ 경부 주최 6회 에너지 사이버보안 대회. 에너지 제어·정
+ 보시스템 대상 가상 사이버공격을 탐지·차단·복구하는
+  공방형. 접수 9.28~10.8 18시 → 온라인 CTF 예선 10.22 (부문
+ 별 상위 8팀) → 결선 11.11~12 한전 본사(나주). | https://k-ct
+ f.org/contests/6ab33df611c4d10a23949148
+URL:https://k-ctf.org/contests/6ab33df611c4d10a23949148
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-eleccon-2026-activity_start-2026-10-22@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:🔵 2026 ELECCON (에너지 사이버보안 경진대회) — 온
+ 라인 CTF 예선 (14~17시)
+DESCRIPTION:한국전력공사·국가정보원 지부·기후에너지환
+ 경부 주최 6회 에너지 사이버보안 대회. 에너지 제어·정
+ 보시스템 대상 가상 사이버공격을 탐지·차단·복구하는
+  공방형. 접수 9.28~10.8 18시 → 온라인 CTF 예선 10.22 (부문
+ 별 상위 8팀) → 결선 11.11~12 한전 본사(나주). | https://k-ct
+ f.org/contests/6ab33df611c4d10a23949148
+URL:https://k-ctf.org/contests/6ab33df611c4d10a23949148
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-eleccon-2026-activity_end-2026-11-12@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:⚪ 2026 ELECCON (에너지 사이버보안 경진대회) — 결
+ 선 (11.11~12 한전 본사)
+DESCRIPTION:한국전력공사·국가정보원 지부·기후에너지환
+ 경부 주최 6회 에너지 사이버보안 대회. 에너지 제어·정
+ 보시스템 대상 가상 사이버공격을 탐지·차단·복구하는
+  공방형. 접수 9.28~10.8 18시 → 온라인 CTF 예선 10.22 (부문
+ 별 상위 8팀) → 결선 11.11~12 한전 본사(나주). | https://k-ct
+ f.org/contests/6ab33df611c4d10a23949148
+URL:https://k-ctf.org/contests/6ab33df611c4d10a23949148
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-keit-ai-life-solution-2026-apply_start-2026-09-30@joon56.github
+ .io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:🟢 2026 AI 라이프 솔루션 챌린지 (KEIT) — 접수 시작
+DESCRIPTION:한국산업기술기획평가원(KEIT) 주최. 사회문제를
+  해결하는 AI 기반 솔루션을 제안·구현하는 챌린지로\, 8
+ 월 'AI 라이프 아이디어 챌린지'의 후속 단계지만 신규 
+ 참가도 가능. 접수 9.30~10.31 (이메일)\, 심사는 국민투표 5
+ 0% + 전문가 50%. | https://www.keit.re.kr/board.es?mid=a10301010000&bid
+ =0009&act=view&list_no=128385
+URL:https://www.keit.re.kr/board.es?mid=a10301010000&bid=0009&act=view&list
+ _no=128385
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-keit-ai-life-solution-2026-apply_end-2026-10-31@joon56.github.i
+ o
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:🔴 2026 AI 라이프 솔루션 챌린지 (KEIT) — 접수 마감
+  (이메일)
+DESCRIPTION:한국산업기술기획평가원(KEIT) 주최. 사회문제를
+  해결하는 AI 기반 솔루션을 제안·구현하는 챌린지로\, 8
+ 월 'AI 라이프 아이디어 챌린지'의 후속 단계지만 신규 
+ 참가도 가능. 접수 9.30~10.31 (이메일)\, 심사는 국민투표 5
+ 0% + 전문가 50%. | https://www.keit.re.kr/board.es?mid=a10301010000&bid
+ =0009&act=view&list_no=128385
+URL:https://www.keit.re.kr/board.es?mid=a10301010000&bid=0009&act=view&list
+ _no=128385
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-mois-illegal-ad-detection-2026-apply_start-2026-09-14@joon56.gi
+ thub.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:🟢 공공 웹사이트 불법광고 탐지 도구 개발 공모
+ 전 — 접수 시작
+DESCRIPTION:행정안전부·한국지능정보사회진흥원(NIA) 주최.
+  공공기관 웹사이트에 삽입된 불법광고(도박·스팸 등)
+ 를 자동 탐지하는 도구를 개발한다. 접수 9.14~10.23 18시. |
+  https://www.mois.go.kr/frt/bbs/type013/commonSelectBoardArticle.do?bbsId=
+ BBSMSTR_000000000006&nttId=129458
+URL:https://www.mois.go.kr/frt/bbs/type013/commonSelectBoardArticle.do?bbsI
+ d=BBSMSTR_000000000006&nttId=129458
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-mois-illegal-ad-detection-2026-apply_end-2026-10-23@joon56.gith
+ ub.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:🔴 공공 웹사이트 불법광고 탐지 도구 개발 공모
+ 전 — 접수 마감 (18시)
+DESCRIPTION:행정안전부·한국지능정보사회진흥원(NIA) 주최.
+  공공기관 웹사이트에 삽입된 불법광고(도박·스팸 등)
+ 를 자동 탐지하는 도구를 개발한다. 접수 9.14~10.23 18시. |
+  https://www.mois.go.kr/frt/bbs/type013/commonSelectBoardArticle.do?bbsId=
+ BBSMSTR_000000000006&nttId=129458
+URL:https://www.mois.go.kr/frt/bbs/type013/commonSelectBoardArticle.do?bbsI
+ d=BBSMSTR_000000000006&nttId=129458
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-cursor-hackathon-seoul-4-activity_start-2026-10-24@joon56.githu
+ b.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:🔵 Cursor 해커톤 서울 4회 (AI Builder's Playground) — 해
+ 커톤 (10:30~19:00\, 서울)
+DESCRIPTION:Cursor 한국 커뮤니티가 서울에서 이어 온 실전형
+  AI 빌드 해커톤의 4번째 회차. 10.24(토) 10:30~19:00 서울 (장
+ 소는 승인 후 공개). 세부 내용은 '준비중'. | https://luma.co
+ m/06x2etd7
+URL:https://luma.com/06x2etd7
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-ggdc-2026-activity_start-2026-10-22@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:🔵 GGDC 2026 (글로벌 게임 개발자 컨퍼런스) — 컨퍼
+ 런스 개막 (ACC 광주)
+DESCRIPTION:전남광주통합특별시 주최\, 광주정보문화산업
+ 진흥원 주관. 게임 개발 전문가 세션\, 인디 스타 쇼케이
+ 스(시연)\, 네트워킹 밋업으로 구성. 10.22~23 국립아시아
+ 문화전당(ACC) 광주. | https://ggdc.or.kr/
+URL:https://ggdc.or.kr/
+END:VEVENT
+BEGIN:VEVENT
+UID:itradar-ggdc-2026-activity_end-2026-10-23@joon56.github.io
+DTSTAMP:20261005T090955Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:⚪ GGDC 2026 (글로벌 게임 개발자 컨퍼런스) — 컨퍼
+ 런스 종료
+DESCRIPTION:전남광주통합특별시 주최\, 광주정보문화산업
+ 진흥원 주관. 게임 개발 전문가 세션\, 인디 스타 쇼케이
+ 스(시연)\, 네트워킹 밋업으로 구성. 10.22~23 국립아시아
+ 문화전당(ACC) 광주. | https://ggdc.or.kr/
+URL:https://ggdc.or.kr/
 END:VEVENT
 END:VCALENDAR
