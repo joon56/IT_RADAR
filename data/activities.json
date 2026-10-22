@@ -1,7 +1,142 @@
 {
-  "updated": "2026-10-05",
-  "note": "Refresh 2026-10-05 (14-day gap): 17 new activities incl. Kaggle Gemma 4 Developer Agent ($100K with paper track), Google DeepMind AI Hackathon Seoul (apply by Oct 9), Work24 AI hackathon, KoMaP AI, KIC AI agent contest, DACON port AI, POSTECH OIBC, NAVER D2SF campus startup call, ELECCON and Dongnam bug bounty; corrections: NeurIPS Predictive Eval due Oct 30 (was Nov 20), SimulacraBench final phase Nov 14-18, QuantiPhy team registration Oct 9 and final Oct 23 (was Nov 5), AIMO interp Nov 1, BigContest registration closes Oct 8, SoftWave visitor pre-registration not open, FEConf at Lotte Tower 31F, Busan AI startup URL; WOOWACON (Oct 28, apply by Oct 13), COMEUP and NVIDIA AI Days registration opened; the Sep 21-Oct 2 deadline wave closed and 10 events ended; HumanTech 33rd sign-up window appears to have opened and closed in September; woowacourse 9 and whitehat still unannounced.",
+  "updated": "2026-10-22",
+  "note": "Refresh 2026-10-22 (17-day gap): 13 new activities incl. KISA AI Hacking Defense Contest (ACDC, apply by Oct 26 2pm), PQC migration challenge, SKT FLY AI Challenger 10, Hyundai Pleos in-vehicle app contest (51M KRW), c0mpiled-17 Seoul (YC office hours), onboard mobility hackathon, Kaggle Name That LLM ($50K), CVPR 2027 and Apple Developer Academy 2027; Softeer 9 (to Nov 3), SSAFY 17 (Oct 26-Nov 9), YAPP 29 (to Oct 25) and PyTorch Day Korea registration opened; corrections: Depromeet 19 already recruited (Oct 2-8), Cursor Hackathon #4 no longer supported, KSC2026 extended to Oct 26, ICPC prelim was a single day, MapleStory finalists moved to Oct 27, QuantiPhy and KISTI deadlines have conflicting sources; security: aibigdatasec.kr now serves casino spam - link replaced; 16 October events ended; woowacourse 9 and whitehat still unannounced.",
   "changelog": [
+    {
+      "date": "2026-10-22",
+      "changes": [
+        {
+          "id": "kisa-aisec-2026",
+          "note": "보안 주의: aibigdatasec.kr 도메인이 카지노 스팸으로 바뀌어 링크 교체 · ACDC 2026 별도 등록",
+          "note_en": "Security notice: aibigdatasec.kr now serves casino spam, link replaced; ACDC 2026 listed separately"
+        },
+        {
+          "id": "cursor-hackathon-seoul-4",
+          "note": "정정: Cursor 해커톤 서울 4회(10.24) 근거 소멸 — 루마 페이지가 다른 행사로 교체",
+          "note_en": "Correction: Cursor Hackathon Seoul #4 (Oct 24) no longer supported - the Luma page now hosts a different event"
+        },
+        {
+          "id": "depromeet-19",
+          "note": "정정: 디프만 19기 이미 모집 종료 (10.2~10.8, 최종 10.22) — 기존 '내년 1~2월' 예상 오류",
+          "note_en": "Correction: Depromeet 19th already recruited (Oct 2-8, final Oct 22) - the 'Jan-Feb next year' estimate was wrong"
+        },
+        {
+          "id": "ksc-2026",
+          "note": "KSC2026 논문 접수 10.26으로 연장",
+          "note_en": "KSC2026 paper deadline extended to Oct 26"
+        },
+        {
+          "id": "neurips-quantiphy-2026",
+          "note": "QuantiPhy 마감 출처 충돌 (10.23 vs 11.5) — 공홈 접속 불가, 10.23 기준 유지",
+          "note_en": "QuantiPhy deadline sources conflict (Oct 23 vs Nov 5) - site unreachable, keeping Oct 23"
+        },
+        {
+          "id": "icpc-korea-2026",
+          "note": "ICPC 예선 일정 정정 (10.17 하루) · 본선 진출 발표 대기",
+          "note_en": "ICPC prelim corrected to a single day (Oct 17); finalists pending"
+        },
+        {
+          "id": "maplestory-worlds-contest-2026",
+          "note": "메이플월드 콘테스트 결선 발표 10.27로 앞당겨짐",
+          "note_en": "MapleStory Worlds contest finalists moved up to Oct 27"
+        },
+        {
+          "id": "softeer-9",
+          "note": "소프티어 부트캠프 9기 모집 (10.19~11.3)",
+          "note_en": "Softeer Bootcamp 9th cohort recruiting (Oct 19-Nov 3)"
+        },
+        {
+          "id": "ssafy-17",
+          "note": "SSAFY 17기 모집 공고 (10.26~11.9) · AI 애플리케이션·피지컬 AI 트랙 신설",
+          "note_en": "SSAFY 17th cohort announced (Oct 26-Nov 9); new AI-applications and physical-AI tracks"
+        },
+        {
+          "id": "yapp-29",
+          "note": "YAPP 29기 모집 (10.16~10.25)",
+          "note_en": "YAPP 29th cohort recruiting (Oct 16-25)"
+        },
+        {
+          "id": "pytorch-day-korea-2026",
+          "note": "PyTorch Day Korea 참가 등록 오픈 (~11.16, 3만 원)",
+          "note_en": "PyTorch Day Korea registration open (to Nov 16, 30,000 KRW)"
+        },
+        {
+          "id": "slw-2026",
+          "note": "10월 행사·대회 16건 종료 (SLW·AI FESTA·KES·if(kakao)·경남 AI·SW·DeepMind 해커톤·Shipaton 등)",
+          "note_en": "16 October events and contests ended (SLW, AI FESTA, KES, if(kakao), Gyeongnam AI-SW, DeepMind hackathon, Shipaton and others)"
+        },
+        {
+          "id": "bigcontest-2026",
+          "note": "빅콘테스트·ELECCON·경산 SW·영남권 사이버·우아콘·고용24·KoMaP 등 접수 종료",
+          "note_en": "BigContest, ELECCON, Gyeongsan SW, Yeongnam cyber, WOOWACON, Work24, KoMaP and others closed"
+        },
+        {
+          "id": "kisa-acdc-2026",
+          "note": "신규: 2026 AI 해킹방어대회 (ACDC)",
+          "note_en": "New: 2026 AI Hacking Defense Contest (ACDC)"
+        },
+        {
+          "id": "pqc-challenge-2026",
+          "note": "신규: 2026 양자내성암호 전환 경진대회·해커톤",
+          "note_en": "New: 2026 Post-Quantum Cryptography Migration Challenge & Hackathon"
+        },
+        {
+          "id": "skt-fly-ai-10",
+          "note": "신규: SK텔레콤 FLY AI Challenger 10기",
+          "note_en": "New: SK Telecom FLY AI Challenger (10th cohort)"
+        },
+        {
+          "id": "hyundai-pleos-app-contest-2026",
+          "note": "신규: 현대자동차그룹 차량용 앱 개발 공모전 (Pleos App Market)",
+          "note_en": "New: Hyundai Motor Group In-Vehicle App Development Contest (Pleos App Market)"
+        },
+        {
+          "id": "compiled-17-seoul-2026",
+          "note": "신규: c0mpiled-17: Seoul (YC RFS 해커톤)",
+          "note_en": "New: c0mpiled-17: Seoul (YC RFS Hackathon)"
+        },
+        {
+          "id": "aimobilhack-2026",
+          "note": "신규: 2026 동남권 멀티도메인 모빌리티 비즈니스 해커톤 (선상)",
+          "note_en": "New: 2026 Southeast Multi-Domain Mobility Business Hackathon (onboard)"
+        },
+        {
+          "id": "seoul-ai-digital-youth-hackathon-2026",
+          "note": "신규: 2026 서울 AI 디지털 배움터 청년 해커톤",
+          "note_en": "New: 2026 Seoul AI Digital Learning Center Youth Hackathon"
+        },
+        {
+          "id": "apple-dev-academy-postech-2027",
+          "note": "신규: Apple 디벨로퍼 아카데미 @ POSTECH 2027 코호트",
+          "note_en": "New: Apple Developer Academy @ POSTECH - 2027 Cohort"
+        },
+        {
+          "id": "kaggle-name-that-llm-2026",
+          "note": "신규: Kaggle Name That LLM — 텍스트 작성 모델 판별",
+          "note_en": "New: Kaggle Name That LLM - Identify the Model Behind the Text"
+        },
+        {
+          "id": "kaggle-misconception-k12-2026",
+          "note": "신규: Kaggle Misconception Detection in K-12 Student Workings",
+          "note_en": "New: Misconception Detection in K-12 Student Workings (Kaggle)"
+        },
+        {
+          "id": "cvpr-2027",
+          "note": "신규: CVPR 2027 논문 제출",
+          "note_en": "New: CVPR 2027 Paper Submission"
+        },
+        {
+          "id": "daegu-climate-data-ai-2026",
+          "note": "신규: 2026 대구 기후·환경·탄소중립 공공데이터 AI 활용대회",
+          "note_en": "New: 2026 Daegu Climate & Carbon-Neutrality Public Data AI Contest"
+        },
+        {
+          "id": "kotsa-security-holes-8",
+          "note": "신규: 제8회 TS 보안 허점을 찾아라 공모전",
+          "note_en": "New: 8th 'Find the TS Security Holes' Contest"
+        }
+      ]
+    },
     {
       "date": "2026-10-05",
       "changes": [
@@ -1914,7 +2049,7 @@
           "url": "https://www.oss.kr"
         }
       ],
-      "checked": "2026-09-20",
+      "checked": "2026-10-22",
       "schedule_note": "1차 평가(서면) 9.3~4 완료 · 1차 통과팀 멘토링 9.18~10.9 예정대로 시작 · 2차 평가·발표심사 10.12~10.28 (기능테스트·라이선스 검증 포함) · 결선 11.4 · 시상 12.4 · 1차 통과팀 개별 명단은 미공개",
       "schedule_note_en": "First (document) review completed Sep 3-4; mentoring for qualifying teams started on schedule Sep 18-Oct 9; second review and presentations Oct 12-28 (including functional testing and license verification); finals Nov 4; awards Dec 4; the list of qualifying teams is not public"
     },
@@ -1971,7 +2106,7 @@
           "item_en": "Learn Firebase/GCP"
         }
       ],
-      "checked": "2026-08-07"
+      "checked": "2026-10-22"
     },
     {
       "id": "oss-contribution-academy",
@@ -2077,7 +2212,7 @@
         }
       ],
       "added": "2026-07-13",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "kaggle-platform",
@@ -2201,7 +2336,7 @@
           "item_en": "Submit for Milestone #2 (by Sep 30)"
         }
       ],
-      "checked": "2026-10-05",
+      "checked": "2026-10-22",
       "schedule_note": "ARC-AGI-3 마일스톤 #2 9.30 마감 (결과 미발표, 10.5) · Entry 마감 10.26 (보조 출처 기준 — 공홈 미기재) · 제출 마감 11.2 · 논문 11.8 · 결과 12.4 · 총상금 $850K",
       "schedule_note_en": "ARC-AGI-3 Milestone #2 closed Sep 30 (results not yet out, Oct 5); entry deadline Oct 26 (from a secondary listing - not on the official page); submissions Nov 2; papers Nov 8; results Dec 4; $850K total"
     },
@@ -2332,7 +2467,7 @@
       "schedule_note_en": "No standalone edition (rechecked Oct 5) - the AI track ran inside SCPC (prelims Jun 19-Jul 28, finals Aug 22)",
       "events": [],
       "added": "2026-07-13",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "lg-aimers-9",
@@ -2472,7 +2607,7 @@
           "item_en": "Submit prelim entry (by Aug 7)"
         }
       ],
-      "checked": "2026-10-05",
+      "checked": "2026-10-22",
       "schedule_note": "본선 개발 9.7~10.2 종료 (최종 결과물 제출 10.2) · 전문가 본선 평가 10.6~30 · 최종 결과 11.6(예정) · 시상식 11.26~27(예정) · 본선 15팀",
       "schedule_note_en": "Finals build Sep 7-Oct 2 complete (final deliverables Oct 2); expert evaluation Oct 6-30; final results Nov 6 (planned); awards Nov 26-27 (planned); 15 finalist teams"
     },
@@ -2503,7 +2638,7 @@
       "schedule_note_en": "Structure confirmed: prelims Apr-May (100 teams), main round Aug (40 teams), semifinal Nov (10 teams), final Nov, awards Dec. Main-round results not public. Side tracks: AI quiz and AI poster contests",
       "events": [],
       "added": "2026-07-13",
-      "checked": "2026-09-07"
+      "checked": "2026-10-22"
     },
     {
       "id": "neurips-2026-competitions",
@@ -2547,7 +2682,7 @@
         }
       ],
       "added": "2026-07-13",
-      "checked": "2026-10-05",
+      "checked": "2026-10-22",
       "links": [
         {
           "title": "16개 대회 발표 (공식 블로그)",
@@ -2882,12 +3017,6 @@
       "tip_en": "Registration is closed (Sep 22). Registered teams should read the prelim rules posted Oct 4; if you missed it, line up a coach registration by late August next year.",
       "events": [
         {
-          "type": "activity_start",
-          "date": "2026-10-16",
-          "label": "예선 시작",
-          "label_en": "Prelims start"
-        },
-        {
           "type": "activity_end",
           "date": "2026-10-17",
           "label": "예선 종료",
@@ -2910,6 +3039,18 @@
           "date": "2026-09-22",
           "label": "예선 팀 등록 마감",
           "label_en": "Prelim team registration closed"
+        },
+        {
+          "type": "partial_deadline",
+          "date": "2026-10-16",
+          "label": "예비소집 (18시)",
+          "label_en": "Pre-contest check-in (6pm)"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-10-17",
+          "label": "인터넷 예선 (14시)",
+          "label_en": "Online prelim (2pm)"
         }
       ],
       "added": "2026-07-13",
@@ -2931,9 +3072,9 @@
           "item_en": "Register team (Aug-Sep)"
         }
       ],
-      "checked": "2026-10-05",
-      "schedule_note": "예선 팀 등록 9.22 마감 (공홈 9.6 공지 '예선 등록 안내 (마감: 9/22)' — 이번 조사에서 확인) · 인터넷 예선 10.16(금)~17(토), 세부 일정·규칙 공지 10.4 게시 · 서울 본선 11.13~14 KINTEX",
-      "schedule_note_en": "Prelim team registration closed Sep 22 (per the Sep 6 notice 'Prelim registration (deadline 9/22)', found this round); online prelims Oct 16 (Fri)-17 (Sat), with the detailed schedule and rules posted Oct 4; Seoul regional Nov 13-14 at KINTEX"
+      "checked": "2026-10-22",
+      "schedule_note": "정정: 예선은 하루 — 10.16(금) 18시 예비소집, 10.17(토) 14시 인터넷 예선 (이틀 표기 오류) · 문제지·프리즈 스코어보드 10.19 공개 · 해외팀 등록 공지 10.20 · 본선 진출팀 발표 대기 · 서울 본선 11.13~14 KINTEX",
+      "schedule_note_en": "Correction: the prelim is a single day - check-in Oct 16 (Fri) 6pm and the online prelim Oct 17 (Sat) 2pm (the two-day listing was wrong); problem set and frozen scoreboard posted Oct 19; foreign-team registration notice Oct 20; finalists not yet announced; Seoul regional Nov 13-14 at KINTEX"
     },
     {
       "id": "scpc-2026",
@@ -3030,7 +3171,7 @@
       "schedule_note_en": "Still no official schedule (rechecked Oct 5; 2025 opened registration Oct 3); whether it runs is unclear",
       "events": [],
       "added": "2026-07-13",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "kt-aivle-10",
@@ -3141,11 +3282,24 @@
       "prize_en": "Free · 1M KRW monthly stipend · 85% employment rate",
       "description": "삼성전자 운영. 12개월(기본6+심화6), 전국 5개 캠퍼스. AI 커리큘럼 강화(SSAFY 2.0).",
       "description_en": "Run by Samsung Electronics. 12 months (6 basic + 6 advanced), 5 campuses nationwide. Strengthened AI curriculum (SSAFY 2.0).",
-      "tip": "10~11월 모집 예상. PS(코딩테스트) + 자소서 지금부터 준비. 비전공자 Java반 별도.",
-      "tip_en": "Recruiting expected Oct-Nov. Prepare coding tests and essays now. Separate Java track for non-majors.",
-      "schedule_note": "17기 미공고 (10.5 재확인 — 모집안내 페이지는 15기 내용 유지, 최근 공지 9.29 개인정보처리방침·9.1 수기 공모전) · 예년 패턴 10월 말 접수 (16기: 4.27~5.11)",
-      "schedule_note_en": "17th not announced (rechecked Oct 5 - the recruiting page still shows 15th content; latest notices are a Sep 29 privacy-policy change and a Sep 1 essay contest); past pattern late October (16th: Apr 27-May 11)",
-      "events": [],
+      "tip": "10.26 접수 시작 — SW 적성진단(수리·추리·CT)이 1차 관문이니 기출 유형부터. 신설 AI 애플리케이션 트랙은 LLM 서비스 경험이 있으면 유리.",
+      "tip_en": "Applications open Oct 26. The SW aptitude test (math, reasoning, computational thinking) is the first gate, so start with past question types. The new AI-applications track favors anyone with LLM-service experience.",
+      "schedule_note": "17기 모집 10.26~11.9 (삼성 뉴스룸) · 교육 2027년 1월부터 1년, 5개 캠퍼스, 월 100만 원 · 신설 트랙: AI 애플리케이션 / 피지컬 AI · 적성진단·면접 일정 미공개",
+      "schedule_note_en": "17th cohort applications Oct 26-Nov 9 (Samsung Newsroom); one year of training from January 2027 on five campuses, 1M KRW a month; new tracks: AI applications and physical AI; aptitude-test and interview dates not yet published",
+      "events": [
+        {
+          "type": "apply_start",
+          "date": "2026-10-26",
+          "label": "모집 시작",
+          "label_en": "Applications open"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-11-09",
+          "label": "모집 마감",
+          "label_en": "Application deadline"
+        }
+      ],
       "added": "2026-07-13",
       "checklist": [
         {
@@ -3165,14 +3319,14 @@
           "item_en": "Prepare interview (personality + PT)"
         }
       ],
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "softeer-9",
       "name": "현대차 소프티어 부트캠프 9기",
       "name_en": "Hyundai Softeer Bootcamp (9th)",
       "category": "부트캠프",
-      "status": "upcoming",
+      "status": "applying",
       "tags": [
         "무료",
         "채용연계",
@@ -3190,11 +3344,48 @@
       "prize_en": "Free · final interview at Hyundai/Kia after completion",
       "description": "현대차·기아 공동 운영, 8주(이론 4+프로젝트 4). 2026년 AI 퍼스트로 개편. 수료 후 최종 면접 → 입사.",
       "description_en": "Run by Hyundai and Kia. 8 weeks (4 theory + 4 project). Reorganized AI-first in 2026. Completion leads to a final interview and hiring.",
-      "tip": "React·Spring Boot 사전 학습 필수. 모빌리티 SW 관심자 최고 경로.",
-      "tip_en": "Learn React and Spring Boot beforehand. Best path for mobility software.",
-      "schedule_note": "9기 미공고 (10.5 재확인 — 공홈은 8기 4.22~5.11) · 예년 패턴 10~11월",
-      "schedule_note_en": "9th not announced (rechecked Oct 5 - site still shows the 8th, Apr 22-May 11); past pattern Oct-Nov",
-      "events": [],
+      "tip": "모집 중 (~11.3). 겨울방학 8주 집중형이고 현대차그룹 채용 연계 — 온라인 평가(11.10)는 코딩테스트이니 지금부터 PS 감각 회복.",
+      "tip_en": "Open to Nov 3. An 8-week winter intensive tied to Hyundai Motor Group hiring - the Nov 10 online assessment is a coding test, so get your problem-solving back in shape now.",
+      "schedule_note": "9기 모집 10.19~11.3 · 서류 합격 11.6 · 온라인 평가 11.10 · 최종 12.17 · 교육 12.28~2027.2.26 (8주) · 분야: 백엔드 / 데이터 엔지니어링·아키텍트 / 서비스 기획 · 2026.8~2027.8 졸업(예정)자",
+      "schedule_note_en": "9th cohort applications Oct 19-Nov 3; document results Nov 6; online assessment Nov 10; final Dec 17; training Dec 28-Feb 26 2027 (8 weeks); tracks: backend, data engineering/architecture, service planning; for graduates between Aug 2026 and Aug 2027",
+      "events": [
+        {
+          "type": "apply_start",
+          "date": "2026-10-19",
+          "label": "모집 시작",
+          "label_en": "Applications open"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-11-03",
+          "label": "모집 마감",
+          "label_en": "Application deadline"
+        },
+        {
+          "type": "announce",
+          "date": "2026-11-06",
+          "label": "서류 합격 발표",
+          "label_en": "Document results"
+        },
+        {
+          "type": "partial_deadline",
+          "date": "2026-11-10",
+          "label": "온라인 평가",
+          "label_en": "Online assessment"
+        },
+        {
+          "type": "announce",
+          "date": "2026-12-17",
+          "label": "최종 합격",
+          "label_en": "Final acceptance"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-12-28",
+          "label": "교육 시작 (~2027.2.26, 8주)",
+          "label_en": "Training starts (to Feb 26 2027, 8 weeks)"
+        }
+      ],
       "added": "2026-07-13",
       "checklist": [
         {
@@ -3214,7 +3405,7 @@
           "item_en": "Polish portfolio"
         }
       ],
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "boostcamp-11",
@@ -3312,7 +3503,7 @@
           "item_en": "Confirm 5-month residential availability (Yongin)"
         }
       ],
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "woowacourse-9",
@@ -3339,8 +3530,8 @@
       "description_en": "Run by Woowa Brothers. Backend/frontend/Android, 10 months. Centered on pair programming and code review.",
       "tip": "프리코스(5주) 통과 후 선발. 9~10월 모집 예상 — Java/JS 기본기 지금 다질 것.",
       "tip_en": "Selection after a 5-week precourse. Recruiting expected Sep-Oct; solidify Java/JS basics now.",
-      "schedule_note": "9기(2027 신입생) 미공고 (10.5 재확인 — /apply는 8기 일정만) · 8기 기준이면 9월 말 서류 접수였으나 2주 이상 지연 — 모집 방식 변경 가능성",
-      "schedule_note_en": "9th (2027 intake) not announced (rechecked Oct 5 - /apply shows only the 8th); on the 8th's timing applications would have opened in late September, so this is more than two weeks late - the format may have changed",
+      "schedule_note": "9기(2027 신입생) 공식 일정 미확인 (10.22) — 홈 화면에 '9기 모집' 문구가 렌더링된다는 보고가 있으나 HTML에서 확인 불가, /apply는 8기 마감 표시 유지 · 공홈 직접 확인 권장",
+      "schedule_note_en": "9th (2027 intake) official schedule unconfirmed (Oct 22) - one report says the home page renders '9th recruiting', but it could not be confirmed in the HTML, and /apply still shows the closed 8th; check the site directly",
       "events": [],
       "added": "2026-07-13",
       "checklist": [
@@ -3361,7 +3552,7 @@
           "item_en": "Prepare for the final coding test"
         }
       ],
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "42seoul",
@@ -3437,7 +3628,7 @@
       "schedule_note_en": "No nationwide 2026-27 call (Oct 5); chapters recruit individually",
       "events": [],
       "added": "2026-07-13",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "likelion",
@@ -3468,7 +3659,7 @@
       "schedule_note_en": "No recruiting notice (Oct 5); main intake early in the year",
       "events": [],
       "added": "2026-07-13",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "gdg-korea",
@@ -3620,7 +3811,7 @@
         }
       ],
       "added": "2026-07-25",
-      "checked": "2026-09-20",
+      "checked": "2026-10-22",
       "schedule_note": "접수 종료 (9.3 · 구글폼 9.4 14시까지) · 자유공모 부문 예선 심사 9.7~9.25 · 공홈 상단 고정 공지 '결선 발표 심사 장소·일정 안내(+양식)' 게시 — 예선 결과 발표일은 게시판 텍스트로 확인 불가 (9.20) · 결선 11.6 · 시상 12.11",
       "schedule_note_en": "Applications closed Sep 3 (Google Form until Sep 4 2pm); open-track prelim review Sep 7-25; the site's pinned notice is 'finals presentation venue & schedule (+forms)' - the prelim results date is not readable as text (Sep 20); finals Nov 6; awards Dec 11"
     },
@@ -3629,7 +3820,7 @@
       "name": "메이플스토리 월드 글로벌 개발 콘테스트",
       "name_en": "MapleStory Worlds Global Dev Contest",
       "category": "SW·웹 개발",
-      "status": "applying",
+      "status": "ongoing_closed",
       "tags": [
         "게임개발",
         "넥슨",
@@ -3657,29 +3848,29 @@
           "label_en": "Application deadline"
         },
         {
-          "type": "announce",
-          "date": "2026-11-05",
-          "label": "파이널리스트 발표",
-          "label_en": "Finalists announced"
-        },
-        {
           "type": "activity_end",
           "date": "2026-11-25",
           "label": "파이널 라운드 종료",
           "label_en": "Final round ends"
+        },
+        {
+          "type": "announce",
+          "date": "2026-10-27",
+          "label": "결선 30팀 발표·본선 시작 (11시)",
+          "label_en": "30 finalists announced & finals begin (11am)"
         }
       ],
       "added": "2026-07-25",
-      "checked": "2026-10-05",
-      "schedule_note": "제출 마감 10.7 11:00 KST (02:00 UTC) — 이후 1차 심사 · 결선 30개 월드 발표·본선 시작 11.5 · 본선 종료 11.25 · 수상 12월 초 · 만 14세 이상 (북미·유럽 등 일부 지역 18세)",
-      "schedule_note_en": "Submissions close Oct 7 11:00 KST (02:00 UTC), then first-round judging; 30 finalist worlds announced and the main round starts Nov 5; main round ends Nov 25; winners early December; age 14+ (18+ in some regions including North America and Europe)"
+      "checked": "2026-10-22",
+      "schedule_note": "제출 10.7 11시 종료 · 결선 발표·본선 시작이 11.5 → 10.27 11시로 앞당겨짐 (공홈 업데이트) · 본선 ~11.25 · 최종 수상 7팀 12월 초",
+      "schedule_note_en": "Submissions closed Oct 7 11am; the finalist announcement and finals start moved up from Nov 5 to Oct 27 11am (site update); finals to Nov 25; 7 winners in early December"
     },
     {
       "id": "bigcontest-2026",
       "name": "2026 빅콘테스트 (제14회)",
       "name_en": "BigContest 2026 (14th)",
       "category": "AI/ML 국내",
-      "status": "applying",
+      "status": "ongoing_closed",
       "tags": [
         "빅데이터",
         "AI",
@@ -3697,8 +3888,8 @@
       "description_en": "Korea's flagship AI/data contest, 14th edition, now under MSIT's unified 'Data+AI Innovation Challenge' brand. Sep-Dec period posted; recruitment TBA.",
       "tip": "참가신청이 10.8에 먼저 닫힌다 — 신청해야 데이터를 받으니 결과물을 못 내더라도 일단 등록. 'AI데이터활용' 트랙은 에이전트 구현 과제라 LLM 포트폴리오로 직결.",
       "tip_en": "Registration closes first, on Oct 8, and only registrants get the data - so register now even if you are unsure you will submit. The 'AI data utilization' track is an agent-building task that maps onto an LLM portfolio.",
-      "schedule_note": "정정 (공홈 10.5 확인): 참가신청(구글폼) ~10.8(목) — 결과물 제출 ~10.26(월, bigcontest@kait.or.kr)과 별개, 데이터셋은 참가 신청자에게만 제공 · 트랙 2: AI데이터분석 '기후 위기 취약 상권 영향 분석' / AI데이터활용 '사회적 고립 예방·대응 AI 에이전트' · 팀 최대 4명 · 서류심사 11.5~9 · 발표심사 11.18~20 · 수상 발표 11.27",
-      "schedule_note_en": "Correction (site checked Oct 5): registration via Google Form closes Oct 8 (Thu) - separate from the results deadline of Oct 26 (Mon, by email to bigcontest@kait.or.kr); datasets go only to registered teams; two tracks: AI data analysis on climate-vulnerable commercial districts, and AI data utilization building social-isolation prevention agents; teams up to 4; document review Nov 5-9; presentations Nov 18-20; winners Nov 27",
+      "schedule_note": "참가신청 10.8 종료 · 결과물 제출 10.26(월) 23:59 · 1차 서류 11.5~9 · 2차 PT 11.18~20 · 수상팀 발표 11.27 · 시상식 12월",
+      "schedule_note_en": "Registration closed Oct 8; results due Oct 26 (Mon) 11:59pm; document review Nov 5-9; presentations Nov 18-20; winners Nov 27; awards in December",
       "events": [
         {
           "type": "apply_start",
@@ -3723,10 +3914,16 @@
           "date": "2026-10-26",
           "label": "결과물 제출 마감 (이메일)",
           "label_en": "Results submission deadline (email)"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-11-18",
+          "label": "2차 PT 발표심사 (11.18~20)",
+          "label_en": "Second-round presentations (Nov 18-20)"
         }
       ],
       "added": "2026-07-25",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "maicon-2026",
@@ -3751,8 +3948,8 @@
       "description_en": "Defense AI contest with a public track open to everyone. Official site says the 2026 edition is in preparation.",
       "tip": "접수 종료. 예선(10.10)은 온라인 데이터사이언스 시험 — 개인 상위 50명만 본선이라 DACON 정형 데이터 문제로 감 잡아둘 것.",
       "tip_en": "Applications are closed. The Oct 10 prelim is an online data-science test and only the top 50 individuals advance, so warm up on DACON tabular problems.",
-      "schedule_note": "접수 종료 (9.1~9.30 23:59, '참가 신청이 마감되었습니다') · 예선 10.10 (온라인 데이터사이언스 시험, 개인 상위 50명 본선) · 본선 11.18~20 오프라인 2박3일",
-      "schedule_note_en": "Applications closed (Sep 1-Sep 30 11:59pm; 'registration closed'); prelim Oct 10 (online data-science test; top 50 individuals advance); finals Nov 18-20 offline over three days",
+      "schedule_note": "예선 10.10 온라인 데이터사이언스 시험 진행 · 상위 50명 → 5인 혼성 10팀 · 본선 11.18~20 오프라인 2박3일 · 본선 진출자 발표 일자 미공지",
+      "schedule_note_en": "Online data-science prelim held Oct 10; top 50 individuals form 10 mixed teams of 5; offline finals Nov 18-20 over three days; finalist announcement date not published",
       "events": [
         {
           "type": "apply_start",
@@ -3765,10 +3962,16 @@
           "date": "2026-09-30",
           "label": "참가 접수 마감",
           "label_en": "Application deadline"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-11-18",
+          "label": "본선 (11.18~20, 오프라인)",
+          "label_en": "Finals (Nov 18-20, offline)"
         }
       ],
       "added": "2026-07-25",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "fiesta-2026",
@@ -3795,8 +3998,8 @@
       "description_en": "Hosted by the Financial Security Institute (backed by the FSC). The threat-analysis-focused FIESTA was reorganized into a practical contest testing AI use and hands-on defense. Prelims Sep 5, finals Oct 3, both online (9am-6pm); awards at FISCON 2026 (Nov). Eligibility: employees of FSI member institutions, e-finance firms and e-finance providers (teams up to 4) - not open to individual students.",
       "tip": "본선 종료(10.3). 시상은 11월 FISCON — 내년 대비 금융보안원 AI 보안 가이드라인을 미리 볼 것.",
       "tip_en": "Finals were Oct 3. Awards are at FISCON in November - for next year, read FSI's AI security guidelines in advance.",
-      "schedule_note": "본선 10.3 온라인 (일정 기준 진행 — 개최 후 보도 미확인) · 시상 FISCON 2026 (11월) · 대상 1,200만·최우수 600만·우수 400만·장려 200만·노력 100만",
-      "schedule_note_en": "Finals Oct 3 online (held per schedule; no post-event coverage found); awards at FISCON 2026 (November); grand 12M, 6M, 4M, 2M, 1M KRW",
+      "schedule_note": "본선 10.3 온라인 진행 · 시상 FISCON 2026 11.12(목) 10~17시 콘래드 서울 (사전등록 10.12~10.31) · 대상 1,200만",
+      "schedule_note_en": "Finals held Oct 3 online; awards at FISCON 2026 on Nov 12 (Thu) 10am-5pm, Conrad Seoul (pre-registration Oct 12-31); grand prize 12M KRW",
       "events": [
         {
           "type": "apply_start",
@@ -3821,10 +4024,16 @@
           "date": "2026-10-03",
           "label": "본선 (온라인)",
           "label_en": "Final round (online)"
+        },
+        {
+          "type": "announce",
+          "date": "2026-11-12",
+          "label": "시상 (FISCON 2026, 콘래드 서울)",
+          "label_en": "Awards (FISCON 2026, Conrad Seoul)"
         }
       ],
       "added": "2026-07-25",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "whitehat-contest-2026",
@@ -3855,7 +4064,7 @@
       "schedule_note_en": "No 2026 call (rechecked Oct 5); whitehatcontest.com DNS fails and whitehatconference.com is now a parked domain; 2025 opened Sep 22 - two weeks late, so whether it runs is unclear",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "kisa-aisec-2026",
@@ -3875,18 +4084,18 @@
         "KISA",
         "minister-award"
       ],
-      "url": "https://aibigdatasec.kr",
+      "url": "https://www.kisa.or.kr",
       "prize": "과기정통부 장관상 2팀 · KISA 원장상 7팀 + 상금 (예년)",
       "prize_en": "2 MSIT Minister's Awards, 7 KISA President's Awards + prizes (past years)",
       "description": "KISA·과기정통부 연례 대회. 악성코드·네트워크 공격 AI 분류 트랙. 개인 또는 4인 이내 팀.",
       "description_en": "Annual KISA/MSIT contest: AI classification of malware and network attacks. Solo or teams up to 4.",
-      "tip": "보안 × AI 교차 포트폴리오로 희소성 높음. 9월 공고 주시.",
-      "tip_en": "Rare security-times-AI portfolio value. Watch for the September notice.",
-      "schedule_note": "2026 공고 없음 (10.5 재확인) · aibigdatasec.kr 빈 페이지 · 별도로 KISA 'AI 해킹방어대회(ACDC)' 2025년은 9월 말 공고 — 2026 미공고",
-      "schedule_note_en": "No 2026 call (rechecked Oct 5); aibigdatasec.kr is blank; KISA's separate 'AI ACDC' hacking-defense contest opened in late September in 2025 but has no 2026 call yet",
+      "tip": "올해는 같은 KISA의 AI 해킹방어대회(ACDC)가 대체 창구 — 그쪽 항목을 볼 것. 옛 공홈 주소(aibigdatasec.kr)는 스팸 사이트로 바뀌었으니 접속하지 말 것.",
+      "tip_en": "This year KISA's AI Hacking Defense Contest (ACDC) is the outlet - see that entry. The old site address (aibigdatasec.kr) is now a spam site, so do not visit it.",
+      "schedule_note": "2026 사이버보안 AI·빅데이터 챌린지 공고 없음 (10.22) · 주의: 기존 공홈 도메인(aibigdatasec.kr)이 온라인 카지노 스팸 사이트로 바뀌어 링크를 KISA 본 사이트로 교체 · 같은 KISA 주관 'AI 해킹방어대회(ACDC) 2026'은 별도 항목으로 등록 (접수 ~10.26 14시)",
+      "schedule_note_en": "No 2026 AI & Big Data Security Challenge call (Oct 22); warning: the old official domain (aibigdatasec.kr) now serves online-casino spam, so the link was switched to KISA's main site; KISA's separate 'AI Hacking Defense Contest (ACDC) 2026' is now its own entry (applications to Oct 26 2pm)",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "junction-asia-2026",
@@ -3965,7 +4174,7 @@
       "schedule_note_en": "No 13th call (rechecked Oct 5)",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "jeonbuk-ai-bigdata-4",
@@ -4001,7 +4210,7 @@
         }
       ],
       "added": "2026-07-25",
-      "checked": "2026-09-14",
+      "checked": "2026-10-22",
       "schedule_note": "접수 종료 (8.28 17시, 연장 없음) · 본선·시상 일정 공고 미공개 (9.14 재확인)",
       "schedule_note_en": "Applications closed Aug 28 5pm (no extension); finals/awards schedule still unpublished (rechecked Sep 14)"
     },
@@ -4030,8 +4239,8 @@
       "description_en": "LG AI Research's training + hackathon program, run twice a year. For unemployed youth aged 19-29.",
       "tip": "지원 12.5~12.22 예정 (공고 시 재확인). 9기 결선 경쟁률 34:1 — 온라인 해커톤 순위가 관건이니 DACON 정형 데이터 대회로 미리 연습.",
       "tip_en": "Applications expected Dec 5-22 (recheck when posted). The 9th cohort's finals were 34:1 and the online hackathon ranking decides advancement, so practice on DACON tabular competitions.",
-      "schedule_note": "10기 지원 12.5~12.22 18시 · 참가자 발표 12.26 (8.21 공홈 확인분) — 10.5 현재 공홈 메인은 직전 기수 일정만 표시, 10기 일정은 다시 확인되지 않음 · 공고 시 재확인",
-      "schedule_note_en": "10th cohort applications Dec 5-Dec 22 6pm, participants announced Dec 26 (per the site on Aug 21) - as of Oct 5 the home page shows only the previous cycle, so the 10th-cohort dates could not be re-confirmed; recheck when the call opens",
+      "schedule_note": "공홈 일정 섹션에 기수 표기 없이 '지원서 접수 12월 5일~12월 22일 18시 · 교육 참가자 안내 12월 26일' 표기 (10.22) — 같은 페이지의 5.22~6.16 블록과 병존, 10기 공식 공고는 아직 없음",
+      "schedule_note_en": "The site's schedule section reads 'applications Dec 5-Dec 22 6pm; participant notice Dec 26' with no cohort label (Oct 22) - alongside a May 22-Jun 16 block on the same page; no official 10th-cohort call yet",
       "events": [
         {
           "type": "apply_start",
@@ -4053,7 +4262,7 @@
         }
       ],
       "added": "2026-07-25",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "pycon-kr-2026",
@@ -4160,7 +4369,7 @@
       "name": "한국전자전 KES 2026 (제57회)",
       "name_en": "Korea Electronics Show 2026 (57th)",
       "category": "컨퍼런스·박람회",
-      "status": "upcoming",
+      "status": "ended",
       "tags": [
         "전자",
         "박람회",
@@ -4195,9 +4404,9 @@
         }
       ],
       "added": "2026-07-25",
-      "checked": "2026-10-05",
-      "schedule_note": "제57회 한국전자전 10.13~16 코엑스 A·B홀 · 국문 공홈 404 지속 — 참관 사전등록 마감 미확인 (10.5)",
-      "schedule_note_en": "57th Korea Electronics Show Oct 13-16 at COEX Halls A and B; the Korean site still returns 404, so the visitor pre-registration deadline is unconfirmed (Oct 5)"
+      "checked": "2026-10-22",
+      "schedule_note": "종료 — 제57회 10.13~16 코엑스 A·B홀 · 28개국 약 500개사 1,100부스 · CES Asia Unveiled Seoul 동시 개최",
+      "schedule_note_en": "Over - 57th edition Oct 13-16 at COEX Halls A/B; about 500 companies from 28 countries, 1,100 booths; co-located with CES Asia Unveiled Seoul"
     },
     {
       "id": "softwave-2026",
@@ -4239,7 +4448,7 @@
         }
       ],
       "added": "2026-07-25",
-      "checked": "2026-10-05",
+      "checked": "2026-10-22",
       "schedule_note": "정정: 참관객 사전등록은 '준비중' (공홈 10.5 확인) — 기존 '9.1 오픈 ~11.27' 표기는 부스 참가 신청과 혼동한 것으로 판단 · 행사 12.2~4 코엑스 Hall A · 무료 입장",
       "schedule_note_en": "Correction: visitor pre-registration is still 'in preparation' (site checked Oct 5) - the earlier 'opened Sep 1, until Nov 27' appears to have been the exhibitor booth application; event Dec 2-4 at COEX Hall A; free entry"
     },
@@ -4289,16 +4498,16 @@
         }
       ],
       "added": "2026-07-25",
-      "checked": "2026-10-05",
-      "schedule_note": "사전등록·비즈니스 매칭 오픈 (~12.4, 9.22 보도) · 행사 12.9~11 코엑스 C홀",
-      "schedule_note_en": "Pre-registration and business matching open (to Dec 4, reported Sep 22); event Dec 9-11 at COEX Hall C"
+      "checked": "2026-10-22",
+      "schedule_note": "사전등록 9.15~12.4 (무료) · 행사 12.9(수) 10시~12.11(금) 18시 코엑스 C홀",
+      "schedule_note_en": "Pre-registration Sep 15-Dec 4 (free); event Dec 9 (Wed) 10am-Dec 11 (Fri) 6pm at COEX Hall C"
     },
     {
       "id": "if-kakao-26",
       "name": "if(kakao) 26",
       "name_en": "if(kakao) 26",
       "category": "컨퍼런스·박람회",
-      "status": "ongoing_closed",
+      "status": "ended",
       "tags": [
         "카카오",
         "컨퍼런스",
@@ -4318,8 +4527,8 @@
       "description_en": "Kakao's annual dev conference. 2025 ran Sep 23-25 at Kakao AI Campus; 2026 TBA.",
       "tip": "신청 마감. 추첨 결과는 카카오톡 채널·마이페이지 확인 — 떨어졌어도 전 세션이 생중계되니 관심 세션만 골라 시청.",
       "tip_en": "Registration is closed. Check lottery results on the KakaoTalk channel or My Page - if you were not picked, every session is live-streamed, so pick the ones you want.",
-      "schedule_note": "참가 신청 종료 (9.7~9.28 12시, '참가 신청은 마감되었습니다') · 추첨 결과 10.1부터 카카오톡 채널·마이페이지 안내 · 행사 10.13~14 카카오 AI 캠퍼스(용인), 무료, 생중계",
-      "schedule_note_en": "Registration closed (Sep 7-Sep 28 noon; 'registration has closed'); lottery results from Oct 1 via the KakaoTalk channel and My Page; event Oct 13-14 at Kakao AI Campus (Yongin), free, live-streamed",
+      "schedule_note": "종료 — 10.13~14 카카오 AI 캠퍼스 · AI 어시스턴트 '카나나 스페이스'(12월 일부 사전신청자 대상 클로즈드 베타)·PC 에이전트 빌더 'Kanvas' 공개",
+      "schedule_note_en": "Over - Oct 13-14 at Kakao AI Campus; Kakao unveiled the AI assistant 'Kanana Space' (closed beta for some pre-registrants in December) and the PC agent builder 'Kanvas'",
       "events": [
         {
           "type": "apply_start",
@@ -4347,14 +4556,14 @@
         }
       ],
       "added": "2026-07-25",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "woowacon-2026",
       "name": "우아콘 2026 (WOOWACON)",
       "name_en": "WOOWACON 2026",
       "category": "컨퍼런스·박람회",
-      "status": "applying",
+      "status": "ongoing_closed",
       "tags": [
         "배민",
         "컨퍼런스",
@@ -4372,8 +4581,8 @@
       "description_en": "Woowa Brothers' tech conference. 2025 was Oct 28; 2026 TBA.",
       "tip": "오프라인은 추첨 — 10.13까지 신청만 해두면 된다. 배민 배달·물류 시스템 세션은 대규모 트래픽 설계 사례로 좋은 교재.",
       "tip_en": "In-person seats are by lottery, so just apply by Oct 13. The Baemin delivery and logistics sessions are good case studies in high-traffic system design.",
-      "schedule_note": "공고 (9.22): 7회차 '멈추지 않는 도시를 만드는 기술' · 10.28 그랜드 인터컨티넨탈 서울 파르나스 · 오프라인 참가 신청 공홈 ~10.13 (추첨, 결과 이메일) · 40개 세션",
-      "schedule_note_en": "Announced Sep 22: 7th edition, theme 'technology for a city that never stops'; Oct 28 at the Grand InterContinental Seoul Parnas; offline registration on the official site until Oct 13 (lottery, results by email); 40 sessions",
+      "schedule_note": "신청 종료 (9.23~10.13, 이벤터스 '모집종료') · 행사 10.28(수) 10~18시 그랜드 인터컨티넨탈 파르나스 5F, 무료 · 추첨 결과 일자 미공지",
+      "schedule_note_en": "Registration closed (Sep 23-Oct 13; event-us shows 'closed'); event Oct 28 (Wed) 10am-6pm at Grand InterContinental Parnas 5F, free; lottery result date not announced",
       "events": [
         {
           "type": "apply_end",
@@ -4389,7 +4598,7 @@
         }
       ],
       "added": "2026-07-25",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "naver-dan-26",
@@ -4420,7 +4629,7 @@
       "schedule_note_en": "No DAN26 announcement (rechecked Oct 5); DAN25 ran Nov 6-7 2025 at COEX - an October announcement would fit past timing",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "infcon-2026",
@@ -4449,7 +4658,7 @@
       "schedule_note_en": "No 2026 date (rechecked Oct 5 - infcon.day redirects to the 2024 page)",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "devfest-korea-2026",
@@ -4478,7 +4687,7 @@
       "schedule_note_en": "Global DevFest season started Oct 1 (to Dec 31); GDG Seoul and Incheon both show 'no upcoming events' (Oct 5)",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "sopt-39",
@@ -4541,7 +4750,7 @@
       "name": "YAPP 29기",
       "name_en": "YAPP (29th)",
       "category": "동아리·커뮤니티",
-      "status": "upcoming",
+      "status": "applying",
       "tags": [
         "연합동아리",
         "프로젝트",
@@ -4557,13 +4766,44 @@
       "prize_en": "Launch one IT service in four months",
       "description": "기업형 IT 연합 커뮤니티. PM·디자인·웹·안드로이드·iOS·서버 6개 직군. 매주 토 13~17시 필수 세션.",
       "description_en": "Company-style IT community. Six tracks; mandatory Saturday sessions (1-5 PM). Four-month product cycle.",
-      "tip": "29기 모집 9~10월 예상 (28기: 4월 모집). 홈페이지에서 모집 알림 신청 가능.",
-      "tip_en": "29th expected Sep-Oct (28th recruited in April). Sign up for recruiting alerts on the site.",
-      "schedule_note": "29기 미공고 (10.5 재확인 — recruit 페이지 28기 유지)",
-      "schedule_note_en": "29th not announced (rechecked Oct 5 - recruit page still shows the 28th)",
-      "events": [],
+      "tip": "서류 마감 10.25 — 3일 남음. 직군별 포트폴리오(디자인)·GitHub(개발) 링크를 바로 붙일 수 있게 정리.",
+      "tip_en": "Applications close Oct 25 - three days left. Have your portfolio (design) or GitHub (dev) link ready to paste.",
+      "schedule_note": "29기 서류 10.16~10.25 · 서류 결과 10.28 · 면접 10.31~11.3 · 최종 11.5 · 6개 직군",
+      "schedule_note_en": "29th cohort applications Oct 16-25; document results Oct 28; interviews Oct 31-Nov 3; final Nov 5; six roles",
+      "events": [
+        {
+          "type": "apply_start",
+          "date": "2026-10-16",
+          "label": "서류 접수 시작",
+          "label_en": "Applications open"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-10-25",
+          "label": "서류 마감",
+          "label_en": "Application deadline"
+        },
+        {
+          "type": "partial_deadline",
+          "date": "2026-10-28",
+          "label": "서류 결과",
+          "label_en": "Document results"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-10-31",
+          "label": "면접 (10.31~11.3)",
+          "label_en": "Interviews (Oct 31-Nov 3)"
+        },
+        {
+          "type": "announce",
+          "date": "2026-11-05",
+          "label": "최종 발표",
+          "label_en": "Final results"
+        }
+      ],
       "added": "2026-07-25",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "nexters-30",
@@ -4592,7 +4832,7 @@
       "schedule_note_en": "Only the 30th pre-notice signup is open; the recruit page still shows the 29th (May 10-19) (Oct 5)",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "depromeet-18",
@@ -4675,7 +4915,7 @@
       "schedule_note_en": "16th expected Dec 2026-Jan 2027 (15th currently active)",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "umc",
@@ -4704,7 +4944,7 @@
       "schedule_note_en": "11th not announced (rechecked Oct 5); makeus.in DNS fails - check the official Instagram",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "kusitms-34",
@@ -4785,7 +5025,7 @@
       "schedule_note_en": "12th not announced (Oct 5 - site still shows '11th applications'); expected Jan-Feb 2027",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "cmc",
@@ -4814,7 +5054,7 @@
       "schedule_note_en": "20th not announced (rechecked Oct 5); makeus.in DNS fails",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "pirogramming-26",
@@ -4843,7 +5083,7 @@
       "schedule_note_en": "26th not announced (Oct 5 - site still shows the 25th, May 25-Jun 5); expected Nov-Dec",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "goormthon-univ",
@@ -4874,7 +5114,7 @@
       "schedule_note_en": "No next-cohort notice (Oct 5)",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "sw-maestro-18",
@@ -4905,7 +5145,7 @@
       "schedule_note_en": "Official wording: 'the 18th trainee recruiting schedule will be announced in the January 2027 call' (checked Oct 5); 17th ran Jan 12-Feb 11 in Seoul",
       "events": [],
       "added": "2026-07-25",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "pseudo-lab",
@@ -5241,7 +5481,7 @@
         }
       ],
       "added": "2026-07-28",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "aihome-matter-sprint-2026",
@@ -5285,7 +5525,7 @@
         }
       ],
       "added": "2026-07-31",
-      "checked": "2026-09-14"
+      "checked": "2026-10-22"
     },
     {
       "id": "traithon-2",
@@ -5312,8 +5552,8 @@
       "description_en": "2nd AI trustworthiness hackathon by ThinkforBL. Three-month track (OT Sep, prelims Oct, finals Nov). For university students.",
       "tip": "접수 8.21 마감. AI 안전·검증 분야 — 흔치 않은 주제라 차별화됨.",
       "tip_en": "Applications close Aug 21. AI safety/verification is a rare, differentiating topic.",
-      "schedule_note": "접수 종료(8.21, 연장 없음) · OT 9월 초 오프라인 · 예선 ~10.16 · 본선 ~11.20 · 시상 11월 말~12월 초 (참여팀 수 따라 변동 가능)",
-      "schedule_note_en": "Applications closed Aug 21 (no extension); offline OT in early Sep; prelims to Oct 16, main round to Nov 20, awards late Nov-early Dec (may shift with team count)",
+      "schedule_note": "예선 결과물 10.16 마감 · 본선 ~11.20 (오프라인 멘토링 1회) · 시상 11월 말~12월 초",
+      "schedule_note_en": "Prelim deliverables were due Oct 16; finals to Nov 20 (one offline mentoring session); awards late Nov-early Dec",
       "events": [
         {
           "type": "apply_end",
@@ -5323,7 +5563,7 @@
         }
       ],
       "added": "2026-07-31",
-      "checked": "2026-09-04"
+      "checked": "2026-10-22"
     },
     {
       "id": "gcp-solana-hackathon-2026",
@@ -5467,7 +5707,7 @@
         }
       ],
       "added": "2026-07-31",
-      "checked": "2026-10-05",
+      "checked": "2026-10-22",
       "links": [
         {
           "title": "Codabench 대회 페이지",
@@ -5503,8 +5743,8 @@
       "description_en": "Steer LLMs: design policies that reduce sycophancy while leaving everything else intact. Hosted on CodaBench, ~90 days, 5 submissions per rolling 24h.",
       "tip": "지금 등록 가능 — 마감이 11.21 하나뿐이라 늦게 들어가도 불이익 없음. 주 1회 채점이니 첫 제출은 베이스라인으로 빨리 넣고 반복.",
       "tip_en": "You can register now - with Nov 21 as the only deadline there is no penalty for joining late. Scoring is weekly, so submit a baseline early and iterate.",
-      "schedule_note": "진행 중 · 다음 주간 평가 접수 10.5 AoE · 최종 마감 11.21 AoE (유일한 마감)",
-      "schedule_note_en": "Running; next weekly evaluation intake Oct 5 AoE; final deadline Nov 21 AoE (the only deadline)",
+      "schedule_note": "최종 제출 11.21 AoE (유일한 마감) · 워크숍 NeurIPS 파리 (일자 미공개)",
+      "schedule_note_en": "Final submission Nov 21 AoE (the only deadline); workshop at NeurIPS Paris (date not given)",
       "events": [
         {
           "type": "apply_start",
@@ -5520,14 +5760,14 @@
         }
       ],
       "added": "2026-07-31",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "neurips-fair-universe-2026",
       "name": "FAIR Universe Weak Lensing Challenge (NeurIPS 2026)",
       "name_en": "FAIR Universe Weak Lensing Challenge (NeurIPS 2026)",
       "category": "학술 챌린지",
-      "status": "ongoing_open",
+      "status": "ongoing_closed",
       "tags": [
         "NeurIPS",
         "우주론",
@@ -5556,9 +5796,9 @@
         }
       ],
       "added": "2026-07-31",
-      "checked": "2026-10-05",
-      "schedule_note": "Weak Lensing Phase-2 제출 마감 10.11 23:59 UTC · Codabench 호스팅 · NeurIPS 2026 대회 트랙",
-      "schedule_note_en": "Weak Lensing Phase-2 submissions close Oct 11 11:59pm UTC; hosted on Codabench; NeurIPS 2026 competition track"
+      "checked": "2026-10-22",
+      "schedule_note": "Phase-2 제출 10.11 23:59 UTC 마감 (연장 없음) · 결과 일자 미공개",
+      "schedule_note_en": "Phase-2 submissions closed Oct 11 23:59 UTC (no extension); results date not published"
     },
     {
       "id": "neurips-aimo-interp-2026",
@@ -5587,8 +5827,8 @@
       "description_en": "LLM interpretability competition: determine whether AI systems solve math via robust reasoning or spurious patterns. Runs on Codabench with offline eval servers.",
       "tip": "마감 11.1로 4주 남음. LLM 해석가능성은 core ML 연구 포트폴리오로 최상급 주제 — 상위권은 기술 보고서(11.15)까지 내야 하니 실험 로그를 처음부터 정리해둘 것.",
       "tip_en": "Four weeks left to Nov 1. LLM interpretability is a top-tier core-ML portfolio topic; leaders must also submit a technical report by Nov 15, so keep clean experiment logs from the start.",
-      "schedule_note": "정정 (공홈 10.5 확인): 본 대회 8.15~11.1, 최종 제출 11.1 (시간대 미표기) — 기존 '10.25'는 오류 · 기술 보고서 11.1~15 · 검증 11.15~30 · NeurIPS 워크숍 12.12",
-      "schedule_note_en": "Correction (site checked Oct 5): main phase Aug 15-Nov 1, final submission Nov 1 (timezone not stated) - the previous 'Oct 25' was wrong; technical reports Nov 1-15; validation Nov 15-30; NeurIPS workshop Dec 12",
+      "schedule_note": "최종 제출 11.1 (제출 창 종료) · 수상팀 기술 보고서 11.15 · 검증 11.15~30 · 워크숍 12.12 (NeurIPS 파리)",
+      "schedule_note_en": "Final submission Nov 1 (interface closes); award teams' technical reports Nov 15; validation Nov 15-30; workshop Dec 12 (NeurIPS Paris)",
       "events": [
         {
           "type": "apply_end",
@@ -5604,7 +5844,7 @@
         }
       ],
       "added": "2026-08-04",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "neurips-realpde-2026",
@@ -5660,9 +5900,9 @@
         }
       ],
       "added": "2026-08-04",
-      "checked": "2026-10-05",
-      "schedule_note": "등록 마감(8.20) · 개발 페이즈 9.27(UTC) 종료 · 결정 페이즈(주최측 상위 모델 재학습) ~10.25 · 결과 11.10 · 코드 공개 마감 11.25 · NeurIPS 세션 12.11 ICC 시드니",
-      "schedule_note_en": "Registration closed Aug 20; development phase ended Sep 27 (UTC); decision phase (organizers retrain top models) to Oct 25; results Nov 10; code open-sourcing due Nov 25; NeurIPS session Dec 11 at ICC Sydney"
+      "checked": "2026-10-22",
+      "schedule_note": "결정 페이즈 10.25(UTC) 종료 예정 · 공홈 타임라인에 '최종 결과 10.17' 표기가 결정 페이즈보다 앞서 있어 오기로 보임 (기존 11.10 표기와 충돌) · 코드·팩트시트 11.25 · NeurIPS 세션 12.11 13:00~15:15 시드니",
+      "schedule_note_en": "Decision phase ends Oct 25 (UTC); the site timeline lists 'final results Oct 17' before the decision phase ends, which looks like a typo (conflicts with the earlier Nov 10); code and fact sheet Nov 25; NeurIPS session Dec 11 13:00-15:15 Sydney"
     },
     {
       "id": "neurips-quantiphy-2026",
@@ -5687,8 +5927,8 @@
       "prize_en": "$1,000 / $500 / $250 per track + workshop oral/spotlight/poster slots",
       "description": "VLM(비전-언어 모델)의 정량적 물리 추론 능력을 평가하는 스탠퍼드 주관 대회. 자체 평가 서버, CSV 제출.",
       "description_en": "Stanford-run competition evaluating quantitative physical reasoning in vision-language models. Own eval server, CSV submissions.",
-      "tip": "팀 등록이 10.9에 잠긴다 — 참가 생각이 있으면 이번 주 안에 팀부터 등록. VLM 물리량 추정 과제라 멀티모달 평가 경험자에게 유리.",
-      "tip_en": "Team registration locks on Oct 9 - if you might join, register a team this week. It is a VLM physical-quantity estimation task, which suits anyone with multimodal-evaluation experience.",
+      "tip": "팀 등록(10.9)은 이미 마감. 등록 팀은 10.23 기준으로 제출하고, 11.5 연장 여부는 공홈이 복구되면 확인.",
+      "tip_en": "Team registration (Oct 9) is closed. Registered teams should submit by Oct 23 and check whether it moved to Nov 5 once the site is back.",
       "events": [
         {
           "type": "apply_end",
@@ -5704,16 +5944,16 @@
         }
       ],
       "added": "2026-08-04",
-      "checked": "2026-10-05",
-      "schedule_note": "정정 (공홈 10.5 확인): 팀 등록 마감 10.9 23:59 AoE (이후 신규 팀·팀 정보 수정 불가) · 최종 제출 마감 10.23 23:59 AoE — 기존 '11.5' 표기는 오류 · 10월 말 검증 · NeurIPS 워크숍 12.11~12",
-      "schedule_note_en": "Correction (site checked Oct 5): team registration closes Oct 9 23:59 AoE (no new teams or edits after); final submissions close Oct 23 23:59 AoE - the previous 'Nov 5' was wrong; verification late October; NeurIPS workshop Dec 11-12"
+      "checked": "2026-10-22",
+      "schedule_note": "주의 — 출처 충돌: 공홈 10.5 직접 확인 시 '최종 마감 10.23 23:59 AoE (Deadline updated)', 이후 검색 색인에는 '11.5 23:59 AoE' 카운트다운 — 10.22 공홈 접속 불가로 재확인 못 함 · 이른 날짜(10.23) 기준으로 준비 권장 · 팀 등록은 10.9 AoE에 마감",
+      "schedule_note_en": "Caution - sources conflict: on Oct 5 the site itself read 'final deadline Oct 23 23:59 AoE (Deadline updated)', while a later search index shows a 'Nov 5 23:59 AoE' countdown; the site was unreachable on Oct 22, so this could not be re-checked; prepare for the earlier date (Oct 23); team registration closed Oct 9 AoE"
     },
     {
       "id": "neurips-agenthon-2026",
       "name": "Agenthon 2026 (NeurIPS, 검증가능 금융 AI)",
       "name_en": "Agenthon 2026 (NeurIPS, Verifiable AI for Quant Finance)",
       "category": "학술 챌린지",
-      "status": "ongoing_open",
+      "status": "ongoing_closed",
       "tags": [
         "NeurIPS",
         "AI에이전트",
@@ -5772,9 +6012,9 @@
         }
       ],
       "added": "2026-08-04",
-      "checked": "2026-10-05",
-      "schedule_note": "등록·개발 10.12 23:59 AoE 마감 (재확인) · 10.13 08~12시 UTC 평가 점검 후 Final+Verification 10.13~25 (sealed held-out, 트랙당 1건) · NeurIPS 워크숍·시상 12월 애틀랜타",
-      "schedule_note_en": "Registration and development close Oct 12 23:59 AoE (reconfirmed); after evaluation maintenance on Oct 13 08:00-12:00 UTC, the final + verification phase runs Oct 13-25 (sealed held-out, one per track); NeurIPS workshop and awards in December, Atlanta"
+      "checked": "2026-10-22",
+      "schedule_note": "등록·개발 10.12 AoE 마감 · Final+Verification 10.13~25 (최종 업로드 10.25 23:59 AoE) · 결과 11월 초 · 워크숍 12.12 08:00~10:15 애틀랜타",
+      "schedule_note_en": "Registration and development closed Oct 12 AoE; final + verification Oct 13-25 (final uploads Oct 25 23:59 AoE); results early November; workshop Dec 12 08:00-10:15 Atlanta"
     },
     {
       "id": "neurips-sapc2-2026",
@@ -5822,7 +6062,7 @@
         }
       ],
       "added": "2026-08-04",
-      "checked": "2026-10-05",
+      "checked": "2026-10-22",
       "schedule_note": "최종 시스템 Codabench 제출 10.24 AoE · 워크숍 논문 10.31 AoE · 통보 11.7 · 참석 확인 11.15 · 세션 12.11 15:30~17:45",
       "schedule_note_en": "Final system submissions to Codabench Oct 24 AoE; workshop papers Oct 31 AoE; notifications Nov 7; attendance confirmation Nov 15; session Dec 11 15:30-17:45"
     },
@@ -5851,8 +6091,8 @@
       "description_en": "By the Financial Security Institute and FSC with five financial firms: build AI services applicable to real financial-industry use cases. Awards at FISCON 2026 in November.",
       "tip": "접수 9.7 오전 10시 마감 (daker.ai). 참가 자격 제한 없음 — 금융 도메인 포트폴리오 기회.",
       "tip_en": "Applications close Sep 7 at 10:00 on daker.ai. No eligibility limits; a finance-domain portfolio opportunity.",
-      "schedule_note": "접수 종료 (9.7 10시, 연장 없음) · 본선(내부평가)·발표심사 9~10월, 상위 11팀 내외 발표심사 (세부 일자 미공개, 9.14) · 시상 FISCON 2026 (11월)",
-      "schedule_note_en": "Applications closed Sep 7 10am (no extension); finals (internal review) & presentations Sep-Oct, top ~11 teams present (dates unpublished, Sep 14); awards at FISCON 2026 (Nov)",
+      "schedule_note": "접수 종료 (9.7) · 본선·발표심사 9~10월 · 시상 FISCON 2026 11.12(목) 콘래드 서울",
+      "schedule_note_en": "Applications closed Sep 7; finals and presentations Sep-Oct; awards at FISCON 2026 on Nov 12 (Thu), Conrad Seoul",
       "events": [
         {
           "type": "apply_start",
@@ -5863,10 +6103,16 @@
           "date": "2026-09-07",
           "label": "접수 마감 (10:00)",
           "label_en": "Application deadline (10:00)"
+        },
+        {
+          "type": "announce",
+          "date": "2026-11-12",
+          "label": "시상 (FISCON 2026)",
+          "label_en": "Awards (FISCON 2026)"
         }
       ],
       "added": "2026-08-04",
-      "checked": "2026-09-14"
+      "checked": "2026-10-22"
     },
     {
       "id": "gxg-ai-gamesound-2026",
@@ -6073,7 +6319,7 @@
       "name": "2026 국립공원 위성영상 모니터링 AI 챌린지",
       "name_en": "2026 National Park Satellite Monitoring AI Challenge",
       "category": "AI/ML 국내",
-      "status": "ongoing_open",
+      "status": "ended",
       "tags": [
         "위성영상",
         "CV",
@@ -6108,9 +6354,9 @@
         }
       ],
       "added": "2026-08-07",
-      "checked": "2026-10-05",
-      "schedule_note": "주제1·2 종료(9.21) · 주제3(시설물 변화)·주제4(해안쓰레기) 9.14~10.6 진행 중, 연장 없음 · 참가 16팀·12팀 (10.5) · 주제별 600만",
-      "schedule_note_en": "Tasks 1-2 closed Sep 21; Tasks 3 (facility change) and 4 (coastal debris) open Sep 14-Oct 6, no extension; 16 and 12 participants respectively (Oct 5); 6M KRW per task"
+      "checked": "2026-10-22",
+      "schedule_note": "종료 — 주제3·4 9.14~10.6 마감 (연장 없음) · 수상자 공식 발표 대기",
+      "schedule_note_en": "Over - Tasks 3-4 closed Sep 14-Oct 6 (no extension); official winners pending"
     },
     {
       "id": "cce-2026",
@@ -6215,7 +6461,7 @@
       "name": "인공지능 페스타 (AI Festa) 2026",
       "name_en": "AI Festa 2026",
       "category": "컨퍼런스·박람회",
-      "status": "ongoing_closed",
+      "status": "ended",
       "tags": [
         "과기정통부",
         "전시",
@@ -6256,9 +6502,9 @@
         }
       ],
       "added": "2026-08-07",
-      "checked": "2026-10-05",
-      "schedule_note": "사전등록 마감 10.2 18시 (공홈에서 마감 표시 재확인은 불가) · 행사 10.6 10시~10.8 16시 코엑스 (10.7은 16시까지) · 212개사 501부스 · 연사: Google DeepMind·OpenAI·Anthropic·AWS · 입장 무료",
-      "schedule_note_en": "Pre-registration closed Oct 2 6pm (the closure could not be re-read on the site); event Oct 6 10am-Oct 8 4pm at COEX (Oct 7 until 4pm); 212 companies, 501 booths; speakers from Google DeepMind, OpenAI, Anthropic, AWS; free admission"
+      "checked": "2026-10-22",
+      "schedule_note": "종료 — 10.6~8 코엑스·웨스틴 파르나스 · 개막 기준 206개사 499부스 · AI 서밋 키노트 Google DeepMind 로라 아로요",
+      "schedule_note_en": "Over - Oct 6-8 at COEX and the Westin Parnas; 206 companies and 499 booths at opening; AI Summit keynote by Google DeepMind's Lora Aroyo"
     },
     {
       "id": "ubucon-korea-2026",
@@ -6419,7 +6665,7 @@
       "name": "생성형 AI 위험성 발굴 경진대회 (시즌2·3)",
       "name_en": "GenAI Risk Discovery Contest (Seasons 2-3)",
       "category": "AI/ML 국내",
-      "status": "applying",
+      "status": "ended",
       "tags": [
         "AI안전",
         "레드티밍",
@@ -6465,10 +6711,10 @@
           "label_en": "Season 3 deadline"
         }
       ],
-      "schedule_note": "시즌3 접수 9.21~10.12 진행 중 (공홈 팝업 '접수기간 9월 21일~10월 12일' 확인, 방송미디어통신위원회·KAIT) · 우수자 선정·시상 11월",
-      "schedule_note_en": "Season 3 is open Sep 21-Oct 12 (confirmed by the official popup 'application period Sep 21-Oct 12'; Korea Media and Communications Commission and KAIT); winners selected and awarded in November",
+      "schedule_note": "종료 — 시즌3 9.21~10.12 마감 · 우수자 선정·시상 11월",
+      "schedule_note_en": "Over - Season 3 ran Sep 21-Oct 12; winners selected and awarded in November",
       "added": "2026-08-11",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "github-copilot-devdays-seoul-2026",
@@ -6561,10 +6807,10 @@
           "label_en": "Document review (Nov 9-13)"
         }
       ],
-      "schedule_note": "문제해결 부문 접수 ~11.6 (9.20 확인분) · 10.5 재조회 시 공홈은 8.11 개최 공지만 노출 · 서류평가 11.9~13 · 발표·시상 11.25 KISTI 대전",
-      "schedule_note_en": "Problem-solving track applications to Nov 6 (per the Sep 20 check); on Oct 5 the site showed only the Aug 11 launch notice; document review Nov 9-13; presentations and awards Nov 25 at KISTI Daejeon",
+      "schedule_note": "문제해결 부문 접수 마감 출처 충돌: 9.20 확인분(공홈·보도) 11.6 vs 플랫폼(슈퍼루키·올콘) '11.25 23:59' — 공홈 공지 본문 판독 불가 · 이른 날짜(11.6) 기준으로 준비 권장 · 서류평가 11.9~13 · 발표·시상 11.25 KISTI 대전",
+      "schedule_note_en": "Problem-solving track deadline sources conflict: Nov 6 per the Sep 20 check (site and press) vs '11/25 23:59' on platforms (Superookie, All-con); the official notice body could not be read; prepare for the earlier date (Nov 6); document review Nov 9-13; presentations and awards Nov 25 at KISTI Daejeon",
       "added": "2026-08-12",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "rsna-knee-mri-2026",
@@ -6601,10 +6847,10 @@
           "label_en": "Submission deadline"
         }
       ],
-      "schedule_note": "수상 발표 2026년 11월 (RSNA 학회에서 시상)",
-      "schedule_note_en": "Winners announced Nov 2026 and honored at the RSNA meeting",
+      "schedule_note": "참가·팀 병합 10.15 · 최종 제출 10.22(오늘) · 수상 11월 발표, RSNA 2026(11.29~12.3 시카고)에서 시상",
+      "schedule_note_en": "Entry and team merge Oct 15; final submission Oct 22 (today); winners announced in November and recognized at RSNA 2026 (Nov 29-Dec 3, Chicago)",
       "added": "2026-08-12",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "tourism-datalab-contest-2026",
@@ -6646,7 +6892,7 @@
         }
       ],
       "added": "2026-08-12",
-      "checked": "2026-10-05",
+      "checked": "2026-10-22",
       "schedule_note": "접수 종료 (8.4~9.30 14시, 연장 없음) · 시상식 10.23 서울 · 총 19점 (대상 500만·최우수 200만×2·우수 100만×6·장려 50만×10)",
       "schedule_note_en": "Applications closed (Aug 4-Sep 30 2pm, no extension); awards Oct 23 in Seoul; 19 awards (grand 5M, 2 x 2M, 6 x 1M, 10 x 0.5M KRW)"
     },
@@ -6708,9 +6954,9 @@
         }
       ],
       "added": "2026-08-14",
-      "checked": "2026-10-05",
-      "schedule_note": "접수 종료 (9.20) · 예선 합격(상위 10팀) 발표 9.23 · 멘토링 9.28 대구디지털혁신진흥원 1층 태양홀 · 본선 발표·시상 10.22(목) 대구 EXCO 322호 (FIX 2026) — 9.23·9.28 진행 여부는 사후 보도 미확인",
-      "schedule_note_en": "Applications closed Sep 20; top-10 prelim results Sep 23; mentoring Sep 28 at the Daegu Digital Innovation Agency 1F Taeyang Hall; finals and awards Oct 22 (Thu) at Daegu EXCO 322 (FIX 2026) - no post-event coverage confirms the Sep 23 and Sep 28 steps"
+      "checked": "2026-10-22",
+      "schedule_note": "본선 발표·시상 10.22(오늘) 대구 EXCO 서관 322호 (FIX 2026) · 4팀 시상, 총 1,400만 · 결과 미공개",
+      "schedule_note_en": "Final presentations and awards today, Oct 22, at Daegu EXCO West 322 (FIX 2026); 4 award teams, 14M KRW total; results not yet published"
     },
     {
       "id": "toython-2026",
@@ -6867,7 +7113,7 @@
       "schedule_note": "로보틱스 Track A 예선 영상 9.29 18시 마감 (연장 없음) · 본선 발표 10.8 · 본선 11.21 · Track C(작품 공모) 10.5 현재도 '9월 중 세부 안내 예정' 문구 그대로 — 사실상 지연 · 로보틱스 총 4,000만 (41점)",
       "schedule_note_en": "Robotics Track A prelim videos closed Sep 29 6pm (no extension); finalists Oct 8; finals Nov 21; Track C (open call) still reads 'details during September' as of Oct 5 - effectively delayed; robotics prizes 40M KRW across 41 awards",
       "added": "2026-08-17",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "mois-deepvoice-ai-2026",
@@ -6939,9 +7185,9 @@
         }
       ],
       "added": "2026-08-19",
-      "checked": "2026-10-05",
-      "schedule_note": "리더보드 제출 9.29 마감·대회 종료 9.30 (연장 없음) · 상위 15팀 2차 평가 자료 10.5 마감 · 최종 결과 10.16 · 오프라인 시상식 11.27(예정) · 과제별 7팀 수상, 3개 과제 합계 21팀·총상금 1억 2,600만",
-      "schedule_note_en": "Leaderboard submissions closed Sep 29 and the competition ended Sep 30 (no extension); top 15 teams' second-round materials due Oct 5; final results Oct 16; offline awards Nov 27 (planned); 7 winners per task, 21 teams and 126M KRW across the three tasks"
+      "checked": "2026-10-22",
+      "schedule_note": "최종 결과 10.16 예정 (DACON 리더보드 상위: 파라곤 0.90483 · CAU_GAIL 0.90141 · 55 0.90122 — 수상 공지는 미확인) · 오프라인 시상식 11.27(예정)",
+      "schedule_note_en": "Final results were due Oct 16 (DACON leaderboard top: Paragon 0.90483, CAU_GAIL 0.90141, 55 0.90122 - no award notice seen); offline awards Nov 27 (planned)"
     },
     {
       "id": "mois-dashcam-ai-2026",
@@ -7013,7 +7259,7 @@
         }
       ],
       "added": "2026-08-19",
-      "checked": "2026-10-05",
+      "checked": "2026-10-22",
       "schedule_note": "리더보드 제출 9.29 마감·대회 종료 9.30 (연장 없음) · 상위 15팀 2차 평가 자료 10.5 마감 · 최종 결과 10.16 · 오프라인 시상식 11.27(예정) · 과제별 7팀 수상, 3개 과제 합계 21팀·총상금 1억 2,600만",
       "schedule_note_en": "Leaderboard submissions closed Sep 29 and the competition ended Sep 30 (no extension); top 15 teams' second-round materials due Oct 5; final results Oct 16; offline awards Nov 27 (planned); 7 winners per task, 21 teams and 126M KRW across the three tasks"
     },
@@ -7087,7 +7333,7 @@
         }
       ],
       "added": "2026-08-19",
-      "checked": "2026-10-05",
+      "checked": "2026-10-22",
       "schedule_note": "리더보드 제출 9.29 마감·대회 종료 9.30 (연장 없음) · 상위 15팀 2차 평가 자료 10.5 마감 · 최종 결과 10.16 · 오프라인 시상식 11.27(예정) · 과제별 7팀 수상, 3개 과제 합계 21팀·총상금 1억 2,600만",
       "schedule_note_en": "Leaderboard submissions closed Sep 29 and the competition ended Sep 30 (no extension); top 15 teams' second-round materials due Oct 5; final results Oct 16; offline awards Nov 27 (planned); 7 winners per task, 21 teams and 126M KRW across the three tasks"
     },
@@ -7227,14 +7473,14 @@
       "schedule_note": "정정 (공홈 10.5 직접 확인): 최종 코드베이스·기술보고서 마감 10.30 23:59 AoE — 기존 '11.20' 표기는 오류 · 이메일 등록 승인 후 Codabench 제출 · NeurIPS 세션 12.11(금) 08:00~10:15 시드니",
       "schedule_note_en": "Correction (site checked directly Oct 5): final codebase and technical report due Oct 30 23:59 AoE - the previous 'Nov 20' was wrong; Codabench submission after email-registration approval; NeurIPS session Dec 11 (Fri) 08:00-10:15 Sydney",
       "added": "2026-08-21",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "neurips-learn2design-2026",
       "name": "Learn2Design 2026 — 중력파 검출기 설계 (NeurIPS 2026)",
       "name_en": "Learn2Design 2026 - Gravitational-Wave Detector Design (NeurIPS 2026)",
       "category": "학술 챌린지",
-      "status": "ongoing_open",
+      "status": "ongoing_closed",
       "tags": [
         "NeurIPS",
         "물리",
@@ -7264,10 +7510,10 @@
           "label_en": "Final submission deadline"
         }
       ],
-      "schedule_note": "최종 제출 마감 10.15 AoE · 공개 리더보드용 중간 마감 3회(8.26·9.12·9.29)는 선택 사항이며 수상 자격과 무관 · 결과 NeurIPS 2026",
-      "schedule_note_en": "Final submission Oct 15 AoE; the three interim leaderboard checkpoints (Aug 26, Sep 12, Sep 29) are optional and do not affect eligibility; results at NeurIPS 2026",
+      "schedule_note": "최종 제출 10.15 마감 (공홈에 연장 가능성 언급만, 미확정) · 결과 NeurIPS 2026",
+      "schedule_note_en": "Final submissions closed Oct 15 (the site only hints at a possible extension); results at NeurIPS 2026",
       "added": "2026-08-21",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "neurips-fusion-equilibrium-2026",
@@ -7319,7 +7565,7 @@
       "schedule_note": "Phase 1 7.27~10.18 · 블라인드 테스트 데이터 10.19 공개 · Phase 2 10.19~26 (3회 제출) · 결과 12월 NeurIPS",
       "schedule_note_en": "Phase 1 Jul 27-Oct 18; blind test data released Oct 19; Phase 2 Oct 19-26 (3 submissions); results at NeurIPS in December",
       "added": "2026-08-21",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "neurips-roco-spring-2026",
@@ -7371,7 +7617,7 @@
       "schedule_note": "최종 제출 9.30 종료 · 우승 통보 10.31 · NeurIPS 워크숍 12.12 15:30~17:45 시드니 MR C4.3",
       "schedule_note_en": "Final submissions closed Sep 30; winners notified Oct 31; NeurIPS workshop Dec 12 15:30-17:45 Sydney, room MR C4.3",
       "added": "2026-08-21",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "mabc-2026",
@@ -7493,7 +7739,7 @@
       "schedule_note": "롤링 심사 진행 중 ('검토 중이지만 계속 지원 가능') · 행사 10.22 14시 서울 · 장소는 승인 후 개별 안내",
       "schedule_note_en": "Rolling review continues ('applications are being reviewed, but please still apply'); event Oct 22 2pm in Seoul; venue shared after approval",
       "added": "2026-08-21",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "ausgcon-2026",
@@ -7660,17 +7906,17 @@
           "label_en": "Closing day"
         }
       ],
-      "schedule_note": "전시 10.21~23 · 공홈의 '9.11 마감'은 부스 신청 마감(참관 사전등록 아님) · 장소 표기가 KINTEX와 금천구 주소로 엇갈림 (10.5) — 방문 전 공홈에서 장소 재확인",
-      "schedule_note_en": "Exhibition Oct 21-23; the site's 'Sep 11 deadline' is for booth applications, not visitor pre-registration; the venue reads both KINTEX and a Geumcheon-gu address (Oct 5) - re-check the venue on the site before going",
+      "schedule_note": "정정: 장소 KINTEX 제1전시장 2홀 (금천은 주관사 사무실 주소) · 전시 10.21(수) 10시~10.23(금) 16시 · AMXPO 2026 동시 개최",
+      "schedule_note_en": "Correction: venue is KINTEX Hall 1, Hall 2 (Geumcheon is just the organizer's office address); exhibition Oct 21 (Wed) 10am-Oct 23 (Fri) 4pm; co-located with AMXPO 2026",
       "added": "2026-08-21",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "depromeet-19",
       "name": "디프만 19기 (Depromeet)",
       "name_en": "Depromeet Cohort 19",
       "category": "동아리·커뮤니티",
-      "status": "upcoming",
+      "status": "ongoing_closed",
       "tags": [
         "동아리",
         "IT",
@@ -7690,13 +7936,44 @@
       "prize_en": "Free (activity fees announced separately)",
       "description": "디자이너·개발자 연합 IT 동아리 디프만의 19기. 기수별 4개월 내외 팀 프로젝트로 실서비스 런칭. 18기는 2026 상반기(3.14~7.4) 진행 완료.",
       "description_en": "Cohort 19 of Depromeet, the designer-developer IT club. Four-month team projects shipping real services each cohort. Cohort 18 ran in H1 2026 (Mar 14-Jul 4).",
-      "tip": "18기 서류가 2월 중순이었으니 19기는 2027년 1~2월 공고 예상 — 포트폴리오·GitHub 미리 정리.",
-      "tip_en": "Cohort 18 applications were mid-February, so expect the cohort-19 call around Jan-Feb 2027 - tidy your portfolio and GitHub in advance.",
-      "events": [],
-      "schedule_note": "19기 '모집 알림 받기' 버튼만 존재, 일정 미공지 (10.5) · 2027년 1~2월 예상",
-      "schedule_note_en": "Only a '19th recruiting alert' button, no dates (Oct 5); expected Jan-Feb 2027",
+      "tip": "19기 모집 종료(놓침). 다음 기수는 반기 패턴상 2027년 봄 — 공홈 '모집 알림 받기'를 신청해 둘 것.",
+      "tip_en": "The 19th cohort is closed (missed). On the half-yearly pattern the next one is spring 2027 - sign up for the site's recruiting alert.",
+      "events": [
+        {
+          "type": "apply_start",
+          "date": "2026-10-02",
+          "label": "서류 접수 시작",
+          "label_en": "Applications open"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-10-08",
+          "label": "서류 마감 (23:59)",
+          "label_en": "Application deadline (11:59pm)"
+        },
+        {
+          "type": "partial_deadline",
+          "date": "2026-10-12",
+          "label": "서류 결과 발표",
+          "label_en": "Document results"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-10-17",
+          "label": "온라인 면접 (10.17~18)",
+          "label_en": "Online interviews (Oct 17-18)"
+        },
+        {
+          "type": "announce",
+          "date": "2026-10-22",
+          "label": "최종 발표",
+          "label_en": "Final results"
+        }
+      ],
+      "schedule_note": "정정: 19기 모집이 이미 진행·종료 — 서류 10.2~10.8 23:59 · 서류 발표 10.12 · 온라인 면접 10.17~18 · 최종 발표 10.22 (기존 '2027년 1~2월 예상'은 오류, 공홈 depromeet.com/recruit 확인)",
+      "schedule_note_en": "Correction: the 19th cohort already recruited - applications Oct 2-8 11:59pm, document results Oct 12, online interviews Oct 17-18, final results Oct 22 (the earlier 'expected Jan-Feb 2027' was wrong; confirmed at depromeet.com/recruit)",
       "added": "2026-08-24",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "everyone-ai-lab-2026",
@@ -7763,10 +8040,10 @@
           "label_en": "Opening"
         }
       ],
-      "schedule_note": "권역 예선(390개 아이디어 → 50팀 → 5개 권역) 거쳐 본선 12팀 발표 · 발대식 10.1 스페이스쉐어 을지로입구센터 (약 60명, 멘토 카카오·네이버클라우드·NHN클라우드·LG유플러스·SKT) · 개발 10~12월 · 최종 평가·시상 12월 · 총상금 2,800만",
-      "schedule_note_en": "After regional prelims (390 ideas, 50 teams, 5 regions), 12 finalist teams were announced; kickoff Oct 1 at Spaceshare Euljiro-ipgu (about 60 people; mentors from Kakao, Naver Cloud, NHN Cloud, LG U+, SKT); development Oct-Dec; final evaluation and awards in December; 28M KRW total",
+      "schedule_note": "본선 12팀 (390개 아이디어 → 50팀 → 12팀) · 발대식 10.1 · 멘토링 10~12월 · 결선·시상 12월 · 총상금 2,800만",
+      "schedule_note_en": "12 finalist teams (390 ideas, 50 teams, 12 finalists); kickoff Oct 1; mentoring Oct-Dec; finals and awards in December; 28M KRW total",
       "added": "2026-08-24",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "gr-hackathon-6",
@@ -7824,7 +8101,7 @@
       "schedule_note": "대학생 해커톤 접수 종료 (8.12~9.30) — 10.1 연장 공지는 어린이 사생대회·가상공간 만들기·댄스 챌린지만 해당 (10.11까지), 대학생 해커톤 제외 · 본선 해커톤 10.24(토)~25(일) 1박2일, 블룸비스타 호텔앤컨퍼런스(양평)",
       "schedule_note_en": "University hackathon applications closed (Aug 12-Sep 30) - the Oct 1 extension notice covers only the children's drawing, virtual-space and dance tracks (to Oct 11), not the university hackathon; finals hackathon Oct 24 (Sat)-25 (Sun), overnight at Bloomvista Hotel & Conference (Yangpyeong)",
       "added": "2026-08-24",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "nvidia-ai-days-seoul-2026",
@@ -7878,14 +8155,14 @@
       "schedule_note": "등록 오픈 (공홈 10.5 확인) · 행사 11.9(메인 컨퍼런스)~11.10(DLI 트레이닝 핸즈온 워크숍·특별 세션) 코엑스 · 워크숍 얼리버드 가격 10.19 종료",
       "schedule_note_en": "Registration open (site checked Oct 5); Nov 9 main conference and Nov 10 DLI hands-on training workshops and special sessions at COEX; workshop early-bird pricing ends Oct 19",
       "added": "2026-08-24",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "pytorch-day-korea-2026",
       "name": "PyTorch Day Korea 2026 (TORCH YAHO!)",
       "name_en": "PyTorch Day Korea 2026 (TORCH YAHO!)",
       "category": "컨퍼런스·박람회",
-      "status": "upcoming",
+      "status": "applying",
       "tags": [
         "PyTorch",
         "커뮤니티",
@@ -7905,20 +8182,32 @@
       "prize_en": "CFP speaking slots (session@pytorchday.kr); ticket details TBA",
       "description": "파이토치 한국 사용자 모임의 첫 대규모 오프라인 컨퍼런스. 11.21(토) 서울. Build / Serve / Run 3개 트랙 — 모델 개발·최적화·서빙과 vLLM·DeepSpeed 등 PyTorch 생태계 사례 공유. 현재 CFP 접수 중.",
       "description_en": "The PyTorch Korea User Group's first large offline conference, Sat Nov 21 in Seoul. Three tracks - Build / Serve / Run - covering model development, optimization and serving plus PyTorch-ecosystem cases like vLLM and DeepSpeed. CFP open now.",
-      "tip": "vLLM 기여 경험을 Serve/Run 트랙 CFP로 내볼 만함 — 커뮤니티 첫 회라 채택 문턱이 낮은 편. 발표 실적은 이력서에도 남는다.",
-      "tip_en": "A vLLM-contribution talk fits the Serve/Run tracks - first editions tend to have friendlier CFP odds, and a talk is a durable resume line.",
+      "tip": "등록 열림 — '마감임박' 표기라 정원 소진이 빠를 수 있다. vLLM·서빙 세션이 몰려 있어 LLM 시스템 관심자에게 실속.",
+      "tip_en": "Registration is open and already marked 'closing soon', so seats may go fast. Heavy on vLLM and serving sessions - worthwhile for LLM-systems interests.",
       "events": [
         {
           "type": "activity_start",
           "date": "2026-11-21",
           "label": "행사 당일 (서울)",
           "label_en": "Event day (Seoul)"
+        },
+        {
+          "type": "apply_start",
+          "date": "2026-10-16",
+          "label": "참가 등록 시작 (09:30)",
+          "label_en": "Registration opens (9:30am)"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-11-16",
+          "label": "참가 등록 마감 (23:30)",
+          "label_en": "Registration closes (11:30pm)"
         }
       ],
-      "schedule_note": "행사 11.21(토) 서울 · CFP 9.13 종료 · 참가 등록 미오픈 (10.5 — 공홈 템플릿 필드 미기재)",
-      "schedule_note_en": "Nov 21 (Sat) in Seoul; CFP closed Sep 13; attendee registration not open (Oct 5 - site template fields still blank)",
+      "schedule_note": "참가 등록 오픈 10.16 09:30~11.16 23:30 (이벤터스, 3만 원, '마감임박' 표기) · 행사 11.21(토) 09~18시 AWS 센터필드 EAST 18층 · CFP는 9.13 종료",
+      "schedule_note_en": "Registration open Oct 16 9:30am-Nov 16 11:30pm (event-us, 30,000 KRW, marked 'closing soon'); event Nov 21 (Sat) 9am-6pm at AWS Centerfield EAST 18F; CFP closed Sep 13",
       "added": "2026-08-24",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "droidknights-2026",
@@ -7967,10 +8256,10 @@
           "label_en": "Call for Resume deadline (11:59pm)"
         }
       ],
-      "schedule_note": "티켓 온라인 판매 중 (ticketa) · Call for Resume 마감 10.12 23:59 (선정 시 티켓 환불) · 행사 11.2 ST센터",
-      "schedule_note_en": "Tickets on sale online (Ticketa); Call for Resume closes Oct 12 11:59pm (ticket refunded if selected); event Nov 2 at the ST Center",
+      "schedule_note": "Call for Resume 10.12 마감 · 티켓 온라인 판매 계속 (매진 표기 없음, 1인 1매) · 행사 11.2 ST센터",
+      "schedule_note_en": "Call for Resume closed Oct 12; tickets still on sale online (no sold-out flag, one per person); event Nov 2 at the ST Center",
       "added": "2026-08-24",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "ai-risk-conference-seoul-2026",
@@ -8128,17 +8417,17 @@
           "label_en": "Agency-prelim deadline (varies by agency)"
         }
       ],
-      "schedule_note": "접수 종료(8.31) · 통합본선 9월(세부 일자 미공개, 9.14 — 행안부 수정 통합공고: 예선기관 44개) · 왕중왕전 11월 — 최종 10팀, 총상금 1억",
-      "schedule_note_en": "Applications closed Aug 31; combined finals in Sep (date unpublished as of Sep 14 - MOIS revised notice: 44 prelim organizers); grand final in Nov - 10 teams, 100M KRW total",
+      "schedule_note": "통합본선 9.30~10.2 서울창업허브 완료 · 왕중왕전 10팀 10.5 발표 · 왕중왕전 11월 (일자 미공개) · 총상금 1억",
+      "schedule_note_en": "Combined finals Sep 30-Oct 2 at Seoul Startup Hub done; 10 grand-final teams announced Oct 5; grand final in November (date unpublished); 100M KRW total",
       "added": "2026-08-26",
-      "checked": "2026-09-14"
+      "checked": "2026-10-22"
     },
     {
       "id": "gyeongsan-sw-challenge-3",
       "name": "제3회 미래융합인재 발굴 소프트웨어 챌린지 (경산)",
       "name_en": "3rd Future Convergence Talent SW Challenge (Gyeongsan)",
       "category": "SW·웹 개발",
-      "status": "applying",
+      "status": "ongoing_closed",
       "tags": [
         "경산",
         "IITP",
@@ -8186,12 +8475,18 @@
           "date": "2026-10-28",
           "label": "본선 종료 (일반부 10.28)",
           "label_en": "Finals end (general division Oct 28)"
+        },
+        {
+          "type": "partial_deadline",
+          "date": "2026-10-16",
+          "label": "서류 결과 발표",
+          "label_en": "Document results"
         }
       ],
-      "schedule_note": "",
-      "schedule_note_en": "",
+      "schedule_note": "접수 종료 (10.7) · 서류 결과 10.16 · 본선 참가팀 확정 10.20 (고등부 9·일반부 9) · 본선·시상 고등부 10.27 / 일반부 10.28 11~18시 경산이노베이션아카데미",
+      "schedule_note_en": "Applications closed Oct 7; document results Oct 16; finalists confirmed Oct 20 (9 high-school, 9 general); finals and awards Oct 27 (high school) and Oct 28 (general) 11am-6pm at Gyeongsan Innovation Academy",
       "added": "2026-08-26",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "musinsa-pattern-26",
@@ -8258,7 +8553,7 @@
       "name": "스마트라이프위크 2026 (SLW)",
       "name_en": "Smart Life Week 2026 (SLW)",
       "category": "컨퍼런스·박람회",
-      "status": "applying",
+      "status": "ended",
       "tags": [
         "서울시",
         "스마트시티",
@@ -8308,10 +8603,10 @@
           "label_en": "Closing"
         }
       ],
-      "schedule_note": "시민 사전등록 8.10~10.5(월) 23:59 (오늘 마감) · 행사 10.6~8 코엑스 A·B홀 + 300~308호 · 주제 'AI로 그리는 미래도시의 일상'",
-      "schedule_note_en": "Public pre-registration Aug 10-Oct 5 (Mon) 11:59pm (closes tonight); event Oct 6-8 at COEX Halls A/B plus rooms 300-308; theme 'everyday life in the AI-drawn future city'",
+      "schedule_note": "종료 — 10.6~8 코엑스 · 529개 참가처 (기업 313·기관 102·도시 114) · 키노트 마크 레이버트",
+      "schedule_note_en": "Over - Oct 6-8 at COEX; 529 exhibitors (313 companies, 102 institutions, 114 cities); keynote by Marc Raibert",
       "added": "2026-08-26",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "etri-conference-2026",
@@ -8395,7 +8690,7 @@
         }
       ],
       "added": "2026-08-28",
-      "checked": "2026-09-20",
+      "checked": "2026-10-22",
       "schedule_note": "접수 종료 (8.24~9.17, 연장 없음) · 기술지원·문의 9.17 18시 마감 · 예선·본선 일정은 공고 첨부(이미지·파일)로만 제공 — 텍스트 확인 불가, 참가자는 공고 첨부 확인 필요",
       "schedule_note_en": "Applications closed (Aug 24-Sep 17, no extension); tech support/inquiries ended Sep 17 6pm; prelim/final schedule is only in the notice attachments (images/files) and not readable as text - entrants should check the attachment"
     },
@@ -8449,14 +8744,14 @@
       "schedule_note": "접수 종료 (8.24 12시~9.21 18시, 이벤터스 '모집이 종료되었습니다', 연장 없음) · 본선 11.9(월) 09~18시 양재 엘타워 · 주관 산업통상부·KIAT·조선해양플랜트협회, 참여 HD한국조선해양·한화오션·삼성중공업 · 주제 조선업 AX 솔루션 · 장관상·총상금 1,800만",
       "schedule_note_en": "Applications closed (Aug 24 noon-Sep 21 6pm; event-us shows 'registration closed', no extension); finals Nov 9 (Mon) 9am-6pm at El Tower, Yangjae; run by MOTIE, KIAT and the Korea Offshore & Shipbuilding Association with HD KSOE, Hanwha Ocean and Samsung Heavy; theme: shipbuilding AX solutions; minister's award, 18M KRW total",
       "added": "2026-08-28",
-      "checked": "2026-09-21"
+      "checked": "2026-10-22"
     },
     {
       "id": "wanted-ai-championship-2026",
       "name": "원티드 AI Championship 2026",
       "name_en": "Wanted AI Championship 2026",
       "category": "AI/ML 국내",
-      "status": "ongoing_closed",
+      "status": "ended",
       "tags": [
         "원티드랩",
         "AI 서비스",
@@ -8504,10 +8799,10 @@
           "label_en": "Demo day & awards (offline)"
         }
       ],
-      "schedule_note": "접수 마감 9.18 · 구현·배포 마감 9.20 (연장 없음) · 예선 9.21~10.5: 내부심사 80% + 온라인 투표 20% · TOP20 발표 10.7 · 오프라인 데모데이·시상 10.17 · 대상 1,000만·우수 300만·인기상 100만×3",
-      "schedule_note_en": "Applications closed Sep 18; build/deploy closed Sep 20 (no extension); prelims Sep 21-Oct 5 weighted 80% internal review + 20% online vote; top 20 announced Oct 7; offline demo day and awards Oct 17; grand 10M, excellence 3M, popularity 1M x3 KRW",
+      "schedule_note": "종료 (일정 기준) — TOP20 발표 10.7 · 데모데이·시상 10.17 · 수상팀 미확인",
+      "schedule_note_en": "Over (by schedule) - top 20 announced Oct 7; demo day and awards Oct 17; winners not confirmed",
       "added": "2026-08-28",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "ict-standard-challenge-2026",
@@ -8661,7 +8956,7 @@
         }
       ],
       "added": "2026-08-28",
-      "checked": "2026-10-05",
+      "checked": "2026-10-22",
       "schedule_note": "접수 종료 (8.10~9.21, 연장 없음) · 1차 서류 9.22~23 · 2차 서류 9.28~10.13 · 2차 결과 10.15 · 공개검증 10.16~27 · 발표평가·시상 10.30",
       "schedule_note_en": "Applications closed (Aug 10-Sep 21, no extension); first document review Sep 22-23; second review Sep 28-Oct 13; second results Oct 15; public verification Oct 16-27; presentations and awards Oct 30",
       "links": [
@@ -8735,10 +9030,10 @@
           "label_en": "Results"
         }
       ],
-      "schedule_note": "데이터안심구역 부문 접수 9.1~10.22(목) · 예선(서면·기술) 10.28~29 · 본선(발표) 11.18~19 · 결과 11.25 · 안심구역 최소 3회 방문 필수 · 총상금 2,750만·20점 (대구 안심구역 트랙) + 나이스지니데이타 2027 신입 서류 면제",
-      "schedule_note_en": "Data safe-zone track applications Sep 1-Oct 22 (Thu); written and technical prelim Oct 28-29; final presentations Nov 18-19; results Nov 25; at least 3 visits to a safe zone required; 27.5M KRW across 20 awards (Daegu safe-zone track) plus a 2027 NICE Genie Data new-grad screening waiver",
+      "schedule_note": "데이터안심구역 부문 접수 9.1~10.22(오늘 마감, 연장 없음) · 예선(서면·기술) 10.28~29 · 본선 11.18~19 · 결과 11.25",
+      "schedule_note_en": "Data safe-zone track applications Sep 1-Oct 22 (closing today, no extension); written and technical prelim Oct 28-29; finals Nov 18-19; results Nov 25",
       "added": "2026-09-04",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "visitseoul-api-idea-2026",
@@ -8795,7 +9090,7 @@
       "name": "RevenueCat Shipaton 2026",
       "name_en": "RevenueCat Shipaton 2026",
       "category": "해커톤",
-      "status": "ongoing_closed",
+      "status": "ended",
       "tags": [
         "글로벌",
         "모바일",
@@ -8829,10 +9124,10 @@
           "label_en": "Demo day (Times Square, New York)"
         }
       ],
-      "schedule_note": "제출 기간 8.1~9.30 종료 · 참가자 28,646명 · 우승 발표 '곧' (일자 미정) · 데모데이 10.22 뉴욕 타임스스퀘어",
-      "schedule_note_en": "Shipping window Aug 1-Sep 30 closed; 28,646 participants; winners 'announced soon' (no date); demo day Oct 22 in Times Square, New York",
+      "schedule_note": "종료 — 우승작 10.20 발표 (대상 'Mio' · Best Game 'Nitelore' · Peace Prize 'See as Me: Colorblind' 등)",
+      "schedule_note_en": "Over - winners posted Oct 20 (grand prize 'Mio'; Best Game 'Nitelore'; Peace Prize 'See as Me: Colorblind', among others)",
       "added": "2026-09-04",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "daytona-hacksprint-seoul-2026",
@@ -8927,7 +9222,7 @@
       "name": "2026 정보보호 정책제안 공모전",
       "name_en": "2026 Information Security Policy Proposal Contest",
       "category": "보안",
-      "status": "applying",
+      "status": "ongoing_closed",
       "tags": [
         "KISIA",
         "보안정책",
@@ -8967,10 +9262,10 @@
           "label_en": "Final results"
         }
       ],
-      "schedule_note": "접수 7.22 14시~10.11 23:59 (이메일 kucis@kisia.or.kr, 재학증명서·표절검사 결과 포함) · 대학생 2~7인 팀 · 서면평가 10월 3주차 → 결과 10.23 11시 · 발표평가 11월 3주차 → 최종 결과 11.27 · 주최 과기정통부·KISIA",
-      "schedule_note_en": "Applications Jul 22 2pm-Oct 11 11:59pm (email kucis@kisia.or.kr with enrollment certificate and plagiarism-check result); university teams of 2-7; document review 3rd week of Oct, results Oct 23 11am; presentations 3rd week of Nov, final results Nov 27; hosted by MSIT and KISIA",
+      "schedule_note": "접수 종료 (10.11 23:59) · 서면 결과 10.23 11시 (상위 12팀 이메일) · 발표평가 결과 11.27 11시 · 시상 12월 3~4주",
+      "schedule_note_en": "Applications closed Oct 11 11:59pm; document results Oct 23 11am (top 12 teams by email); presentation results Nov 27 11am; awards in the 3rd-4th week of December",
       "added": "2026-09-04",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "gwdc-korea-hackathon-2026",
@@ -9084,9 +9379,9 @@
         }
       ],
       "added": "2026-09-07",
-      "checked": "2026-10-05",
-      "schedule_note": "접수 종료 (9.18) · 예선 결과·본선 진출팀 발표 9.29~10.2 (개별 통보, 공개 확인은 미확인) · 본선 발표자료 제출 10.3~16 · 본선·시상 10.24(토) 성남시청 3층",
-      "schedule_note_en": "Applications closed Sep 18; prelim results and finalists were due Sep 29-Oct 2 by individual notice (public confirmation not found); finals slides Oct 3-16; finals and awards Oct 24 (Sat), Seongnam City Hall 3F"
+      "checked": "2026-10-22",
+      "schedule_note": "본선 진출: 일반 6팀·학생 10팀 (9.29 발표) · 본선 자료 10.16 마감 · 본선·시상 10.24(토) 성남시청 3층 산성누리실",
+      "schedule_note_en": "Finalists: 6 general and 10 student teams (announced Sep 29); finals materials closed Oct 16; finals and awards Oct 24 (Sat), Seongnam City Hall 3F Sanseong Nuri Hall"
     },
     {
       "id": "ai-digital-social-challenge-2026",
@@ -9144,7 +9439,7 @@
       "schedule_note": "접수 종료 (8.21~9.30) · 서류심사 10.1~6 · 1차 멘토링 10월 · 상세기획서 11.3 · 예선 11.4~6 · 2차 멘토링 11월 · 결선 12월 초 · 총상금 2,800만 (최대 10팀)",
       "schedule_note_en": "Applications closed (Aug 21-Sep 30); document review Oct 1-6; first mentoring in October; detailed proposal Nov 3; prelims Nov 4-6; second mentoring in November; finals early December; 28M KRW total (up to 10 teams)",
       "added": "2026-09-07",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "busan-ai-startup-2026",
@@ -9206,7 +9501,7 @@
         }
       ],
       "added": "2026-09-07",
-      "checked": "2026-10-05",
+      "checked": "2026-10-22",
       "schedule_note": "접수 종료 (9.7~9.30 18시) · 예선(서면) 10.1~7 · 예선 결과 10.8 16시 (최대 20팀, 개별 연락 두절 시 불합격) · 오리엔테이션 10.15 16시 온라인 · 본선·시상 10.31 (발표 10분+질의 5분, 11팀 수상) · 정정: 공식 사이트는 ai-startup-competition.kr (기존 링크는 6월 다른 공모)",
       "schedule_note_en": "Applications closed (Sep 7-Sep 30 6pm); written prelim Oct 1-7; prelim results Oct 8 4pm (up to 20 teams; unreachable teams are dropped); orientation Oct 15 4pm online; finals and awards Oct 31 (10-min pitch + 5-min Q&A, 11 winning teams); correction: the official site is ai-startup-competition.kr (the old link pointed to a different June contest)"
     },
@@ -9291,7 +9586,7 @@
       "schedule_note_en": "No 40th notice (Oct 5); makers planned for Feb 2027",
       "events": [],
       "added": "2026-09-09",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "ksc-2026",
@@ -9318,20 +9613,14 @@
       "prize_en": "No cash prize; best papers recommended for journal publication (fees announced early Nov; last year from 140,000 KRW for student members)",
       "description": "한국정보과학회(KIISE) 연 2회 종합학술대회 중 동계 대회. 주제 '범용인공지능 시대를 여는 클라우드와 소프트웨어 혁신', 약 2,000명 참가. 학부생논문·주니어논문(포스터) 트랙이 있어 첫 학술논문 발표 기회. 논문 접수 9.7~10.12, 행사 12.21~23 경주화백컨벤션센터.",
       "description_en": "Winter edition of KIISE's semiannual congress, Korea's largest CS conference (~2,000 attendees). Theme: cloud & software innovation for the AGI era. Dedicated undergraduate and junior paper (poster) tracks make it a first academic-publication venue. Papers Sep 7-Oct 12; event Dec 21-23 at Gyeongju HICO.",
-      "tip": "학부생논문 트랙은 4쪽 내외 포스터 — 캡스톤·동아리 프로젝트를 논문 형식으로 정리하면 대학원 지원 CV에 '학술대회 발표' 한 줄 확보. 비회원도 투고 가능.",
-      "tip_en": "The undergraduate track is a ~4-page poster - writing up a capstone or club project earns a 'conference presentation' line for grad-school CVs. Non-members can submit.",
+      "tip": "마감이 10.26으로 두 번 연장 — 학부생 포스터는 4쪽 내외라 지금 시작해도 늦지 않다. 캡스톤·동아리 프로젝트를 논문 형식으로 정리하면 '학술대회 발표' 한 줄 확보.",
+      "tip_en": "The deadline has been extended twice, now to Oct 26 - an undergraduate poster is about 4 pages, so starting now is not too late. Writing up a capstone or club project earns a 'conference presentation' line.",
       "events": [
         {
           "type": "apply_start",
           "date": "2026-09-07",
           "label": "논문 접수 시작 (14시)",
           "label_en": "Paper submission opens (2pm)"
-        },
-        {
-          "type": "apply_end",
-          "date": "2026-10-12",
-          "label": "논문 접수 마감 (23:59)",
-          "label_en": "Paper submission deadline (11:59pm)"
         },
         {
           "type": "partial_deadline",
@@ -9350,10 +9639,16 @@
           "date": "2026-12-23",
           "label": "학술대회 종료",
           "label_en": "Congress ends"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-10-26",
+          "label": "논문 접수 마감 (연장)",
+          "label_en": "Paper submission deadline (extended)"
         }
       ],
-      "schedule_note": "논문 접수 9.7 14시~10.12 23:59 확인 (공홈 접수 페이지 직접 확인, 9.20) · 학부생·주니어 논문도 동일 마감 (포스터 발표) · 행사 12.21~23 경주화백컨벤션센터 · 사전등록: 발표자 11.11~25 · 일반 1차 11.11~12.2, 2차 12.3~9 · 현장 12.21~23",
-      "schedule_note_en": "Paper submissions Sep 7 2pm-Oct 12 11:59pm (verified directly on the submission page, Sep 20); undergraduate and junior papers share the same deadline (poster presentation); event Dec 21-23 at Gyeongju HICO; pre-registration: presenters Nov 11-25, general 1st Nov 11-Dec 2, 2nd Dec 3-9, on-site Dec 21-23",
+      "schedule_note": "논문 접수 2차 연장 → 10.26(월) (KIISE 공지 10.19 — 1차 연장 10.19) · 학부생·주니어 논문(포스터) 동일 마감 · 행사 12.21~23 경주화백컨벤션센터",
+      "schedule_note_en": "Paper submissions extended a second time to Oct 26 (Mon) (KIISE notice Oct 19; first extension was to Oct 19); undergraduate and junior papers (posters) share the deadline; event Dec 21-23 at Gyeongju HICO",
       "links": [
         {
           "title": "논문 접수 안내",
@@ -9362,14 +9657,14 @@
         }
       ],
       "added": "2026-09-09",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "ost-2026",
       "name": "오픈소스 테크데이 2026 (OST 2026)",
       "name_en": "Open Source Tech Day 2026 (OST 2026)",
       "category": "컨퍼런스·박람회",
-      "status": "applying",
+      "status": "ended",
       "tags": [
         "오픈소스",
         "출연연",
@@ -9401,17 +9696,17 @@
           "label_en": "Event day (aT Center, 10am-5pm)"
         }
       ],
-      "schedule_note": "사전등록 진행 중 (마감 미표기) · 행사 10.7(수) 10~17시 aT센터 3층 세계로룸",
-      "schedule_note_en": "Pre-registration open (no deadline shown); Oct 7 (Wed) 10am-5pm, aT Center 3F Segyero Room",
+      "schedule_note": "종료 (일정 기준) — 10.7 aT센터 세계로룸 · 사후 보도는 미확인",
+      "schedule_note_en": "Over (by schedule) - Oct 7 at aT Center Segyero Room; no post-event coverage found",
       "added": "2026-09-09",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "kaggriculture-2026",
       "name": "Kaggle Kaggriculture (농장 경영 AI 에이전트)",
       "name_en": "Kaggle Kaggriculture (farm-management AI agents)",
       "category": "AI/ML 글로벌",
-      "status": "ongoing_closed",
+      "status": "ended",
       "tags": [
         "Kaggle",
         "에이전트",
@@ -9447,17 +9742,17 @@
           "label_en": "Final submission deadline (UTC)"
         }
       ],
-      "schedule_note": "참가·팀 병합 9.23 · 최종 제출 9.30 종료 · 이후 약 2주간 최종 토너먼트(리더보드 수렴) — Kaggle 페이지 비렌더링으로 종료 시각 직접 확인 불가",
-      "schedule_note_en": "Entry and team merge Sep 23; final submissions closed Sep 30; about two weeks of final tournament play follow (leaderboard settling) - the Kaggle page did not render, so exact end times could not be read",
+      "schedule_note": "종료 (추정) — 최종 제출 9.30 후 약 2주 토너먼트 · Kaggle 페이지 비렌더링으로 최종 순위 직접 확인 불가 (참가자 게시물상 메달 확정)",
+      "schedule_note_en": "Over (presumed) - about two weeks of tournament play after the Sep 30 final submission; the Kaggle page did not render, so the final ranking could not be read (participant posts show medals awarded)",
       "added": "2026-09-09",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "worldbank-small-ai-hackathon-2026",
       "name": "세계은행 Small AI for Development 해커톤 2026",
       "name_en": "World Bank Small AI for Development Hackathon 2026",
       "category": "해커톤",
-      "status": "ongoing_closed",
+      "status": "ended",
       "tags": [
         "세계은행",
         "글로벌",
@@ -9513,8 +9808,8 @@
           "label_en": "Online pitches & awards"
         }
       ],
-      "schedule_note": "신청 9.26 마감 · Hack-Nation 7차 해커톤 10.3~4 개최 (루마 3,156명 참가) · 파이널리스트 통보 10.8 · 온라인 피칭·시상 10.10 · 세계은행 부문(보건·농업·관광) 우승팀은 10.19~22 서울 서밋에서 발표",
-      "schedule_note_en": "Applications closed Sep 26; Hack-Nation's 7th hackathon ran Oct 3-4 (3,156 attendees on Luma); finalists notified Oct 8; online pitches and awards Oct 10; World Bank category winners (health, agriculture, tourism) present at the Seoul summit Oct 19-22",
+      "schedule_note": "종료 — 해커톤 10.3~4 · 우승팀 서울 서밋 발표 10.21 예정이었으나 명단 미공개",
+      "schedule_note_en": "Over - hackathon Oct 3-4; winners were to present at the Seoul summit on Oct 21, but no names were published",
       "links": [
         {
           "title": "Hack-Nation 신청 폼 (루마)",
@@ -9523,7 +9818,7 @@
         }
       ],
       "added": "2026-09-09",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "ai-tinkerers-seoul-agents-hackathon-2026",
@@ -9785,7 +10080,7 @@
       "schedule_note": "접수 9.14~11.5 18시 · 예선 심사 11.11 · 본선 11.25~26 경상국립대 · 대학(원)생·스타트업·중소중견 재직자 팀",
       "schedule_note_en": "Applications Sep 14-Nov 5 6pm; prelim review Nov 11; finals Nov 25-26 at GNU; teams of university/grad students, startups, SME employees",
       "added": "2026-09-14",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "nebius-nvidia-global-ai-hackathon-2026",
@@ -9828,17 +10123,17 @@
           "label_en": "Submission deadline (Oct 31 02:00 KST = Oct 30 10:00 PDT)"
         }
       ],
-      "schedule_note": "온라인 진행 중 · 제출 마감 10.30 10:00 PDT (KST 10.31 02:00) · 등록 17,879명 (10.5) · 심사·발표 일자 미기재",
-      "schedule_note_en": "Online, running; submissions due Oct 30 10:00 PDT (Oct 31 02:00 KST); 17,879 registered (Oct 5); judging and announcement dates not listed",
+      "schedule_note": "제출 10.30 10:00 PDT (KST 10.31 02:00) · 심사 12.1~15 · 수상 발표 2027.1.11경",
+      "schedule_note_en": "Submissions close Oct 30 10:00 PDT (Oct 31 02:00 KST); judging Dec 1-15; winners around Jan 11, 2027",
       "added": "2026-09-14",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "yeongnam-cyber-defense-2",
       "name": "제2회 영남권 사이버 공격 방어 대회",
       "name_en": "2nd Yeongnam Cyber Attack & Defense Competition",
       "category": "보안",
-      "status": "applying",
+      "status": "ongoing_closed",
       "tags": [
         "CTF",
         "공격방어",
@@ -9888,10 +10183,10 @@
           "label_en": "Finals & awards (Busan)"
         }
       ],
-      "schedule_note": "접수 9.11~10.7 (우편·이메일) · 온라인 CTF 예선 10.14 · 결선·시상 11.4 부산 (2026 부산 사이버보안 콘퍼런스 연계) · 팀 4인 이하, 영남권 재학·거주자 1명 이상 — 공식 공고문은 동서발전 사이트에서 찾지 못해 보도(9.11) 기준",
-      "schedule_note_en": "Applications Sep 11-Oct 7 (mail or email); online CTF prelim Oct 14; finals and awards Nov 4 in Busan (with the 2026 Busan Cybersecurity Conference); teams up to 4 with at least one Yeongnam-region student or resident - the official notice could not be found on the EWP site, so this follows press reports (Sep 11)",
+      "schedule_note": "접수 종료 (9.11~10.7, k-ctf '신청마감') · 예선 10.14 진행 여부 보도 미확인 · 결선 11.4 부산",
+      "schedule_note_en": "Applications closed (Sep 11-Oct 7; k-ctf shows 'closed'); no coverage confirming the Oct 14 prelim; finals Nov 4 in Busan",
       "added": "2026-09-14",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "nasa-space-apps-seoul-2026",
@@ -9942,10 +10237,16 @@
           "date": "2026-11-15",
           "label": "해커톤 종료",
           "label_en": "Hackathon ends"
+        },
+        {
+          "type": "partial_deadline",
+          "date": "2026-10-28",
+          "label": "글로벌 챌린지 공개",
+          "label_en": "Global challenges released"
         }
       ],
-      "schedule_note": "등록 9.4 오픈 — 해커톤 종료까지 가능 · 행사 11.14~15 서울 · 서울 로컬 페이지에 날짜·장소 미기재, nasaspaceappskr.org는 2025 제목 유지 (10.5) — 장소 공지 대기",
-      "schedule_note_en": "Registration open since Sep 4 through the hackathon; Nov 14-15 in Seoul; the Seoul local page lists no date or venue and nasaspaceappskr.org still shows its 2025 title (Oct 5) - waiting on a venue announcement",
+      "schedule_note": "서울 11.14(토)~15(일) — 주로 온라인, 일부 팀만 오프라인 (장소 미공개) · 글로벌 챌린지 공개 10.28 · 심사 11.16부터",
+      "schedule_note_en": "Seoul Nov 14 (Sat)-15 (Sun) - mostly online, with limited in-person seats for some teams (venue unpublished); global challenges released Oct 28; judging from Nov 16",
       "links": [
         {
           "title": "서울 로컬 안내 (nasaspaceappskr.org)",
@@ -9954,14 +10255,14 @@
         }
       ],
       "added": "2026-09-14",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "build-with-gemini-seoul-2026",
       "name": "Build with Gemini Seoul – All Builders Day",
       "name_en": "Build with Gemini Seoul - All Builders Day",
       "category": "컨퍼런스·박람회",
-      "status": "applying",
+      "status": "ended",
       "tags": [
         "Google Cloud",
         "Gemini",
@@ -9995,10 +10296,10 @@
           "label_en": "Event day (Lotte Hotel World, 9am-6pm)"
         }
       ],
-      "schedule_note": "10.14(수) 09~18시 롯데호텔 월드 (송파구 올림픽로 240) · 3개 트랙 · 등록 마감·정원 상태 미표시 (10.5)",
-      "schedule_note_en": "Oct 14 (Wed) 9am-6pm at Lotte Hotel World (240 Olympic-ro, Songpa-gu); 3 tracks; registration deadline and capacity status not shown (Oct 5)",
+      "schedule_note": "종료 (일정 기준) — 10.14 롯데호텔 월드 · 사후 보도 미확인",
+      "schedule_note_en": "Over (by schedule) - Oct 14 at Lotte Hotel World; no post-event coverage found",
       "added": "2026-09-14",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "lablup-conf-6-2026",
@@ -10102,7 +10403,7 @@
       "name": "한국 국방 테크 해커톤 (D4D × EDTH)",
       "name_en": "Korean Defense Tech Hackathon (D4D x EDTH)",
       "category": "해커톤",
-      "status": "ongoing_closed",
+      "status": "ended",
       "tags": [
         "국방AI",
         "드론",
@@ -10148,17 +10449,17 @@
           "label_en": "Demo day & awards"
         }
       ],
-      "schedule_note": "등록 마감 ('not currently taking registrations' — 226명 등록, 정원 200명 초과) · 10.9 Builders Night 17~21시 → 10.10 킥오프·24시간 빌드 → 10.11 데모데이 · 상금 총 500만 원+ · 4개 트랙 + 특별 챌린지 2개",
-      "schedule_note_en": "Registration closed ('not currently taking registrations' - 226 registered against a 200 cap); Oct 9 Builders Night 5-9pm, Oct 10 kickoff and 24-hour build, Oct 11 demo day; 5M+ KRW in prizes; 4 tracks plus 2 special challenges",
+      "schedule_note": "종료 (일정 기준) — 10.9~11 · 수상팀 미공개 · 루마에 별도 'EDTH Korea Defense Tech Hackathon'(경북 의성)이 같은 날짜로 존재해 장소 표기가 엇갈림",
+      "schedule_note_en": "Over (by schedule) - Oct 9-11; winners not published; a separate 'EDTH Korea Defense Tech Hackathon' (Uiseong, Gyeongbuk) on Luma lists the same dates, so the venue is inconsistent",
       "added": "2026-09-20",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "global-ai-digital-summit-seoul-2026",
       "name": "글로벌 AI·디지털 서밋 2026 (세계은행)",
       "name_en": "Global AI and Digital Summit 2026 (World Bank)",
       "category": "컨퍼런스·박람회",
-      "status": "applying",
+      "status": "ended",
       "tags": [
         "세계은행",
         "기획재정부",
@@ -10202,10 +10503,10 @@
           "label_en": "Summit closes"
         }
       ],
-      "schedule_note": "초청·등록 기반 (별도 공개 접수 마감 없음) · 주요 세션 라이브 스트림 · 10.19~22 그랜드 하얏트 서울 · 공식 아젠다 PDF 공개",
-      "schedule_note_en": "Invitation and registration based (no public application deadline); key sessions live-streamed; Oct 19-22 at the Grand Hyatt Seoul; the official agenda PDF is published",
+      "schedule_note": "종료 (오늘 폐막) — 10.19~22 서울 · Small AI 세션 10.20 · 세계은행 해커톤 우승팀 명단 미공개",
+      "schedule_note_en": "Over (closes today) - Oct 19-22 in Seoul; Small AI session Oct 20; World Bank hackathon winners not published",
       "added": "2026-09-20",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "intel-ai-summit-seoul-2026",
@@ -10261,7 +10562,7 @@
       "schedule_note": "사전등록 9.12~11.6 09시 (이벤터스, 무료) · 행사 11.12(목) 09~17시 코엑스 그랜드볼룸(1F)·오디토리움(3F)",
       "schedule_note_en": "Pre-registration Sep 12-Nov 6 9am (event-us, free); event Nov 12 (Thu) 9am-5pm at COEX Grand Ballroom (1F) and Auditorium (3F)",
       "added": "2026-09-20",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "flutter-korea-2026",
@@ -10300,10 +10601,10 @@
           "label_en": "Event day (11am, Centerfield EAST)"
         }
       ],
-      "schedule_note": "티켓 예매 진행 중 (티켓타, 마감일 미공지 — 정원 소진 시 마감) · 행사 11.7(토) 11시 강남 센터필드 EAST 12층",
-      "schedule_note_en": "Tickets on sale (Ticketa, no stated deadline - closes when full); Nov 7 (Sat) 11am at Centerfield EAST 12F, Gangnam",
+      "schedule_note": "일반 판매 9.24 09시~11.7 09시 (얼리버드 종료) · 행사 11.7(토) 11~18시 AWS 코리아 센터필드 EAST 12층",
+      "schedule_note_en": "General sale Sep 24 9am-Nov 7 9am (early bird over); event Nov 7 (Sat) 11am-6pm at AWS Korea, Centerfield EAST 12F",
       "added": "2026-09-20",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "ddd-seoul-2026",
@@ -10340,8 +10641,8 @@
           "label_en": "Event day (9am-6pm, Microsoft Korea, Gwanghwamun)"
         }
       ],
-      "schedule_note": "티켓 예매 진행 중 (티켓타 ticketa.co/event/o65cl11x) · CFP 접수 중 (dddseoul.kr/cfp, 마감 미공지) · 행사 12.4(금) 09~18시",
-      "schedule_note_en": "Tickets on sale (Ticketa: ticketa.co/event/o65cl11x); CFP open (dddseoul.kr/cfp, no stated deadline); event Dec 4 (Fri) 9am-6pm",
+      "schedule_note": "티켓 1차 2만 원 10.10~11.9 · 2차 2.5만 원 11.10~12.3 · 행사 12.4(금) 09~18시 한국MS 13층 · CFP 진행",
+      "schedule_note_en": "Tickets: first round 20,000 KRW Oct 10-Nov 9, second 25,000 KRW Nov 10-Dec 3; event Dec 4 (Fri) 9am-6pm at Microsoft Korea 13F; CFP open",
       "links": [
         {
           "title": "발표 제안 (CFP)",
@@ -10350,7 +10651,7 @@
         }
       ],
       "added": "2026-09-20",
-      "checked": "2026-09-20"
+      "checked": "2026-10-22"
     },
     {
       "id": "foss-for-all-2026",
@@ -10396,7 +10697,7 @@
       "schedule_note": "참가 등록 버튼 '준비중' (10.5 — 미오픈) · CFP 추가 모집 9.19~9.28 종료 · 행사 11.28(토) AWS 코리아 18층",
       "schedule_note_en": "Attendee registration button still 'in preparation' (Oct 5 - not open); the extra CFP round (Sep 19-28) is closed; event Nov 28 (Sat) at AWS Korea 18F",
       "added": "2026-09-20",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "aiot-korea-2026",
@@ -10450,7 +10751,7 @@
       "schedule_note": "온라인 사전등록 진행 중 (무료) · '사전등록&SNS 댓글 경품 이벤트' ~10.16 · 전시 11.3~5 코엑스 3층 D홀 · 컨퍼런스 11.4~6 · 대학(원)생은 11.5(목)만 입장 가능",
       "schedule_note_en": "Online pre-registration open (free); a 'pre-register & comment' prize event runs to Oct 16; exhibition Nov 3-5 at COEX Hall D (3F); conference Nov 4-6; university and graduate students may attend only on Nov 5 (Thu)",
       "added": "2026-09-20",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "kspo-public-data-contest-2026",
@@ -10599,17 +10900,17 @@
           "label_en": "Final (COEX)"
         }
       ],
-      "schedule_note": "접수 종료 (9.21~9.28 17시, 연장 없음) · 예선 진출자 발표 '추후 발표' (일자 미정) · 1차 온라인 예선 10.17~18 중 1일 · 2차 온라인 예선 10.31~11.1 중 1일 · 본선 11.11 코엑스 · 총상금 1억",
-      "schedule_note_en": "Applications closed (Sep 21-Sep 28 5pm, no extension); qualifier list 'to be announced' (no date); first online qualifier on one day of Oct 17-18; second on one day of Oct 31-Nov 1; final Nov 11 at COEX; 100M KRW total",
+      "schedule_note": "1차 예선 10.17~18 중 1일 진행 · 1차 결과 '추후 개별 안내' (미발표) · 2차 예선 10.31~11.1 중 1일 · 본선 11.11 코엑스",
+      "schedule_note_en": "First qualifier held on one day of Oct 17-18; round-one results 'to be notified individually' (not yet); second qualifier on one day of Oct 31-Nov 1; final Nov 11 at COEX",
       "added": "2026-09-21",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "gyeongnam-ai-sw-contest-4",
       "name": "제4회 경남 AI·SW 경진대회",
       "name_en": "4th Gyeongnam AI-SW Competition",
       "category": "AI/ML 국내",
-      "status": "ongoing_closed",
+      "status": "ended",
       "tags": [
         "경남",
         "AI에이전트",
@@ -10671,8 +10972,8 @@
           "label_en": "Awards (2-3pm)"
         }
       ],
-      "schedule_note": "접수 종료 (9.7~9.29 정오, 연장 없음 — 175팀 386명) · 개발 9.29 15시~10.6 정오 제출 (구글폼) · 서류평가 10.7~8 · 본선 발표평가 10.12 10~15시 · 시상 10.14 14시 · 29팀 3,050만",
-      "schedule_note_en": "Applications closed (Sep 7-Sep 29 noon, no extension; 175 teams, 386 people); build Sep 29 3pm through Oct 6 noon submission (Google Form); document review Oct 7-8; final presentations Oct 12 10am-3pm; awards Oct 14 2pm; 29 teams, 30.5M KRW",
+      "schedule_note": "종료 — 시상 10.14 창원 CECO · 174팀 387명 중 32팀 수상 · 일반부 대상 L&J 'AI 에이전트 기반 부품 역설계' · 대학부 대상 경상국립대 601 Solution 'LPBF 공정 위험 판단·조건 추천 디지털 트윈 에이전트'",
+      "schedule_note_en": "Over - awards Oct 14 at CECO Changwon; 32 of 174 teams (387 people) won; general grand prize L&J ('AI-agent-based part reverse engineering'); university grand prize GNU's 601 Solution ('digital-twin agent for LPBF process risk and parameter recommendation')",
       "links": [
         {
           "title": "참가 신청 (구글폼)",
@@ -10681,7 +10982,7 @@
         }
       ],
       "added": "2026-09-21",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "kaggle-gemma4-agent-2026",
@@ -10752,7 +11053,7 @@
         }
       ],
       "added": "2026-10-05",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "kaggle-enveda-casmi-2026",
@@ -10804,14 +11105,14 @@
       "schedule_note": "9.14 시작 · 참가·팀 병합 12.7 23:59 UTC · 최종 12.14 23:59 UTC (KST 12.15 08:59) · 팀 최대 5인 · 노트북 제출형",
       "schedule_note_en": "Launched Sep 14; entry and team merge Dec 7 23:59 UTC; final Dec 14 23:59 UTC (Dec 15 08:59 KST); teams up to 5; notebook submissions",
       "added": "2026-10-05",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "google-deepmind-hackathon-seoul-2026",
       "name": "Google DeepMind AI 해커톤 서울",
       "name_en": "Google DeepMind AI Hackathon Seoul",
       "category": "해커톤",
-      "status": "applying",
+      "status": "ended",
       "tags": [
         "Google DeepMind",
         "Gemini",
@@ -10849,17 +11150,17 @@
           "label_en": "Hackathon (10am-5pm, Google for Startups Campus)"
         }
       ],
-      "schedule_note": "승인제 신청 ~10.9 23:59 KST (140명 선발) · 행사 10.16(금) 10~17시 Google for Startups Campus 강남 · 개인 참가만, 한/영 진행",
-      "schedule_note_en": "Approval-based applications to Oct 9 11:59pm KST (140 selected); event Oct 16 (Fri) 10am-5pm at Google for Startups Campus, Gangnam; solo only, Korean/English",
+      "schedule_note": "종료 (일정 기준) — 10.16 Google for Startups Campus · 수상자 공식 공개 미확인",
+      "schedule_note_en": "Over (by schedule) - Oct 16 at Google for Startups Campus; no official winner list found",
       "added": "2026-10-05",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "work24-ai-hackathon-2026",
       "name": "2026 고용24 국민참여 AI 고용서비스 발굴 온라인 해커톤",
       "name_en": "2026 Work24 AI Employment Service Online Hackathon",
       "category": "해커톤",
-      "status": "applying",
+      "status": "ongoing_closed",
       "tags": [
         "고용노동부",
         "고용24",
@@ -10915,17 +11216,17 @@
           "label_en": "Finals & awards (Seoul)"
         }
       ],
-      "schedule_note": "접수 9.21~10.13 18시 · 서류 10.15~21 · 20팀·OT 10.22 · MVP 10.23~11.5 · 기능 심사 11.10~19 · 본선 진출 11.20 · 본선·시상 11.27 서울 · 만 19세 이상 국내 거주 국민, 개인 또는 2~4인 팀 (기업 불가)",
-      "schedule_note_en": "Applications Sep 21-Oct 13 6pm; document review Oct 15-21; 20 teams and orientation Oct 22; MVP Oct 23-Nov 5; feature review Nov 10-19; finalists Nov 20; finals and awards Nov 27 in Seoul; Korean residents aged 19+, solo or teams of 2-4 (no companies)",
+      "schedule_note": "접수 종료 (10.13 18시) · 20팀 선정·OT 10.22 (명단 미확인) · 개발 10.23~11.5 · 2차 기능심사·공개검증 11.10~19 (상위 10팀) · 결선 진출 11.20 · 결선·시상 11.27 서울",
+      "schedule_note_en": "Applications closed Oct 13 6pm; 20 teams and orientation Oct 22 (list not seen); build Oct 23-Nov 5; second feature review and public verification Nov 10-19 (top 10); finalists Nov 20; finals and awards Nov 27 in Seoul",
       "added": "2026-10-05",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "komap-ai-2026",
       "name": "2026 KoMaP AI 경진대회",
       "name_en": "2026 KoMaP AI Competition",
       "category": "AI/ML 국내",
-      "status": "applying",
+      "status": "ongoing_closed",
       "tags": [
         "소재데이터",
         "이미지분할",
@@ -10973,10 +11274,10 @@
           "label_en": "Finals & awards (KINTEX)"
         }
       ],
-      "schedule_note": "접수 9.3 0시~10.15 24시 · 예선 결과 10.22 · 본선(대면 발표)·시상 10.29 KINTEX · 내국인(국내외 거주), 개인 또는 1~4인 팀, 10.29 참석 필수",
-      "schedule_note_en": "Applications Sep 3 midnight-Oct 15 midnight; prelim results Oct 22; in-person finals and awards Oct 29 at KINTEX; Korean nationals (in Korea or abroad), solo or teams of 1-4; attendance on Oct 29 required",
+      "schedule_note": "접수 종료 (10.15 24시, 연장 없음) · 예선 결과 10.22 홈페이지 · 본선 현장발표·시상 10.29 KINTEX (현장 참석자만 수상 자격)",
+      "schedule_note_en": "Applications closed Oct 15 midnight (no extension); prelim results Oct 22 on the site; on-site finals and awards Oct 29 at KINTEX (only attendees eligible)",
       "added": "2026-10-05",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "kic-ai-agent-competition-2026",
@@ -11028,7 +11329,7 @@
       "schedule_note": "접수 10.1 10시~11.12 10시 (가입 + 10쪽 이내 기획서) · 상위 12팀 본선 MVP 개발 · 온라인 발표 · 2027.1.11 18시 종료 · 누구나, 1~5인 팀",
       "schedule_note_en": "Applications Oct 1 10am-Nov 12 10am (sign-up plus a plan of up to 10 pages); top 12 teams build MVPs in the main round; online presentations; ends Jan 11, 2027 6pm; open to anyone, teams of 1-5",
       "added": "2026-10-05",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "dacon-port-ai-2026",
@@ -11104,7 +11405,7 @@
       "schedule_note": "참가 신청 9.30~ · 대회 10.12 10시~11.2 10시 · 팀 병합 10.26 23:59 · 리더보드 마감 11.1 10시 · 코드 검증 11.5 · 본선 진출 11.6 · 본선 11.10 · 최종 발표 11.12 · 시상 12.2 부산 · 국내외 고교·대학(원)생 또는 졸업 3년 이내 미취업자",
       "schedule_note_en": "Sign-up from Sep 30; competition Oct 12 10am-Nov 2 10am; team merge Oct 26 11:59pm; leaderboard closes Nov 1 10am; code check Nov 5; finalists Nov 6; finals Nov 10; winners Nov 12; awards Dec 2 in Busan; high-school or university/graduate students at home or abroad, or unemployed graduates within three years",
       "added": "2026-10-05",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "ai-platform-build-challenge-2026",
@@ -11159,17 +11460,17 @@
           "label_en": "Hackathon & finals (TIPS Town S6)"
         }
       ],
-      "schedule_note": "접수 9.30 10시~10.25 17시 (조기 마감 가능) · 선발 10.26~11.1 · 온라인 교육 11.2~25 · 오프라인 멘토링 11.26 · 해커톤·본선 11.27 09~18시 TIPS타운 S6(역삼) · 누구나, 개인 또는 1~3인 팀",
-      "schedule_note_en": "Applications Sep 30 10am-Oct 25 5pm (may close early); selection Oct 26-Nov 1; online training Nov 2-25; offline mentoring Nov 26; hackathon and finals Nov 27 9am-6pm at TIPS Town S6 (Yeoksam); open to anyone, solo or teams of 1-3",
+      "schedule_note": "참가신청 9.30 10시~10.25 17시 · 기획서 PDF 10.25 23:59 · 선발 발표 10.26~11.1 · 교육 11.2~26 · 경진대회 11.27 · 총상금 100만",
+      "schedule_note_en": "Applications Sep 30 10am-Oct 25 5pm; proposal PDF due Oct 25 11:59pm; selections Oct 26-Nov 1; training Nov 2-26; competition Nov 27; 1M KRW total",
       "added": "2026-10-05",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "snu-croche-ai-app-hackathon-2026",
       "name": "2026 SNU × Croche AI 앱 해커톤",
       "name_en": "SNU x Croche AI App Hackathon 2026",
       "category": "해커톤",
-      "status": "applying",
+      "status": "ended",
       "tags": [
         "서울대",
         "AI앱",
@@ -11217,8 +11518,8 @@
           "label_en": "Pitch & awards (SNU Gwanak)"
         }
       ],
-      "schedule_note": "접수 9.10~10.10 13시 · OT 10.14 15시 · 온라인 빌드 10.14~16 · 오프라인 피칭·시상 10.17 10~18시 서울대 32-1동 · 전국 대학(원)생(휴학 가능), 1~3인 팀, 20팀 선발",
-      "schedule_note_en": "Applications Sep 10-Oct 10 1pm; orientation Oct 14 3pm; online build Oct 14-16; offline pitch and awards Oct 17 10am-6pm at SNU Building 32-1; university and graduate students nationwide (on leave OK), teams of 1-3, 20 teams selected",
+      "schedule_note": "종료 — 20팀 선정 10.12 → 온라인 개발 10.14~16 → 피칭·시상 10.17 서울대 해동학술문화관 · 수상팀 미공개",
+      "schedule_note_en": "Over - 20 teams selected Oct 12, online build Oct 14-16, pitches and awards Oct 17 at SNU Haedong Hall; winners not published",
       "links": [
         {
           "title": "신청 폼",
@@ -11227,7 +11528,7 @@
         }
       ],
       "added": "2026-10-05",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "postech-oibc-bigdata-2026",
@@ -11293,7 +11594,7 @@
       "schedule_note": "접수 10.1 10시~10.30 · 대회 11.2 10시~11.13 · 온라인 결선(상위 7팀) 11.23~27 · 시상 12.4 BEXCO (대한산업공학회 추계학술대회) · 전국 대학(원)생, 개인 또는 5인 이하 팀",
       "schedule_note_en": "Applications Oct 1 10am-Oct 30; competition Nov 2 10am-Nov 13; online finals (top 7) Nov 23-27; awards Dec 4 at BEXCO (KIIE fall conference); university and graduate students nationwide, solo or teams of up to 5",
       "added": "2026-10-05",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "naver-d2sf-campus-2026-fall",
@@ -11354,7 +11655,7 @@
         }
       ],
       "added": "2026-10-05",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "dongnam-bugbounty-2026",
@@ -11400,14 +11701,14 @@
       "schedule_note": "대회 9.21~11.13 (기간 내 참가 가능) · 9.21 18시 온라인 OT 웨비나 · 국내 만 19세 이상 (학생·재직자 무관) · 공식 공고는 findthegap.co.kr",
       "schedule_note_en": "Runs Sep 21-Nov 13 (join any time); online orientation webinar Sep 21 6pm; anyone in Korea aged 19+ (students and professionals); official notice at findthegap.co.kr",
       "added": "2026-10-05",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "eleccon-2026",
       "name": "2026 ELECCON (에너지 사이버보안 경진대회)",
       "name_en": "ELECCON 2026 (Energy Cyber Defense Contest)",
       "category": "보안",
-      "status": "applying",
+      "status": "ongoing_closed",
       "tags": [
         "한전",
         "국정원",
@@ -11457,10 +11758,10 @@
           "label_en": "Finals (Nov 11-12, KEPCO HQ)"
         }
       ],
-      "schedule_note": "접수 9.28 10시~10.8 18시 · 온라인 CTF 예선 10.22 14~17시 (부문별 상위 8팀) · 결선 11.11~12 한전 본사(나주) · 대학부·에너지기관부·고등부",
-      "schedule_note_en": "Applications Sep 28 10am-Oct 8 6pm; online CTF prelim Oct 22 2-5pm (top 8 per division); finals Nov 11-12 at KEPCO HQ (Naju); university, energy-agency and high-school divisions",
+      "schedule_note": "접수 종료 (9.28~10.8) · 예선 10.22·결선 11.11~12 일정은 2026 공식 출처에서 재확인 불가 (k-ctf 페이지 404)",
+      "schedule_note_en": "Applications closed (Sep 28-Oct 8); the Oct 22 prelim and Nov 11-12 finals could not be re-confirmed from a 2026 source (k-ctf page now 404)",
       "added": "2026-10-05",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "keit-ai-life-solution-2026",
@@ -11504,7 +11805,7 @@
       "schedule_note": "접수 9.30~10.31 (이메일 relations2@keit.re.kr) · 심사 국민투표 50% + 전문가 50% (일정 추후) · 개인·팀·기관·스타트업·학생 누구나",
       "schedule_note_en": "Applications Sep 30-Oct 31 (email relations2@keit.re.kr); judging 50% public vote plus 50% experts (dates TBA); open to individuals, teams, institutes, startups and students",
       "added": "2026-10-05",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "mois-illegal-ad-detection-2026",
@@ -11550,14 +11851,14 @@
       "schedule_note": "접수 9.14~10.23 18시 · 심사 일정 추후 · 국민 누구나, 개인 또는 5인 이하 팀",
       "schedule_note_en": "Applications Sep 14-Oct 23 6pm; judging dates TBA; open to all citizens, solo or teams of up to 5",
       "added": "2026-10-05",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "cursor-hackathon-seoul-4",
       "name": "Cursor 해커톤 서울 4회 (AI Builder's Playground)",
       "name_en": "Cursor Seoul Hackathon #4: AI Builder's Playground",
       "category": "해커톤",
-      "status": "applying",
+      "status": "ended",
       "tags": [
         "Cursor",
         "AI코딩",
@@ -11575,27 +11876,20 @@
       "prize_en": "TBA",
       "description": "Cursor 한국 커뮤니티가 서울에서 이어 온 실전형 AI 빌드 해커톤의 4번째 회차. 10.24(토) 10:30~19:00 서울 (장소는 승인 후 공개). 세부 내용은 '준비중'.",
       "description_en": "The fourth edition of the Cursor Korea community's hands-on AI build hackathon in Seoul. Oct 24 (Sat) 10:30am-7pm (venue shared after approval). Details are still 'in preparation'.",
-      "tip": "세부가 아직 '준비중'이라 루마 승인제 신청만 걸어두고 공지를 기다릴 것. 이전 회차는 Cursor 크레딧·뉴비 특별상이 있었다.",
-      "tip_en": "Details are still 'in preparation', so just file the Luma approval request and wait for the announcement. Earlier editions gave Cursor credits and a newcomer award.",
-      "events": [
-        {
-          "type": "activity_start",
-          "date": "2026-10-24",
-          "label": "해커톤 (10:30~19:00, 서울)",
-          "label_en": "Hackathon (10:30am-7pm, Seoul)"
-        }
-      ],
-      "schedule_note": "루마 승인제 등록 (마감 미표기, 페이지 '준비중') · 행사 10.24(토) 10:30~19:00 서울 · 정보가 아직 적어 재확인 필요",
-      "schedule_note_en": "Approval-based Luma registration (no stated deadline; page says 'in preparation'); event Oct 24 (Sat) 10:30am-7pm in Seoul; details are thin, recheck",
+      "tip": "근거 부족으로 종료 처리. Cursor 한국 커뮤니티 인스타그램(cursorkorea)에서 차기 회차 공지를 볼 것.",
+      "tip_en": "Marked ended for lack of evidence. Watch the Cursor Korea community Instagram (cursorkorea) for the next edition.",
+      "events": [],
+      "schedule_note": "정정: 기존 루마 페이지(luma.com/06x2etd7)가 같은 호스트의 다른 행사 'Grok Bot Seoul Build Day'(11.1, 순위 없는 빌드데이, 40~50명)로 바뀜 · 'Cursor 해커톤 4회 10.24'는 집계 사이트에만 남아 근거 부족 — 종료 처리, 새 공지 시 재등록",
+      "schedule_note_en": "Correction: the Luma page (luma.com/06x2etd7) now hosts a different event from the same organizers, 'Grok Bot Seoul Build Day' (Nov 1, an unranked build day for 40-50 people); the 'Cursor Hackathon #4 on Oct 24' survives only on an aggregator, so it is unsupported - marked ended, to be re-added if announced",
       "added": "2026-10-05",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
     },
     {
       "id": "ggdc-2026",
       "name": "GGDC 2026 (글로벌 게임 개발자 컨퍼런스)",
       "name_en": "Global Game Developers Conference 2026 (GGDC)",
       "category": "컨퍼런스·박람회",
-      "status": "applying",
+      "status": "ongoing_closed",
       "tags": [
         "게임개발",
         "광주",
@@ -11631,10 +11925,733 @@
           "label_en": "Conference ends"
         }
       ],
-      "schedule_note": "사전등록 진행 중 (무료, 마감 미표기) · 행사 10.22~23 국립아시아문화전당(ACC) 광주",
-      "schedule_note_en": "Pre-registration open (free, no stated deadline); event Oct 22-23 at the Asia Culture Center (ACC), Gwangju",
+      "schedule_note": "무료 사전등록 종료 (10.21 18시) · 행사 10.22~23 국립아시아문화전당(ACC) 광주",
+      "schedule_note_en": "Free pre-registration closed Oct 21 6pm; event Oct 22-23 at the Asia Culture Center (ACC), Gwangju",
       "added": "2026-10-05",
-      "checked": "2026-10-05"
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "kisa-acdc-2026",
+      "name": "2026 AI 해킹방어대회 (ACDC)",
+      "name_en": "2026 AI Hacking Defense Contest (ACDC)",
+      "category": "보안",
+      "status": "applying",
+      "tags": [
+        "KISA",
+        "과기정통부",
+        "AI보안",
+        "CTF",
+        "King of the Hill",
+        "부총리상"
+      ],
+      "tags_en": [
+        "KISA",
+        "MSIT",
+        "AI-security",
+        "CTF",
+        "King-of-the-Hill",
+        "deputy-PM-award"
+      ],
+      "url": "https://event-us.kr/2026acd/event/137541",
+      "prize": "부총리 겸 과기정통부장관상·KISA 원장상·특별상 + 상금 (금액 미공개)",
+      "prize_en": "Deputy PM (MSIT) award, KISA President award, special awards plus cash (amounts undisclosed)",
+      "description": "과기정통부·KISA·KISIA 주최 2회 AI 해킹방어대회. AI for Security / Security for AI / AI 플랫폼 보안 3개 분야를 겨루며 본선에 AI 활용 능력 평가 과제가 신설됐다. 접수 10.14~10.26 14시 → 온라인 예선 10.31 (CTF + King of the Hill) → 본선 12.1 그랜드 인터컨티넨탈 서울 파르나스 (일반부 20팀 + 학생부 20팀).",
+      "description_en": "The second government AI hacking-defense contest, hosted by MSIT, KISA and KISIA, across three areas: AI for security, security for AI, and AI-platform security; the finals add a new task that scores how teams use AI. Applications Oct 14-Oct 26 2pm, online prelim Oct 31 (CTF plus King of the Hill), finals Dec 1 at the Grand InterContinental Seoul Parnas (20 general + 20 student teams).",
+      "tip": "접수 10.26 14시 마감 — 4인 팀 필수라 팀부터 꾸릴 것. 'Security for AI'(프롬프트 인젝션·모델 탈취) 분야는 LLM 보안 포트폴리오로 직결.",
+      "tip_en": "Applications close Oct 26 at 2pm and teams of four are required, so form the team first. The 'security for AI' area (prompt injection, model theft) maps straight onto an LLM-security portfolio.",
+      "events": [
+        {
+          "type": "apply_start",
+          "date": "2026-10-14",
+          "label": "접수 시작 (10:30)",
+          "label_en": "Applications open (10:30am)"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-10-26",
+          "label": "접수 마감 (14시)",
+          "label_en": "Application deadline (2pm)"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-10-31",
+          "label": "온라인 예선 (CTF + KotH)",
+          "label_en": "Online prelim (CTF + KotH)"
+        },
+        {
+          "type": "activity_end",
+          "date": "2026-12-01",
+          "label": "본선·시상 (그랜드 인터컨티넨탈 파르나스)",
+          "label_en": "Finals & awards (Grand InterContinental Parnas)"
+        }
+      ],
+      "schedule_note": "접수 10.14 10:30~10.26 14시 (이벤터스·KISA) · 예선 10.31 온라인 · 본선 12.1 (이벤터스는 12.1~2 표기) 그랜드 인터컨티넨탈 서울 파르나스 · 만 19세 이상 국민, 4인 1팀 · 일반부 20팀 + 학생부 20팀 본선",
+      "schedule_note_en": "Applications Oct 14 10:30am-Oct 26 2pm (event-us / KISA); online prelim Oct 31; finals Dec 1 (event-us lists Dec 1-2) at the Grand InterContinental Seoul Parnas; Korean citizens 19+, teams of 4; 20 general + 20 student teams in the finals",
+      "added": "2026-10-22",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "pqc-challenge-2026",
+      "name": "2026 양자내성암호 전환 경진대회·해커톤",
+      "name_en": "2026 Post-Quantum Cryptography Migration Challenge & Hackathon",
+      "category": "보안",
+      "status": "applying",
+      "tags": [
+        "PQC",
+        "양자내성암호",
+        "KISA",
+        "과기정통부",
+        "장관상"
+      ],
+      "tags_en": [
+        "PQC",
+        "post-quantum-crypto",
+        "KISA",
+        "MSIT",
+        "minister-award"
+      ],
+      "url": "https://www.pqcchallenge.kr/",
+      "prize": "트랙별 총 600만 원 (대상 300만 과기정통부장관상 · 최우수 150만 KISA원장상 · 장려상)",
+      "prize_en": "6M KRW per track (grand 3M with the MSIT Minister's award, 1.5M with the KISA President's award, encouragement prizes)",
+      "description": "과기정통부 주최, KISA 주관. 산업별 PQC 전환 방안을 겨루는 경진대회와, 가상환경에서 기존 암호시스템을 PQC로 직접 전환하는 실습형 해커톤 2개 트랙. 접수 10.1~10.30 → 경진대회 예선 11.2·본선 11.6 / 해커톤 예선 11.7·본선 11.16 (본선은 서울 엘타워) → 통합 시상 11.26.",
+      "description_en": "Hosted by MSIT and run by KISA, with two tracks: a competition on industry-specific PQC migration plans, and a hands-on hackathon migrating existing crypto systems to PQC in a virtual environment. Applications Oct 1-30; competition prelim Nov 2 and final Nov 6; hackathon prelim Nov 7 and final Nov 16 (finals at El Tower, Seoul); joint awards Nov 26.",
+      "tip": "학생부가 따로 있고 1~3인 팀이라 진입 장벽이 낮다. 해커톤 트랙은 실제 시스템을 Kyber/Dilithium 계열로 바꾸는 실습이라 암호·시스템 포트폴리오로 희소성이 크다.",
+      "tip_en": "There is a separate student division and teams are 1-3, so the barrier is low. The hackathon track is hands-on migration to Kyber/Dilithium-style schemes, a rare crypto-plus-systems portfolio item.",
+      "events": [
+        {
+          "type": "apply_start",
+          "date": "2026-10-01",
+          "label": "접수 시작",
+          "label_en": "Applications open"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-10-30",
+          "label": "접수 마감",
+          "label_en": "Application deadline"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-11-02",
+          "label": "경진대회 예선 (온라인)",
+          "label_en": "Competition prelim (online)"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-11-16",
+          "label": "해커톤 본선 (엘타워)",
+          "label_en": "Hackathon final (El Tower)"
+        },
+        {
+          "type": "announce",
+          "date": "2026-11-26",
+          "label": "통합 시상",
+          "label_en": "Joint awards"
+        }
+      ],
+      "schedule_note": "접수 10.1~10.30 · 경진대회: 예선 11.2 온라인 → 본선 11.6 · 해커톤: 예선 11.7 온라인 → 본선 11.16 · 본선 서울 엘타워 · 시상 11.26 · 학생부(국내 대학(원) 재학·휴학)·일반부, 개인 또는 3인 이하",
+      "schedule_note_en": "Applications Oct 1-30; competition: online prelim Nov 2, final Nov 6; hackathon: online prelim Nov 7, final Nov 16; finals at El Tower, Seoul; awards Nov 26; student (Korean university or grad students, enrolled or on leave) and general divisions; solo or up to 3",
+      "added": "2026-10-22",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "skt-fly-ai-10",
+      "name": "SK텔레콤 FLY AI Challenger 10기",
+      "name_en": "SK Telecom FLY AI Challenger (10th cohort)",
+      "category": "부트캠프",
+      "status": "applying",
+      "tags": [
+        "SKT",
+        "AI교육",
+        "겨울방학",
+        "채용우대",
+        "무료"
+      ],
+      "tags_en": [
+        "SKT",
+        "AI-training",
+        "winter-break",
+        "hiring-preference",
+        "free"
+      ],
+      "url": "https://www.skttechacademy.com/",
+      "prize": "무료 · 수료 장학금 · SKT·SK브로드밴드 신입채용 우대",
+      "prize_en": "Free; completion scholarship; hiring preference at SKT and SK Broadband",
+      "description": "SK텔레콤 Tech Academy의 겨울방학 10주 집중 AI 실무 교육 (420시간). 접수 10.14~11.8 → 면접·코딩테스트 11.21 → 결과 11.26 → 교육 12.18~2027.2.26 (평일 09~18시, SKT 보라매·T타워·인재개발원) → 수료 3.5. 우수 수료생은 SKT/SKB 신입채용 우대.",
+      "description_en": "SK Telecom Tech Academy's 10-week winter intensive in applied AI (420 hours). Applications Oct 14-Nov 8, interview and coding test Nov 21, results Nov 26, training Dec 18-Feb 26 2027 (weekdays 9am-6pm at SKT Boramae, T Tower and the training center), graduation Mar 5. Top graduates get hiring preference at SKT and SK Broadband.",
+      "tip": "국민내일배움카드가 필수라 신청 전에 카드부터 발급. 학사 졸업(예정)·미취업자 대상이라 재학 중이면 4학년 겨울방학 타이밍에 맞춰야 한다.",
+      "tip_en": "A national training card (국민내일배움카드) is required, so get one before applying. It targets unemployed bachelor's graduates or soon-to-graduates, so as a student it fits the winter break before your final semester.",
+      "events": [
+        {
+          "type": "apply_start",
+          "date": "2026-10-14",
+          "label": "접수 시작",
+          "label_en": "Applications open"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-11-08",
+          "label": "접수 마감",
+          "label_en": "Application deadline"
+        },
+        {
+          "type": "partial_deadline",
+          "date": "2026-11-21",
+          "label": "면접·코딩테스트",
+          "label_en": "Interview & coding test"
+        },
+        {
+          "type": "announce",
+          "date": "2026-11-26",
+          "label": "최종 발표",
+          "label_en": "Final results"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-12-18",
+          "label": "교육 시작 (~2027.2.26)",
+          "label_en": "Training starts (to Feb 26 2027)"
+        }
+      ],
+      "schedule_note": "접수 10.14~11.8 · 면접·코딩테스트 11.21 · 결과 11.26 · 교육 12.18~2027.2.26 (420시간) · 수료 3.5 · 4년제 학사(3학년 이상 졸업예정 포함), 미취업, 국민내일배움카드 필요, 전공 무관",
+      "schedule_note_en": "Applications Oct 14-Nov 8; interview and coding test Nov 21; results Nov 26; training Dec 18-Feb 26 2027 (420 hours); graduation Mar 5; four-year bachelor's holders or students in 3rd year+ due to graduate, unemployed, national training card required, any major",
+      "added": "2026-10-22",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "hyundai-pleos-app-contest-2026",
+      "name": "현대자동차그룹 차량용 앱 개발 공모전 (Pleos App Market)",
+      "name_en": "Hyundai Motor Group In-Vehicle App Development Contest (Pleos App Market)",
+      "category": "SW·웹 개발",
+      "status": "applying",
+      "tags": [
+        "현대차",
+        "차량용앱",
+        "모빌리티",
+        "대학생트랙",
+        "5,100만"
+      ],
+      "tags_en": [
+        "Hyundai",
+        "in-vehicle-apps",
+        "mobility",
+        "student-track",
+        "51M-KRW"
+      ],
+      "url": "https://appdevchallenge.auto-hmg.io/landing",
+      "prize": "총상금 5,100만 원 (대학생·일반 트랙 각 대상 1,000만 · 최우수 600만 · 우수 400만 · 아이디어특별상 150만)",
+      "prize_en": "51M KRW total (10M grand prize each for the student and general tracks; 6M, 4M, 1.5M idea special)",
+      "description": "현대자동차그룹 주최. 차량 데이터·기능·이동 맥락을 활용해 운전자·탑승자에게 새로운 경험을 주는 차량용 앱(Pleos App Market)을 기획·개발한다. 대학생 / 일반(스타트업 포함) 트랙 분리, 개인 또는 5인 이하. 기획서 이메일 접수 10.21~11.15 → 서류 결과 11.23 → 오프라인 PT 본선 12.3~4 → 결과 12.18 → 2027년 2월 전시·시상.",
+      "description_en": "Hosted by Hyundai Motor Group: plan and build in-vehicle apps for the Pleos App Market that use vehicle data, functions and driving context. Separate student and general (including startups) tracks; solo or up to 5. Proposals by email Oct 21-Nov 15, document results Nov 23, offline pitch finals Dec 3-4, results Dec 18, exhibition and awards in February 2027.",
+      "tip": "대학생 트랙이 따로 있어 대상 1,000만 원을 학생끼리 겨룬다. 1차는 기획서 이메일 제출이라 차량 데이터 API 문서를 먼저 훑고 '주행 중에만 의미 있는' 기능을 고르는 게 핵심.",
+      "tip_en": "Students compete only with students for the 10M KRW grand prize. Round one is an emailed proposal, so skim the vehicle-data API docs first and pick a feature that only makes sense while driving.",
+      "events": [
+        {
+          "type": "apply_start",
+          "date": "2026-10-21",
+          "label": "접수 시작",
+          "label_en": "Applications open"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-11-15",
+          "label": "기획서 접수 마감 (이메일)",
+          "label_en": "Proposal deadline (email)"
+        },
+        {
+          "type": "announce",
+          "date": "2026-11-23",
+          "label": "서류 결과",
+          "label_en": "Document results"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-12-03",
+          "label": "오프라인 PT 본선 (12.3~4)",
+          "label_en": "Offline pitch finals (Dec 3-4)"
+        },
+        {
+          "type": "announce",
+          "date": "2026-12-18",
+          "label": "최종 결과",
+          "label_en": "Final results"
+        }
+      ],
+      "schedule_note": "접수 10.21~11.15 (기획서 appdevchallenge@hyundai-partners.com) · 온라인 설명회 10.28 (위비티 표기는 10.26) · 서류 결과 11.23 · PT 본선 12.3~4 · 결과 12.18 · 전시·시상 2027년 2월",
+      "schedule_note_en": "Applications Oct 21-Nov 15 (proposal to appdevchallenge@hyundai-partners.com); online briefing Oct 28 (Wevity lists Oct 26); document results Nov 23; pitch finals Dec 3-4; results Dec 18; exhibition and awards February 2027",
+      "added": "2026-10-22",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "compiled-17-seoul-2026",
+      "name": "c0mpiled-17: Seoul (YC RFS 해커톤)",
+      "name_en": "c0mpiled-17: Seoul (YC RFS Hackathon)",
+      "category": "해커톤",
+      "status": "applying",
+      "tags": [
+        "YC",
+        "영어",
+        "1일",
+        "코엑스",
+        "승인제",
+        "창업"
+      ],
+      "tags_en": [
+        "YC",
+        "English",
+        "one-day",
+        "COEX",
+        "approval-based",
+        "startup"
+      ],
+      "url": "https://luma.com/compiled-8lsr",
+      "prize": "1위 YC 파트너 오피스아워 + 300만 원 · 2위 200만 · 3위 100만 · YC 지원 멘토링",
+      "prize_en": "1st: YC partner office hours + 3M KRW; 2nd 2M; 3rd 1M; YC application mentoring",
+      "description": "Transpose Platform의 c0mpiled 시리즈 서울 회차 (아산나눔재단·KVCA·KVIC·KITA 공동). YC Fall 2026 Request for Startups 주제로 하루 만에 빌드하는 영어 해커톤, YC 출신 창업자가 심사·멘토링. 11.9(월) 09~19시 코엑스 스타트업 브랜치 2층, 약 150명 승인제.",
+      "description_en": "The Seoul stop of Transpose Platform's c0mpiled series (with Asan Nanum Foundation, KVCA, KVIC and KITA): a one-day English-language build hackathon on YC's Fall 2026 Request for Startups themes, judged and mentored by YC alumni founders. Nov 9 (Mon) 9am-7pm at COEX Startup Branch 2F; about 150 people by approval.",
+      "tip": "1위가 YC 파트너 오피스아워 — 창업을 조금이라도 생각하면 드문 기회. 영어 피칭이니 2분 데모 스크립트를 미리 연습. 신청 10.30까지.",
+      "tip_en": "First place gets YC partner office hours - a rare chance if you are at all startup-curious. Pitches are in English, so rehearse a two-minute demo script. Apply by Oct 30.",
+      "events": [
+        {
+          "type": "apply_end",
+          "date": "2026-10-30",
+          "label": "신청 마감 (23:59)",
+          "label_en": "Application deadline (11:59pm)"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-11-09",
+          "label": "해커톤 (09~19시, 코엑스)",
+          "label_en": "Hackathon (9am-7pm, COEX)"
+        }
+      ],
+      "schedule_note": "승인제 신청 ~10.30 23:59 KST · 행사 11.9(월) 09~19시 코엑스 스타트업 브랜치 2F · AI 엔지니어·디자이너·연구자·대학(원)생·초기 팀, 1~4인, 약 150명 선발, 영어 발표",
+      "schedule_note_en": "Approval-based applications to Oct 30 11:59pm KST; event Nov 9 (Mon) 9am-7pm at COEX Startup Branch 2F; AI engineers, designers, researchers, university/grad students and pre-seed teams; 1-4 per team; about 150 selected; pitches in English",
+      "added": "2026-10-22",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "aimobilhack-2026",
+      "name": "2026 동남권 멀티도메인 모빌리티 비즈니스 해커톤 (선상)",
+      "name_en": "2026 Southeast Multi-Domain Mobility Business Hackathon (onboard)",
+      "category": "해커톤",
+      "status": "applying",
+      "tags": [
+        "모빌리티",
+        "크루즈",
+        "부산",
+        "오사카",
+        "KIAT",
+        "학부생"
+      ],
+      "tags_en": [
+        "mobility",
+        "cruise",
+        "Busan",
+        "Osaka",
+        "KIAT",
+        "undergrad"
+      ],
+      "url": "https://www.aimobilhack.com/",
+      "prize": "개인(대학생)부문 총상금 1,500만 원 + 지자체장상 · 본선 크루즈 경비 전액 지원",
+      "prize_en": "15M KRW student-division prize pool plus governor awards; finalists' cruise costs fully covered",
+      "description": "산업통상부·부산·울산·경남 주최, KIAT·동남권지역혁신융복합단지추진단 주관. 육상·해상·항공 모빌리티 중 2개 이상을 융합하고 AI·데이터로 문제를 푸는 기술·BM을 겨루는 해커톤으로, 본선은 부산~오사카 크루즈 선상에서 열린다. 접수 10.9~10.26 18시 → 예선 10.27~29 → 본선 진출 10.30 → 본선 11.8~10.",
+      "description_en": "Hosted by MOTIE with Busan, Ulsan and Gyeongnam, run by KIAT and the regional innovation cluster: a hackathon on technology and business models that combine two or more of land, sea and air mobility using AI and data, with the finals held aboard a Busan-Osaka cruise. Applications Oct 9-Oct 26 6pm, prelim review Oct 27-29, finalists Oct 30, finals Nov 8-10.",
+      "tip": "학부 재학·휴학생 4인 1팀만 가능(대학원생 불가)하고 본선이 일본 오사카행 크루즈라 여권이 필요하다. 경비 전액 지원이라 실질 혜택이 크다.",
+      "tip_en": "Teams of four undergraduates only (no grad students), and the finals are on a cruise to Osaka, so you need a passport. All costs are covered, so the real value is high.",
+      "events": [
+        {
+          "type": "apply_start",
+          "date": "2026-10-09",
+          "label": "접수 시작",
+          "label_en": "Applications open"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-10-26",
+          "label": "접수 마감 (18시)",
+          "label_en": "Application deadline (6pm)"
+        },
+        {
+          "type": "announce",
+          "date": "2026-10-30",
+          "label": "본선 진출 발표 (15시)",
+          "label_en": "Finalists announced (3pm)"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-11-08",
+          "label": "본선 (부산~오사카 크루즈, ~11.10)",
+          "label_en": "Finals (Busan-Osaka cruise, to Nov 10)"
+        }
+      ],
+      "schedule_note": "접수 10.9~10.26 18시 · 예선 10.27~29 · 본선 진출 10.30 15시 · 본선 11.8~10 부산 아스티호텔 → 팬스타 미라클호 → 오사카항 · 전국 대학 학부 재학·휴학생, 4인 1팀, 대학원생 불가, 여권 필요",
+      "schedule_note_en": "Applications Oct 9-Oct 26 6pm; prelim review Oct 27-29; finalists Oct 30 3pm; finals Nov 8-10 from Asti Hotel Busan aboard the Panstar Miracle to Osaka port; undergraduates (enrolled or on leave) nationwide, teams of 4, no grad students, passport required",
+      "added": "2026-10-22",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "seoul-ai-digital-youth-hackathon-2026",
+      "name": "2026 서울 AI 디지털 배움터 청년 해커톤",
+      "name_en": "2026 Seoul AI Digital Learning Center Youth Hackathon",
+      "category": "해커톤",
+      "status": "applying",
+      "tags": [
+        "서울시",
+        "구름",
+        "바이브코딩",
+        "사회문제",
+        "1일"
+      ],
+      "tags_en": [
+        "Seoul",
+        "goorm",
+        "vibe-coding",
+        "social-problems",
+        "one-day"
+      ],
+      "url": "https://linkareer.com/activity/357358",
+      "prize": "총 약 300만 원 + 상장",
+      "prize_en": "About 3M KRW total plus certificates",
+      "description": "구름(goorm)이 운영하는 서울 AI 디지털배움터의 청년 해커톤. 돌봄·소상공인·청년 일자리 미스매치·자유 주제로 서울시 사회문제를 AI 서비스로 푸는 당일형 바이브코딩 해커톤. 접수 ~11.8 → 사전 세미나 11.14 구름스퀘어 강남 → 해커톤 11.21 09~19시 아키스케치 성수 (6시간 빌드).",
+      "description_en": "A youth hackathon from Seoul's AI digital learning centers, run by goorm: a one-day vibe-coding hackathon building AI services for Seoul social problems - care, small business, youth job mismatch, or an open track. Applications to Nov 8, pre-seminar Nov 14 at goorm Square Gangnam, hackathon Nov 21 9am-7pm at Archisketch Seongsu (six-hour build).",
+      "tip": "비전공자도 참가 가능한 5~6인 팀 바이브코딩 형식 — 첫 해커톤으로 부담이 적다. 접수 시작일은 출처마다 10.12/10.16로 갈림.",
+      "tip_en": "A vibe-coding format with teams of 5-6 that welcomes non-majors - an easy first hackathon. Sources disagree on the opening date (Oct 12 or Oct 16).",
+      "events": [
+        {
+          "type": "apply_end",
+          "date": "2026-11-08",
+          "label": "접수 마감",
+          "label_en": "Application deadline"
+        },
+        {
+          "type": "partial_deadline",
+          "date": "2026-11-14",
+          "label": "사전 세미나 (구름스퀘어 강남)",
+          "label_en": "Pre-seminar (goorm Square Gangnam)"
+        },
+        {
+          "type": "activity_start",
+          "date": "2026-11-21",
+          "label": "해커톤 (09~19시, 성수)",
+          "label_en": "Hackathon (9am-7pm, Seongsu)"
+        }
+      ],
+      "schedule_note": "접수 ~11.8 (구글폼) · 사전 세미나 11.14 13~18시 · 해커톤 11.21 09~19시 아키스케치 성수 · 만 19~39세, 5~6인 팀",
+      "schedule_note_en": "Applications to Nov 8 (Google Form); pre-seminar Nov 14 1-6pm; hackathon Nov 21 9am-7pm at Archisketch Seongsu; ages 19-39, teams of 5-6",
+      "links": [
+        {
+          "title": "신청 폼",
+          "title_en": "Application form",
+          "url": "https://forms.gle/HNx9CiyYZS3sXuwj9"
+        }
+      ],
+      "added": "2026-10-22",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "apple-dev-academy-postech-2027",
+      "name": "Apple 디벨로퍼 아카데미 @ POSTECH 2027 코호트",
+      "name_en": "Apple Developer Academy @ POSTECH - 2027 Cohort",
+      "category": "부트캠프",
+      "status": "applying",
+      "tags": [
+        "Apple",
+        "iOS",
+        "Swift",
+        "POSTECH",
+        "포항",
+        "전액장학"
+      ],
+      "tags_en": [
+        "Apple",
+        "iOS",
+        "Swift",
+        "POSTECH",
+        "Pohang",
+        "full-scholarship"
+      ],
+      "url": "https://developeracademy.postech.ac.kr/en/apply/cohort2027-pb",
+      "prize": "전액 장학 + 월 지원금 (약 100~110만 원, 출처별 상이)",
+      "prize_en": "Full scholarship plus a monthly stipend (about 1.0-1.1M KRW; sources differ)",
+      "description": "POSTECH × Apple 운영, 포항에서 9개월간 iOS/Swift 기반 앱 개발·디자인·비즈니스를 챌린지 기반으로 배우는 무료 풀타임 아카데미. 지원 ~12.9 13시 → 온라인 테스트 12.11~13 → 서류 12.16 → 그룹 인터뷰 2027.1.19~21 → 최종 1.26 → 프로그램 2027.3.8~12월.",
+      "description_en": "A free nine-month full-time academy in Pohang, run by POSTECH and Apple, teaching iOS/Swift development, design and business through challenge-based learning. Applications to Dec 9 1pm, online test Dec 11-13, shortlist Dec 16, group interviews Jan 19-21 2027, final Jan 26, program Mar 8-December 2027.",
+      "tip": "풀타임 포항 상주라 학기와 병행 불가 — 휴학·졸업 후 진로로 고려할 것. 전공·경력 무관이고 온라인 테스트가 1차 관문.",
+      "tip_en": "Full-time in Pohang, so it cannot run alongside semesters - treat it as a leave-of-absence or post-graduation path. Any major or background; the online test is the first gate.",
+      "events": [
+        {
+          "type": "apply_end",
+          "date": "2026-12-09",
+          "label": "지원 마감 (13시)",
+          "label_en": "Application deadline (1pm)"
+        },
+        {
+          "type": "partial_deadline",
+          "date": "2026-12-11",
+          "label": "온라인 테스트 (12.11~13)",
+          "label_en": "Online test (Dec 11-13)"
+        },
+        {
+          "type": "announce",
+          "date": "2027-01-26",
+          "label": "최종 발표",
+          "label_en": "Final results"
+        },
+        {
+          "type": "activity_start",
+          "date": "2027-03-08",
+          "label": "프로그램 시작",
+          "label_en": "Program starts"
+        }
+      ],
+      "schedule_note": "지원 ~12.9 13시 KST · 온라인 테스트 12.11 09시~12.13 13시 · 서류 12.16 · 그룹 인터뷰 2027.1.19~21 · 최종 1.26 · 프로그램 2027.3.8~12월 포항 풀타임 · 2027.3.1 기준 만 19세 이상, 전공 무관",
+      "schedule_note_en": "Applications to Dec 9 1pm KST; online test Dec 11 9am-Dec 13 1pm; shortlist Dec 16; group interviews Jan 19-21 2027; final Jan 26; program Mar 8-December 2027, full-time in Pohang; age 19+ as of Mar 1 2027, any major",
+      "added": "2026-10-22",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "kaggle-name-that-llm-2026",
+      "name": "Kaggle Name That LLM — 텍스트 작성 모델 판별",
+      "name_en": "Kaggle Name That LLM - Identify the Model Behind the Text",
+      "category": "AI/ML 글로벌",
+      "status": "ongoing_open",
+      "tags": [
+        "Kaggle",
+        "LLM",
+        "모델판별",
+        "텍스트분류",
+        "코드대회"
+      ],
+      "tags_en": [
+        "Kaggle",
+        "LLM",
+        "model-attribution",
+        "text-classification",
+        "code-competition"
+      ],
+      "url": "https://www.kaggle.com/competitions/name-that-llm",
+      "prize": "총 $50,000 (1~10위 각 $5,000)",
+      "prize_en": "$50,000 ($5,000 each to places 1-10)",
+      "description": "Kaggle·Google 후원 Featured 코드 대회. 40~250단어 텍스트를 18개 프런티어 LLM(Anthropic·Google·OpenAI·Qwen 등) 중 어느 모델이 썼는지 맞힌다. 인터넷 차단 노트북 제출, balanced accuracy 채점. 10.14 시작, 참가·팀 병합 2027.1.6, 최종 1.13 (UTC).",
+      "description_en": "A Featured Kaggle code competition sponsored by Google: attribute 40-250-word passages to one of 18 frontier LLMs (Anthropic, Google, OpenAI, Qwen and others). Internet-off notebook submissions, scored on balanced accuracy. Opened Oct 14; entry and team merge Jan 6 2027; final Jan 13 (UTC).",
+      "tip": "LLM 스타일 지문·평가 연구와 직결되는 주제 — 상위 10팀 모두 동액 상금이라 10위권 진입만으로 충분하다. 마감이 1월이라 NeurIPS 대회 후 이어가기 좋음. (세부는 제3자 정리 기준 — Kaggle 규정 페이지에서 재확인)",
+      "tip_en": "Directly relevant to LLM stylometry and evaluation research, and every top-10 place pays the same, so cracking the top 10 is enough. A January deadline fits after the NeurIPS competitions. (Details come from a third-party summary - re-check the Kaggle rules page.)",
+      "events": [
+        {
+          "type": "apply_start",
+          "date": "2026-10-14",
+          "label": "대회 시작",
+          "label_en": "Competition launch"
+        },
+        {
+          "type": "apply_end",
+          "date": "2027-01-06",
+          "label": "참가·팀 병합 마감 (23:59 UTC)",
+          "label_en": "Entry & team-merge deadline (23:59 UTC)"
+        },
+        {
+          "type": "activity_end",
+          "date": "2027-01-13",
+          "label": "최종 제출 마감 (23:59 UTC)",
+          "label_en": "Final submission deadline (23:59 UTC)"
+        }
+      ],
+      "schedule_note": "10.14 13:15 UTC 시작 · 참가·팀 병합 2027.1.6 23:59 UTC · 최종 1.13 23:59 UTC · 18세 이상, 최대 5인 팀, 제재국 제외 · 세부 일정은 제3자 가이드 인용 (Kaggle 페이지 비렌더링)",
+      "schedule_note_en": "Launched Oct 14 13:15 UTC; entry and team merge Jan 6 2027 23:59 UTC; final Jan 13 23:59 UTC; 18+, teams up to 5, sanctioned regions excluded; detailed dates quoted from a third-party guide (the Kaggle page did not render)",
+      "added": "2026-10-22",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "kaggle-misconception-k12-2026",
+      "name": "Kaggle Misconception Detection in K-12 Student Workings",
+      "name_en": "Misconception Detection in K-12 Student Workings (Kaggle)",
+      "category": "AI/ML 글로벌",
+      "status": "ongoing_open",
+      "tags": [
+        "Kaggle",
+        "멀티모달",
+        "교육AI",
+        "손글씨",
+        "커뮤니티대회"
+      ],
+      "tags_en": [
+        "Kaggle",
+        "multimodal",
+        "education-AI",
+        "handwriting",
+        "community-competition"
+      ],
+      "url": "https://www.kaggle.com/competitions/misconception-detection-in-k12-student-workings",
+      "prize": "총 $6,000 (1위 $3,000 · 2위 $2,000 · 3위 $1,000), 수상팀 오픈소스 공개 의무",
+      "prize_en": "$6,000 ($3,000/$2,000/$1,000); winners must open-source",
+      "description": "CoLearn Lab 주최 Kaggle 커뮤니티 대회. 학생의 손글씨 수학 풀이 사진에서 근본 오개념을 분류하는 멀티모달 과제 (인도네시아어·영어 데이터, MAP@3). 10.3~11.14 23:59 UTC.",
+      "description_en": "A Kaggle community competition from CoLearn Lab: classify the root misconception in photos of handwritten maths work (Indonesian and English data, MAP@3). Oct 3-Nov 14 23:59 UTC.",
+      "tip": "VLM 파인튜닝 소규모 실전 — 상금은 작지만 데이터가 작아 학부생 장비로도 상위권을 노릴 수 있다.",
+      "tip_en": "A small hands-on VLM fine-tuning task. The prize is small, but the data is too, so student hardware can still reach the top.",
+      "events": [
+        {
+          "type": "apply_start",
+          "date": "2026-10-03",
+          "label": "대회 시작",
+          "label_en": "Competition launch"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-11-14",
+          "label": "최종 마감 (23:59 UTC)",
+          "label_en": "Final deadline (23:59 UTC)"
+        }
+      ],
+      "schedule_note": "10.3~11.14 23:59 UTC · 수상팀 오픈소스 공개 의무 · 세부 자격은 Kaggle 규정 확인",
+      "schedule_note_en": "Oct 3-Nov 14 23:59 UTC; winners must open-source; check the Kaggle rules for eligibility details",
+      "added": "2026-10-22",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "cvpr-2027",
+      "name": "CVPR 2027 논문 제출",
+      "name_en": "CVPR 2027 Paper Submission",
+      "category": "학술 챌린지",
+      "status": "applying",
+      "tags": [
+        "CVPR",
+        "컴퓨터비전",
+        "논문",
+        "학회"
+      ],
+      "tags_en": [
+        "CVPR",
+        "computer-vision",
+        "paper",
+        "conference"
+      ],
+      "url": "https://cvpr.thecvf.com/Conferences/2027/CallForPapers",
+      "prize": "해당 없음 (학회 논문)",
+      "prize_en": "None (conference paper)",
+      "description": "컴퓨터비전 최상위 학회 CVPR 2027 논문 마감. 등록 11.10 23:59 AoE → 본문 11.16 23:59 AoE (연장 없음 명시) → 보충자료 11.23 → 리뷰 2027.1.25 → 리버틀 1.25~2.1 → 결정 2.25. 공저자 전원 OpenAuthor 프로필 필수, 저자 리뷰 의무.",
+      "description_en": "Paper deadline for CVPR 2027, the top computer-vision venue. Enrollment Nov 10 23:59 AoE, full paper Nov 16 23:59 AoE (explicitly no extension), supplementary Nov 23, reviews Jan 25 2027, rebuttal Jan 25-Feb 1, decisions Feb 25. Every co-author needs an OpenAuthor profile, and authors must review.",
+      "tip": "본문 마감은 연장 없음이 명시됨 — 등록(11.10)을 먼저 해두지 않으면 본문을 낼 수 없다. 공저자 전원 프로필 생성도 미리.",
+      "tip_en": "The full-paper deadline explicitly will not be extended, and you cannot submit without enrolling by Nov 10. Get every co-author's profile set up early too.",
+      "events": [
+        {
+          "type": "partial_deadline",
+          "date": "2026-11-10",
+          "label": "논문 등록 마감 (AoE)",
+          "label_en": "Paper enrollment deadline (AoE)"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-11-16",
+          "label": "본문 마감 (AoE, 연장 없음)",
+          "label_en": "Full paper deadline (AoE, no extension)"
+        },
+        {
+          "type": "partial_deadline",
+          "date": "2026-11-23",
+          "label": "보충자료 마감",
+          "label_en": "Supplementary deadline"
+        },
+        {
+          "type": "announce",
+          "date": "2027-02-25",
+          "label": "채택 결정",
+          "label_en": "Decisions"
+        }
+      ],
+      "schedule_note": "등록 11.10 · 본문 11.16 · 보충 11.23 (모두 23:59 AoE) · 리뷰 2027.1.25 · 리버틀 1.25~2.1 · 결정 2.25 · 학회 일정·장소는 CFP에 미기재",
+      "schedule_note_en": "Enrollment Nov 10, full paper Nov 16, supplementary Nov 23 (all 23:59 AoE); reviews Jan 25 2027; rebuttal Jan 25-Feb 1; decisions Feb 25; conference dates and venue not stated in the CFP",
+      "added": "2026-10-22",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "daegu-climate-data-ai-2026",
+      "name": "2026 대구 기후·환경·탄소중립 공공데이터 AI 활용대회",
+      "name_en": "2026 Daegu Climate & Carbon-Neutrality Public Data AI Contest",
+      "category": "AI/ML 국내",
+      "status": "applying",
+      "tags": [
+        "대구",
+        "공공데이터",
+        "기후",
+        "탄소중립",
+        "시각화"
+      ],
+      "tags_en": [
+        "Daegu",
+        "public-data",
+        "climate",
+        "carbon-neutrality",
+        "visualization"
+      ],
+      "url": "https://dcnc.or.kr/bbs/board.php?bo_table=notice&wr_id=193",
+      "prize": "총 1,000만 원 이하 (아이디어 트랙 대상 130만 · 데이터분석·시각화 트랙 대상 60만 등)",
+      "prize_en": "Under 10M KRW total (idea track grand prize 1.3M; analysis/visualization track grand prize 0.6M, etc.)",
+      "description": "대구광역시 탄소중립지원센터 주최. 공공데이터와 AI로 대구의 기후·환경·탄소중립 문제를 해결하는 아이디어 제안 또는 데이터 분석·시각화 대회. 접수 10.12~11.20 17시.",
+      "description_en": "Hosted by Daegu's Carbon Neutrality Support Center: propose ideas or do data analysis and visualization on Daegu's climate, environment and carbon-neutrality problems using public data and AI. Applications Oct 12-Nov 20 5pm.",
+      "tip": "분석·시각화 트랙은 기존 공공데이터 분석을 재활용하기 좋다. 상금은 작지만 경쟁이 약한 편.",
+      "tip_en": "The analysis and visualization track is good for reusing existing public-data work. Prizes are small, but so is the competition.",
+      "events": [
+        {
+          "type": "apply_start",
+          "date": "2026-10-12",
+          "label": "접수 시작",
+          "label_en": "Applications open"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-11-20",
+          "label": "접수 마감 (17시)",
+          "label_en": "Application deadline (5pm)"
+        }
+      ],
+      "schedule_note": "접수 10.12~11.20 17시 · 심사·시상 일정 미공개 · 대한민국 국민 누구나",
+      "schedule_note_en": "Applications Oct 12-Nov 20 5pm; judging and award dates unpublished; open to any Korean citizen",
+      "added": "2026-10-22",
+      "checked": "2026-10-22"
+    },
+    {
+      "id": "kotsa-security-holes-8",
+      "name": "제8회 TS 보안 허점을 찾아라 공모전",
+      "name_en": "8th 'Find the TS Security Holes' Contest",
+      "category": "보안",
+      "status": "applying",
+      "tags": [
+        "버그바운티",
+        "한국교통안전공단",
+        "취약점",
+        "1주"
+      ],
+      "tags_en": [
+        "bug-bounty",
+        "KOTSA",
+        "vulnerabilities",
+        "one-week"
+      ],
+      "url": "https://main.kotsa.or.kr/portal/bbs/notice_view.do?bbscCode=notice&bbscSeqn=18448&menuCode=05010100",
+      "prize": "총 1,000만 원 이하 (1등 300만)",
+      "prize_en": "Under 10M KRW total (1st prize 3M)",
+      "description": "한국교통안전공단(TS)·한국융합보안학회 주최. 공단 시스템의 보안 취약점을 찾아 제보하는 버그바운티형 공모전 (취약점 유형 위주 심사). 접수 10.23 09시~10.30 17:59.",
+      "description_en": "Hosted by the Korea Transportation Safety Authority (TS) and the Korea Convergence Security Association: a bug-bounty-style contest to find and report vulnerabilities in TS systems, judged mainly on vulnerability type. Runs Oct 23 9am-Oct 30 5:59pm.",
+      "tip": "기간이 1주뿐 — 웹 취약점(OWASP Top 10) 점검 체크리스트를 미리 준비해 첫날부터 시작. 동남 버그바운티와 병행하기 좋다.",
+      "tip_en": "Only a week long - prepare an OWASP Top 10 checklist and start on day one. Pairs well with the Dongnam bug bounty.",
+      "events": [
+        {
+          "type": "apply_start",
+          "date": "2026-10-23",
+          "label": "시작 (09시)",
+          "label_en": "Opens (9am)"
+        },
+        {
+          "type": "apply_end",
+          "date": "2026-10-30",
+          "label": "마감 (17:59)",
+          "label_en": "Closes (5:59pm)"
+        }
+      ],
+      "schedule_note": "10.23 09시~10.30 17:59 · 심사·발표 일정 미공개 · 일반인·대학생",
+      "schedule_note_en": "Oct 23 9am-Oct 30 5:59pm; judging and announcement dates unpublished; open to the public and university students",
+      "added": "2026-10-22",
+      "checked": "2026-10-22"
     }
   ],
   "roadmaps": [
@@ -11670,8 +12687,8 @@
           "activityId": "ssafy-17",
           "phase": "집중 교육",
           "phase_en": "Training",
-          "note": "12개월 풀타임 — 10~11월 모집",
-          "note_en": "12-month full-time; recruiting Oct-Nov"
+          "note": "12개월 풀타임 — 17기 모집 10.26~11.9 (AI 애플리케이션·피지컬 AI 트랙 신설)",
+          "note_en": "12-month full-time - 17th cohort recruits Oct 26-Nov 9 (new AI-applications and physical-AI tracks)"
         }
       ]
     },
@@ -11744,8 +12761,8 @@
           "activityId": "woowacourse-9",
           "phase": "집중 교육",
           "phase_en": "Training",
-          "note": "9기 공고 지연(10월 초 현재 미공고) — 공고 즉시 지원, 배민 최단 경로",
-          "note_en": "9th call delayed (still unannounced in early Oct) - apply as soon as it drops; shortest path to Baemin"
+          "note": "9기 공고 지연(10월 말 현재 공식 일정 미확인) — 공고 즉시 지원, 배민 최단 경로",
+          "note_en": "9th call delayed (no official schedule as of late Oct) - apply as soon as it drops; shortest path to Baemin"
         },
         {
           "activityId": "boostcamp-11",
@@ -11767,8 +12784,8 @@
           "activityId": "gdsc",
           "phase": "커뮤니티",
           "phase_en": "Community",
-          "note": "멤버 모집 9~10월 (캠퍼스별)",
-          "note_en": "Member recruiting Sep-Oct per campus"
+          "note": "캠퍼스별 개별 모집 (전국 통합 공고 없음) — 소속 학교 챕터 공지 확인",
+          "note_en": "Chapters recruit individually (no nationwide call) - watch your school's chapter"
         },
         {
           "activityId": "likelion",
@@ -11855,13 +12872,404 @@
           "activityId": "meta-hacker-cup-2026",
           "phase": "국제 대회",
           "phase_en": "International",
-          "note": "2026 일정 미발표(10월 초 현재) — 개최 여부 불투명, 공지 시 즉시 등록",
-          "note_en": "No 2026 schedule as of early Oct - whether it runs is unclear; register as soon as it drops"
+          "note": "2026 일정 미발표(10월 말 현재) — 개최 여부 불투명, 공지 시 즉시 등록",
+          "note_en": "No 2026 schedule as of late Oct - whether it runs is unclear; register as soon as it drops"
         }
       ]
     }
   ],
   "briefings": [
+    {
+      "date": "2026-10-22",
+      "summary": "신규 13건 · 변경 26건 · 10일 내 마감 25건",
+      "summary_en": "13 new · 26 changed · 25 deadlines within 10 days",
+      "items": [
+        {
+          "kind": "new",
+          "text": "신규: 2026 AI 해킹방어대회 (ACDC)",
+          "text_en": "New: 2026 AI Hacking Defense Contest (ACDC)",
+          "id": "kisa-acdc-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 2026 양자내성암호 전환 경진대회·해커톤",
+          "text_en": "New: 2026 Post-Quantum Cryptography Migration Challenge & Hackathon",
+          "id": "pqc-challenge-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: SK텔레콤 FLY AI Challenger 10기",
+          "text_en": "New: SK Telecom FLY AI Challenger (10th cohort)",
+          "id": "skt-fly-ai-10"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 현대자동차그룹 차량용 앱 개발 공모전 (Pleos App Market)",
+          "text_en": "New: Hyundai Motor Group In-Vehicle App Development Contest (Pleos App Market)",
+          "id": "hyundai-pleos-app-contest-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: c0mpiled-17: Seoul (YC RFS 해커톤)",
+          "text_en": "New: c0mpiled-17: Seoul (YC RFS Hackathon)",
+          "id": "compiled-17-seoul-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 2026 동남권 멀티도메인 모빌리티 비즈니스 해커톤 (선상)",
+          "text_en": "New: 2026 Southeast Multi-Domain Mobility Business Hackathon (onboard)",
+          "id": "aimobilhack-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 2026 서울 AI 디지털 배움터 청년 해커톤",
+          "text_en": "New: 2026 Seoul AI Digital Learning Center Youth Hackathon",
+          "id": "seoul-ai-digital-youth-hackathon-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: Apple 디벨로퍼 아카데미 @ POSTECH 2027 코호트",
+          "text_en": "New: Apple Developer Academy @ POSTECH - 2027 Cohort",
+          "id": "apple-dev-academy-postech-2027"
+        },
+        {
+          "kind": "new",
+          "text": "신규: Kaggle Name That LLM — 텍스트 작성 모델 판별",
+          "text_en": "New: Kaggle Name That LLM - Identify the Model Behind the Text",
+          "id": "kaggle-name-that-llm-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: Kaggle Misconception Detection in K-12 Student Workings",
+          "text_en": "New: Misconception Detection in K-12 Student Workings (Kaggle)",
+          "id": "kaggle-misconception-k12-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: CVPR 2027 논문 제출",
+          "text_en": "New: CVPR 2027 Paper Submission",
+          "id": "cvpr-2027"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 2026 대구 기후·환경·탄소중립 공공데이터 AI 활용대회",
+          "text_en": "New: 2026 Daegu Climate & Carbon-Neutrality Public Data AI Contest",
+          "id": "daegu-climate-data-ai-2026"
+        },
+        {
+          "kind": "new",
+          "text": "신규: 제8회 TS 보안 허점을 찾아라 공모전",
+          "text_en": "New: 8th 'Find the TS Security Holes' Contest",
+          "id": "kotsa-security-holes-8"
+        },
+        {
+          "kind": "change",
+          "text": "보안 주의: aibigdatasec.kr 도메인이 카지노 스팸으로 바뀌어 링크 교체 · ACDC 2026 별도 등록",
+          "text_en": "Security notice: aibigdatasec.kr now serves casino spam, link replaced; ACDC 2026 listed separately",
+          "id": "kisa-aisec-2026"
+        },
+        {
+          "kind": "change",
+          "text": "정정: Cursor 해커톤 서울 4회(10.24) 근거 소멸 — 루마 페이지가 다른 행사로 교체",
+          "text_en": "Correction: Cursor Hackathon Seoul #4 (Oct 24) no longer supported - the Luma page now hosts a different event",
+          "id": "cursor-hackathon-seoul-4"
+        },
+        {
+          "kind": "change",
+          "text": "정정: 디프만 19기 이미 모집 종료 (10.2~10.8, 최종 10.22) — 기존 '내년 1~2월' 예상 오류",
+          "text_en": "Correction: Depromeet 19th already recruited (Oct 2-8, final Oct 22) - the 'Jan-Feb next year' estimate was wrong",
+          "id": "depromeet-19"
+        },
+        {
+          "kind": "change",
+          "text": "KSC2026 논문 접수 10.26으로 연장",
+          "text_en": "KSC2026 paper deadline extended to Oct 26",
+          "id": "ksc-2026"
+        },
+        {
+          "kind": "change",
+          "text": "QuantiPhy 마감 출처 충돌 (10.23 vs 11.5) — 공홈 접속 불가, 10.23 기준 유지",
+          "text_en": "QuantiPhy deadline sources conflict (Oct 23 vs Nov 5) - site unreachable, keeping Oct 23",
+          "id": "neurips-quantiphy-2026"
+        },
+        {
+          "kind": "change",
+          "text": "ICPC 예선 일정 정정 (10.17 하루) · 본선 진출 발표 대기",
+          "text_en": "ICPC prelim corrected to a single day (Oct 17); finalists pending",
+          "id": "icpc-korea-2026"
+        },
+        {
+          "kind": "change",
+          "text": "메이플월드 콘테스트 결선 발표 10.27로 앞당겨짐",
+          "text_en": "MapleStory Worlds contest finalists moved up to Oct 27",
+          "id": "maplestory-worlds-contest-2026"
+        },
+        {
+          "kind": "change",
+          "text": "소프티어 부트캠프 9기 모집 (10.19~11.3)",
+          "text_en": "Softeer Bootcamp 9th cohort recruiting (Oct 19-Nov 3)",
+          "id": "softeer-9"
+        },
+        {
+          "kind": "change",
+          "text": "SSAFY 17기 모집 공고 (10.26~11.9) · AI 애플리케이션·피지컬 AI 트랙 신설",
+          "text_en": "SSAFY 17th cohort announced (Oct 26-Nov 9); new AI-applications and physical-AI tracks",
+          "id": "ssafy-17"
+        },
+        {
+          "kind": "change",
+          "text": "YAPP 29기 모집 (10.16~10.25)",
+          "text_en": "YAPP 29th cohort recruiting (Oct 16-25)",
+          "id": "yapp-29"
+        },
+        {
+          "kind": "change",
+          "text": "PyTorch Day Korea 참가 등록 오픈 (~11.16, 3만 원)",
+          "text_en": "PyTorch Day Korea registration open (to Nov 16, 30,000 KRW)",
+          "id": "pytorch-day-korea-2026"
+        },
+        {
+          "kind": "change",
+          "text": "10월 행사·대회 16건 종료 (SLW·AI FESTA·KES·if(kakao)·경남 AI·SW·DeepMind 해커톤·Shipaton 등)",
+          "text_en": "16 October events and contests ended (SLW, AI FESTA, KES, if(kakao), Gyeongnam AI-SW, DeepMind hackathon, Shipaton and others)",
+          "id": "slw-2026"
+        },
+        {
+          "kind": "change",
+          "text": "빅콘테스트·ELECCON·경산 SW·영남권 사이버·우아콘·고용24·KoMaP 등 접수 종료",
+          "text_en": "BigContest, ELECCON, Gyeongsan SW, Yeongnam cyber, WOOWACON, Work24, KoMaP and others closed",
+          "id": "bigcontest-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: 2026 AI 해킹방어대회 (ACDC)",
+          "text_en": "New: 2026 AI Hacking Defense Contest (ACDC)",
+          "id": "kisa-acdc-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: 2026 양자내성암호 전환 경진대회·해커톤",
+          "text_en": "New: 2026 Post-Quantum Cryptography Migration Challenge & Hackathon",
+          "id": "pqc-challenge-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: SK텔레콤 FLY AI Challenger 10기",
+          "text_en": "New: SK Telecom FLY AI Challenger (10th cohort)",
+          "id": "skt-fly-ai-10"
+        },
+        {
+          "kind": "change",
+          "text": "신규: 현대자동차그룹 차량용 앱 개발 공모전 (Pleos App Market)",
+          "text_en": "New: Hyundai Motor Group In-Vehicle App Development Contest (Pleos App Market)",
+          "id": "hyundai-pleos-app-contest-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: c0mpiled-17: Seoul (YC RFS 해커톤)",
+          "text_en": "New: c0mpiled-17: Seoul (YC RFS Hackathon)",
+          "id": "compiled-17-seoul-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: 2026 동남권 멀티도메인 모빌리티 비즈니스 해커톤 (선상)",
+          "text_en": "New: 2026 Southeast Multi-Domain Mobility Business Hackathon (onboard)",
+          "id": "aimobilhack-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: 2026 서울 AI 디지털 배움터 청년 해커톤",
+          "text_en": "New: 2026 Seoul AI Digital Learning Center Youth Hackathon",
+          "id": "seoul-ai-digital-youth-hackathon-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: Apple 디벨로퍼 아카데미 @ POSTECH 2027 코호트",
+          "text_en": "New: Apple Developer Academy @ POSTECH - 2027 Cohort",
+          "id": "apple-dev-academy-postech-2027"
+        },
+        {
+          "kind": "change",
+          "text": "신규: Kaggle Name That LLM — 텍스트 작성 모델 판별",
+          "text_en": "New: Kaggle Name That LLM - Identify the Model Behind the Text",
+          "id": "kaggle-name-that-llm-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: Kaggle Misconception Detection in K-12 Student Workings",
+          "text_en": "New: Misconception Detection in K-12 Student Workings (Kaggle)",
+          "id": "kaggle-misconception-k12-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: CVPR 2027 논문 제출",
+          "text_en": "New: CVPR 2027 Paper Submission",
+          "id": "cvpr-2027"
+        },
+        {
+          "kind": "change",
+          "text": "신규: 2026 대구 기후·환경·탄소중립 공공데이터 AI 활용대회",
+          "text_en": "New: 2026 Daegu Climate & Carbon-Neutrality Public Data AI Contest",
+          "id": "daegu-climate-data-ai-2026"
+        },
+        {
+          "kind": "change",
+          "text": "신규: 제8회 TS 보안 허점을 찾아라 공모전",
+          "text_en": "New: 8th 'Find the TS Security Holes' Contest",
+          "id": "kotsa-security-holes-8"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-0 RSNA 2026 무릎 MRI 이상 탐지 챌린지 — 제출 마감 (2026-10-22)",
+          "text_en": "D-0 RSNA 2026 Knee MRI Abnormality Detection Challenge — Submission deadline (2026-10-22)",
+          "id": "rsna-knee-mri-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-0 2026 데이터+AI 혁신 챌린지 (데이터안심구역·데이터 문제해결 부문) — 접수 마감 (양 부문) (2026-10-22)",
+          "text_en": "D-0 2026 Data+AI Innovation Challenge (Secure Data Zone & Data Problem-Solving tracks) — Application deadline (both tracks) (2026-10-22)",
+          "id": "data-ai-innovation-challenge-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-1 공공 웹사이트 불법광고 탐지 도구 개발 공모전 — 접수 마감 (18시) (2026-10-23)",
+          "text_en": "D-1 Public Website Illegal-Ad Detection Tool Contest — Application deadline (6pm) (2026-10-23)",
+          "id": "mois-illegal-ad-detection-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-2 Speech Accessibility Project Challenge 2 (NeurIPS 2026) — 제출 마감 (AoE, 연장) (2026-10-24)",
+          "text_en": "D-2 Speech Accessibility Project Challenge 2 (NeurIPS 2026) — Submission deadline (AoE, extended) (2026-10-24)",
+          "id": "neurips-sapc2-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-3 YAPP 29기 — 서류 마감 (2026-10-25)",
+          "text_en": "D-3 YAPP (29th) — Application deadline (2026-10-25)",
+          "id": "yapp-29"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-3 2026 AI 플랫폼 구축 경진대회 (AI Platform Build Challenge) — 접수 마감 (17시, 조기 마감 가능) (2026-10-25)",
+          "text_en": "D-3 AI Platform Build Challenge 2026 — Application deadline (5pm, may close early) (2026-10-25)",
+          "id": "ai-platform-build-challenge-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-4 ARC Prize 2026 (ARC-AGI-2 & AGI-3) — Entry 마감 (참가 등록) (2026-10-26)",
+          "text_en": "D-4 ARC Prize 2026 (ARC-AGI-2 & AGI-3) — Entry deadline (2026-10-26)",
+          "id": "arc-prize-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-4 2026 빅콘테스트 (제14회) — 결과물 제출 마감 (이메일) (2026-10-26)",
+          "text_en": "D-4 BigContest 2026 (14th) — Results submission deadline (email) (2026-10-26)",
+          "id": "bigcontest-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-4 한국소프트웨어종합학술대회 2026 (KSC2026) — 논문 접수 마감 (연장) (2026-10-26)",
+          "text_en": "D-4 Korea Software Congress 2026 (KSC2026) — Paper submission deadline (extended) (2026-10-26)",
+          "id": "ksc-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-4 항만 문제해결을 위한 AI 기술 공모전 — 팀 병합 마감 (23:59) (2026-10-26)",
+          "text_en": "D-4 AI Challenge for Port Problem-Solving — Team-merge deadline (11:59pm) (2026-10-26)",
+          "id": "dacon-port-ai-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-4 2026 AI 해킹방어대회 (ACDC) — 접수 마감 (14시) (2026-10-26)",
+          "text_en": "D-4 2026 AI Hacking Defense Contest (ACDC) — Application deadline (2pm) (2026-10-26)",
+          "id": "kisa-acdc-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-4 2026 동남권 멀티도메인 모빌리티 비즈니스 해커톤 (선상) — 접수 마감 (18시) (2026-10-26)",
+          "text_en": "D-4 2026 Southeast Multi-Domain Mobility Business Hackathon (onboard) — Application deadline (6pm) (2026-10-26)",
+          "id": "aimobilhack-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-6 YAPP 29기 — 서류 결과 (2026-10-28)",
+          "text_en": "D-6 YAPP (29th) — Document results (2026-10-28)",
+          "id": "yapp-29"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-6 2026 NASA 국제 스페이스 앱스 챌린지 서울 — 글로벌 챌린지 공개 (2026-10-28)",
+          "text_en": "D-6 2026 NASA International Space Apps Challenge - Seoul — Global challenges released (2026-10-28)",
+          "id": "nasa-space-apps-seoul-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-8 Predictive AI Evaluation Competition (NeurIPS 2026) — 최종 코드·기술보고서 마감 (23:59 AoE) (2026-10-30)",
+          "text_en": "D-8 Predictive AI Evaluation Competition (NeurIPS 2026) — Final codebase & technical report deadline (23:59 AoE) (2026-10-30)",
+          "id": "neurips-predictive-eval-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-8 2026 POSTECH OIBC 빅데이터 경진대회 — 접수 마감 (2026-10-30)",
+          "text_en": "D-8 2026 POSTECH OIBC Big Data Challenge — Application deadline (2026-10-30)",
+          "id": "postech-oibc-bigdata-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-8 2026 양자내성암호 전환 경진대회·해커톤 — 접수 마감 (2026-10-30)",
+          "text_en": "D-8 2026 Post-Quantum Cryptography Migration Challenge & Hackathon — Application deadline (2026-10-30)",
+          "id": "pqc-challenge-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-8 c0mpiled-17: Seoul (YC RFS 해커톤) — 신청 마감 (23:59) (2026-10-30)",
+          "text_en": "D-8 c0mpiled-17: Seoul (YC RFS Hackathon) — Application deadline (11:59pm) (2026-10-30)",
+          "id": "compiled-17-seoul-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-8 제8회 TS 보안 허점을 찾아라 공모전 — 마감 (17:59) (2026-10-30)",
+          "text_en": "D-8 8th 'Find the TS Security Holes' Contest — Closes (5:59pm) (2026-10-30)",
+          "id": "kotsa-security-holes-8"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-9 Speech Accessibility Project Challenge 2 (NeurIPS 2026) — 워크숍 논문 마감 (AoE) (2026-10-31)",
+          "text_en": "D-9 Speech Accessibility Project Challenge 2 (NeurIPS 2026) — Workshop paper deadline (AoE) (2026-10-31)",
+          "id": "neurips-sapc2-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-9 Nebius × NVIDIA 글로벌 AI 해커톤 — 제출 마감 (KST 10.31 02:00 = 10.30 10:00 PDT) (2026-10-31)",
+          "text_en": "D-9 Nebius x NVIDIA Global AI Hackathon — Submission deadline (Oct 31 02:00 KST = Oct 30 10:00 PDT) (2026-10-31)",
+          "id": "nebius-nvidia-global-ai-hackathon-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-9 SK하이닉스 AI 해커톤 2026 — 2차 온라인 예선 (10.31~11.1 중 1일) (2026-10-31)",
+          "text_en": "D-9 SK hynix AI Hackathon 2026 — Second online qualifier (one day of Oct 31-Nov 1) (2026-10-31)",
+          "id": "skhynix-ai-hackathon-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-9 2026 AI 라이프 솔루션 챌린지 (KEIT) — 접수 마감 (이메일) (2026-10-31)",
+          "text_en": "D-9 2026 AI Life Solution Challenge (KEIT) — Application deadline (email) (2026-10-31)",
+          "id": "keit-ai-life-solution-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-10 AIMO Interpretability Challenge (NeurIPS 2026) — 최종 제출 마감 (제출 창 종료) (2026-11-01)",
+          "text_en": "D-10 AIMO Interpretability Challenge (NeurIPS 2026) — Final submission deadline (submission interface closes) (2026-11-01)",
+          "id": "neurips-aimo-interp-2026"
+        },
+        {
+          "kind": "deadline",
+          "text": "D-10 항만 문제해결을 위한 AI 기술 공모전 — 리더보드 제출 마감 (10시) (2026-11-01)",
+          "text_en": "D-10 AI Challenge for Port Problem-Solving — Leaderboard submission deadline (10am) (2026-11-01)",
+          "id": "dacon-port-ai-2026"
+        }
+      ]
+    },
     {
       "date": "2026-10-05",
       "summary": "신규 17건 · 변경 54건 · 10일 내 마감 26건",
